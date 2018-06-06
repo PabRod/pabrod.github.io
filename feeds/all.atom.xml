@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-05-05T15:54:09+02:00</updated><entry><title>Embedding a Shiny app inside my blog</title><link href="https://pabrod.github.io/embed-shiny-en.html" rel="alternate"></link><published>2018-05-05T15:54:09+02:00</published><updated>2018-05-05T15:54:09+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-05-05:/embed-shiny-en.html</id><summary type="html">&lt;p&gt;Embedding shiny apps inside an html page&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some years ago, I started experimenting with the computing language &lt;em&gt;R&lt;/em&gt;. I have to confess that I don't feel fully comfortable with its syntax, which I find particularly difficult. But I forced myself to get used to it. Why? My main reasons were two: &lt;a href="https://yihui.name/knitr/"&gt;knitr&lt;/a&gt; and &lt;a href="https://shiny.rstudio.com"&gt;shiny&lt;/a&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-06-06T13:13:30+02:00</updated><entry><title>Course announcement: Introduction to PDEs</title><link href="https://pabrod.github.io/intro-to-pdes-en.html" rel="alternate"></link><published>2018-06-06T13:13:30+02:00</published><updated>2018-06-06T13:13:30+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-06-06:/intro-to-pdes-en.html</id><summary type="html">&lt;p&gt;Quick introduction to Partial Differential Equations, 7 June 2018, Wageningen University&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Quick introduction to Partial Differential Equations&lt;/h2&gt;
+&lt;p&gt;On Thursday 7th, I'll give a crash course on partial differential equations at Wageningen University. Due to the diversity of backgrounds of the attendants, I'll try to focus in the key concepts, using graphical approaches as much as I can. Later on, we'll move forward to the numerical approach.&lt;/p&gt;
+&lt;h2&gt;Outline&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;What's the difference between partial and ordinary differential equations?&lt;/li&gt;
+&lt;li&gt;Vector calculus in a nutshell&lt;/li&gt;
+&lt;li&gt;Classical PDEs&lt;/li&gt;
+&lt;li&gt;Classical boundary conditions&lt;/li&gt;
+&lt;li&gt;Hand-on examples with &lt;em&gt;Matlab&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;Please bring your laptop. The numerical examples will be solved using &lt;em&gt;Matlab's PDE Toolbox&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Materials&lt;/h2&gt;
+&lt;p&gt;The slides and some code examples are available at &lt;a href="https://github.com/PabRod/intro-to-pdes"&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;7 June 2018, 13:30-16:30.&lt;/li&gt;
+&lt;li&gt;Room E.111, Lumen.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="math"></category><category term="teaching"></category></entry><entry><title>Embedding a Shiny app inside my blog</title><link href="https://pabrod.github.io/embed-shiny-en.html" rel="alternate"></link><published>2018-05-05T15:54:09+02:00</published><updated>2018-05-05T15:54:09+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-05-05:/embed-shiny-en.html</id><summary type="html">&lt;p&gt;Embedding shiny apps inside an html page&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some years ago, I started experimenting with the computing language &lt;em&gt;R&lt;/em&gt;. I have to confess that I don't feel fully comfortable with its syntax, which I find particularly difficult. But I forced myself to get used to it. Why? My main reasons were two: &lt;a href="https://yihui.name/knitr/"&gt;knitr&lt;/a&gt; and &lt;a href="https://shiny.rstudio.com"&gt;shiny&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Knitr&lt;/strong&gt; is the perfect tool for literate computing. It allows the user to input a combination of code and markdown text providing a clean, human-readable document as output. Indeed, I'm using knitr for writing parts of this website (for example, the &lt;a href="https://pabrod.github.io/pages/sci-comm-en.html"&gt;dissemination section&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Shiny&lt;/strong&gt; is great for making interactive apps, and publishing them as easy-to-use webpages.&lt;/li&gt;
