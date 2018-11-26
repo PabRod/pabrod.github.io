@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all-en.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-09-03T13:51:47+02:00</updated><entry><title>Interactive applet: daylight saving time in Spain</title><link href="https://pabrod.github.io/daylight-saving-en.html" rel="alternate"></link><published>2018-09-03T13:51:47+02:00</published><updated>2018-09-03T13:51:47+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-09-03:/daylight-saving-en.html</id><summary type="html">&lt;p&gt;A visualization applet&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is a translation of the essay "Interactivo: ¿Cómo me afecta el cambio de hora?", originally published &lt;a href="https://fuga.naukas.com/2018/09/02/interactivo-como-me-afecta-el-cambio-de-hora/"&gt;here&lt;/a&gt; in Spanish.&lt;/em&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all-en.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-11-03T15:04:53+01:00</updated><entry><title>Fourier</title><link href="https://pabrod.github.io/fourier-en.html" rel="alternate"></link><published>2018-11-03T15:04:53+01:00</published><updated>2018-11-03T15:04:53+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-11-03:/fourier-en.html</id><summary type="html">&lt;p&gt;A visualization applet&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;Since year 2012, I keep and maintain a &lt;em&gt;.csv&lt;/em&gt; file containing
+information about my bank accounts. The most relevant data is the time
+series of the total amount of money vs. date. The table below shows a
+small subset of this data:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th align="left"&gt;Date&lt;/th&gt;
+&lt;th align="right"&gt;Total&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-26&lt;/td&gt;
+&lt;td align="right"&gt;641.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;2012-09-24&lt;/td&gt;
+&lt;td align="right"&gt;703.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-22&lt;/td&gt;
+&lt;td align="right"&gt;723.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;2012-09-19&lt;/td&gt;
+&lt;td align="right"&gt;755.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-18&lt;/td&gt;
+&lt;td align="right"&gt;765.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is an $\lbrace x_0, x_1, ... x_{N-1} \rbrace$ inline equation&lt;/p&gt;
+&lt;p&gt;$$
+e^{-i\pi} = -\alpha
+$$&lt;/p&gt;
+&lt;p&gt;When plotted, the data looks as noisy as the example on the figure. The
+most noticeable regularity is the periodic increment at the end of each
+month, corresponding with the &lt;strong&gt;pay day&lt;/strong&gt;... followed by a big
+expenditure corresponding to paying the &lt;strong&gt;rent&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="a" src="images/2018-11/Plot-data-1.png"&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    fft_spectrum &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kr"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ts&lt;span class="p"&gt;,&lt;/span&gt; ys&lt;span class="p"&gt;,&lt;/span&gt; as.freq &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="c1"&gt;# Translate k indices into frequencies&lt;/span&gt;
+      tEnd &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;tail&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ts&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      fs &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kp"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ys&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="m"&gt;-1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; tEnd &lt;span class="c1"&gt;# In T^-1 units (typically Hz, if the time is in seconds)&lt;/span&gt;
+
+      &lt;span class="c1"&gt;#Perform fast Fourier transform&lt;/span&gt;
+      Xk &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;Mod&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;fft&lt;span class="p"&gt;(&lt;/span&gt;ys&lt;span class="p"&gt;))&lt;/span&gt;
+
+      &lt;span class="kr"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;as.freq&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="c1"&gt;# Use frequencies&lt;/span&gt;
+        &lt;span class="kt"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;f &lt;span class="o"&gt;=&lt;/span&gt; fs&lt;span class="p"&gt;,&lt;/span&gt; Xk &lt;span class="o"&gt;=&lt;/span&gt; Xk&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="kr"&gt;else&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="c1"&gt;# Use periods&lt;/span&gt;
+        &lt;span class="kt"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;T&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;fs&lt;span class="p"&gt;,&lt;/span&gt; Xk &lt;span class="o"&gt;=&lt;/span&gt; Xk&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="b" src="images/2018-11/Frequencies-1.png"&gt;&lt;/p&gt;</content><category term="math"></category></entry><entry><title>Interactive applet: daylight saving time in Spain</title><link href="https://pabrod.github.io/daylight-saving-en.html" rel="alternate"></link><published>2018-09-03T13:51:47+02:00</published><updated>2018-09-03T13:51:47+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-09-03:/daylight-saving-en.html</id><summary type="html">&lt;p&gt;A visualization applet&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is a translation of the essay "Interactivo: ¿Cómo me afecta el cambio de hora?", originally published &lt;a href="https://fuga.naukas.com/2018/09/02/interactivo-como-me-afecta-el-cambio-de-hora/"&gt;here&lt;/a&gt; in Spanish.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The possibility of cancelling daylight saving time in the European Union has been one of the highlights of the week.&lt;/p&gt;
 &lt;p&gt;In order to shed some light over this (surprisingly) controversial topic, I made this interactive visualization. It allows to predict the daylight hours in several Spanish cities and towns, under the different possible scenarios.&lt;/p&gt;
 &lt;p&gt;To play with it, follow &lt;a href="https://pabrod.shinyapps.io/cambio-de-hora/"&gt;this link&lt;/a&gt;.&lt;/p&gt;
