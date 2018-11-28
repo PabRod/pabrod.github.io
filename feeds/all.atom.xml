@@ -1,5 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-09-03T13:51:47+02:00</updated><entry><title>Interactive applet: daylight saving time in Spain</title><link href="https://pabrod.github.io/daylight-saving-en.html" rel="alternate"></link><published>2018-09-03T13:51:47+02:00</published><updated>2018-09-03T13:51:47+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-09-03:/daylight-saving-en.html</id><summary type="html">&lt;p&gt;A visualization applet&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is a translation of the essay "Interactivo: ¿Cómo me afecta el cambio de hora?", originally published &lt;a href="https://fuga.naukas.com/2018/09/02/interactivo-como-me-afecta-el-cambio-de-hora/"&gt;here&lt;/a&gt; in Spanish.&lt;/em&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-11-28T13:54:29+01:00</updated><entry><title>The spectrum of my personal accountancy</title><link href="https://pabrod.github.io/spectrum-accountancy-en.html" rel="alternate"></link><published>2018-11-28T13:54:29+01:00</published><updated>2018-11-28T13:54:29+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-11-28:/spectrum-accountancy-en.html</id><summary type="html">&lt;p&gt;Application of Fourier analysis to a personal accountancy timeseries&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;Since year 2012, I keep and maintain a &lt;em&gt;.csv&lt;/em&gt; file containing
+information about my bank accounts. The most relevant data is the time
+series of the total amount of money vs. date. The table below shows a
+small subset of this data:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th align="left"&gt;Date&lt;/th&gt;
+&lt;th align="right"&gt;Total&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-26&lt;/td&gt;
+&lt;td align="right"&gt;641.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;2012-09-24&lt;/td&gt;
+&lt;td align="right"&gt;703.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-22&lt;/td&gt;
+&lt;td align="right"&gt;723.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;2012-09-19&lt;/td&gt;
+&lt;td align="right"&gt;755.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-18&lt;/td&gt;
+&lt;td align="right"&gt;765.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;When plotted, the data looks as noisy as the example on the figure below. The most noticeable regularity is the periodic increment at the end of each month, corresponding with the &lt;strong&gt;pay day&lt;/strong&gt;... followed by a big expenditure corresponding to paying the &lt;strong&gt;rent&lt;/strong&gt;. Notice also the higher pay in late June, corresponding to the summer extra salary that is customarily applied in several countries. The timeseries looks irregular, but there is some clear periodical component on it.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="a" src="images/2018-11/Plot-data-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;I know that the Fourier transform of a continuous timeseries is the perfect tool for spotting underlying periodicities. But my timeseries is uneven and discontinous. How can we fix this?&lt;/p&gt;
+&lt;h2&gt;First step: Interpolation&lt;/h2&gt;
+&lt;p&gt;The first problem, unevenness of data, can be solved by good old interpolation methods. The only tricky part here is that our &lt;em&gt;x&lt;/em&gt; coordinates are dates, so it is advisable to use &lt;em&gt;lubridate&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I used the following:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;dplyr&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="kn"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;lubridate&lt;span class="p"&gt;)&lt;/span&gt;
+
+first_day &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="o"&gt;$&lt;/span&gt;Date&lt;span class="p"&gt;)&lt;/span&gt;
+last_day &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="o"&gt;$&lt;/span&gt;Date&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Add a column with relative day as an integer&lt;/span&gt;
+df &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; mutate&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="p"&gt;,&lt;/span&gt; Day_index &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kp"&gt;as.numeric&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="o"&gt;$&lt;/span&gt;Date &lt;span class="o"&gt;-&lt;/span&gt; first_day&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Create the time vector used for interpolation&lt;/span&gt;
+all_days &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;first_day&lt;span class="p"&gt;,&lt;/span&gt; last_day&lt;span class="p"&gt;,&lt;/span&gt; by &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+all_indices &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kp"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;all_days&lt;span class="p"&gt;),&lt;/span&gt; by &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+daily_total &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; approx&lt;span class="p"&gt;(&lt;/span&gt;x &lt;span class="o"&gt;=&lt;/span&gt; df&lt;span class="o"&gt;$&lt;/span&gt;Day_index&lt;span class="p"&gt;,&lt;/span&gt; y &lt;span class="o"&gt;=&lt;/span&gt; df&lt;span class="o"&gt;$&lt;/span&gt;Total&lt;span class="p"&gt;,&lt;/span&gt; xout &lt;span class="o"&gt;=&lt;/span&gt; all_indices&lt;span class="p"&gt;,&lt;/span&gt; yright &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kp"&gt;head&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="o"&gt;$&lt;/span&gt;Total&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Second step: Fourier transform&lt;/h2&gt;
+&lt;p&gt;For discrete, evenly spaced timeseries as the one we have after interpolation, fast Fourier transform can be used to estimate dominant frequencies. The fast Fourier transform or &lt;em&gt;FFT&lt;/em&gt; is defined as a function of an integer parameter &lt;em&gt;k&lt;/em&gt; and a set of &lt;em&gt;N&lt;/em&gt; complex numbers {&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt;, &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, ...&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;&lt;em&gt;N&lt;/em&gt; − 1&lt;/sub&gt;}.&lt;/p&gt;
+&lt;p&gt;The definition goes as follows:&lt;/p&gt;
+&lt;p&gt;$$
+X_k = FFT [ k; \lbrace x_n \rbrace] \equiv  \sum_{n=0}^{N-1} x_n\cdot e^{-i 2 \pi k \frac{n}{N}}
+$$&lt;/p&gt;
+&lt;p&gt;and the inverse:&lt;/p&gt;
+&lt;p&gt;$$
+x_n = FFT^{-1} [ n; \lbrace X_k \rbrace] \equiv  \frac{1}{N}\sum_{k=0}^{N-1} X_k \cdot  e^{i 2 \pi k \frac{n}{N}}
+$$&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;FFT&lt;/em&gt; can be used to estimate the spectrum of a signal. While doing this, it is important to note that &lt;em&gt;n&lt;/em&gt; and &lt;em&gt;k&lt;/em&gt; are unit-less vector indices. In order to link those indices with physical quantities as time and frequency, we could notice that:&lt;/p&gt;
+&lt;p&gt;$$
+x_n = x(n \cdot \Delta t) \equiv x(t_n)
+$$&lt;/p&gt;
+&lt;p&gt;where &lt;em&gt;Δ&lt;/em&gt;&lt;em&gt;t&lt;/em&gt; is the sampling period. If we take a number &lt;em&gt;N&lt;/em&gt; of samples, the final sample time should be:&lt;/p&gt;
+&lt;p&gt;$$
+t_{end} = N \cdot \Delta t \equiv t_N
+$$&lt;/p&gt;
+&lt;p&gt;Going to our first equation with all this in mind, we have:&lt;/p&gt;
+&lt;p&gt;$$
+X_k \equiv \\
+\sum_{n=0}^{N-1} x_n \cdot e^{-i 2 \pi k \frac{n}{N}} = \\
+\sum_{n=0}^{N-1} x(n \cdot \Delta t) \cdot e^{-i 2 \pi k \frac{n \cdot \Delta t}{t_{end}}} = \\
+\sum_{t_n=0}^{t_{end}-\Delta t} x(t_n) \cdot e^{-i 2 \pi k \frac{t_n}{t_{end}}} = \\
+\sum_{t_n=0}^{t_{end}-\Delta t} x(t_n) \cdot e^{-i \frac{2 \pi k}{t_{end}} t_n} = \\
+\sum_{t_n=0}^{t_{end}-\Delta t} x(t_n) \cdot e^{-i \omega_k t_n}
+$$&lt;/p&gt;
+&lt;p&gt;so, the link between the indices &lt;em&gt;k&lt;/em&gt; and the corresponding physical frequencies &lt;em&gt;ω&lt;/em&gt;&lt;sub&gt;&lt;em&gt;k&lt;/em&gt;&lt;/sub&gt; is given by:&lt;/p&gt;
+&lt;p&gt;$$
+\omega_k = \frac{2 \pi}{t_{end}} k
+$$&lt;/p&gt;
+&lt;p&gt;We just added units (and thus, physical) significance to the indexes &lt;em&gt;k&lt;/em&gt; and &lt;em&gt;n&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;The (quite primitive) code I used for doing this is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    fft_spectrum &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kr"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ts&lt;span class="p"&gt;,&lt;/span&gt; ys&lt;span class="p"&gt;,&lt;/span&gt; as.freq &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="c1"&gt;# Translate k indices into frequencies&lt;/span&gt;
+      tEnd &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;tail&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ts&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      fs &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kp"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ys&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="m"&gt;-1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; tEnd &lt;span class="c1"&gt;# In T^-1 units (typically Hz, if the time is in seconds)&lt;/span&gt;
+
+      &lt;span class="c1"&gt;#Perform fast Fourier transform&lt;/span&gt;
+      Xk &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;Mod&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;fft&lt;span class="p"&gt;(&lt;/span&gt;ys&lt;span class="p"&gt;))&lt;/span&gt;
+
+      &lt;span class="kr"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;as.freq&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="c1"&gt;# Use frequencies&lt;/span&gt;
+        &lt;span class="kt"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;f &lt;span class="o"&gt;=&lt;/span&gt; fs&lt;span class="p"&gt;,&lt;/span&gt; Xk &lt;span class="o"&gt;=&lt;/span&gt; Xk&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="kr"&gt;else&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="c1"&gt;# Use periods&lt;/span&gt;
+        &lt;span class="kt"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;T&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;fs&lt;span class="p"&gt;,&lt;/span&gt; Xk &lt;span class="o"&gt;=&lt;/span&gt; Xk&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;After applying the two algorithms described above I find the following distribution of the relative lengths of each period:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="b" src="images/2018-11/Frequencies-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;Note that the strengths corresponding to periods of &lt;em&gt;30&lt;/em&gt; and &lt;em&gt;31&lt;/em&gt; days are higher than their neighbors, corresponding to pay-days and monthly payments. Even my very basic algorithm could see it!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PS: I removed several details, plus trimmed both vertical and horizontal scales. I did this in order to keep my privacy. After all, the FFT is an invertible operation!&lt;/em&gt;&lt;/p&gt;</content><category term="math"></category><category term="R"></category></entry><entry><title>Interactive applet: daylight saving time in Spain</title><link href="https://pabrod.github.io/daylight-saving-en.html" rel="alternate"></link><published>2018-09-03T13:51:47+02:00</published><updated>2018-09-03T13:51:47+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-09-03:/daylight-saving-en.html</id><summary type="html">&lt;p&gt;A visualization applet&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is a translation of the essay "Interactivo: ¿Cómo me afecta el cambio de hora?", originally published &lt;a href="https://fuga.naukas.com/2018/09/02/interactivo-como-me-afecta-el-cambio-de-hora/"&gt;here&lt;/a&gt; in Spanish.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The possibility of cancelling daylight saving time in the European Union has been one of the highlights of the week.&lt;/p&gt;
 &lt;p&gt;In order to shed some light over this (surprisingly) controversial topic, I made this interactive visualization. It allows to predict the daylight hours in several Spanish cities and towns, under the different possible scenarios.&lt;/p&gt;
 &lt;p&gt;To play with it, follow &lt;a href="https://pabrod.shinyapps.io/cambio-de-hora/"&gt;this link&lt;/a&gt;.&lt;/p&gt;

@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="english">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/theme/pygments/emacs.min.css">
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="https://pabrod.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="PabRod Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-118019878-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Microsoft EDGE -->
+    <meta name="msapplication-TileColor" content="#333333">
+
+<meta name="author" content="Pablo Rodríguez-Sánchez" />
+<meta name="description" content="Application of Fourier analysis to a personal accountancy timeseries" />
+<meta name="keywords" content="math, R">
+
+<meta property="og:site_name" content="PabRod"/>
+<meta property="og:title" content="The spectrum of my personal accountancy"/>
+<meta property="og:description" content="Application of Fourier analysis to a personal accountancy timeseries"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://pabrod.github.io/spectrum-accountancy-en.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-11-28 13:54:29+01:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://pabrod.github.io/author/pablo-rodriguez-sanchez.html">
+<meta property="article:section" content="Blog"/>
+<meta property="article:tag" content="math"/>
+<meta property="article:tag" content="R"/>
+<meta property="og:image" content="/images/profile.png">
+
+  <title>PabRod &ndash; The spectrum of my personal accountancy</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="https://pabrod.github.io">
+        <img src="/images/profile.png" alt="" title="">
+      </a>
+      <h1><a href="https://pabrod.github.io"></a></h1>
+
+<p>Physicist. PhD Student. Science storyteller</p>
+      <nav>
+        <ul class="list">
+          <li><a href="https://pabrod.github.io/pages/bio-en.html#bio">Bio</a></li>
+          <li><a href="https://pabrod.github.io/pages/sci-comm-en.html#sci-comm">Dissemination</a></li>
+          <li><a href="https://pabrod.github.io/pages/education-en.html#education">Education</a></li>
+          <li><a href="https://pabrod.github.io/pages/publications-en.html#publications">Publications</a></li>
+          <li><a href="https://pabrod.github.io/pages/teaching-en.html#teaching">Teaching</a></li>
+
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-envelope-o" href="mailto:pablo.rodriguez.sanchez@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/PabRod" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-twitter" href="http://twitter.com/DonMostrenco" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-instagram" href="https://instagram.com/pablo.rodriguez.sanchez/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/pablo-rodríguez-sánchez-40672658" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-rss" href="https://pabrod.github.io/pages/feeds-list-en.html" target="_blank"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://pabrod.github.io">    Home
+</a>
+
+
+      <a href="https://pabrod.github.io/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="spectrum-accountancy">The spectrum of my personal accountancy</h1>
+    <p>
+          Posted on Wed 28 November 2018 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<p>Since year 2012, I keep and maintain a <em>.csv</em> file containing
+information about my bank accounts. The most relevant data is the time
+series of the total amount of money vs. date. The table below shows a
+small subset of this data:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Date</th>
+<th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2012-09-26</td>
+<td align="right">641.52</td>
+</tr>
+<tr class="even">
+<td align="left">2012-09-24</td>
+<td align="right">703.52</td>
+</tr>
+<tr class="odd">
+<td align="left">2012-09-22</td>
+<td align="right">723.52</td>
+</tr>
+<tr class="even">
+<td align="left">2012-09-19</td>
+<td align="right">755.52</td>
+</tr>
+<tr class="odd">
+<td align="left">2012-09-18</td>
+<td align="right">765.52</td>
+</tr>
+</tbody>
+</table>
+
+<p>When plotted, the data looks as noisy as the example on the figure below. The most noticeable regularity is the periodic increment at the end of each month, corresponding with the <strong>pay day</strong>... followed by a big expenditure corresponding to paying the <strong>rent</strong>. Notice also the higher pay in late June, corresponding to the summer extra salary that is customarily applied in several countries. The timeseries looks irregular, but there is some clear periodical component on it.</p>
+<p><img alt="a" src="images/2018-11/Plot-data-1.png"></p>
+<p>I know that the Fourier transform of a continuous timeseries is the perfect tool for spotting underlying periodicities. But my timeseries is uneven and discontinous. How can we fix this?</p>
+<h2>First step: Interpolation</h2>
+<p>The first problem, unevenness of data, can be solved by good old interpolation methods. The only tricky part here is that our <em>x</em> coordinates are dates, so it is advisable to use <em>lubridate</em>.</p>
+<p>I used the following:</p>
+<div class="highlight"><pre><span></span><span class="kn">library</span><span class="p">(</span>dplyr<span class="p">)</span>
+<span class="kn">library</span><span class="p">(</span>lubridate<span class="p">)</span>
+
+first_day <span class="o">&lt;-</span> <span class="kp">min</span><span class="p">(</span>df<span class="o">$</span>Date<span class="p">)</span>
+last_day <span class="o">&lt;-</span> <span class="kp">max</span><span class="p">(</span>df<span class="o">$</span>Date<span class="p">)</span>
+
+<span class="c1"># Add a column with relative day as an integer</span>
+df <span class="o">&lt;-</span> mutate<span class="p">(</span>df<span class="p">,</span> Day_index <span class="o">=</span> <span class="kp">as.numeric</span><span class="p">(</span>df<span class="o">$</span>Date <span class="o">-</span> first_day<span class="p">))</span>
+
+<span class="c1"># Create the time vector used for interpolation</span>
+all_days <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span>first_day<span class="p">,</span> last_day<span class="p">,</span> by <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
+all_indices <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="kp">length</span><span class="p">(</span>all_days<span class="p">),</span> by <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
+
+daily_total <span class="o">&lt;-</span> approx<span class="p">(</span>x <span class="o">=</span> df<span class="o">$</span>Day_index<span class="p">,</span> y <span class="o">=</span> df<span class="o">$</span>Total<span class="p">,</span> xout <span class="o">=</span> all_indices<span class="p">,</span> yright <span class="o">=</span> <span class="kp">head</span><span class="p">(</span>df<span class="o">$</span>Total<span class="p">,</span> <span class="m">1</span><span class="p">))</span>
+</pre></div>
+
+
+<h2>Second step: Fourier transform</h2>
+<p>For discrete, evenly spaced timeseries as the one we have after interpolation, fast Fourier transform can be used to estimate dominant frequencies. The fast Fourier transform or <em>FFT</em> is defined as a function of an integer parameter <em>k</em> and a set of <em>N</em> complex numbers {<em>x</em><sub>0</sub>, <em>x</em><sub>1</sub>, ...<em>x</em><sub><em>N</em> − 1</sub>}.</p>
+<p>The definition goes as follows:</p>
+<p>$$
+X_k = FFT [ k; \lbrace x_n \rbrace] \equiv  \sum_{n=0}^{N-1} x_n\cdot e^{-i 2 \pi k \frac{n}{N}}
+$$</p>
+<p>and the inverse:</p>
+<p>$$
+x_n = FFT^{-1} [ n; \lbrace X_k \rbrace] \equiv  \frac{1}{N}\sum_{k=0}^{N-1} X_k \cdot  e^{i 2 \pi k \frac{n}{N}}
+$$</p>
+<p>The <em>FFT</em> can be used to estimate the spectrum of a signal. While doing this, it is important to note that <em>n</em> and <em>k</em> are unit-less vector indices. In order to link those indices with physical quantities as time and frequency, we could notice that:</p>
+<p>$$
+x_n = x(n \cdot \Delta t) \equiv x(t_n)
+$$</p>
+<p>where <em>Δ</em><em>t</em> is the sampling period. If we take a number <em>N</em> of samples, the final sample time should be:</p>
+<p>$$
+t_{end} = N \cdot \Delta t \equiv t_N
+$$</p>
+<p>Going to our first equation with all this in mind, we have:</p>
+<p>$$
+X_k \equiv \\
+\sum_{n=0}^{N-1} x_n \cdot e^{-i 2 \pi k \frac{n}{N}} = \\
+\sum_{n=0}^{N-1} x(n \cdot \Delta t) \cdot e^{-i 2 \pi k \frac{n \cdot \Delta t}{t_{end}}} = \\
+\sum_{t_n=0}^{t_{end}-\Delta t} x(t_n) \cdot e^{-i 2 \pi k \frac{t_n}{t_{end}}} = \\
+\sum_{t_n=0}^{t_{end}-\Delta t} x(t_n) \cdot e^{-i \frac{2 \pi k}{t_{end}} t_n} = \\
+\sum_{t_n=0}^{t_{end}-\Delta t} x(t_n) \cdot e^{-i \omega_k t_n}
+$$</p>
+<p>so, the link between the indices <em>k</em> and the corresponding physical frequencies <em>ω</em><sub><em>k</em></sub> is given by:</p>
+<p>$$
+\omega_k = \frac{2 \pi}{t_{end}} k
+$$</p>
+<p>We just added units (and thus, physical) significance to the indexes <em>k</em> and <em>n</em>!</p>
+<p>The (quite primitive) code I used for doing this is:</p>
+<div class="highlight"><pre><span></span>    fft_spectrum <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span>ts<span class="p">,</span> ys<span class="p">,</span> as.freq <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1"># Translate k indices into frequencies</span>
+      tEnd <span class="o">&lt;-</span> <span class="kp">tail</span><span class="p">(</span>ts<span class="p">,</span> <span class="m">1</span><span class="p">)</span>
+      fs <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="kp">length</span><span class="p">(</span>ys<span class="p">)</span><span class="m">-1</span><span class="p">)</span> <span class="o">/</span> tEnd <span class="c1"># In T^-1 units (typically Hz, if the time is in seconds)</span>
+
+      <span class="c1">#Perform fast Fourier transform</span>
+      Xk <span class="o">&lt;-</span> <span class="kp">Mod</span><span class="p">(</span>fft<span class="p">(</span>ys<span class="p">))</span>
+
+      <span class="kr">if</span><span class="p">(</span>as.freq<span class="p">)</span> <span class="p">{</span> <span class="c1"># Use frequencies</span>
+        <span class="kt">list</span><span class="p">(</span>f <span class="o">=</span> fs<span class="p">,</span> Xk <span class="o">=</span> Xk<span class="p">)</span>
+      <span class="p">}</span> <span class="kr">else</span> <span class="p">{</span> <span class="c1"># Use periods</span>
+        <span class="kt">list</span><span class="p">(</span><span class="bp">T</span> <span class="o">=</span> <span class="m">1</span><span class="o">/</span>fs<span class="p">,</span> Xk <span class="o">=</span> Xk<span class="p">)</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+</pre></div>
+
+
+<h2>Results</h2>
+<p>After applying the two algorithms described above I find the following distribution of the relative lengths of each period:</p>
+<p><img alt="b" src="images/2018-11/Frequencies-1.png"></p>
+<p>Note that the strengths corresponding to periods of <em>30</em> and <em>31</em> days are higher than their neighbors, corresponding to pay-days and monthly payments. Even my very basic algorithm could see it!</p>
+<p><em>PS: I removed several details, plus trimmed both vertical and horizontal scales. I did this in order to keep my privacy. After all, the FFT is an invertible operation!</em></p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://pabrod.github.io/tag/math.html">math</a>
+      <a href="https://pabrod.github.io/tag/r.html">R</a>
+    </p>
+  </div>
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'pabrod';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+<!-- End Disqus -->
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PabRod ",
+  "url" : "https://pabrod.github.io",
+  "image": "/images/profile.png",
+  "description": ""
+}
+</script>
+
+</body>
+</html>
