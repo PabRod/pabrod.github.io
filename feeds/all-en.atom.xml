@@ -1,5 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all-en.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-11-28T13:54:29+01:00</updated><entry><title>The spectrum of my personal accountancy</title><link href="https://pabrod.github.io/spectrum-accountancy-en.html" rel="alternate"></link><published>2018-11-28T13:54:29+01:00</published><updated>2018-11-28T13:54:29+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-11-28:/spectrum-accountancy-en.html</id><summary type="html">&lt;p&gt;Application of Fourier analysis to a personal accountancy timeseries&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all-en.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-12-02T14:22:33+01:00</updated><entry><title>Animations in R</title><link href="https://pabrod.github.io/animations-r-en.html" rel="alternate"></link><published>2018-12-02T14:22:33+01:00</published><updated>2018-12-02T14:22:33+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-12-02:/animations-r-en.html</id><summary type="html">&lt;p&gt;How to make animations in R using ggplot2 and gganimate&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;I've recently discovered the package &lt;em&gt;gganimate&lt;/em&gt; thanks to this
+&lt;a href="http://blog.schochastics.net/post/beautiful-chaos-the-double-pendulum/"&gt;brilliant
+example&lt;/a&gt;.
+I've been playing with the package during this weekend, and I created
+some examples that I spread through
+&lt;a href="https://twitter.com/DonMostrenco/status/1068791278173908992"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some Twitter users showed interest in knowing more. I hope this short
+tutorial can satisfy them.&lt;/p&gt;
+&lt;h2&gt;Libraries used&lt;/h2&gt;
+&lt;p&gt;We're going to need the following libraries:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;  # Numerical
+  library(pracma) # To calculate the Taylor polynomials
+  library(reshape) # For using melt
+
+  # Display
+  library(ggplot2) # For plotting
+  library(ggthemes) # Also for plotting
+  library(gganimate) # For animating. Install using devtools::install_github(&amp;#39;thomasp85/gganimate&amp;#39;)
+  library(kableExtra) # To display nice tables
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Animating a moving particle&lt;/h2&gt;
+&lt;p&gt;Here we'll generate a moving particle. First, we need the positions in
+time. In our case, the dynamical equations will be given by:&lt;/p&gt;
+&lt;p&gt;$$ \begin{cases} x(t) = cos(t) \\ y(t) = sin(2t) \end{cases}$$&lt;/p&gt;
+&lt;p&gt;So we generate the series and store them in a dataframe:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ts &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kc"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; length.out &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    xs &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;cos&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ts&lt;span class="p"&gt;)&lt;/span&gt;
+    ys &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;ts&lt;span class="p"&gt;)&lt;/span&gt;
+
+    particle &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kt"&gt;data.frame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ts &lt;span class="o"&gt;=&lt;/span&gt; ts&lt;span class="p"&gt;,&lt;/span&gt; xs &lt;span class="o"&gt;=&lt;/span&gt; xs&lt;span class="p"&gt;,&lt;/span&gt; ys &lt;span class="o"&gt;=&lt;/span&gt; ys&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The code for generating the animation follows a very similar syntax to
+&lt;em&gt;ggplot&lt;/em&gt;. In this case, we indicate that the values of &lt;em&gt;ts&lt;/em&gt; should be
+used as the transition time.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ggplot(data = particle) +
+      geom_point(aes(x = xs, y = ys), col = &amp;#39;red&amp;#39;) + # Generate the plot
+      theme_tufte() + # Make ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_time(ts) + # And animate!
+      ease_aes(&amp;#39;linear&amp;#39;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Movement-1.gif"&gt;&lt;/p&gt;
+&lt;h2&gt;Animating a Taylor series&lt;/h2&gt;
+&lt;p&gt;Let's see now a more complex example. Our purpose is to explore Taylor
+polynomials of different degrees approximating the function&lt;/p&gt;
+&lt;p&gt;$$f(x) = cos(\frac{3x}{2}) e^{-x} $$&lt;/p&gt;
+&lt;p&gt;around a given point.&lt;/p&gt;
+&lt;p&gt;Thus, we begin creating the function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    f &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kr"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;x&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="kp"&gt;cos&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1.5&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;x&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kp"&gt;exp&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;x&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In this case, we want to compare how good is the performance of Taylor
+polynomials of different orders. The data we have to generate is a bit
+more complex than before.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    xs &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;-2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kc"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; length.out &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;1500&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# Values of x&lt;/span&gt;
+    x0 &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="c1"&gt;# Value of x where the Taylor series will be centered&lt;/span&gt;
+    ys &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kt"&gt;matrix&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; nrow &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kp"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;xs&lt;span class="p"&gt;),&lt;/span&gt; ncol &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="kr"&gt;for&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;i &lt;span class="kr"&gt;in&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="c1"&gt;# Extract Taylor polynomials of orders 0 to 8&lt;/span&gt;
+      order &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; i &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="c1"&gt;# Indexes have to be positive, but first order is 0&lt;/span&gt;
+      &lt;span class="kr"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;order &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="c1"&gt;# A Taylor polynomial of order zero is just...&lt;/span&gt;
+        ys&lt;span class="p"&gt;[,&lt;/span&gt;i&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; f&lt;span class="p"&gt;(&lt;/span&gt;x0&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# ... a constant function&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="kr"&gt;else&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        taylor_coefs &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; taylor&lt;span class="p"&gt;(&lt;/span&gt;f &lt;span class="o"&gt;=&lt;/span&gt; f&lt;span class="p"&gt;,&lt;/span&gt; x0 &lt;span class="o"&gt;=&lt;/span&gt; x0&lt;span class="p"&gt;,&lt;/span&gt; n &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kp"&gt;order&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# Get polynomial&lt;/span&gt;
+        ys&lt;span class="p"&gt;[,&lt;/span&gt;i&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; polyval&lt;span class="p"&gt;(&lt;/span&gt;taylor_coefs&lt;span class="p"&gt;,&lt;/span&gt; xs&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# Evaluate polynomial&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Rewrite as dataframe&lt;/span&gt;
+    df &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kt"&gt;data.frame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;ys&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="kp"&gt;colnames&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    df &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; melt&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="p"&gt;)&lt;/span&gt;
+    df &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kp"&gt;cbind&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="p"&gt;,&lt;/span&gt; xs &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kp"&gt;rep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;xs&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; f &lt;span class="o"&gt;=&lt;/span&gt; f&lt;span class="p"&gt;(&lt;/span&gt;xs&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="kp"&gt;colnames&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;df&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="kt"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;order&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;ys&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;xs&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;f&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The resulting dataframe is a collection of polynomials of different
+orders evaluated at each point in &lt;em&gt;xs&lt;/em&gt;. Additionally, we added the
+values of the original function &lt;em&gt;f(x)&lt;/em&gt;, also at each point:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th align="left"&gt;order&lt;/th&gt;
+&lt;th align="right"&gt;ys&lt;/th&gt;
+&lt;th align="right"&gt;xs&lt;/th&gt;
+&lt;th align="right"&gt;f&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-2.000000&lt;/td&gt;
+&lt;td align="right"&gt;-7.315110&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.994474&lt;/td&gt;
+&lt;td align="right"&gt;-7.265955&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.988948&lt;/td&gt;
+&lt;td align="right"&gt;-7.216622&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.983423&lt;/td&gt;
+&lt;td align="right"&gt;-7.167120&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.977897&lt;/td&gt;
+&lt;td align="right"&gt;-7.117454&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.972371&lt;/td&gt;
+&lt;td align="right"&gt;-7.067632&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A static plot will look like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys, col = order)) + # Generate basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &amp;#39;black&amp;#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make it ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... look ...
+      scale_y_continuous(limits = c(-2, 2)) # ... pretty.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Plot-static-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;In order to animate it, now we will use the command
+&lt;em&gt;transition_states&lt;/em&gt;, using &lt;em&gt;order&lt;/em&gt; (the order of the Taylor polynomial)
+as the animation parameter. The parameters &lt;em&gt;transition_length&lt;/em&gt; and
+&lt;em&gt;state_length&lt;/em&gt; control how much time each state stays in screen, and
+how long the transition between states should look.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys), col = &amp;#39;red&amp;#39;) + # Add basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &amp;#39;red&amp;#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_states(order, transition_length = 1, state_length = 0.5) + # And animate!
+      ease_aes(&amp;#39;linear&amp;#39;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Plot-animated-1.gif"&gt;&lt;/p&gt;
+&lt;p&gt;The result could not look nicer!&lt;/p&gt;
+&lt;p&gt;PS: If you liked this post, &lt;a href="https://www.geogebra.org/m/CeW2gCzH"&gt;this
+visualization&lt;/a&gt; I made in &lt;em&gt;GeoGebra&lt;/em&gt;
+some time ago may also be of your interest.&lt;/p&gt;</content><category term="math"></category><category term="R"></category></entry><entry><title>The spectrum of my personal accountancy</title><link href="https://pabrod.github.io/spectrum-accountancy-en.html" rel="alternate"></link><published>2018-11-28T13:54:29+01:00</published><updated>2018-11-28T13:54:29+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-11-28:/spectrum-accountancy-en.html</id><summary type="html">&lt;p&gt;Application of Fourier analysis to a personal accountancy timeseries&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
 
 &lt;p&gt;Since year 2012, I keep and maintain a &lt;em&gt;.csv&lt;/em&gt; file containing
 information about my bank accounts. The most relevant data is the time

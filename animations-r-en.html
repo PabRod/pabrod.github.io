@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html lang="english">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/theme/pygments/emacs.min.css">
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="https://pabrod.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="PabRod Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-118019878-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Microsoft EDGE -->
+    <meta name="msapplication-TileColor" content="#333333">
+
+<meta name="author" content="Pablo Rodríguez-Sánchez" />
+<meta name="description" content="How to make animations in R using ggplot2 and gganimate" />
+<meta name="keywords" content="math, R">
+
+<meta property="og:site_name" content="PabRod"/>
+<meta property="og:title" content="Animations in R"/>
+<meta property="og:description" content="How to make animations in R using ggplot2 and gganimate"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://pabrod.github.io/animations-r-en.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-12-02 14:22:33+01:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://pabrod.github.io/author/pablo-rodriguez-sanchez.html">
+<meta property="article:section" content="Blog"/>
+<meta property="article:tag" content="math"/>
+<meta property="article:tag" content="R"/>
+<meta property="og:image" content="/images/profile.png">
+
+  <title>PabRod &ndash; Animations in R</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="https://pabrod.github.io">
+        <img src="/images/profile.png" alt="" title="">
+      </a>
+      <h1><a href="https://pabrod.github.io"></a></h1>
+
+<p>Physicist. PhD Student. Science storyteller</p>
+      <nav>
+        <ul class="list">
+          <li><a href="https://pabrod.github.io/pages/bio-en.html#bio">Bio</a></li>
+          <li><a href="https://pabrod.github.io/pages/sci-comm-en.html#sci-comm">Dissemination</a></li>
+          <li><a href="https://pabrod.github.io/pages/education-en.html#education">Education</a></li>
+          <li><a href="https://pabrod.github.io/pages/publications-en.html#publications">Publications</a></li>
+          <li><a href="https://pabrod.github.io/pages/teaching-en.html#teaching">Teaching</a></li>
+
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-envelope-o" href="mailto:pablo.rodriguez.sanchez@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/PabRod" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-twitter" href="http://twitter.com/DonMostrenco" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-instagram" href="https://instagram.com/pablo.rodriguez.sanchez/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/pablo-rodríguez-sánchez-40672658" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-rss" href="https://pabrod.github.io/pages/feeds-list-en.html" target="_blank"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://pabrod.github.io">    Home
+</a>
+
+
+      <a href="https://pabrod.github.io/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="animations-r">Animations in R</h1>
+    <p>
+          Posted on Sun 02 December 2018 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<p>I've recently discovered the package <em>gganimate</em> thanks to this
+<a href="http://blog.schochastics.net/post/beautiful-chaos-the-double-pendulum/">brilliant
+example</a>.
+I've been playing with the package during this weekend, and I created
+some examples that I spread through
+<a href="https://twitter.com/DonMostrenco/status/1068791278173908992">Twitter</a>.</p>
+<p>Some Twitter users showed interest in knowing more. I hope this short
+tutorial can satisfy them.</p>
+<h2>Libraries used</h2>
+<p>We're going to need the following libraries:</p>
+<div class="highlight"><pre><span></span>  # Numerical
+  library(pracma) # To calculate the Taylor polynomials
+  library(reshape) # For using melt
+
+  # Display
+  library(ggplot2) # For plotting
+  library(ggthemes) # Also for plotting
+  library(gganimate) # For animating. Install using devtools::install_github(&#39;thomasp85/gganimate&#39;)
+  library(kableExtra) # To display nice tables
+</pre></div>
+
+
+<h2>Animating a moving particle</h2>
+<p>Here we'll generate a moving particle. First, we need the positions in
+time. In our case, the dynamical equations will be given by:</p>
+<p>$$ \begin{cases} x(t) = cos(t) \\ y(t) = sin(2t) \end{cases}$$</p>
+<p>So we generate the series and store them in a dataframe:</p>
+<div class="highlight"><pre><span></span>    ts <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="p">,</span> length.out <span class="o">=</span> <span class="m">100</span><span class="p">)</span>
+    xs <span class="o">&lt;-</span> <span class="kp">cos</span><span class="p">(</span>ts<span class="p">)</span>
+    ys <span class="o">&lt;-</span> <span class="kp">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span>ts<span class="p">)</span>
+
+    particle <span class="o">&lt;-</span> <span class="kt">data.frame</span><span class="p">(</span>ts <span class="o">=</span> ts<span class="p">,</span> xs <span class="o">=</span> xs<span class="p">,</span> ys <span class="o">=</span> ys<span class="p">)</span>
+</pre></div>
+
+
+<p>The code for generating the animation follows a very similar syntax to
+<em>ggplot</em>. In this case, we indicate that the values of <em>ts</em> should be
+used as the transition time.</p>
+<div class="highlight"><pre><span></span>    ggplot(data = particle) +
+      geom_point(aes(x = xs, y = ys), col = &#39;red&#39;) + # Generate the plot
+      theme_tufte() + # Make ...
+      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_time(ts) + # And animate!
+      ease_aes(&#39;linear&#39;)
+</pre></div>
+
+
+<p><img alt="a" src="images/2018-12/Movement-1.gif"></p>
+<h2>Animating a Taylor series</h2>
+<p>Let's see now a more complex example. Our purpose is to explore Taylor
+polynomials of different degrees approximating the function</p>
+<p>$$f(x) = cos(\frac{3x}{2}) e^{-x} $$</p>
+<p>around a given point.</p>
+<p>Thus, we begin creating the function:</p>
+<div class="highlight"><pre><span></span>    f <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span>x<span class="p">)</span> <span class="p">{</span>
+      <span class="kp">cos</span><span class="p">(</span><span class="m">1.5</span><span class="o">*</span>x<span class="p">)</span><span class="o">*</span><span class="kp">exp</span><span class="p">(</span><span class="o">-</span>x<span class="p">)</span>
+    <span class="p">}</span>
+</pre></div>
+
+
+<p>In this case, we want to compare how good is the performance of Taylor
+polynomials of different orders. The data we have to generate is a bit
+more complex than before.</p>
+<div class="highlight"><pre><span></span>    xs <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">-2</span><span class="p">,</span> <span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="p">,</span> length.out <span class="o">=</span> <span class="m">1500</span><span class="p">)</span> <span class="c1"># Values of x</span>
+    x0 <span class="o">&lt;-</span> <span class="m">1</span> <span class="c1"># Value of x where the Taylor series will be centered</span>
+    ys <span class="o">&lt;-</span> <span class="kt">matrix</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> nrow <span class="o">=</span> <span class="kp">length</span><span class="p">(</span>xs<span class="p">),</span> ncol <span class="o">=</span> <span class="m">9</span><span class="p">)</span>
+    <span class="kr">for</span><span class="p">(</span>i <span class="kr">in</span> <span class="m">1</span><span class="o">:</span><span class="m">9</span><span class="p">)</span> <span class="p">{</span> <span class="c1"># Extract Taylor polynomials of orders 0 to 8</span>
+      order <span class="o">&lt;-</span> i <span class="o">-</span> <span class="m">1</span> <span class="c1"># Indexes have to be positive, but first order is 0</span>
+      <span class="kr">if</span><span class="p">(</span>order <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span> <span class="c1"># A Taylor polynomial of order zero is just...</span>
+        ys<span class="p">[,</span>i<span class="p">]</span> <span class="o">&lt;-</span> f<span class="p">(</span>x0<span class="p">)</span> <span class="c1"># ... a constant function</span>
+      <span class="p">}</span> <span class="kr">else</span> <span class="p">{</span>
+        taylor_coefs <span class="o">&lt;-</span> taylor<span class="p">(</span>f <span class="o">=</span> f<span class="p">,</span> x0 <span class="o">=</span> x0<span class="p">,</span> n <span class="o">=</span> <span class="kp">order</span><span class="p">)</span> <span class="c1"># Get polynomial</span>
+        ys<span class="p">[,</span>i<span class="p">]</span> <span class="o">&lt;-</span> polyval<span class="p">(</span>taylor_coefs<span class="p">,</span> xs<span class="p">)</span> <span class="c1"># Evaluate polynomial</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="c1"># Rewrite as dataframe</span>
+    df <span class="o">&lt;-</span> <span class="kt">data.frame</span><span class="p">(</span>ys<span class="p">)</span>
+    <span class="kp">colnames</span><span class="p">(</span>df<span class="p">)</span> <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">8</span><span class="p">)</span>
+    df <span class="o">&lt;-</span> melt<span class="p">(</span>df<span class="p">)</span>
+    df <span class="o">&lt;-</span> <span class="kp">cbind</span><span class="p">(</span>df<span class="p">,</span> xs <span class="o">=</span> <span class="kp">rep</span><span class="p">(</span>xs<span class="p">,</span><span class="m">9</span><span class="p">),</span> f <span class="o">=</span> f<span class="p">(</span>xs<span class="p">))</span>
+    <span class="kp">colnames</span><span class="p">(</span>df<span class="p">)</span> <span class="o">&lt;-</span> <span class="kt">c</span><span class="p">(</span><span class="s">&#39;order&#39;</span><span class="p">,</span> <span class="s">&#39;ys&#39;</span><span class="p">,</span> <span class="s">&#39;xs&#39;</span><span class="p">,</span> <span class="s">&#39;f&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>The resulting dataframe is a collection of polynomials of different
+orders evaluated at each point in <em>xs</em>. Additionally, we added the
+values of the original function <em>f(x)</em>, also at each point:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">order</th>
+<th align="right">ys</th>
+<th align="right">xs</th>
+<th align="right">f</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">0</td>
+<td align="right">0.0260228</td>
+<td align="right">-2.000000</td>
+<td align="right">-7.315110</td>
+</tr>
+<tr class="even">
+<td align="left">0</td>
+<td align="right">0.0260228</td>
+<td align="right">-1.994474</td>
+<td align="right">-7.265955</td>
+</tr>
+<tr class="odd">
+<td align="left">0</td>
+<td align="right">0.0260228</td>
+<td align="right">-1.988948</td>
+<td align="right">-7.216622</td>
+</tr>
+<tr class="even">
+<td align="left">0</td>
+<td align="right">0.0260228</td>
+<td align="right">-1.983423</td>
+<td align="right">-7.167120</td>
+</tr>
+<tr class="odd">
+<td align="left">0</td>
+<td align="right">0.0260228</td>
+<td align="right">-1.977897</td>
+<td align="right">-7.117454</td>
+</tr>
+<tr class="even">
+<td align="left">0</td>
+<td align="right">0.0260228</td>
+<td align="right">-1.972371</td>
+<td align="right">-7.067632</td>
+</tr>
+</tbody>
+</table>
+
+<p>A static plot will look like:</p>
+<div class="highlight"><pre><span></span>    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys, col = order)) + # Generate basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &#39;black&#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make it ...
+      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... look ...
+      scale_y_continuous(limits = c(-2, 2)) # ... pretty.
+</pre></div>
+
+
+<p><img alt="a" src="images/2018-12/Plot-static-1.png"></p>
+<p>In order to animate it, now we will use the command
+<em>transition_states</em>, using <em>order</em> (the order of the Taylor polynomial)
+as the animation parameter. The parameters <em>transition_length</em> and
+<em>state_length</em> control how much time each state stays in screen, and
+how long the transition between states should look.</p>
+<div class="highlight"><pre><span></span>    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys), col = &#39;red&#39;) + # Add basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &#39;red&#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make ...
+      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_states(order, transition_length = 1, state_length = 0.5) + # And animate!
+      ease_aes(&#39;linear&#39;)
+</pre></div>
+
+
+<p><img alt="a" src="images/2018-12/Plot-animated-1.gif"></p>
+<p>The result could not look nicer!</p>
+<p>PS: If you liked this post, <a href="https://www.geogebra.org/m/CeW2gCzH">this
+visualization</a> I made in <em>GeoGebra</em>
+some time ago may also be of your interest.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://pabrod.github.io/tag/math.html">math</a>
+      <a href="https://pabrod.github.io/tag/r.html">R</a>
+    </p>
+  </div>
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'pabrod';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+<!-- End Disqus -->
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PabRod ",
+  "url" : "https://pabrod.github.io",
+  "image": "/images/profile.png",
+  "description": ""
+}
+</script>
+
+</body>
+</html>
