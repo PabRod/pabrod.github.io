@@ -11,15 +11,15 @@ some examples that I spread through
 tutorial can satisfy them.&lt;/p&gt;
 &lt;h2&gt;Libraries used&lt;/h2&gt;
 &lt;p&gt;We're going to need the following libraries:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;  # Numerical
-  library(pracma) # To calculate the Taylor polynomials
-  library(reshape) # For using melt
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    # Numerical
+    library(pracma) # To calculate the Taylor polynomials
+    library(reshape) # For using melt
 
-  # Display
-  library(ggplot2) # For plotting
-  library(ggthemes) # Also for plotting
-  library(gganimate) # For animating. Install using devtools::install_github(&amp;#39;thomasp85/gganimate&amp;#39;)
-  library(kableExtra) # To display nice tables
+    # Display
+    library(ggplot2) # For plotting
+    library(ggthemes) # Also for plotting
+    library(gganimate) # For animating. Install using devtools::install_github(&amp;#39;thomasp85/gganimate&amp;#39;)
+    library(kableExtra) # To display nice tables
 &lt;/pre&gt;&lt;/div&gt;
 
 
