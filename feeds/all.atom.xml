@@ -1,5 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2018-12-02T14:22:33+01:00</updated><entry><title>Animations in R</title><link href="https://pabrod.github.io/animations-r-en.html" rel="alternate"></link><published>2018-12-02T14:22:33+01:00</published><updated>2018-12-02T14:22:33+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-12-02:/animations-r-en.html</id><summary type="html">&lt;p&gt;How to make animations in R using ggplot2 and gganimate&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2019-03-22T10:49:53+01:00</updated><entry><title>Python or R? Why not both?</title><link href="https://pabrod.github.io/PyR-en.html" rel="alternate"></link><published>2019-03-22T10:49:53+01:00</published><updated>2019-03-22T10:49:53+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-03-22:/PyR-en.html</id><summary type="html">&lt;p&gt;How to use Python code inside R&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;Python&lt;/em&gt; and &lt;em&gt;R&lt;/em&gt;. They are two of the most popular programming languages
+for science. They are both free, both of them have a strong user
+community and both of them work pretty well.&lt;/p&gt;
+&lt;p&gt;Personally, I find &lt;em&gt;Python&lt;/em&gt; way more intuitive than &lt;em&gt;R&lt;/em&gt; (at least for
+people who, like me, have a classical mathematics background). Thinking
+in terms of data frames is great when you work with statistical data,
+but it gets a bit annoying when you are more interested in analysis. To
+uneven the score even more, &lt;em&gt;Python's&lt;/em&gt; libraries like &lt;em&gt;NumPy&lt;/em&gt;, &lt;em&gt;SciPy&lt;/em&gt;,
+&lt;em&gt;SimPy&lt;/em&gt; and &lt;em&gt;Matplotlib&lt;/em&gt; are the perfect toolbox for anyone doing
+mathematical research of any kind.&lt;/p&gt;
+&lt;p&gt;But... I chose &lt;em&gt;R&lt;/em&gt;. Why?&lt;/p&gt;
+&lt;p&gt;There is only one reason for doing so: &lt;em&gt;knitr&lt;/em&gt;[1]. &lt;em&gt;knitr&lt;/em&gt; is a package
+that turns a combination of text &lt;strong&gt;and code&lt;/strong&gt; (the &lt;em&gt;RMarkdown&lt;/em&gt; file)
+into almost any format of human readable text, including a &lt;em&gt;pdf&lt;/em&gt; report,
+slides, or a blog page like the one you are reading now. The interesting
+point is the integration of the code with the text. This means that an
+&lt;em&gt;RMarkdown&lt;/em&gt; document is not passive. This allows one to write papers
+that, quite literally, recalculate themselves any time needed. &lt;em&gt;knitr&lt;/em&gt;,
+combined with research code structured as an &lt;em&gt;R&lt;/em&gt; package, is clearly my
+favourite way of writing research. The package structure keeps my code
+tidy and tested, and &lt;em&gt;knitr&lt;/em&gt; allows me to do all and the figures the
+writing in a single file. The result is a rock-solid, reproducible
+output. Let me put it like this: &lt;em&gt;knitr&lt;/em&gt; is like &lt;em&gt;LaTeX&lt;/em&gt; on steroids![2]&lt;/p&gt;
+&lt;p&gt;But... I keep finding &lt;em&gt;R&lt;/em&gt; annoying. A few days ago, after looking for
+hours for a nice way of ploting phase planes, I gave up. All the
+possibilities I found were terribly ugly. I had to go back to &lt;em&gt;Python's&lt;/em&gt;
+&lt;em&gt;Matplotlib&lt;/em&gt; and its function &lt;em&gt;streamplot&lt;/em&gt;. See for yourself:&lt;/p&gt;
+&lt;p&gt;With &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="images/2019-03/phase-plot-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;With &lt;em&gt;Python&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="images/2019-03/phase-plotPy-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;After a bit of googling, I found an &lt;em&gt;R&lt;/em&gt; library called &lt;em&gt;reticulate&lt;/em&gt; that
+allows to run &lt;em&gt;Python&lt;/em&gt; code from inside &lt;em&gt;R&lt;/em&gt;. If this works (I thought) I
+can keep the best of both approaches! And, so far, it works flawlessly!&lt;/p&gt;
+&lt;h2&gt;How to do it&lt;/h2&gt;
+&lt;p&gt;First of all, &lt;em&gt;R&lt;/em&gt; and &lt;em&gt;Python&lt;/em&gt; are obviously reequired. &lt;em&gt;reticulate&lt;/em&gt; can
+be installed and loaded as usual in &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;install.packages(&amp;quot;reticulate&amp;quot;)
+library(reticulate)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;For &lt;a href="https://community.rstudio.com/t/matplotlib-inline-plots-with-reticulate-on-rstudio-server/16357"&gt;some
+reason&lt;/a&gt;
+I still don't fully understand, I had to add these two lines to make
+&lt;em&gt;Matplotlib&lt;/em&gt; work properly.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;matplotlib &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; import&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;matplotlib&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; convert &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+matplotlib&lt;span class="o"&gt;$&lt;/span&gt;use&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Agg&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now, we can insert python chunks in &lt;em&gt;Rmarkdown&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="sb"&gt;``&lt;/span&gt;&lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;eval&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;
+&lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="kp"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="sb"&gt;``&lt;/span&gt;&lt;span class="err"&gt;`&lt;/span&gt;
+
+&lt;span class="c1"&gt;## 0.707106781187&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Interaction&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;reticulate&lt;/em&gt; works creating two different sessions, one of &lt;em&gt;R&lt;/em&gt; and
+another of &lt;em&gt;Python&lt;/em&gt;. In order to unleash all the power of this
+combination, we need a way of passing variables between both sessions.
+This is done via the dataframe &lt;code&gt;py&lt;/code&gt;. See examples below:&lt;/p&gt;
+&lt;h3&gt;From &lt;em&gt;R&lt;/em&gt; to &lt;em&gt;Python&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Create a variable and store it as a field of &lt;code&gt;py&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="sb"&gt;``&lt;/span&gt;`&lt;span class="p"&gt;{&lt;/span&gt;r&lt;span class="p"&gt;}&lt;/span&gt;
+py&lt;span class="o"&gt;$&lt;/span&gt;foo &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Hi!&amp;quot;&lt;/span&gt;
+&lt;span class="sb"&gt;``&lt;/span&gt;`
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The variable will be available in the &lt;em&gt;Python&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;```{python}
+print(foo)
+```
+
+## Hi!
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;From &lt;em&gt;Python&lt;/em&gt; to &lt;em&gt;R&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Create a variable inside the &lt;em&gt;Python&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;```{python}
+bar = &amp;quot;How are you?&amp;quot;
+```
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The variable will be available as a field of the dataframe &lt;code&gt;py&lt;/code&gt; in the
+&lt;em&gt;R&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;```{r}
+py$bar
+```
+
+## [1] &amp;quot;How are you?&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;[1] Actually, there is a second (and less important) reason: &lt;em&gt;Shiny&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;[2] It is true that &lt;em&gt;Python&lt;/em&gt; also has &lt;em&gt;Jupyter&lt;/em&gt; for reproducible
+research, but the results are just not as neat as with &lt;em&gt;R&lt;/em&gt;.&lt;/p&gt;</content><category term="math"></category><category term="R"></category><category term="Python"></category></entry><entry><title>Animations in R</title><link href="https://pabrod.github.io/animations-r-en.html" rel="alternate"></link><published>2018-12-02T14:22:33+01:00</published><updated>2018-12-02T14:22:33+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-12-02:/animations-r-en.html</id><summary type="html">&lt;p&gt;How to make animations in R using ggplot2 and gganimate&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
 
 &lt;p&gt;I've recently discovered the package &lt;em&gt;gganimate&lt;/em&gt; thanks to this
 &lt;a href="http://blog.schochastics.net/post/beautiful-chaos-the-double-pendulum/"&gt;brilliant
