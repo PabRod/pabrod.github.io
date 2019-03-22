@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - math</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-math.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2019-03-22T10:49:53+01:00</updated><entry><title>Python or R? Why not both?</title><link href="https://pabrod.github.io/PyR-en.html" rel="alternate"></link><published>2019-03-22T10:49:53+01:00</published><updated>2019-03-22T10:49:53+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-03-22:/PyR-en.html</id><summary type="html">&lt;p&gt;How to use Python code inside R&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - math</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-math.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2019-03-22T10:50:31+01:00</updated><entry><title>Python or R? Why not both?</title><link href="https://pabrod.github.io/PyR-en.html" rel="alternate"></link><published>2019-03-22T10:50:31+01:00</published><updated>2019-03-22T10:50:31+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-03-22:/PyR-en.html</id><summary type="html">&lt;p&gt;How to use Python code inside R&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
 
 &lt;p&gt;&lt;em&gt;Python&lt;/em&gt; and &lt;em&gt;R&lt;/em&gt;. They are two of the most popular programming languages
 for science. They are both free, both of them have a strong user
@@ -15,7 +15,7 @@ mathematical research of any kind.&lt;/p&gt;
 &lt;p&gt;There is only one reason for doing so: &lt;em&gt;knitr&lt;/em&gt;[1]. &lt;em&gt;knitr&lt;/em&gt; is a package
 that turns a combination of text &lt;strong&gt;and code&lt;/strong&gt; (the &lt;em&gt;RMarkdown&lt;/em&gt; file)
 into almost any format of human readable text, including a &lt;em&gt;pdf&lt;/em&gt; report,
-slides, or a blog page like the one you are reading now. The interesting
+slides, or a blog page like &lt;a href="https://github.com/PabRod/pabrod.github.io-src/blob/master/auxs/Rmd/2019-03-22%20PyR.Rmd"&gt;the one you are reading now&lt;/a&gt;. The interesting
 point is the integration of the code with the text. This means that an
 &lt;em&gt;RMarkdown&lt;/em&gt; document is not passive. This allows one to write papers
 that, quite literally, recalculate themselves any time needed. &lt;em&gt;knitr&lt;/em&gt;,
