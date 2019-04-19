@@ -29,9 +29,9 @@ hours for a nice way of ploting phase planes, I gave up. All the
 possibilities I found were terribly ugly. I had to go back to &lt;em&gt;Python's&lt;/em&gt;
 &lt;em&gt;Matplotlib&lt;/em&gt; and its function &lt;em&gt;streamplot&lt;/em&gt;. See for yourself:&lt;/p&gt;
 &lt;p&gt;With &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="images/2019-03/phase-plot-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="with-r" src="images/2019-03/phase-plot-1.png"&gt;&lt;/p&gt;
 &lt;p&gt;With &lt;em&gt;Python&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="images/2019-03/phase-plotPy-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="with-py" src="images/2019-03/phase-plotPy-1.png"&gt;&lt;/p&gt;
 &lt;p&gt;After a bit of googling, I found an &lt;em&gt;R&lt;/em&gt; library called &lt;em&gt;reticulate&lt;/em&gt; that
 allows to run &lt;em&gt;Python&lt;/em&gt; code from inside &lt;em&gt;R&lt;/em&gt;. If this works (I thought) I
 can keep the best of both approaches! And, so far, it works flawlessly!&lt;/p&gt;
