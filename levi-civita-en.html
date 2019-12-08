@@ -43,18 +43,25 @@
     <!-- Microsoft EDGE -->
     <meta name="msapplication-TileColor" content="#333333">
 
-    <meta name="author" content="Pablo Rodríguez-Sánchez" />
-    <meta name="description" content="" />
+<meta name="author" content="Pablo Rodríguez-Sánchez" />
+<meta name="description" content="Simple way of visualizing the structure of the Levi-Civita symbol" />
+<meta name="keywords" content="math, GeoGebra">
+
 <meta property="og:site_name" content="PabRod"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="PabRod"/>
-<meta property="og:description" content=""/>
+<meta property="og:title" content="Visualization of a 3D Levi-Civita symbol"/>
+<meta property="og:description" content="Simple way of visualizing the structure of the Levi-Civita symbol"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://pabrod.github.io"/>
+<meta property="og:url" content="https://pabrod.github.io/levi-civita-en.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-12-08 16:37:24+01:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://pabrod.github.io/author/pablo-rodriguez-sanchez.html">
+<meta property="article:section" content="Blog"/>
+<meta property="article:tag" content="math"/>
+<meta property="article:tag" content="GeoGebra"/>
 <meta property="og:image" content="/images/profile.png">
 
-  <title>PabRod &ndash;     Archives
-</title>
+  <title>PabRod &ndash; Visualization of a 3D Levi-Civita symbol</title>
 
 </head>
 <body>
@@ -103,47 +110,67 @@
 
 <article class="single">
   <header>
-    <h1>    Archives
-</h1>
+      
+    <h1 id="levi-civita">Visualization of a 3D Levi-Civita symbol</h1>
+    <p>
+          Posted on Sun 08 December 2019 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
+
+
+    </p>
   </header>
+
+
   <div>
-    <dl>
-      <dt>Sun 08 December 2019</dt>
-      <dd><a href="https://pabrod.github.io/levi-civita-en.html">Visualization of a 3D Levi-Civita symbol</a></dd>
-      <dt>Sun 17 November 2019</dt>
-      <dd><a href="https://pabrod.github.io/NLeSC_symp19-en.html">Talk announcement: How software development shaped the way I write science (National eScience Symposium)</a></dd>
-      <dt>Mon 19 August 2019</dt>
-      <dd><a href="https://pabrod.github.io/seminar-nesc-en.html">Seminar announcement: How software development shaped the way I write science (Netherlands eScience Center)</a></dd>
-      <dt>Fri 19 April 2019</dt>
-      <dd><a href="https://pabrod.github.io/quasipotentials-en.html">Preprint: Climbing Escher's ladder</a></dd>
-      <dt>Fri 22 March 2019</dt>
-      <dd><a href="https://pabrod.github.io/PyR-en.html">Python or R? Why not both?</a></dd>
-      <dt>Sun 02 December 2018</dt>
-      <dd><a href="https://pabrod.github.io/animations-r-en.html">Animations in R</a></dd>
-      <dt>Wed 28 November 2018</dt>
-      <dd><a href="https://pabrod.github.io/spectrum-accountancy-en.html">The spectrum of my personal accountancy</a></dd>
-      <dt>Mon 03 September 2018</dt>
-      <dd><a href="https://pabrod.github.io/daylight-saving-en.html">Interactive applet: daylight saving time in Spain</a></dd>
-      <dt>Tue 21 August 2018</dt>
-      <dd><a href="https://pabrod.github.io/seminar-cork-en.html">Seminar announcement: An example of reproducible research (University College Cork)</a></dd>
-      <dt>Thu 19 July 2018</dt>
-      <dd><a href="https://pabrod.github.io/chaos-neutrality-en.html">Preprint: Neutral competition boosts chaos in food webs</a></dd>
-      <dt>Wed 04 July 2018</dt>
-      <dd><a href="https://pabrod.github.io/seminar-macsim-en.html">Seminar announcement: Competition, diversity and the benefits of chaos (Imperial College London)</a></dd>
-      <dt>Tue 12 June 2018</dt>
-      <dd><a href="https://pabrod.github.io/multidisciplinary-en.html">Things I've learned working in a multidisciplinary group</a></dd>
-      <dt>Sun 10 June 2018</dt>
-      <dd><a href="https://pabrod.github.io/seminar-imperial-en.html">Seminar announcement: A mathematician among biologists (Imperial College London)</a></dd>
-      <dt>Wed 06 June 2018</dt>
-      <dd><a href="https://pabrod.github.io/intro-to-pdes-en.html">Course announcement: Introduction to PDEs</a></dd>
-      <dt>Sat 05 May 2018</dt>
-      <dd><a href="https://pabrod.github.io/embed-shiny-en.html">Embedding a Shiny app inside my blog</a></dd>
-      <dt>Tue 01 May 2018</dt>
-      <dd><a href="https://pabrod.github.io/elevator-en.html">There's a nerd in my elevator!</a></dd>
-      <dt>Mon 23 April 2018</dt>
-      <dd><a href="https://pabrod.github.io/welcome-en.html">Welcome</a></dd>
-    </dl>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<p>The <a href="https://en.wikipedia.org/wiki/Levi-Civita_symbol">Levi-Civita symbol</a> is that puzzling $\epsilon_{ijk}$ term that appears in the calculation of determinants and vector products. It has, thus, lots of applications in algebra, geometry, mechanics, electromagnetism, ... A (boring) definition is given in the textbox below.</p>
+<hr>
+<p>The value of $\epsilon_{ijk}$ goes as follows:</p>
+<p>It is $0$ if the value of <strong>any</strong> index is repeated, such as in $ijk = 112$</p>
+<p>It is $1$ if the indices are $ijk \in123, 312, 231$</p>
+<p>It is $-1$ if the indices are $ijk \in 321, 132, 213$</p>
+<hr>
+<p>I am interested in visualization. Unfortunately, the Levi-Civita symbol has three indices, $i$, $j$ and $k$, so we cannot represent it as a matrix or a vector. But, taking advantage of its discrete nature (it can only take 3 different values) we can create a "cubic matrix" to visualize it. This matrix contains $3 \times 3 \times 3$ cubes, each of them univocally identified by a triplet $ijk$, and the color tells us its value (grey for $0$, green for $1$, red for $-1$).</p>
+<p>That's what I did in a GeoGebra applet. I leave it here, just in case anyone finds it interesting. Click on the image to open an interactive version where the cube can be rotated.</p>
+<p><a href="https://www.geogebra.org/m/fbtgkakj"><img alt="Levi-Civita" src="images/2019-12/LeviCivita.png"></a></p>
   </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://pabrod.github.io/tag/math.html">math</a>
+      <a href="https://pabrod.github.io/tag/geogebra.html">GeoGebra</a>
+    </p>
+  </div>
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'pabrod';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+<!-- End Disqus -->
 </article>
 
     <footer>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - GeoGebra</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-geogebra.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2019-12-08T16:37:24+01:00</updated><entry><title>Visualization of a 3D Levi-Civita symbol</title><link href="https://pabrod.github.io/levi-civita-en.html" rel="alternate"></link><published>2019-12-08T16:37:24+01:00</published><updated>2019-12-08T16:37:24+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-12-08:/levi-civita-en.html</id><summary type="html">&lt;p&gt;Simple way of visualizing the structure of the Levi-Civita symbol&lt;/p&gt;</summary><content type="html">&lt;script type="text/x-mathjax-config"&gt;
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+&lt;/script&gt;
+
+&lt;script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Levi-Civita_symbol"&gt;Levi-Civita symbol&lt;/a&gt; is that puzzling $\epsilon_{ijk}$ term that appears in the calculation of determinants and vector products. It has, thus, lots of applications in algebra, geometry, mechanics, electromagnetism, ... A (boring) definition is given in the textbox below.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The value of $\epsilon_{ijk}$ goes as follows:&lt;/p&gt;
+&lt;p&gt;It is $0$ if the value of &lt;strong&gt;any&lt;/strong&gt; index is repeated, such as in $ijk = 112$&lt;/p&gt;
+&lt;p&gt;It is $1$ if the indices are $ijk \in123, 312, 231$&lt;/p&gt;
+&lt;p&gt;It is $-1$ if the indices are $ijk \in 321, 132, 213$&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I am interested in visualization. Unfortunately, the Levi-Civita symbol has three indices, $i$, $j$ and $k$, so we cannot represent it as a matrix or a vector. But, taking advantage of its discrete nature (it can only take 3 different values) we can create a "cubic matrix" to visualize it. This matrix contains $3 \times 3 \times 3$ cubes, each of them univocally identified by a triplet $ijk$, and the color tells us its value (grey for $0$, green for $1$, red for $-1$).&lt;/p&gt;
+&lt;p&gt;That's what I did in a GeoGebra applet. I leave it here, just in case anyone finds it interesting. Click on the image to open an interactive version where the cube can be rotated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.geogebra.org/m/fbtgkakj"&gt;&lt;img alt="Levi-Civita" src="images/2019-12/LeviCivita.png"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="math"></category><category term="GeoGebra"></category></entry></feed>
