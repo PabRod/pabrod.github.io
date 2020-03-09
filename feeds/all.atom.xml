@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2019-12-08T16:37:24+01:00</updated><entry><title>Visualization of a 3D Levi-Civita symbol</title><link href="https://pabrod.github.io/levi-civita-en.html" rel="alternate"></link><published>2019-12-08T16:37:24+01:00</published><updated>2019-12-08T16:37:24+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-12-08:/levi-civita-en.html</id><summary type="html">&lt;p&gt;Simple way of visualizing the structure of the Levi-Civita symbol&lt;/p&gt;</summary><content type="html">&lt;script type="text/x-mathjax-config"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2020-03-09T10:25:40+01:00</updated><entry><title>Talk announcement: Ciencia y arte, enemigos íntimos (Festival Arte y Ciencia)</title><link href="https://pabrod.github.io/arte_y_ciencia-en.html" rel="alternate"></link><published>2020-03-09T10:25:40+01:00</published><updated>2020-03-09T10:25:40+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-03-09:/arte_y_ciencia-en.html</id><summary type="html">&lt;p&gt;Science and arts are often presented as opposite to each other, but are they? 10-11 March 2020, Planetario de Pamplona, Navarre, Spain.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;Arte y ciencia, enemigos íntimos&lt;/p&gt;
+&lt;p&gt;This talk will be given in Spanish.&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Science and arts are often presented as opposite to each other, but are they?&lt;/p&gt;
+&lt;p&gt;&lt;img alt="slides" src="images/2020-03/arte-y-ciencia.png"&gt;&lt;/p&gt;
+&lt;p&gt;This talk will be part of the &lt;a href="https://www.unavarra.es/unidadculturacientifica/ciclo-arte-ciencia-y-tecnologia?opcion=1"&gt;Festival arte y ciencia&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;10-11 March. &lt;a href="https://www.pamplonetario.org/"&gt;Planetario de Pamplona&lt;/a&gt;, Navarra, Spain. Free access&lt;/li&gt;
+&lt;/ul&gt;</content><category term="announcement"></category></entry><entry><title>Visualization of a 3D Levi-Civita symbol</title><link href="https://pabrod.github.io/levi-civita-en.html" rel="alternate"></link><published>2019-12-08T16:37:24+01:00</published><updated>2019-12-08T16:37:24+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-12-08:/levi-civita-en.html</id><summary type="html">&lt;p&gt;Simple way of visualizing the structure of the Levi-Civita symbol&lt;/p&gt;</summary><content type="html">&lt;script type="text/x-mathjax-config"&gt;
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
