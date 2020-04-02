@@ -164,20 +164,20 @@ small subset of this data:</p>
 <h2>First step: Interpolation</h2>
 <p>The first problem, unevenness of data, can be solved by good old interpolation methods. The only tricky part here is that our <em>x</em> coordinates are dates, so it is advisable to use <em>lubridate</em>.</p>
 <p>I used the following:</p>
-<div class="highlight"><pre><span></span><span class="kn">library</span><span class="p">(</span>dplyr<span class="p">)</span>
-<span class="kn">library</span><span class="p">(</span>lubridate<span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="nv">library</span><span class="ss">(</span><span class="nv">dplyr</span><span class="ss">)</span>
+<span class="nv">library</span><span class="ss">(</span><span class="nv">lubridate</span><span class="ss">)</span>
 
-first_day <span class="o">&lt;-</span> <span class="kp">min</span><span class="p">(</span>df<span class="o">$</span>Date<span class="p">)</span>
-last_day <span class="o">&lt;-</span> <span class="kp">max</span><span class="p">(</span>df<span class="o">$</span>Date<span class="p">)</span>
+<span class="nv">first_day</span> <span class="o">&lt;-</span> <span class="nv">min</span><span class="ss">(</span><span class="nv">df</span><span class="mh">$Da</span><span class="nv">te</span><span class="ss">)</span>
+<span class="nv">last_day</span> <span class="o">&lt;-</span> <span class="nv">max</span><span class="ss">(</span><span class="nv">df</span><span class="mh">$Da</span><span class="nv">te</span><span class="ss">)</span>
 
-<span class="c1"># Add a column with relative day as an integer</span>
-df <span class="o">&lt;-</span> mutate<span class="p">(</span>df<span class="p">,</span> Day_index <span class="o">=</span> <span class="kp">as.numeric</span><span class="p">(</span>df<span class="o">$</span>Date <span class="o">-</span> first_day<span class="p">))</span>
+# <span class="nv">Add</span> <span class="nv">a</span> <span class="nv">column</span> <span class="nv">with</span> <span class="nv">relative</span> <span class="nv">day</span> <span class="nv">as</span> <span class="nv">an</span> <span class="nv">integer</span>
+<span class="nv">df</span> <span class="o">&lt;-</span> <span class="nv">mutate</span><span class="ss">(</span><span class="nv">df</span>, <span class="nv">Day_index</span> <span class="o">=</span> <span class="nv">as</span>.<span class="nv">numeric</span><span class="ss">(</span><span class="nv">df</span><span class="mh">$Da</span><span class="nv">te</span> <span class="o">-</span> <span class="nv">first_day</span><span class="ss">))</span>
 
-<span class="c1"># Create the time vector used for interpolation</span>
-all_days <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span>first_day<span class="p">,</span> last_day<span class="p">,</span> by <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
-all_indices <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="kp">length</span><span class="p">(</span>all_days<span class="p">),</span> by <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
+# <span class="nv">Create</span> <span class="nv">the</span> <span class="nv">time</span> <span class="nv">vector</span> <span class="nv">used</span> <span class="k">for</span> <span class="nv">interpolation</span>
+<span class="nv">all_days</span> <span class="o">&lt;-</span> <span class="nv">seq</span><span class="ss">(</span><span class="nv">first_day</span>, <span class="nv">last_day</span>, <span class="nv">by</span> <span class="o">=</span> <span class="mi">1</span><span class="ss">)</span>
+<span class="nv">all_indices</span> <span class="o">&lt;-</span> <span class="nv">seq</span><span class="ss">(</span><span class="mi">1</span>, <span class="nv">length</span><span class="ss">(</span><span class="nv">all_days</span><span class="ss">)</span>, <span class="nv">by</span> <span class="o">=</span> <span class="mi">1</span><span class="ss">)</span>
 
-daily_total <span class="o">&lt;-</span> approx<span class="p">(</span>x <span class="o">=</span> df<span class="o">$</span>Day_index<span class="p">,</span> y <span class="o">=</span> df<span class="o">$</span>Total<span class="p">,</span> xout <span class="o">=</span> all_indices<span class="p">,</span> yright <span class="o">=</span> <span class="kp">head</span><span class="p">(</span>df<span class="o">$</span>Total<span class="p">,</span> <span class="m">1</span><span class="p">))</span>
+<span class="nv">daily_total</span> <span class="o">&lt;-</span> <span class="nv">approx</span><span class="ss">(</span><span class="nv">x</span> <span class="o">=</span> <span class="nv">df</span><span class="mh">$Da</span><span class="nv">y_index</span>, <span class="nv">y</span> <span class="o">=</span> <span class="nv">df</span>$<span class="nv">Total</span>, <span class="nv">xout</span> <span class="o">=</span> <span class="nv">all_indices</span>, <span class="nv">yright</span> <span class="o">=</span> <span class="nv">head</span><span class="ss">(</span><span class="nv">df</span>$<span class="nv">Total</span>, <span class="mi">1</span><span class="ss">))</span>
 </pre></div>
 
 
@@ -214,20 +214,20 @@ $$</p>
 $$</p>
 <p>We just added units (and thus, physical) significance to the indexes <em>k</em> and <em>n</em>!</p>
 <p>The (quite primitive) code I used for doing this is:</p>
-<div class="highlight"><pre><span></span>    fft_spectrum <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span>ts<span class="p">,</span> ys<span class="p">,</span> as.freq <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span> <span class="p">{</span>
-      <span class="c1"># Translate k indices into frequencies</span>
-      tEnd <span class="o">&lt;-</span> <span class="kp">tail</span><span class="p">(</span>ts<span class="p">,</span> <span class="m">1</span><span class="p">)</span>
-      fs <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="kp">length</span><span class="p">(</span>ys<span class="p">)</span><span class="m">-1</span><span class="p">)</span> <span class="o">/</span> tEnd <span class="c1"># In T^-1 units (typically Hz, if the time is in seconds)</span>
+<div class="highlight"><pre><span></span>    <span class="nv">fft_spectrum</span> <span class="o">&lt;-</span> <span class="nv">function</span><span class="ss">(</span><span class="nv">ts</span>, <span class="nv">ys</span>, <span class="nv">as</span>.<span class="nv">freq</span> <span class="o">=</span> <span class="nv">TRUE</span><span class="ss">)</span> {
+      # <span class="nv">Translate</span> <span class="nv">k</span> <span class="nv">indices</span> <span class="nv">into</span> <span class="nv">frequencies</span>
+      <span class="nv">tEnd</span> <span class="o">&lt;-</span> <span class="nv">tail</span><span class="ss">(</span><span class="nv">ts</span>, <span class="mi">1</span><span class="ss">)</span>
+      <span class="nv">fs</span> <span class="o">&lt;-</span> <span class="nv">seq</span><span class="ss">(</span><span class="mi">0</span>, <span class="nv">length</span><span class="ss">(</span><span class="nv">ys</span><span class="ss">)</span><span class="o">-</span><span class="mi">1</span><span class="ss">)</span> <span class="o">/</span> <span class="nv">tEnd</span> # <span class="nv">In</span> <span class="nv">T</span><span class="o">^-</span><span class="mi">1</span> <span class="nv">units</span> <span class="ss">(</span><span class="nv">typically</span> <span class="nv">Hz</span>, <span class="k">if</span> <span class="nv">the</span> <span class="nv">time</span> <span class="nv">is</span> <span class="nv">in</span> <span class="nv">seconds</span><span class="ss">)</span>
 
-      <span class="c1">#Perform fast Fourier transform</span>
-      Xk <span class="o">&lt;-</span> <span class="kp">Mod</span><span class="p">(</span>fft<span class="p">(</span>ys<span class="p">))</span>
+      #<span class="nv">Perform</span> <span class="nv">fast</span> <span class="nv">Fourier</span> <span class="nv">transform</span>
+      <span class="nv">Xk</span> <span class="o">&lt;-</span> <span class="nv">Mod</span><span class="ss">(</span><span class="nv">fft</span><span class="ss">(</span><span class="nv">ys</span><span class="ss">))</span>
 
-      <span class="kr">if</span><span class="p">(</span>as.freq<span class="p">)</span> <span class="p">{</span> <span class="c1"># Use frequencies</span>
-        <span class="kt">list</span><span class="p">(</span>f <span class="o">=</span> fs<span class="p">,</span> Xk <span class="o">=</span> Xk<span class="p">)</span>
-      <span class="p">}</span> <span class="kr">else</span> <span class="p">{</span> <span class="c1"># Use periods</span>
-        <span class="kt">list</span><span class="p">(</span><span class="bp">T</span> <span class="o">=</span> <span class="m">1</span><span class="o">/</span>fs<span class="p">,</span> Xk <span class="o">=</span> Xk<span class="p">)</span>
-      <span class="p">}</span>
-    <span class="p">}</span>
+      <span class="k">if</span><span class="ss">(</span><span class="nv">as</span>.<span class="nv">freq</span><span class="ss">)</span> { # <span class="nv">Use</span> <span class="nv">frequencies</span>
+        <span class="nv">list</span><span class="ss">(</span><span class="nv">f</span> <span class="o">=</span> <span class="nv">fs</span>, <span class="nv">Xk</span> <span class="o">=</span> <span class="nv">Xk</span><span class="ss">)</span>
+      } <span class="k">else</span> { # <span class="nv">Use</span> <span class="nv">periods</span>
+        <span class="nv">list</span><span class="ss">(</span><span class="nv">T</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="nv">fs</span>, <span class="nv">Xk</span> <span class="o">=</span> <span class="nv">Xk</span><span class="ss">)</span>
+      }
+    }
 </pre></div>
 
 

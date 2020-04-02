@@ -133,15 +133,15 @@ some examples that I spread through
 tutorial can satisfy them.</p>
 <h2>Libraries used</h2>
 <p>We're going to need the following libraries:</p>
-<div class="highlight"><pre><span></span>    # Numerical
-    library(pracma) # To calculate the Taylor polynomials
-    library(reshape) # For using melt
+<div class="highlight"><pre><span></span>    # <span class="nv">Numerical</span>
+    <span class="nv">library</span><span class="ss">(</span><span class="nv">pracma</span><span class="ss">)</span> # <span class="nv">To</span> <span class="nv">calculate</span> <span class="nv">the</span> <span class="nv">Taylor</span> <span class="nv">polynomials</span>
+    <span class="nv">library</span><span class="ss">(</span><span class="nv">reshape</span><span class="ss">)</span> # <span class="k">For</span> <span class="nv">using</span> <span class="nv">melt</span>
 
-    # Display
-    library(ggplot2) # For plotting
-    library(ggthemes) # Also for plotting
-    library(gganimate) # For animating. Install using devtools::install_github(&#39;thomasp85/gganimate&#39;)
-    library(kableExtra) # To display nice tables
+    # <span class="nv">Display</span>
+    <span class="nv">library</span><span class="ss">(</span><span class="nv">ggplot2</span><span class="ss">)</span> # <span class="k">For</span> <span class="nv">plotting</span>
+    <span class="nv">library</span><span class="ss">(</span><span class="nv">ggthemes</span><span class="ss">)</span> # <span class="nv">Also</span> <span class="k">for</span> <span class="nv">plotting</span>
+    <span class="nv">library</span><span class="ss">(</span><span class="nv">gganimate</span><span class="ss">)</span> # <span class="k">For</span> <span class="nv">animating</span>. <span class="nv">Install</span> <span class="nv">using</span> <span class="nv">devtools</span>::<span class="nv">install_github</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">thomasp85/gganimate</span><span class="s1">&#39;</span><span class="ss">)</span>
+    <span class="nv">library</span><span class="ss">(</span><span class="nv">kableExtra</span><span class="ss">)</span> # <span class="nv">To</span> <span class="nv">display</span> <span class="nv">nice</span> <span class="nv">tables</span>
 </pre></div>
 
 
@@ -150,25 +150,25 @@ tutorial can satisfy them.</p>
 time. In our case, the dynamical equations will be given by:</p>
 <p>$$ \begin{cases} x(t) = cos(t) \\ y(t) = sin(2t) \end{cases}$$</p>
 <p>So we generate the series and store them in a dataframe:</p>
-<div class="highlight"><pre><span></span>    ts <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="p">,</span> length.out <span class="o">=</span> <span class="m">100</span><span class="p">)</span>
-    xs <span class="o">&lt;-</span> <span class="kp">cos</span><span class="p">(</span>ts<span class="p">)</span>
-    ys <span class="o">&lt;-</span> <span class="kp">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span>ts<span class="p">)</span>
+<div class="highlight"><pre><span></span>    <span class="n">ts</span> <span class="o">&lt;-</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="p">,</span> <span class="n">length.out</span> <span class="o">=</span> <span class="m">100</span><span class="p">)</span>
+    <span class="n">xs</span> <span class="o">&lt;-</span> <span class="nf">cos</span><span class="p">(</span><span class="n">ts</span><span class="p">)</span>
+    <span class="n">ys</span> <span class="o">&lt;-</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="n">ts</span><span class="p">)</span>
 
-    particle <span class="o">&lt;-</span> <span class="kt">data.frame</span><span class="p">(</span>ts <span class="o">=</span> ts<span class="p">,</span> xs <span class="o">=</span> xs<span class="p">,</span> ys <span class="o">=</span> ys<span class="p">)</span>
+    <span class="n">particle</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">ts</span> <span class="o">=</span> <span class="n">ts</span><span class="p">,</span> <span class="n">xs</span> <span class="o">=</span> <span class="n">xs</span><span class="p">,</span> <span class="n">ys</span> <span class="o">=</span> <span class="n">ys</span><span class="p">)</span>
 </pre></div>
 
 
 <p>The code for generating the animation follows a very similar syntax to
 <em>ggplot</em>. In this case, we indicate that the values of <em>ts</em> should be
 used as the transition time.</p>
-<div class="highlight"><pre><span></span>    ggplot(data = particle) +
-      geom_point(aes(x = xs, y = ys), col = &#39;red&#39;) + # Generate the plot
-      theme_tufte() + # Make ...
-      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... it ...
-      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
-      guides(col = FALSE) + # ... pretty.
-      transition_time(ts) + # And animate!
-      ease_aes(&#39;linear&#39;)
+<div class="highlight"><pre><span></span>    <span class="n">ggplot</span><span class="p">(</span><span class="k">data</span> <span class="o">=</span> <span class="n">particle</span><span class="p">)</span> <span class="o">+</span>
+      <span class="n">geom_point</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">xs</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">ys</span><span class="p">),</span> <span class="n">col</span> <span class="o">=</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Generate</span> <span class="n">the</span> <span class="n">plot</span>
+      <span class="n">theme_tufte</span><span class="p">()</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Make</span> <span class="p">...</span>
+      <span class="n">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;y&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="p">...</span> <span class="n">it</span> <span class="p">...</span>
+      <span class="n">scale_y_continuous</span><span class="p">(</span><span class="n">limits</span> <span class="o">=</span> <span class="k">c</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> <span class="o">+</span> <span class="o">#</span> <span class="p">...</span> <span class="n">look</span> <span class="p">...</span>
+      <span class="n">guides</span><span class="p">(</span><span class="n">col</span> <span class="o">=</span> <span class="k">FALSE</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="p">...</span> <span class="n">pretty</span><span class="p">.</span>
+      <span class="n">transition_time</span><span class="p">(</span><span class="n">ts</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="k">And</span> <span class="n">animate</span><span class="o">!</span>
+      <span class="n">ease_aes</span><span class="p">(</span><span class="s1">&#39;linear&#39;</span><span class="p">)</span>
 </pre></div>
 
 
@@ -179,8 +179,8 @@ polynomials of different degrees approximating the function</p>
 <p>$$f(x) = cos(\frac{3x}{2}) e^{-x} $$</p>
 <p>around a given point.</p>
 <p>Thus, we begin creating the function:</p>
-<div class="highlight"><pre><span></span>    f <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span>x<span class="p">)</span> <span class="p">{</span>
-      <span class="kp">cos</span><span class="p">(</span><span class="m">1.5</span><span class="o">*</span>x<span class="p">)</span><span class="o">*</span><span class="kp">exp</span><span class="p">(</span><span class="o">-</span>x<span class="p">)</span>
+<div class="highlight"><pre><span></span>    <span class="n">f</span> <span class="o">&lt;-</span> <span class="nf">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nf">cos</span><span class="p">(</span><span class="m">1.5</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="nf">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="p">)</span>
     <span class="p">}</span>
 </pre></div>
 
@@ -188,25 +188,25 @@ polynomials of different degrees approximating the function</p>
 <p>In this case, we want to compare how good is the performance of Taylor
 polynomials of different orders. The data we have to generate is a bit
 more complex than before.</p>
-<div class="highlight"><pre><span></span>    xs <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">-2</span><span class="p">,</span> <span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="p">,</span> length.out <span class="o">=</span> <span class="m">1500</span><span class="p">)</span> <span class="c1"># Values of x</span>
-    x0 <span class="o">&lt;-</span> <span class="m">1</span> <span class="c1"># Value of x where the Taylor series will be centered</span>
-    ys <span class="o">&lt;-</span> <span class="kt">matrix</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> nrow <span class="o">=</span> <span class="kp">length</span><span class="p">(</span>xs<span class="p">),</span> ncol <span class="o">=</span> <span class="m">9</span><span class="p">)</span>
-    <span class="kr">for</span><span class="p">(</span>i <span class="kr">in</span> <span class="m">1</span><span class="o">:</span><span class="m">9</span><span class="p">)</span> <span class="p">{</span> <span class="c1"># Extract Taylor polynomials of orders 0 to 8</span>
-      order <span class="o">&lt;-</span> i <span class="o">-</span> <span class="m">1</span> <span class="c1"># Indexes have to be positive, but first order is 0</span>
-      <span class="kr">if</span><span class="p">(</span>order <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span> <span class="c1"># A Taylor polynomial of order zero is just...</span>
-        ys<span class="p">[,</span>i<span class="p">]</span> <span class="o">&lt;-</span> f<span class="p">(</span>x0<span class="p">)</span> <span class="c1"># ... a constant function</span>
-      <span class="p">}</span> <span class="kr">else</span> <span class="p">{</span>
-        taylor_coefs <span class="o">&lt;-</span> taylor<span class="p">(</span>f <span class="o">=</span> f<span class="p">,</span> x0 <span class="o">=</span> x0<span class="p">,</span> n <span class="o">=</span> <span class="kp">order</span><span class="p">)</span> <span class="c1"># Get polynomial</span>
-        ys<span class="p">[,</span>i<span class="p">]</span> <span class="o">&lt;-</span> polyval<span class="p">(</span>taylor_coefs<span class="p">,</span> xs<span class="p">)</span> <span class="c1"># Evaluate polynomial</span>
-      <span class="p">}</span>
-    <span class="p">}</span>
+<div class="highlight"><pre><span></span>    <span class="nv">xs</span> <span class="o">&lt;-</span> <span class="nv">seq</span><span class="ss">(</span><span class="o">-</span><span class="mi">2</span>, <span class="mi">2</span><span class="o">*</span><span class="nv">pi</span>, <span class="nv">length</span>.<span class="nv">out</span> <span class="o">=</span> <span class="mi">1500</span><span class="ss">)</span> # <span class="nv">Values</span> <span class="nv">of</span> <span class="nv">x</span>
+    <span class="nv">x0</span> <span class="o">&lt;-</span> <span class="mi">1</span> # <span class="nv">Value</span> <span class="nv">of</span> <span class="nv">x</span> <span class="nv">where</span> <span class="nv">the</span> <span class="nv">Taylor</span> <span class="nv">series</span> <span class="nv">will</span> <span class="nv">be</span> <span class="nv">centered</span>
+    <span class="nv">ys</span> <span class="o">&lt;-</span> <span class="nv">matrix</span><span class="ss">(</span><span class="mi">0</span>, <span class="nv">nrow</span> <span class="o">=</span> <span class="nv">length</span><span class="ss">(</span><span class="nv">xs</span><span class="ss">)</span>, <span class="nv">ncol</span> <span class="o">=</span> <span class="mi">9</span><span class="ss">)</span>
+    <span class="k">for</span><span class="ss">(</span><span class="nv">i</span> <span class="nv">in</span> <span class="mi">1</span>:<span class="mi">9</span><span class="ss">)</span> { # <span class="nv">Extract</span> <span class="nv">Taylor</span> <span class="nv">polynomials</span> <span class="nv">of</span> <span class="nv">orders</span> <span class="mi">0</span> <span class="nv">to</span> <span class="mi">8</span>
+      <span class="nv">order</span> <span class="o">&lt;-</span> <span class="nv">i</span> <span class="o">-</span> <span class="mi">1</span> # <span class="nv">Indexes</span> <span class="nv">have</span> <span class="nv">to</span> <span class="nv">be</span> <span class="nv">positive</span>, <span class="nv">but</span> <span class="nv">first</span> <span class="nv">order</span> <span class="nv">is</span> <span class="mi">0</span>
+      <span class="k">if</span><span class="ss">(</span><span class="nv">order</span> <span class="o">==</span> <span class="mi">0</span><span class="ss">)</span> { # <span class="nv">A</span> <span class="nv">Taylor</span> <span class="nv">polynomial</span> <span class="nv">of</span> <span class="nv">order</span> <span class="nv">zero</span> <span class="nv">is</span> <span class="nv">just</span>...
+        <span class="nv">ys</span>[,<span class="nv">i</span>] <span class="o">&lt;-</span> <span class="nv">f</span><span class="ss">(</span><span class="nv">x0</span><span class="ss">)</span> # ... <span class="nv">a</span> <span class="nv">constant</span> <span class="nv">function</span>
+      } <span class="k">else</span> {
+        <span class="nv">taylor_coefs</span> <span class="o">&lt;-</span> <span class="nv">taylor</span><span class="ss">(</span><span class="nv">f</span> <span class="o">=</span> <span class="nv">f</span>, <span class="nv">x0</span> <span class="o">=</span> <span class="nv">x0</span>, <span class="nv">n</span> <span class="o">=</span> <span class="nv">order</span><span class="ss">)</span> # <span class="nv">Get</span> <span class="nv">polynomial</span>
+        <span class="nv">ys</span>[,<span class="nv">i</span>] <span class="o">&lt;-</span> <span class="nv">polyval</span><span class="ss">(</span><span class="nv">taylor_coefs</span>, <span class="nv">xs</span><span class="ss">)</span> # <span class="nv">Evaluate</span> <span class="nv">polynomial</span>
+      }
+    }
 
-    <span class="c1"># Rewrite as dataframe</span>
-    df <span class="o">&lt;-</span> <span class="kt">data.frame</span><span class="p">(</span>ys<span class="p">)</span>
-    <span class="kp">colnames</span><span class="p">(</span>df<span class="p">)</span> <span class="o">&lt;-</span> <span class="kp">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">8</span><span class="p">)</span>
-    df <span class="o">&lt;-</span> melt<span class="p">(</span>df<span class="p">)</span>
-    df <span class="o">&lt;-</span> <span class="kp">cbind</span><span class="p">(</span>df<span class="p">,</span> xs <span class="o">=</span> <span class="kp">rep</span><span class="p">(</span>xs<span class="p">,</span><span class="m">9</span><span class="p">),</span> f <span class="o">=</span> f<span class="p">(</span>xs<span class="p">))</span>
-    <span class="kp">colnames</span><span class="p">(</span>df<span class="p">)</span> <span class="o">&lt;-</span> <span class="kt">c</span><span class="p">(</span><span class="s">&#39;order&#39;</span><span class="p">,</span> <span class="s">&#39;ys&#39;</span><span class="p">,</span> <span class="s">&#39;xs&#39;</span><span class="p">,</span> <span class="s">&#39;f&#39;</span><span class="p">)</span>
+    # <span class="nv">Rewrite</span> <span class="nv">as</span> <span class="nv">dataframe</span>
+    <span class="nv">df</span> <span class="o">&lt;-</span> <span class="nv">data</span>.<span class="nv">frame</span><span class="ss">(</span><span class="nv">ys</span><span class="ss">)</span>
+    <span class="nv">colnames</span><span class="ss">(</span><span class="nv">df</span><span class="ss">)</span> <span class="o">&lt;-</span> <span class="nv">seq</span><span class="ss">(</span><span class="mi">0</span>,<span class="mi">8</span><span class="ss">)</span>
+    <span class="nv">df</span> <span class="o">&lt;-</span> <span class="nv">melt</span><span class="ss">(</span><span class="nv">df</span><span class="ss">)</span>
+    <span class="nv">df</span> <span class="o">&lt;-</span> <span class="nv">cbind</span><span class="ss">(</span><span class="nv">df</span>, <span class="nv">xs</span> <span class="o">=</span> <span class="nv">rep</span><span class="ss">(</span><span class="nv">xs</span>,<span class="mi">9</span><span class="ss">)</span>, <span class="nv">f</span> <span class="o">=</span> <span class="nv">f</span><span class="ss">(</span><span class="nv">xs</span><span class="ss">))</span>
+    <span class="nv">colnames</span><span class="ss">(</span><span class="nv">df</span><span class="ss">)</span> <span class="o">&lt;-</span> <span class="nv">c</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">order</span><span class="s1">&#39;</span>, <span class="s1">&#39;</span><span class="s">ys</span><span class="s1">&#39;</span>, <span class="s1">&#39;</span><span class="s">xs</span><span class="s1">&#39;</span>, <span class="s1">&#39;</span><span class="s">f</span><span class="s1">&#39;</span><span class="ss">)</span>
 </pre></div>
 
 
@@ -263,13 +263,13 @@ values of the original function <em>f(x)</em>, also at each point:</p>
 </table>
 
 <p>A static plot will look like:</p>
-<div class="highlight"><pre><span></span>    ggplot(data = df) +
-      geom_point(aes(x = xs, y = ys, col = order)) + # Generate basic plot
-      geom_point(aes(x = xs, y = f)) + # Plot also original function
-      geom_point(aes(x = x0, y = f(x0)), col = &#39;black&#39;, size = 5) + # Remark initial point
-      theme_tufte() + # Make it ...
-      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... look ...
-      scale_y_continuous(limits = c(-2, 2)) # ... pretty.
+<div class="highlight"><pre><span></span>    <span class="n">ggplot</span><span class="p">(</span><span class="k">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">)</span> <span class="o">+</span>
+      <span class="n">geom_point</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">xs</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">ys</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="k">order</span><span class="p">))</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Generate</span> <span class="n">basic</span> <span class="n">plot</span>
+      <span class="n">geom_point</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">xs</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">f</span><span class="p">))</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Plot</span> <span class="n">also</span> <span class="n">original</span> <span class="k">function</span>
+      <span class="n">geom_point</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x0</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">x0</span><span class="p">)),</span> <span class="n">col</span> <span class="o">=</span> <span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="k">size</span> <span class="o">=</span> <span class="mi">5</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Remark</span> <span class="n">initial</span> <span class="n">point</span>
+      <span class="n">theme_tufte</span><span class="p">()</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Make</span> <span class="n">it</span> <span class="p">...</span>
+      <span class="n">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;y&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="p">...</span> <span class="n">look</span> <span class="p">...</span>
+      <span class="n">scale_y_continuous</span><span class="p">(</span><span class="n">limits</span> <span class="o">=</span> <span class="k">c</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> <span class="o">#</span> <span class="p">...</span> <span class="n">pretty</span><span class="p">.</span>
 </pre></div>
 
 
@@ -279,16 +279,16 @@ values of the original function <em>f(x)</em>, also at each point:</p>
 as the animation parameter. The parameters <em>transition_length</em> and
 <em>state_length</em> control how much time each state stays in screen, and
 how long the transition between states should look.</p>
-<div class="highlight"><pre><span></span>    ggplot(data = df) +
-      geom_point(aes(x = xs, y = ys), col = &#39;red&#39;) + # Add basic plot
-      geom_point(aes(x = xs, y = f)) + # Plot also original function
-      geom_point(aes(x = x0, y = f(x0)), col = &#39;red&#39;, size = 5) + # Remark initial point
-      theme_tufte() + # Make ...
-      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... it ...
-      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
-      guides(col = FALSE) + # ... pretty.
-      transition_states(order, transition_length = 1, state_length = 0.5) + # And animate!
-      ease_aes(&#39;linear&#39;)
+<div class="highlight"><pre><span></span>    <span class="n">ggplot</span><span class="p">(</span><span class="k">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">)</span> <span class="o">+</span>
+      <span class="n">geom_point</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">xs</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">ys</span><span class="p">),</span> <span class="n">col</span> <span class="o">=</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="k">Add</span> <span class="n">basic</span> <span class="n">plot</span>
+      <span class="n">geom_point</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">xs</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">f</span><span class="p">))</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Plot</span> <span class="n">also</span> <span class="n">original</span> <span class="k">function</span>
+      <span class="n">geom_point</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x0</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">x0</span><span class="p">)),</span> <span class="n">col</span> <span class="o">=</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="k">size</span> <span class="o">=</span> <span class="mi">5</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Remark</span> <span class="n">initial</span> <span class="n">point</span>
+      <span class="n">theme_tufte</span><span class="p">()</span> <span class="o">+</span> <span class="o">#</span> <span class="n">Make</span> <span class="p">...</span>
+      <span class="n">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;y&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="p">...</span> <span class="n">it</span> <span class="p">...</span>
+      <span class="n">scale_y_continuous</span><span class="p">(</span><span class="n">limits</span> <span class="o">=</span> <span class="k">c</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> <span class="o">+</span> <span class="o">#</span> <span class="p">...</span> <span class="n">look</span> <span class="p">...</span>
+      <span class="n">guides</span><span class="p">(</span><span class="n">col</span> <span class="o">=</span> <span class="k">FALSE</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="p">...</span> <span class="n">pretty</span><span class="p">.</span>
+      <span class="n">transition_states</span><span class="p">(</span><span class="k">order</span><span class="p">,</span> <span class="n">transition_length</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">state_length</span> <span class="o">=</span> <span class="mi">0</span><span class="p">.</span><span class="mi">5</span><span class="p">)</span> <span class="o">+</span> <span class="o">#</span> <span class="k">And</span> <span class="n">animate</span><span class="o">!</span>
+      <span class="n">ease_aes</span><span class="p">(</span><span class="s1">&#39;linear&#39;</span><span class="p">)</span>
 </pre></div>
 
 

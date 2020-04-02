@@ -161,8 +161,8 @@ can keep the best of both approaches! And, so far, it works flawlessly!</p>
 <h2>How to do it</h2>
 <p>First of all, <em>R</em> and <em>Python</em> are obviously reequired. <em>reticulate</em> can
 be installed and loaded as usual in <em>R</em>:</p>
-<div class="highlight"><pre><span></span>install.packages(&quot;reticulate&quot;)
-library(reticulate)
+<div class="highlight"><pre><span></span><span class="n">install</span><span class="p">.</span><span class="n">packages</span><span class="p">(</span><span class="ss">&quot;reticulate&quot;</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">reticulate</span><span class="p">)</span>
 </pre></div>
 
 
@@ -170,8 +170,8 @@ library(reticulate)
 reason</a>
 I still don't fully understand, I had to add these two lines to make
 <em>Matplotlib</em> work properly.</p>
-<div class="highlight"><pre><span></span>matplotlib <span class="o">&lt;-</span> import<span class="p">(</span><span class="s">&quot;matplotlib&quot;</span><span class="p">,</span> convert <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
-matplotlib<span class="o">$</span>use<span class="p">(</span><span class="s">&quot;Agg&quot;</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="n">matplotlib</span> <span class="o">&lt;-</span> <span class="nf">import</span><span class="p">(</span><span class="s">&quot;matplotlib&quot;</span><span class="p">,</span> <span class="n">convert</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+<span class="n">matplotlib</span><span class="o">$</span><span class="nf">use</span><span class="p">(</span><span class="s">&quot;Agg&quot;</span><span class="p">)</span>
 </pre></div>
 
 
@@ -194,36 +194,36 @@ combination, we need a way of passing variables between both sessions.
 This is done via the dataframe <code>py</code>. See examples below:</p>
 <h3>From <em>R</em> to <em>Python</em></h3>
 <p>Create a variable and store it as a field of <code>py</code>:</p>
-<div class="highlight"><pre><span></span><span class="sb">``</span>`<span class="p">{</span>r<span class="p">}</span>
-py<span class="o">$</span>foo <span class="o">&lt;-</span> <span class="s">&quot;Hi!&quot;</span>
-<span class="sb">``</span>`
+<div class="highlight"><pre><span></span><span class="n">```{r}</span>
+<span class="n">py$foo &lt;- &quot;Hi!&quot;</span>
+<span class="n">```</span>
 </pre></div>
 
 
 <p>The variable will be available in the <em>Python</em> session:</p>
-<div class="highlight"><pre><span></span>```{python}
-print(foo)
-```
+<div class="highlight"><pre><span></span><span class="o">```</span><span class="err">{</span><span class="n">python</span><span class="err">}</span>
+<span class="n">print</span><span class="p">(</span><span class="n">foo</span><span class="p">)</span>
+<span class="o">```</span>
 
-## Hi!
+<span class="o">##</span> <span class="n">Hi</span><span class="o">!</span>
 </pre></div>
 
 
 <h3>From <em>Python</em> to <em>R</em></h3>
 <p>Create a variable inside the <em>Python</em> session:</p>
-<div class="highlight"><pre><span></span>```{python}
-bar = &quot;How are you?&quot;
-```
+<div class="highlight"><pre><span></span><span class="o">```</span><span class="err">{</span><span class="n">python</span><span class="err">}</span>
+<span class="n">bar</span> <span class="o">=</span> <span class="ss">&quot;How are you?&quot;</span>
+<span class="o">```</span>
 </pre></div>
 
 
 <p>The variable will be available as a field of the dataframe <code>py</code> in the
 <em>R</em> session:</p>
-<div class="highlight"><pre><span></span>```{r}
-py$bar
-```
+<div class="highlight"><pre><span></span><span class="o">```</span><span class="err">{</span><span class="n">r</span><span class="err">}</span>
+<span class="n">py$bar</span>
+<span class="o">```</span>
 
-## [1] &quot;How are you?&quot;
+<span class="o">##</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ss">&quot;How are you?&quot;</span>
 </pre></div>
 
 
