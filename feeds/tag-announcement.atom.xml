@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - announcement</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-announcement.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2020-06-08T16:22:24+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Talk announcement: Thesis defense</title><link href="https://pabrod.github.io/defense-en.html" rel="alternate"></link><published>2020-06-08T16:22:24+02:00</published><updated>2020-06-08T16:22:24+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-06-08:/defense-en.html</id><summary type="html">&lt;p&gt;The day finally arrived!&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Invitation&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - announcement</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-announcement.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2020-10-12T09:07:06+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Talk announcement: Complex numbers for research software engineers</title><link href="https://pabrod.github.io/complex-sig-en.html" rel="alternate"></link><published>2020-10-12T09:07:06+02:00</published><updated>2020-10-12T09:07:06+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-10-12:/complex-sig-en.html</id><summary type="html">&lt;p&gt;A talk about applications of complex numbers in computational sciences&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Complex numbers for research software engineers&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;If you are reading this, most likely you are working on a computer-science related field.
+Why would you care about the square root of minus one (also known as i)? Let me give you a few reasons:&lt;/p&gt;
+&lt;p&gt;The mysterious number i:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;is the NaN of the Renaissance.&lt;/li&gt;
+&lt;li&gt;appears in the Euler's identity, acclaimed as the most beautiful equation ever.&lt;/li&gt;
+&lt;li&gt;allowed for difficult computations in aerodynamics before the computer was invented.&lt;/li&gt;
+&lt;li&gt;can improve your numerical differentiation algorithms with minimal effort.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The slides are temporarily available &lt;a href="https://www.dropbox.com/s/18dmbov56d5vfm2/Complex%20numbers.pptx?dl=0"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;12 October 2020, 11:00 CEST. Online, for eScience Center members only.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="slides" src="images/2020-10/wing.gif"&gt;&lt;/p&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Talk announcement: Thesis defense</title><link href="https://pabrod.github.io/defense-en.html" rel="alternate"></link><published>2020-06-08T16:22:24+02:00</published><updated>2020-06-08T16:22:24+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-06-08:/defense-en.html</id><summary type="html">&lt;p&gt;The day finally arrived!&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Invitation&lt;/h2&gt;
 &lt;p&gt;I am happy to inform you that next week I'll be publicly defending my PhD thesis entitled:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Cycles and interactions: a mathematician among biologists&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The defense will be conducted in English language.&lt;/p&gt;
