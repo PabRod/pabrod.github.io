@@ -43,18 +43,25 @@
     <!-- Microsoft EDGE -->
     <meta name="msapplication-TileColor" content="#333333">
 
-    <meta name="author" content="Pablo Rodríguez-Sánchez" />
-    <meta name="description" content="" />
+<meta name="author" content="Pablo Rodríguez-Sánchez" />
+<meta name="description" content="This weekend most of Europe says goodbye to summertime. Visualize the consequences using R." />
+<meta name="keywords" content="math, R">
+
 <meta property="og:site_name" content="PabRod"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="PabRod"/>
-<meta property="og:description" content=""/>
+<meta property="og:title" content="Daylight charts with R"/>
+<meta property="og:description" content="This weekend most of Europe says goodbye to summertime. Visualize the consequences using R."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://pabrod.github.io"/>
+<meta property="og:url" content="https://pabrod.github.io/clock-en.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-10-24 11:17:17+02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://pabrod.github.io/author/pablo-rodriguez-sanchez.html">
+<meta property="article:section" content="Blog"/>
+<meta property="article:tag" content="math"/>
+<meta property="article:tag" content="R"/>
 <meta property="og:image" content="/images/profile.png">
 
-  <title>PabRod &ndash;     Tag math
-</title>
+  <title>PabRod &ndash; Daylight charts with R</title>
 
 </head>
 <body>
@@ -101,157 +108,61 @@
 
     </nav>
 
-
-
-<article>
+<article class="single">
   <header>
-    <h2><a href="https://pabrod.github.io/clock-en.html#clock">Daylight charts with R</a></h2>
+      
+    <h1 id="clock">Daylight charts with R</h1>
     <p>
           Posted on Sat 24 October 2020 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
 
 
-
     </p>
   </header>
+
+
   <div>
-      <p>This weekend most of Europe says goodbye to summertime. Visualize the consequences using R.</p>
-      <br>
-      <a class="btn" href="https://pabrod.github.io/clock-en.html#clock">    Continue reading
-</a>
+    <p>It happens every year. Twice. And it can be pretty annoying. I am talking about the clock shift to re-adapt our schedules to wintertime or summertime. But did you know that this October 25 may be the last time this happens? Well… at least if you are reading these lines from Europe.</p>
+<p>But, why do we do it? Changing the clocks reduces the undesirable effects of an astronomical phenomenon: that of the variability of sunlight hours during the year. To make it even more difficult, this variability depends not only on the day of the year but also on the location on Earth.</p>
+<p>Luckily, the study of the relationship between daylight duration, position, and date is one of the oldest objects of study. There are some early references in the Babylonian time, the topic was already covered in Ptolemy’s <em>Almagest</em>, and it is part of the everyday life of sailors since, at least, the publication of the first nautical almanacs in the 1700s.</p>
+<p>We can summarize all we need in charts like this:</p>
+<p><a href="https://github.com/PabRod/daylight-charts"><img alt="Bacelona" src="images/2020-10/Barcelona.png"></a></p>
+<p>The figure above is a daylight chart corresponding to the city of Barcelona, Spain, in the year 2020. The abrupt changes correspond with the spring and autumn clock shifts. Notice how the clock shift keeps the sunrise around 8:00 AM.</p>
+<p>I've generated the chart in <em>R</em>. Nowadays, quick and simple access to astronomical and geographical databases makes it easier than ever to simulate daylight charts at any point in the world. In particular, I wrote <a href="https://github.com/PabRod/daylight-charts">this code in R</a> to generate such diagrams. It relies on the CRAN packages:</p>
+<ul>
+<li><code>maps</code>: for converting the name of a city into its geographical coordinates.</li>
+<li><code>lutz</code>: for extracting the official timezone from the coordinates.</li>
+<li><code>suncalc</code>: for deriving the sunset and sunrise times at the selected location.</li>
+</ul>
+<p>It can be run as an interactive applet, either in <a href="https://pabrod.shinyapps.io/cambio-de-hora/">Shinyapps</a> or <a href="https://github.com/PabRod/daylight-charts">locally</a>, to query for any city in the EU with a population over 100k. Additionally, I precalculated a collection of daylight charts for <a href="https://github.com/PabRod/daylight-charts/tree/master/figs/nl">Dutch</a>, <a href="https://github.com/PabRod/daylight-charts/tree/master/figs/es">Spanish</a>, and other <a href="https://github.com/PabRod/daylight-charts/tree/master/figs/eu">European</a> towns with a population over 100k.</p>
+<p>This entry appears in <a href="https://www.r-bloggers.com">R-bloggers.com</a></p>
   </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://pabrod.github.io/modelos-es.html#modelos">Los modelos matemáticos no predicen el futuro, pero ayudan a entenderlo</a></h2>
+  <div class="tag-cloud">
     <p>
-          Posted on Tue 20 October 2020 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
-
-
-
+      <a href="https://pabrod.github.io/tag/math.html">math</a>
+      <a href="https://pabrod.github.io/tag/r.html">R</a>
     </p>
-  </header>
-  <div>
-      <p>¿Para qué sirven (y para qué no sirven) los modelos matemáticos?</p>
-      <br>
-      <a class="btn" href="https://pabrod.github.io/modelos-es.html#modelos">    Continue reading
-</a>
   </div>
-  <hr />
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'pabrod';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+<!-- End Disqus -->
 </article>
-<article>
-  <header>
-    <h2><a href="https://pabrod.github.io/levi-civita-en.html#levi-civita">Visualization of a 3D Levi-Civita symbol</a></h2>
-    <p>
-          Posted on Sun 08 December 2019 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>Simple way of visualizing the structure of the Levi-Civita symbol</p>
-      <br>
-      <a class="btn" href="https://pabrod.github.io/levi-civita-en.html#levi-civita">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://pabrod.github.io/PyR-en.html#PyR">Python or R? Why not both?</a></h2>
-    <p>
-          Posted on Fri 22 March 2019 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>How to use Python code inside R</p>
-      <br>
-      <a class="btn" href="https://pabrod.github.io/PyR-en.html#PyR">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://pabrod.github.io/animations-r-en.html#animations-r">Animations in R</a></h2>
-    <p>
-          Posted on Sun 02 December 2018 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>How to make animations in R using ggplot2 and gganimate</p>
-      <br>
-      <a class="btn" href="https://pabrod.github.io/animations-r-en.html#animations-r">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://pabrod.github.io/spectrum-accountancy-en.html#spectrum-accountancy">The spectrum of my personal accountancy</a></h2>
-    <p>
-          Posted on Wed 28 November 2018 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>Application of Fourier analysis to a personal accountancy timeseries</p>
-      <br>
-      <a class="btn" href="https://pabrod.github.io/spectrum-accountancy-en.html#spectrum-accountancy">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://pabrod.github.io/multidisciplinary-en.html#multidisciplinary">Things I've learned working in a multidisciplinary group</a></h2>
-    <p>
-          Posted on Tue 12 June 2018 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>I work as a mathematician in an... aquatic ecology department!</p>
-      <br>
-      <a class="btn" href="https://pabrod.github.io/multidisciplinary-en.html#multidisciplinary">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://pabrod.github.io/intro-to-pdes-en.html#intro-to-pdes">Course announcement: Introduction to PDEs</a></h2>
-    <p>
-          Posted on Wed 06 June 2018 in <a href="https://pabrod.github.io/category/blog.html">Blog</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>Quick introduction to Partial Differential Equations, 7 June 2018, Wageningen University</p>
-      <br>
-      <a class="btn" href="https://pabrod.github.io/intro-to-pdes-en.html#intro-to-pdes">    Continue reading
-</a>
-  </div>
-</article>
-
-  <div class="pagination">
-  </div>
-
-
-
 
     <footer>
 <p>&copy;  </p>
