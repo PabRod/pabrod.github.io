@@ -145,7 +145,6 @@ tutorial can satisfy them.</p>
     <span class="n">library</span><span class="p">(</span><span class="n">kableExtra</span><span class="p">)</span> <span class="c1"># To display nice tables</span>
 </code></pre></div>
 
-
 <h2>Animating a moving particle</h2>
 <p>Here we'll generate a moving particle. First, we need the positions in
 time. In our case, the dynamical equations will be given by:</p>
@@ -158,20 +157,18 @@ time. In our case, the dynamical equations will be given by:</p>
     <span class="n">particle</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">ts</span> <span class="o">=</span> <span class="n">ts</span><span class="p">,</span> <span class="n">xs</span> <span class="o">=</span> <span class="n">xs</span><span class="p">,</span> <span class="n">ys</span> <span class="o">=</span> <span class="n">ys</span><span class="p">)</span>
 </code></pre></div>
 
-
 <p>The code for generating the animation follows a very similar syntax to
 <em>ggplot</em>. In this case, we indicate that the values of <em>ts</em> should be
 used as the transition time.</p>
-<div class="highlight"><pre><span></span><code><span class="err">    ggplot(data = particle) +</span>
-<span class="err">      geom_point(aes(x = xs, y = ys), col = &#39;red&#39;) + # Generate the plot</span>
-<span class="err">      theme_tufte() + # Make ...</span>
-<span class="err">      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... it ...</span>
-<span class="err">      scale_y_continuous(limits = c(-2, 2)) + # ... look ...</span>
-<span class="err">      guides(col = FALSE) + # ... pretty.</span>
-<span class="err">      transition_time(ts) + # And animate!</span>
-<span class="err">      ease_aes(&#39;linear&#39;)</span>
+<div class="highlight"><pre><span></span><code>    ggplot(data = particle) +
+      geom_point(aes(x = xs, y = ys), col = &#39;red&#39;) + # Generate the plot
+      theme_tufte() + # Make ...
+      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_time(ts) + # And animate!
+      ease_aes(&#39;linear&#39;)
 </code></pre></div>
-
 
 <p><img alt="a" src="images/2018-12/Movement-1.gif"></p>
 <h2>Animating a Taylor series</h2>
@@ -184,7 +181,6 @@ polynomials of different degrees approximating the function</p>
       <span class="nf">cos</span><span class="p">(</span><span class="m">1.5</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="nf">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="p">)</span>
     <span class="p">}</span>
 </code></pre></div>
-
 
 <p>In this case, we want to compare how good is the performance of Taylor
 polynomials of different orders. The data we have to generate is a bit
@@ -209,7 +205,6 @@ more complex than before.</p>
     <span class="n">df</span> <span class="o">&lt;-</span> <span class="n">cbind</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">xs</span> <span class="o">=</span> <span class="n">rep</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span><span class="mi">9</span><span class="p">),</span> <span class="n">f</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">xs</span><span class="p">))</span>
     <span class="n">colnames</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> <span class="o">&lt;-</span> <span class="n">c</span><span class="p">(</span><span class="s1">&#39;order&#39;</span><span class="p">,</span> <span class="s1">&#39;ys&#39;</span><span class="p">,</span> <span class="s1">&#39;xs&#39;</span><span class="p">,</span> <span class="s1">&#39;f&#39;</span><span class="p">)</span>
 </code></pre></div>
-
 
 <p>The resulting dataframe is a collection of polynomials of different
 orders evaluated at each point in <em>xs</em>. Additionally, we added the
@@ -264,15 +259,14 @@ values of the original function <em>f(x)</em>, also at each point:</p>
 </table>
 
 <p>A static plot will look like:</p>
-<div class="highlight"><pre><span></span><code><span class="err">    ggplot(data = df) +</span>
-<span class="err">      geom_point(aes(x = xs, y = ys, col = order)) + # Generate basic plot</span>
-<span class="err">      geom_point(aes(x = xs, y = f)) + # Plot also original function</span>
-<span class="err">      geom_point(aes(x = x0, y = f(x0)), col = &#39;black&#39;, size = 5) + # Remark initial point</span>
-<span class="err">      theme_tufte() + # Make it ...</span>
-<span class="err">      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... look ...</span>
-<span class="err">      scale_y_continuous(limits = c(-2, 2)) # ... pretty.</span>
+<div class="highlight"><pre><span></span><code>    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys, col = order)) + # Generate basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &#39;black&#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make it ...
+      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... look ...
+      scale_y_continuous(limits = c(-2, 2)) # ... pretty.
 </code></pre></div>
-
 
 <p><img alt="a" src="images/2018-12/Plot-static-1.png"></p>
 <p>In order to animate it, now we will use the command
@@ -280,18 +274,17 @@ values of the original function <em>f(x)</em>, also at each point:</p>
 as the animation parameter. The parameters <em>transition_length</em> and
 <em>state_length</em> control how much time each state stays in screen, and
 how long the transition between states should look.</p>
-<div class="highlight"><pre><span></span><code><span class="err">    ggplot(data = df) +</span>
-<span class="err">      geom_point(aes(x = xs, y = ys), col = &#39;red&#39;) + # Add basic plot</span>
-<span class="err">      geom_point(aes(x = xs, y = f)) + # Plot also original function</span>
-<span class="err">      geom_point(aes(x = x0, y = f(x0)), col = &#39;red&#39;, size = 5) + # Remark initial point</span>
-<span class="err">      theme_tufte() + # Make ...</span>
-<span class="err">      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... it ...</span>
-<span class="err">      scale_y_continuous(limits = c(-2, 2)) + # ... look ...</span>
-<span class="err">      guides(col = FALSE) + # ... pretty.</span>
-<span class="err">      transition_states(order, transition_length = 1, state_length = 0.5) + # And animate!</span>
-<span class="err">      ease_aes(&#39;linear&#39;)</span>
+<div class="highlight"><pre><span></span><code>    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys), col = &#39;red&#39;) + # Add basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &#39;red&#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make ...
+      labs(x = &#39;x&#39;, y = &#39;y&#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_states(order, transition_length = 1, state_length = 0.5) + # And animate!
+      ease_aes(&#39;linear&#39;)
 </code></pre></div>
-
 
 <p><img alt="a" src="images/2018-12/Plot-animated-1.gif"></p>
 <p>The result could not look nicer!</p>

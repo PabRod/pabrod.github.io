@@ -181,7 +181,6 @@ small subset of this data:</p>
 <span class="n">daily_total</span> <span class="o">&lt;-</span> <span class="nf">approx</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="o">$</span><span class="n">Day_index</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="o">$</span><span class="n">Total</span><span class="p">,</span> <span class="n">xout</span> <span class="o">=</span> <span class="n">all_indices</span><span class="p">,</span> <span class="n">yright</span> <span class="o">=</span> <span class="nf">head</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">Total</span><span class="p">,</span> <span class="m">1</span><span class="p">))</span>
 </code></pre></div>
 
-
 <h2>Second step: Fourier transform</h2>
 <p>For discrete, evenly spaced timeseries as the one we have after interpolation, fast Fourier transform can be used to estimate dominant frequencies. The fast Fourier transform or <em>FFT</em> is defined as a function of an integer parameter <em>k</em> and a set of <em>N</em> complex numbers {<em>x</em><sub>0</sub>, <em>x</em><sub>1</sub>, ...<em>x</em><sub><em>N</em> − 1</sub>}.</p>
 <p>The definition goes as follows:</p>
@@ -230,7 +229,6 @@ $$</p>
       <span class="p">}</span>
     <span class="p">}</span>
 </code></pre></div>
-
 
 <h2>Results</h2>
 <p>After applying the two algorithms described above I find the following distribution of the relative lengths of each period:</p>
