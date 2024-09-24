@@ -247,8 +247,8 @@ can keep the best of both approaches! And, so far, it works flawlessly!&lt;/p&gt
 &lt;h2&gt;How to do it&lt;/h2&gt;
 &lt;p&gt;First of all, &lt;em&gt;R&lt;/em&gt; and &lt;em&gt;Python&lt;/em&gt; are obviously reequired. &lt;em&gt;reticulate&lt;/em&gt; can
 be installed and loaded as usual in &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;install.packages(&amp;quot;reticulate&amp;quot;)
-library(reticulate)
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nx"&gt;install&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;packages&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;reticulate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="kn"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;reticulate&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;For &lt;a href="https://community.rstudio.com/t/matplotlib-inline-plots-with-reticulate-on-rstudio-server/16357"&gt;some
