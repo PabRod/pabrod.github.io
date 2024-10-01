@@ -23,3 +23,21 @@ acceleration <- function(x, t, ...) {
     return(ac)
 }
 ```
+
+---
+
+## Math
+
+Powered by [render-math](https://github.com/pelican-plugins/render-math) plugin!
+
+### Inline
+This is $\cos \theta$ math!
+
+### Block
+
+$$
+e^{i\theta} = \cos \theta + i \sin \theta
+$$
+
+### Latex
+\begin{equation} x^2 \end{equation}
