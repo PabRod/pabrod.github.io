@@ -9,6 +9,7 @@ packages = [{include = "my_site"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pelican = {extras = ["markdown"], version = "^4.10.1"}
+ghp-import = "^2.1.0"
 
 
 [tool.poetry.group.recommended.dependencies]
