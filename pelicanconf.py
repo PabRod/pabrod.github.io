@@ -1,6 +1,6 @@
 AUTHOR = 'Pablo Rodríguez Sánchez'
 SITENAME = 'PabRod'
-SITEURL = "https://pabrod.github.io/pelican-test/"
+SITEURL = ""
 
 PATH = "content"
 
