@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my-site"
+version = "0.1.0"
+description = "My personal website"
+authors = ["Pablo Rodríguez Sánchez <pablo.rodriguez.sanchez@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_site"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pelican = {extras = ["markdown"], version = "^4.10.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

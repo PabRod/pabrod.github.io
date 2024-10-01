@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                        <meta charset="utf-8" />
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                        <meta name="generator" content="Pelican" />
+                        <title>PabRod - Blog</title>
+                        <link rel="stylesheet" href="/theme/css/main.css" />
+        </head>
+
+        <body id="index" class="home">
+                <header id="banner" class="body">
+                        <h1><a href="/">PabRod</a></h1>
+                        <nav><ul>
+                                                <li class="active"><a href="/category/blog.html">Blog</a></li>
+                        </ul></nav>
+                </header><!-- /#banner -->
+
+                <aside id="featured" class="body">
+                    <article>
+                        <h1 class="entry-title"><a href="/elevator.html">There's a nerd in my elevator!</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2018-05-01T12:24:00+02:00">
+                Published: Tue 01 May 2018
+        </abbr>
+
+                <address class="vcard author">
+                        By                                 <a class="url fn" href="/author/pablo-rodriguez-sanchez.html">Pablo Rodríguez-Sánchez</a>
+                </address>
+        <p>In <a href="/category/blog.html">Blog</a>.</p>
+<p>tags: <a href="/tag/physics.html">physics</a> <a href="/tag/python.html">python</a> </p>            Translations:
+      <a href="/elevator-es.html" hreflang="es">es</a>
+
+</footer><!-- /.post-info --><p><em>This text appeared first in <a href="http://fuga.naukas.com/2018/02/06/un-empollon-en-mi-ascensor/">Naukas</a>, where was originally written in Spanish.</em></p>
+<p>Recently I started a secondment at the Friedrich Schiller University, in Jena, Germany. Surprisingly, my office during the next months is located in the 18th floor of a skyscraper. The Jentower in particular:</p>
+<p><img alt="Jentower" src="http://fuga.naukas.com/files/2018/02/2018-01-30-16.34.25-360x640.jpg"></p>
+<p>But I'm not writing this to boast about the views of my new office. On the contrary, I'll destroy any possible idea of glamour related to work in a place like this. And I'll do it with a confession: I became the crazy guy who leaves his cell phone on the ground while he uses the elevator. Let me explain:</p>
+<p>A building of almost 150 meters high needs fast elevators. The ones in this building have a very powerful, scary acceleration. Then, I remembered that smartphones usually contain an accelerometer, so I tried to measure those accelerations.</p>
+<p>I used an app called <a href="https://sciencejournal.withgoogle.com">Google Science Journal</a>, that allows registering data from all sensors available in the phone (accelerometers, light, magnetic field, ...) and export them in a format (.csv) quite easy to analyze on a computer. If you like getting your hands dirty, install it now!</p>
+<p>In the figure below we can see the vertical acceleration profile during my trip to the 18th floor this morning, where we can clearly see the initial "kick" (seconds 9 to 14) and the braking (28 to 33)</p>
+<p><img alt="accel" src="http://fuga.naukas.com/files/2018/02/acel1-580x391.png">
+Vertical acceleration (excluding gravity)</p>
+<p>Accelerations of 1 m/s^2 sustained during 4 seconds! You can feel that in your stomach!</p>
+<p>Using this data, we can explore a bit further. We can use a time series of the acceleration to compute speed and position. How? Maybe you remember from high school's physics that position, speed and acceleration are related through derivatives. More specifically.</p>
+<p><img alt="diff" src="http://fuga.naukas.com/files/2018/02/diff.png"></p>
+<p>With the previous recipe we can compute speed using the position, and then use speed to compute acceleration. Like in a production chain. Nevertheless, in our case we want to do the opposite process. Luckily, we can use indefinite integrals to "revert" our derivatives, and thus our whole "production chain".</p>
+<p><img alt="int" src="http://fuga.naukas.com/files/2018/02/int.png"></p>
+<p>So, by integrating the acceleration (to obtain the speed), and then integrating the speed (to obtain the position) we find results like this:</p>
+<p><img alt="results" src="http://fuga.naukas.com/files/2018/02/all-580x564.png">
+Acceleration, speed and position</p>
+<p>So, using only a device that most of us carry everywhere and some elementary physical concepts we know that:</p>
+<ul>
+<li>Our elevator runs up at 4 m/s.</li>
+<li>My office is 74 meter above the ground.</li>
+</ul>
+<p>Such a great time to be a nerd!</p>
+<p>If someone is interested in exploring a bit deeper into the details (for instance: how to filter out the effects of gravity, how to integrate a time series, ... ) or even experiment with his or her own elevator, <a href="https://github.com/PabRod/elevator-tool">here is a link</a> to the code I've used.</p>                    </article>
+                </aside><!-- /#featured -->
+                    <section id="content" class="body">
+                        <h1>Other articles</h1>
+                        <hr />
+                        <ol id="posts-list" class="hfeed">
+
+                <li><article class="hentry">
+                    <header>
+                        <h1><a href="/welcome.html" rel="bookmark"
+                               title="Permalink to Welcome">Welcome</a></h1>
+                    </header>
+
+                    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-04-23T12:24:00+02:00">
+                Published: Mon 23 April 2018
+        </abbr>
+                <br />
+                <abbr class="modified" title="2018-04-23T12:24:00+02:00">
+                        Updated: Mon 23 April 2018
+                </abbr>
+
+                <address class="vcard author">
+                        By                                 <a class="url fn" href="/author/pablo-rodriguez-sanchez.html">Pablo Rodríguez-Sánchez</a>
+                </address>
+        <p>In <a href="/category/blog.html">Blog</a>.</p>
+<p>tags: <a href="/tag/about.html">about</a> </p>            Translations:
+      <a href="/welcome-es.html" hreflang="es">es</a>
+
+</footer><!-- /.post-info -->                        <p>Description of the motivations and topic of this blog</p>
+                        <a class="readmore" href="/welcome.html">read more</a>
+                    </div><!-- /.entry-content -->
+                </article></li>
+                    </ol><!-- /#posts-list -->
+                    </section><!-- /#content -->
+                <section id="extras" class="body">
+                                <div class="blogroll">
+                                        <h2>links</h2>
+                                        <ul>
+                                                        <li><a href="https://getpelican.com/">Pelican</a></li>
+                                                        <li><a href="https://www.python.org/">Python.org</a></li>
+                                                        <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
+                                                        <li><a href="#">You can modify those links in your config file</a></li>
+                                        </ul>
+                                </div><!-- /.blogroll -->
+                                <div class="social">
+                                        <h2>social</h2>
+                                        <ul>
+
+                                                        <li><a href="#">You can add links in your config file</a></li>
+                                                        <li><a href="#">Another social link</a></li>
+                                        </ul>
+                                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+                <footer id="contentinfo" class="body">
+                        <address id="about" class="vcard body">
+                                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+                        </address><!-- /#about -->
+
+                        <p>The theme is by <a rel="nofollow" href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                </footer><!-- /#contentinfo -->
+
+        </body>
+</html>
