@@ -42,7 +42,15 @@ e^{i\theta} = \cos \theta + i \sin \theta
 $$
 
 ### Latex
-\begin{equation} x^2 \end{equation}
+\begin{equation} 
+    \sum_{i = 0}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} 
+\end{equation}
+
+\begin{cases} 
+    3x + 5y + z \\ 
+    7x – 2y + 4z \\ 
+    -6x + 3y + 2z 
+\end{cases}
 
 ---
 
