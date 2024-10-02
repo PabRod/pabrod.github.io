@@ -190,6 +190,26 @@ A --> B
 
 </div>
 
+<p>Note that this requires adding a line to the default <code>MARKDOWN</code> configuration in <code>pelicanconf.py</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="nv">MARKDOWN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
+<span class="w">    </span><span class="s1">&#39;extension_configs&#39;</span>:<span class="w"> </span><span class="o">{</span>
+<span class="w">        </span><span class="s1">&#39;markdown.extensions.codehilite&#39;</span>:<span class="w"> </span><span class="o">{</span><span class="s1">&#39;css_class&#39;</span>:<span class="w"> </span><span class="s1">&#39;highlight&#39;</span><span class="o">}</span>,
+<span class="w">        </span><span class="s1">&#39;markdown.extensions.extra&#39;</span>:<span class="w"> </span><span class="o">{}</span>,
+<span class="w">        </span><span class="s1">&#39;markdown.extensions.meta&#39;</span>:<span class="w"> </span><span class="o">{}</span>,
+<span class="w">        </span><span class="s2">&quot;markdown_mermaidjs&quot;</span>:<span class="w"> </span><span class="o">{}</span>,<span class="w"> </span><span class="c1"># &lt;------</span>
+<span class="w">    </span><span class="o">}</span>,
+<span class="w">    </span><span class="s1">&#39;output_format&#39;</span>:<span class="w"> </span><span class="s1">&#39;html5&#39;</span>,
+<span class="o">}</span>
+</code></pre></div>
+
+<hr>
+<h2>Video</h2>
+<p>As explained <a href="https://blog.markdowntools.com/posts/how-to-embed-a-video-in-markdown">here</a>.</p>
+<h3>Embedded</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tzxlw14Z8wU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>As link</h3>
+<p><a href="https://www.youtube.com/watch?v=tzxlw14Z8wU"><img alt="alt text" src="https://img.youtube.com/vi/tzxlw14Z8wU/0.jpg"></a></p>
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
     mermaid.initialize({ startOnLoad: true });
