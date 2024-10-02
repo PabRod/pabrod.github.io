@@ -54,3 +54,29 @@ graph TD
 A --> B
 
 ```
+
+Note that this requires adding a line to the default `MARKDOWN` configuration in `pelicanconf.py`.
+
+```sh
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        "markdown_mermaidjs": {}, # <------
+    },
+    'output_format': 'html5',
+}
+```
+
+---
+
+## Video
+
+As explained [here](https://blog.markdowntools.com/posts/how-to-embed-a-video-in-markdown).
+
+### Embedded
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tzxlw14Z8wU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### As link
+[![alt text](https://img.youtube.com/vi/tzxlw14Z8wU/0.jpg)](https://www.youtube.com/watch?v=tzxlw14Z8wU)
