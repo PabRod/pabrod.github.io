@@ -11,7 +11,6 @@ Summary: Test ground for displaying complex stuff
 
 ### Python
 ```python
-print("The triple-colon syntax will *not* show line numbers.")
 def function(x):
     # code...
 ```
@@ -42,3 +41,16 @@ $$
 
 ### Latex
 \begin{equation} x^2 \end{equation}
+
+---
+
+## Mermaid diagrams
+
+Powered by [markdown-mermaidjs](https://github.com/Lee-W/markdown-mermaidjs).
+
+```mermaid
+graph TD
+
+A --> B
+
+```
