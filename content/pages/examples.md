@@ -9,6 +9,8 @@ Summary: Test ground for displaying complex stuff
 
 ## Code blocks
 
+Code blocks seem to work out of the box.
+
 ### Python
 ```python
 def function(x):
@@ -57,7 +59,7 @@ A --> B
 
 Note that this requires adding a line to the default `MARKDOWN` configuration in `pelicanconf.py`.
 
-```sh
+```python
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},

@@ -1,10 +1,13 @@
 AUTHOR = 'Pablo Rodríguez Sánchez'
 SITENAME = 'PabRod'
 SITEURL = ""
+SITESUBTITLE = 'Applied mathematician. Science storyteller'
+SITELOGO = '/images/profile.png'
+FAVICON = '/images/favicon.ico'
 
 PATH = "content"
 
-TIMEZONE = 'Europe/Rome'
+TIMEZONE = 'Europe/Amsterdam'
 
 DEFAULT_LANG = 'en'
 
@@ -42,7 +45,7 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
-# Plug ins
+# Plug-ins
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
@@ -52,6 +55,7 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
+PYGMENTS_STYLE = "monokai" # See list at https://pygments.org/styles/
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
