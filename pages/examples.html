@@ -158,19 +158,17 @@ rel="me"           href="https://paquita.masto.host/@DonMostrenco"
   <div>
 <h2>Code blocks</h2>
 <h3>Python</h3>
-<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The triple-colon syntax will *not* show line numbers.&quot;</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">function</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="c1"># code...</span>
-</code></pre></div>
-
+<p><code>python
+print("The triple-colon syntax will *not* show line numbers.")
+def function(x):
+    # code...</code></p>
 <h3>R</h3>
-<div class="highlight"><pre><span></span><code><span class="n">acceleration</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">function</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">t</span><span class="p">,</span><span class="w"> </span><span class="kc">...</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="c1"># ...</span>
-<span class="w">    </span><span class="nf">return</span><span class="p">(</span><span class="n">ac</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></div>
-
-<hr>
+<p><code>r
+acceleration &lt;- function(x, t, ...) {
+    # ...
+    return(ac)
+}</code></p>
+<hr />
 <h2>Math</h2>
 <p>Powered by <a href="https://github.com/pelican-plugins/render-math">render-math</a> plugin!</p>
 <h3>Inline</h3>
@@ -181,6 +179,19 @@ e^{i\theta} = \cos \theta + i \sin \theta
 $$</div>
 <h3>Latex</h3>
 <div class="math">\begin{equation} x^2 \end{equation}</div>
+<h2>Mermaid diagrams</h2>
+<div class="mermaid">
+graph TD
+
+A --> B
+
+</div>
+
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
