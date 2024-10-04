@@ -39,7 +39,7 @@ SOCIAL = (
     ("mastodon", "https://paquita.masto.host/@DonMostrenco"),
     ("twitter", "http://twitter.com/DonMostrenco"),
     ("orcid", "https://orcid.org/0000-0002-2855-940X"),
-    ('rss', SITEURL + '/pages/feeds-list-en.md'),
+    ('rss', SITEURL + '/pages/feeds-list.html'),
 )
 
 DEFAULT_PAGINATION = 10
