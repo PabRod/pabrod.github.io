@@ -6,7 +6,7 @@ SITELOGO = '/images/profile.png'
 FAVICON = '/images/favicon.ico'
 
 PATH = "content"
-#STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['images', 'pdfs']
 
 TIMEZONE = 'Europe/Amsterdam'
 
