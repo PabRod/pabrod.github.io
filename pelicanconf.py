@@ -11,7 +11,7 @@ TIMEZONE = 'Europe/Amsterdam'
 
 DEFAULT_LANG = 'en'
 
-THEME = '/home/pablo/pelican-themes/Flex/'
+THEME = 'themes/Flex/'
 # Consider also mg and Peli-Kiera,
 # see configuration file (https://github.com/alexandrevicenzi/Flex/blob/master/docs/pelicanconf.py)
 
