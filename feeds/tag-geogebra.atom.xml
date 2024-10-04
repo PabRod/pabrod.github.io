@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - GeoGebra</title><link href="https://pabrod.github.io/pelican-test/" rel="alternate"></link><link href="https://pabrod.github.io/pelican-test/feeds/tag-geogebra.atom.xml" rel="self"></link><id>https://pabrod.github.io/pelican-test/</id><updated>2019-12-08T16:37:24+01:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Visualization of a 3D Levi-Civita symbol</title><link href="https://pabrod.github.io/pelican-test/levi-civita.html" rel="alternate"></link><published>2019-12-08T16:37:24+01:00</published><updated>2019-12-08T16:37:24+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-12-08:/pelican-test/levi-civita.html</id><summary type="html">&lt;p&gt;Simple way of visualizing the structure of the Levi-Civita symbol&lt;/p&gt;</summary><content type="html">&lt;script type="text/x-mathjax-config"&gt;
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+&lt;/script&gt;
+
+&lt;script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Levi-Civita_symbol"&gt;Levi-Civita symbol&lt;/a&gt; is that puzzling &lt;span class="math"&gt;\(\epsilon_{ijk}\)&lt;/span&gt; term that appears in the calculation of determinants and vector products. It has, thus, lots of applications in algebra, geometry, mechanics, electromagnetism, ... A (boring) definition is given in the textbox below.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The value of &lt;span class="math"&gt;\(\epsilon_{ijk}\)&lt;/span&gt; goes as follows:&lt;/p&gt;
+&lt;p&gt;It is &lt;span class="math"&gt;\(0\)&lt;/span&gt; if the value of &lt;strong&gt;any&lt;/strong&gt; index is repeated, such as in &lt;span class="math"&gt;\(ijk = 112\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;It is &lt;span class="math"&gt;\(1\)&lt;/span&gt; if the indices are &lt;span class="math"&gt;\(ijk \in123, 312, 231\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;It is &lt;span class="math"&gt;\(-1\)&lt;/span&gt; if the indices are &lt;span class="math"&gt;\(ijk \in 321, 132, 213\)&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I am interested in visualization. Unfortunately, the Levi-Civita symbol has three indices, &lt;span class="math"&gt;\(i\)&lt;/span&gt;, &lt;span class="math"&gt;\(j\)&lt;/span&gt; and &lt;span class="math"&gt;\(k\)&lt;/span&gt;, so we cannot represent it as a matrix or a vector. But, taking advantage of its discrete nature (it can only take 3 different values) we can create a "cubic matrix" to visualize it. This matrix contains &lt;span class="math"&gt;\(3 \times 3 \times 3\)&lt;/span&gt; cubes, each of them univocally identified by a triplet &lt;span class="math"&gt;\(ijk\)&lt;/span&gt;, and the color tells us its value (grey for &lt;span class="math"&gt;\(0\)&lt;/span&gt;, green for &lt;span class="math"&gt;\(1\)&lt;/span&gt;, red for &lt;span class="math"&gt;\(-1\)&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;That's what I did in a GeoGebra applet. I leave it here, just in case anyone finds it interesting. Click on the image to open an interactive version where the cube can be rotated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.geogebra.org/m/fbtgkakj"&gt;&lt;img alt="Levi-Civita" src="images/2019-12/LeviCivita.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Blog"></category><category term="math"></category><category term="GeoGebra"></category></entry></feed>

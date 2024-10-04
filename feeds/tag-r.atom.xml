@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - R</title><link href="https://pabrod.github.io/pelican-test/" rel="alternate"></link><link href="https://pabrod.github.io/pelican-test/feeds/tag-r.atom.xml" rel="self"></link><id>https://pabrod.github.io/pelican-test/</id><updated>2020-10-24T11:17:17+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Daylight charts with R</title><link href="https://pabrod.github.io/pelican-test/clock.html" rel="alternate"></link><published>2020-10-24T11:17:17+02:00</published><updated>2020-10-24T11:17:17+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-10-24:/pelican-test/clock.html</id><summary type="html">&lt;p&gt;This weekend most of Europe says goodbye to summertime. Visualize the consequences using R.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It happens every year. Twice. And it can be pretty annoying. I am talking about the clock shift to re-adapt our schedules to wintertime or summertime. But did you know that this October 25 may be the last time this happens? Well… at least if you are reading these lines from Europe.&lt;/p&gt;
+&lt;p&gt;But, why do we do it? Changing the clocks reduces the undesirable effects of an astronomical phenomenon: that of the variability of sunlight hours during the year. To make it even more difficult, this variability depends not only on the day of the year but also on the location on Earth.&lt;/p&gt;
+&lt;p&gt;Luckily, the study of the relationship between daylight duration, position, and date is one of the oldest objects of study. There are some early references in the Babylonian time, the topic was already covered in Ptolemy’s &lt;em&gt;Almagest&lt;/em&gt;, and it is part of the everyday life of sailors since, at least, the publication of the first nautical almanacs in the 1700s.&lt;/p&gt;
+&lt;p&gt;We can summarize all we need in charts like this:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/PabRod/daylight-charts"&gt;&lt;img alt="Bacelona" src="images/2020-10/Barcelona.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The figure above is a daylight chart corresponding to the city of Barcelona, Spain, in the year 2020. The abrupt changes correspond with the spring and autumn clock shifts. Notice how the clock shift keeps the sunrise around 8:00 AM.&lt;/p&gt;
+&lt;p&gt;I've generated the chart in &lt;em&gt;R&lt;/em&gt;. Nowadays, quick and simple access to astronomical and geographical databases makes it easier than ever to simulate daylight charts at any point in the world. In particular, I wrote &lt;a href="https://github.com/PabRod/daylight-charts"&gt;this code in R&lt;/a&gt; to generate such diagrams. It relies on the CRAN packages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;maps&lt;/code&gt;: for converting the name of a city into its geographical coordinates.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lutz&lt;/code&gt;: for extracting the official timezone from the coordinates.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;suncalc&lt;/code&gt;: for deriving the sunset and sunrise times at the selected location.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It can be run as an interactive applet, either in &lt;a href="https://pabrod.shinyapps.io/cambio-de-hora/"&gt;Shinyapps&lt;/a&gt; or &lt;a href="https://github.com/PabRod/daylight-charts"&gt;locally&lt;/a&gt;, to query for any city in the EU with a population over 100k. Additionally, I precalculated a collection of daylight charts for &lt;a href="https://github.com/PabRod/daylight-charts/tree/master/figs/nl"&gt;Dutch&lt;/a&gt;, &lt;a href="https://github.com/PabRod/daylight-charts/tree/master/figs/es"&gt;Spanish&lt;/a&gt;, and other &lt;a href="https://github.com/PabRod/daylight-charts/tree/master/figs/eu"&gt;European&lt;/a&gt; towns with a population over 100k.&lt;/p&gt;
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt;&lt;/p&gt;</content><category term="Blog"></category><category term="math"></category><category term="R"></category></entry><entry><title>Python or R? Why not both?</title><link href="https://pabrod.github.io/pelican-test/PyR.html" rel="alternate"></link><published>2019-03-22T10:50:31+01:00</published><updated>2019-03-22T10:50:31+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-03-22:/pelican-test/PyR.html</id><summary type="html">&lt;p&gt;How to use Python code inside R&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;Python&lt;/em&gt; and &lt;em&gt;R&lt;/em&gt;. They are two of the most popular programming languages
+for science. They are both free, both of them have a strong user
+community and both of them work pretty well.&lt;/p&gt;
+&lt;p&gt;Personally, I find &lt;em&gt;Python&lt;/em&gt; way more intuitive than &lt;em&gt;R&lt;/em&gt; (at least for
+people who, like me, have a classical mathematics background). Thinking
+in terms of data frames is great when you work with statistical data,
+but it gets a bit annoying when you are more interested in analysis. To
+uneven the score even more, &lt;em&gt;Python's&lt;/em&gt; libraries like &lt;em&gt;NumPy&lt;/em&gt;, &lt;em&gt;SciPy&lt;/em&gt;,
+&lt;em&gt;SimPy&lt;/em&gt; and &lt;em&gt;Matplotlib&lt;/em&gt; are the perfect toolbox for anyone doing
+mathematical research of any kind.&lt;/p&gt;
+&lt;p&gt;But... I chose &lt;em&gt;R&lt;/em&gt;. Why?&lt;/p&gt;
+&lt;p&gt;There is only one reason for doing so: &lt;em&gt;knitr&lt;/em&gt;[1]. &lt;em&gt;knitr&lt;/em&gt; is a package
+that turns a combination of text &lt;strong&gt;and code&lt;/strong&gt; (the &lt;em&gt;RMarkdown&lt;/em&gt; file)
+into almost any format of human readable text, including a &lt;em&gt;pdf&lt;/em&gt; report,
+slides, or a blog page like &lt;a href="https://github.com/PabRod/pabrod.github.io-src/blob/master/auxs/Rmd/2019-03-22%20PyR.Rmd"&gt;the one you are reading now&lt;/a&gt;. The interesting
+point is the integration of the code with the text. This means that an
+&lt;em&gt;RMarkdown&lt;/em&gt; document is not passive. This allows one to write papers
+that, quite literally, recalculate themselves any time needed. &lt;em&gt;knitr&lt;/em&gt;,
+combined with research code structured as an &lt;em&gt;R&lt;/em&gt; package, is clearly my
+favourite way of writing research. The package structure keeps my code
+tidy and tested, and &lt;em&gt;knitr&lt;/em&gt; allows me to do all and the figures the
+writing in a single file. The result is a rock-solid, reproducible
+output. Let me put it like this: &lt;em&gt;knitr&lt;/em&gt; is like &lt;em&gt;LaTeX&lt;/em&gt; on steroids![2]&lt;/p&gt;
+&lt;p&gt;But... I keep finding &lt;em&gt;R&lt;/em&gt; annoying. A few days ago, after looking for
+hours for a nice way of ploting phase planes, I gave up. All the
+possibilities I found were terribly ugly. I had to go back to &lt;em&gt;Python's&lt;/em&gt;
+&lt;em&gt;Matplotlib&lt;/em&gt; and its function &lt;em&gt;streamplot&lt;/em&gt;. See for yourself:&lt;/p&gt;
+&lt;p&gt;With &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="with-r" src="images/2019-03/phase-plot-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;With &lt;em&gt;Python&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="with-py" src="images/2019-03/phase-plotPy-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;After a bit of googling, I found an &lt;em&gt;R&lt;/em&gt; library called &lt;em&gt;reticulate&lt;/em&gt; that
+allows to run &lt;em&gt;Python&lt;/em&gt; code from inside &lt;em&gt;R&lt;/em&gt;. If this works (I thought) I
+can keep the best of both approaches! And, so far, it works flawlessly!&lt;/p&gt;
+&lt;h2&gt;How to do it&lt;/h2&gt;
+&lt;p&gt;First of all, &lt;em&gt;R&lt;/em&gt; and &lt;em&gt;Python&lt;/em&gt; are obviously reequired. &lt;em&gt;reticulate&lt;/em&gt; can
+be installed and loaded as usual in &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nx"&gt;install&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;packages&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;reticulate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="kn"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;reticulate&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For &lt;a href="https://community.rstudio.com/t/matplotlib-inline-plots-with-reticulate-on-rstudio-server/16357"&gt;some
+reason&lt;/a&gt;
+I still don't fully understand, I had to add these two lines to make
+&lt;em&gt;Matplotlib&lt;/em&gt; work properly.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;matplotlib&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;import&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;matplotlib&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;convert&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;matplotlib&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="nf"&gt;use&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Agg&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, we can insert python chunks in &lt;em&gt;Rmarkdown&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;```&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;eval&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;numpy&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;
+&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="err"&gt;```&lt;/span&gt;
+
+&lt;span class="c1"&gt;## 0.707106781187&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Interaction&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;reticulate&lt;/em&gt; works creating two different sessions, one of &lt;em&gt;R&lt;/em&gt; and
+another of &lt;em&gt;Python&lt;/em&gt;. In order to unleash all the power of this
+combination, we need a way of passing variables between both sessions.
+This is done via the dataframe &lt;code&gt;py&lt;/code&gt;. See examples below:&lt;/p&gt;
+&lt;h3&gt;From &lt;em&gt;R&lt;/em&gt; to &lt;em&gt;Python&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Create a variable and store it as a field of &lt;code&gt;py&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;```{r}&lt;/span&gt;
+&lt;span class="n"&gt;py$foo &amp;lt;- &amp;quot;Hi!&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;```&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The variable will be available in the &lt;em&gt;Python&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;```{python}
+print(foo)
+```
+
+## Hi!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;From &lt;em&gt;Python&lt;/em&gt; to &lt;em&gt;R&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Create a variable inside the &lt;em&gt;Python&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;```{python}
+bar = &amp;quot;How are you?&amp;quot;
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The variable will be available as a field of the dataframe &lt;code&gt;py&lt;/code&gt; in the
+&lt;em&gt;R&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;```{r}
+py$bar
+```
+
+## [1] &amp;quot;How are you?&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;[1] Actually, there is a second (and less important) reason: &lt;em&gt;Shiny&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;[2] It is true that &lt;em&gt;Python&lt;/em&gt; also has &lt;em&gt;Jupyter&lt;/em&gt; for reproducible
+research, but the results are just not as neat as with &lt;em&gt;R&lt;/em&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="math"></category><category term="R"></category><category term="Python"></category></entry><entry><title>Animations in R</title><link href="https://pabrod.github.io/pelican-test/animations-r.html" rel="alternate"></link><published>2018-12-02T14:22:33+01:00</published><updated>2018-12-02T14:22:33+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-12-02:/pelican-test/animations-r.html</id><summary type="html">&lt;p&gt;How to make animations in R using ggplot2 and gganimate&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;I've recently discovered the package &lt;em&gt;gganimate&lt;/em&gt; thanks to this
+&lt;a href="http://blog.schochastics.net/post/beautiful-chaos-the-double-pendulum/"&gt;brilliant
+example&lt;/a&gt;.
+I've been playing with the package during this weekend, and I created
+some examples that I spread through
+&lt;a href="https://twitter.com/DonMostrenco/status/1068791278173908992"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some Twitter users showed interest in knowing more. I hope this short
+tutorial can satisfy them.&lt;/p&gt;
+&lt;h2&gt;Libraries used&lt;/h2&gt;
+&lt;p&gt;We're going to need the following libraries:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Numerical&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pracma&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# To calculate the Taylor polynomials&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;reshape&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# For using melt&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Display&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ggplot2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# For plotting&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ggthemes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Also for plotting&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;gganimate&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# For animating. Install using devtools::install_github(&amp;#39;thomasp85/gganimate&amp;#39;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;kableExtra&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# To display nice tables&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Animating a moving particle&lt;/h2&gt;
+&lt;p&gt;Here we'll generate a moving particle. First, we need the positions in
+time. In our case, the dynamical equations will be given by:&lt;/p&gt;
+&lt;div class="math"&gt;$$ \\begin{cases} x(t) = cos(t) \\\\ y(t) = sin(2t) \\end{cases}$$&lt;/div&gt;
+&lt;p&gt;So we generate the series and store them in a dataframe:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kc"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;length.out&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;cos&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;particle&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;data.frame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The code for generating the animation follows a very similar syntax to
+&lt;em&gt;ggplot&lt;/em&gt;. In this case, we indicate that the values of &lt;em&gt;ts&lt;/em&gt; should be
+used as the transition time.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    ggplot(data = particle) +
+      geom_point(aes(x = xs, y = ys), col = &amp;#39;red&amp;#39;) + # Generate the plot
+      theme_tufte() + # Make ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_time(ts) + # And animate!
+      ease_aes(&amp;#39;linear&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Movement-1.gif"&gt;&lt;/p&gt;
+&lt;h2&gt;Animating a Taylor series&lt;/h2&gt;
+&lt;p&gt;Let's see now a more complex example. Our purpose is to explore Taylor
+polynomials of different degrees approximating the function&lt;/p&gt;
+&lt;div class="math"&gt;$$f(x) = cos(\\frac{3x}{2}) e^{-x} $$&lt;/div&gt;
+&lt;p&gt;around a given point.&lt;/p&gt;
+&lt;p&gt;Thus, we begin creating the function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="nf"&gt;cos&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1.5&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nf"&gt;exp&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In this case, we want to compare how good is the performance of Taylor
+polynomials of different orders. The data we have to generate is a bit
+more complex than before.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;length&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;out&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1500&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Values of x&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Value of x where the Taylor series will be centered&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;matrix&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;nrow&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ncol&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Extract Taylor polynomials of orders 0 to 8&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Indexes have to be positive, but first order is 0&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# A Taylor polynomial of order zero is just...&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;[,&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# ... a constant function&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;taylor_coefs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;taylor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Get polynomial&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;[,&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;polyval&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;taylor_coefs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Evaluate polynomial&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Rewrite as dataframe&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;frame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;colnames&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;melt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;cbind&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;rep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;colnames&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;order&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ys&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;xs&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;f&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The resulting dataframe is a collection of polynomials of different
+orders evaluated at each point in &lt;em&gt;xs&lt;/em&gt;. Additionally, we added the
+values of the original function &lt;em&gt;f(x)&lt;/em&gt;, also at each point:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th align="left"&gt;order&lt;/th&gt;
+&lt;th align="right"&gt;ys&lt;/th&gt;
+&lt;th align="right"&gt;xs&lt;/th&gt;
+&lt;th align="right"&gt;f&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-2.000000&lt;/td&gt;
+&lt;td align="right"&gt;-7.315110&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.994474&lt;/td&gt;
+&lt;td align="right"&gt;-7.265955&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.988948&lt;/td&gt;
+&lt;td align="right"&gt;-7.216622&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.983423&lt;/td&gt;
+&lt;td align="right"&gt;-7.167120&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.977897&lt;/td&gt;
+&lt;td align="right"&gt;-7.117454&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.972371&lt;/td&gt;
+&lt;td align="right"&gt;-7.067632&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A static plot will look like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys, col = order)) + # Generate basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &amp;#39;black&amp;#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make it ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... look ...
+      scale_y_continuous(limits = c(-2, 2)) # ... pretty.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Plot-static-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;In order to animate it, now we will use the command
+&lt;em&gt;transition_states&lt;/em&gt;, using &lt;em&gt;order&lt;/em&gt; (the order of the Taylor polynomial)
+as the animation parameter. The parameters &lt;em&gt;transition_length&lt;/em&gt; and
+&lt;em&gt;state_length&lt;/em&gt; control how much time each state stays in screen, and
+how long the transition between states should look.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys), col = &amp;#39;red&amp;#39;) + # Add basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &amp;#39;red&amp;#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_states(order, transition_length = 1, state_length = 0.5) + # And animate!
+      ease_aes(&amp;#39;linear&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Plot-animated-1.gif"&gt;&lt;/p&gt;
+&lt;p&gt;The result could not look nicer!&lt;/p&gt;
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;PS: If you liked this post, &lt;a href="https://www.geogebra.org/m/CeW2gCzH"&gt;this
+visualization&lt;/a&gt; I made in &lt;em&gt;GeoGebra&lt;/em&gt;
+some time ago may also be of your interest.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Blog"></category><category term="math"></category><category term="R"></category></entry><entry><title>The spectrum of my personal accountancy</title><link href="https://pabrod.github.io/pelican-test/spectrum-accountancy.html" rel="alternate"></link><published>2018-11-28T13:54:29+01:00</published><updated>2018-11-28T13:54:29+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-11-28:/pelican-test/spectrum-accountancy.html</id><summary type="html">&lt;p&gt;Application of Fourier analysis to a personal accountancy timeseries&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;Since year 2012, I keep and maintain a &lt;em&gt;.csv&lt;/em&gt; file containing
+information about my bank accounts. The most relevant data is the time
+series of the total amount of money vs. date. The table below shows a
+small subset of this data:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th align="left"&gt;Date&lt;/th&gt;
+&lt;th align="right"&gt;Total&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-26&lt;/td&gt;
+&lt;td align="right"&gt;641.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;2012-09-24&lt;/td&gt;
+&lt;td align="right"&gt;703.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-22&lt;/td&gt;
+&lt;td align="right"&gt;723.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;2012-09-19&lt;/td&gt;
+&lt;td align="right"&gt;755.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-18&lt;/td&gt;
+&lt;td align="right"&gt;765.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;When plotted, the data looks as noisy as the example on the figure below. The most noticeable regularity is the periodic increment at the end of each month, corresponding with the &lt;strong&gt;pay day&lt;/strong&gt;... followed by a big expenditure corresponding to paying the &lt;strong&gt;rent&lt;/strong&gt;. Notice also the higher pay in late June, corresponding to the summer extra salary that is customarily applied in several countries. The timeseries looks irregular, but there is some clear periodical component on it.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="a" src="images/2018-11/Plot-data-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;I know that the Fourier transform of a continuous timeseries is the perfect tool for spotting underlying periodicities. But my timeseries is uneven and discontinous. How can we fix this?&lt;/p&gt;
+&lt;h2&gt;First step: Interpolation&lt;/h2&gt;
+&lt;p&gt;The first problem, unevenness of data, can be solved by good old interpolation methods. The only tricky part here is that our &lt;em&gt;x&lt;/em&gt; coordinates are dates, so it is advisable to use &lt;em&gt;lubridate&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I used the following:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nf"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dplyr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nf"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lubridate&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;first_day&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;last_day&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Add a column with relative day as an integer&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;mutate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Day_index&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;as.numeric&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;first_day&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Create the time vector used for interpolation&lt;/span&gt;
+&lt;span class="n"&gt;all_days&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;first_day&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;last_day&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;by&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;all_indices&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;all_days&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;by&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;daily_total&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;approx&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Day_index&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Total&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xout&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;all_indices&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;yright&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;head&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Total&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Second step: Fourier transform&lt;/h2&gt;
+&lt;p&gt;For discrete, evenly spaced timeseries as the one we have after interpolation, fast Fourier transform can be used to estimate dominant frequencies. The fast Fourier transform or &lt;em&gt;FFT&lt;/em&gt; is defined as a function of an integer parameter &lt;em&gt;k&lt;/em&gt; and a set of &lt;em&gt;N&lt;/em&gt; complex numbers {&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt;, &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, ...&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;&lt;em&gt;N&lt;/em&gt; − 1&lt;/sub&gt;}.&lt;/p&gt;
+&lt;p&gt;The definition goes as follows:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+X\_k = FFT \[ k; \\lbrace x\_n \\rbrace\] \\equiv  \\sum\_{n=0}^{N-1} x\_n\\cdot e^{-i 2 \\pi k \\frac{n}{N}}
+$$&lt;/div&gt;
+&lt;p&gt;and the inverse:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+x\_n = FFT^{-1} \[ n; \\lbrace X\_k \\rbrace\] \\equiv  \\frac{1}{N}\\sum\_{k=0}^{N-1} X\_k \\cdot  e^{i 2 \\pi k \\frac{n}{N}}
+$$&lt;/div&gt;
+&lt;p&gt;The &lt;em&gt;FFT&lt;/em&gt; can be used to estimate the spectrum of a signal. While doing this, it is important to note that &lt;em&gt;n&lt;/em&gt; and &lt;em&gt;k&lt;/em&gt; are unit-less vector indices. In order to link those indices with physical quantities as time and frequency, we could notice that:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+x_n = x(n \cdot \Delta t) \equiv x(t_n)
+$$&lt;/div&gt;
+&lt;p&gt;where &lt;em&gt;Δ&lt;/em&gt;&lt;em&gt;t&lt;/em&gt; is the sampling period. If we take a number &lt;em&gt;N&lt;/em&gt; of samples, the final sample time should be:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+t_{end} = N \cdot \Delta t \equiv t_N
+$$&lt;/div&gt;
+&lt;p&gt;Going to our first equation with all this in mind, we have:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+X\_k \\equiv \\\\
+\\sum\_{n=0}^{N-1} x\_n \\cdot e^{-i 2 \\pi k \\frac{n}{N}} = \\\\
+\\sum\_{n=0}^{N-1} x(n \\cdot \\Delta t) \\cdot e^{-i 2 \\pi k \\frac{n \\cdot \\Delta t}{t\_{end}}} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i 2 \\pi k \\frac{t\_n}{t\_{end}}} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i \\frac{2 \\pi k}{t\_{end}} t\_n} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i \\omega\_k t\_n}
+$$&lt;/div&gt;
+&lt;p&gt;so, the link between the indices &lt;em&gt;k&lt;/em&gt; and the corresponding physical frequencies &lt;em&gt;ω&lt;/em&gt;&lt;sub&gt;&lt;em&gt;k&lt;/em&gt;&lt;/sub&gt; is given by:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\\omega\_k = \\frac{2 \\pi}{t\_{end}} k
+$$&lt;/div&gt;
+&lt;p&gt;We just added units (and thus, physical) significance to the indexes &lt;em&gt;k&lt;/em&gt; and &lt;em&gt;n&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;The (quite primitive) code I used for doing this is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;fft_spectrum&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;as.freq&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="c1"&gt;# Translate k indices into frequencies&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="n"&gt;tEnd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;tail&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="m"&gt;-1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;tEnd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# In T^-1 units (typically Hz, if the time is in seconds)&lt;/span&gt;
+
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="c1"&gt;#Perform fast Fourier transform&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;Mod&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;fft&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="nf"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;as.freq&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Use frequencies&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nf"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;else&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Use periods&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nf"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;T&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;After applying the two algorithms described above I find the following distribution of the relative lengths of each period:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="b" src="images/2018-11/Frequencies-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;Note that the strengths corresponding to periods of &lt;em&gt;30&lt;/em&gt; and &lt;em&gt;31&lt;/em&gt; days are higher than their neighbors, corresponding to pay-days and monthly payments. Even my very basic algorithm could see it!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PS: I removed several details, plus trimmed both vertical and horizontal scales. I did this in order to keep my privacy. After all, the FFT is an invertible operation!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt; &lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Blog"></category><category term="math"></category><category term="R"></category></entry><entry><title>Embedding a Shiny app inside my blog</title><link href="https://pabrod.github.io/pelican-test/embed-shiny.html" rel="alternate"></link><published>2018-05-05T15:54:09+02:00</published><updated>2018-05-05T15:54:09+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-05-05:/pelican-test/embed-shiny.html</id><summary type="html">&lt;p&gt;Embedding shiny apps inside an html page&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some years ago, I started experimenting with the computing language &lt;em&gt;R&lt;/em&gt;. I have to confess that I don't feel fully comfortable with its syntax, which I find particularly difficult. But I forced myself to get used to it. Why? My main reasons were two: &lt;a href="https://yihui.name/knitr/"&gt;knitr&lt;/a&gt; and &lt;a href="https://shiny.rstudio.com"&gt;shiny&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Knitr&lt;/strong&gt; is the perfect tool for literate computing. It allows the user to input a combination of code and markdown text providing a clean, human-readable document as output. Indeed, I'm using knitr for writing parts of this website (for example, the &lt;a href="{filename}/pages/sci-comm-en.md"&gt;dissemination section&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shiny&lt;/strong&gt; is great for making interactive apps, and publishing them as easy-to-use webpages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more (and certainly better) information... just google some tutorials. In this short entry, I only want to show an example of what shiny can do (and see how good it works with my new blog).&lt;/p&gt;
+&lt;p&gt;Take a look at the following simulation I made some years ago to teach some basic ideas about statistical inference:&lt;/p&gt;
+&lt;iframe src="https://pabrod.shinyapps.io/shiny/"
+        style="border: 2px solid black; width: 100%; height: 1000px;"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The steps followed were:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Write the app itself. Of course, this is the difficult part.&lt;/li&gt;
+&lt;li&gt;Publish it. The easiest way is uploading it to &lt;a href="https://www.shinyapps.io"&gt;ShinyApps&lt;/a&gt;. The most popular &lt;em&gt;R&lt;/em&gt; editor, &lt;a href="https://www.rstudio.com"&gt;RStudio&lt;/a&gt;, can do this almost automatically.&lt;/li&gt;
+&lt;li&gt;Once this two steps are made, the insertion code I've used is as simple as:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;iframe src="https://pabrod.shinyapps.io/shiny/"
+        style="border: 2px solid black; width: 100%; height: 1000px;"&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I'm a big fan of simulation and interactive teaching. More apps will be published soon. Some of them can be previewed in &lt;a href="https://www.geogebra.org/u/pablorodriguez"&gt;GeoGebraTube&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt; &lt;/p&gt;</content><category term="Blog"></category><category term="r"></category><category term="simulation"></category><category term="how-to"></category></entry></feed>

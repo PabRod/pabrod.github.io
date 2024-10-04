@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/pelican-test/theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="https://pabrod.github.io/pelican-test/theme/pygments/monokai.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/pelican-test/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/pelican-test/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/pelican-test/theme/font-awesome/css/solid.css">
+
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://pabrod.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="PabRod Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Pablo Rodríguez-Sánchez" />
+<meta name="description" content="Application of Fourier analysis to a personal accountancy timeseries" />
+<meta name="keywords" content="math, R">
+
+
+  <meta property="og:site_name" content="PabRod"/>
+  <meta property="og:title" content="The spectrum of my personal accountancy"/>
+  <meta property="og:description" content="Application of Fourier analysis to a personal accountancy timeseries"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="https://pabrod.github.io/pelican-test/spectrum-accountancy.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2018-11-28 13:54:29+01:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://pabrod.github.io/pelican-test/author/pablo-rodriguez-sanchez.html">
+  <meta property="article:section" content="Blog"/>
+  <meta property="article:tag" content="math"/>
+  <meta property="article:tag" content="R"/>
+  <meta property="og:image" content="/images/profile.png">
+
+  <title>PabRod &ndash; The spectrum of my personal accountancy</title>
+
+
+</head>
+<body class="light-theme">
+
+<aside>
+  <div>
+    <a href="https://pabrod.github.io/pelican-test/">
+      <img src="/images/profile.png" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="https://pabrod.github.io/pelican-test/"></a>
+    </h1>
+
+    <p>Applied mathematician. Science storyteller</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://pabrod.github.io/pelican-test/pages/bio.html#bio">
+                Bio
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-envelope"
+rel="me"           href="mailto:pablo.rodriguez.sanchez@gmail.com"
+           target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/PabRod"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/pabrod"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-instagram"
+           href="https://instagram.com/pablo.rodriguez.sanchez/"
+           target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-mastodon"
+rel="me"           href="https://paquita.masto.host/@DonMostrenco"
+           target="_blank">
+          <i class="fa-brands fa-mastodon"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="http://twitter.com/DonMostrenco"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-orcid"
+           href="https://orcid.org/0000-0002-2855-940X"
+           target="_blank">
+          <i class="fa-brands fa-orcid"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://pabrod.github.io/pelican-test/">Home</a>
+
+
+  <a href="https://pabrod.github.io/pelican-test/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="spectrum-accountancy">The spectrum of my personal accountancy</h1>
+    <p>
+      Posted on Wed 28 November 2018 in <a href="https://pabrod.github.io/pelican-test/category/blog.html">Blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<p>Since year 2012, I keep and maintain a <em>.csv</em> file containing
+information about my bank accounts. The most relevant data is the time
+series of the total amount of money vs. date. The table below shows a
+small subset of this data:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Date</th>
+<th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2012-09-26</td>
+<td align="right">641.52</td>
+</tr>
+<tr class="even">
+<td align="left">2012-09-24</td>
+<td align="right">703.52</td>
+</tr>
+<tr class="odd">
+<td align="left">2012-09-22</td>
+<td align="right">723.52</td>
+</tr>
+<tr class="even">
+<td align="left">2012-09-19</td>
+<td align="right">755.52</td>
+</tr>
+<tr class="odd">
+<td align="left">2012-09-18</td>
+<td align="right">765.52</td>
+</tr>
+</tbody>
+</table>
+
+<p>When plotted, the data looks as noisy as the example on the figure below. The most noticeable regularity is the periodic increment at the end of each month, corresponding with the <strong>pay day</strong>... followed by a big expenditure corresponding to paying the <strong>rent</strong>. Notice also the higher pay in late June, corresponding to the summer extra salary that is customarily applied in several countries. The timeseries looks irregular, but there is some clear periodical component on it.</p>
+<p><img alt="a" src="images/2018-11/Plot-data-1.png"></p>
+<p>I know that the Fourier transform of a continuous timeseries is the perfect tool for spotting underlying periodicities. But my timeseries is uneven and discontinous. How can we fix this?</p>
+<h2>First step: Interpolation</h2>
+<p>The first problem, unevenness of data, can be solved by good old interpolation methods. The only tricky part here is that our <em>x</em> coordinates are dates, so it is advisable to use <em>lubridate</em>.</p>
+<p>I used the following:</p>
+<div class="highlight"><pre><span></span><code><span class="nf">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">lubridate</span><span class="p">)</span>
+
+<span class="n">first_day</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">min</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">Date</span><span class="p">)</span>
+<span class="n">last_day</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">max</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">Date</span><span class="p">)</span>
+
+<span class="c1"># Add a column with relative day as an integer</span>
+<span class="n">df</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">mutate</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="w"> </span><span class="n">Day_index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">Date</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">first_day</span><span class="p">))</span>
+
+<span class="c1"># Create the time vector used for interpolation</span>
+<span class="n">all_days</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">seq</span><span class="p">(</span><span class="n">first_day</span><span class="p">,</span><span class="w"> </span><span class="n">last_day</span><span class="p">,</span><span class="w"> </span><span class="n">by</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">)</span>
+<span class="n">all_indices</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">seq</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="nf">length</span><span class="p">(</span><span class="n">all_days</span><span class="p">),</span><span class="w"> </span><span class="n">by</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">)</span>
+
+<span class="n">daily_total</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">approx</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">df</span><span class="o">$</span><span class="n">Day_index</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">df</span><span class="o">$</span><span class="n">Total</span><span class="p">,</span><span class="w"> </span><span class="n">xout</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">all_indices</span><span class="p">,</span><span class="w"> </span><span class="n">yright</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">head</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">Total</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">))</span>
+</code></pre></div>
+
+<h2>Second step: Fourier transform</h2>
+<p>For discrete, evenly spaced timeseries as the one we have after interpolation, fast Fourier transform can be used to estimate dominant frequencies. The fast Fourier transform or <em>FFT</em> is defined as a function of an integer parameter <em>k</em> and a set of <em>N</em> complex numbers {<em>x</em><sub>0</sub>, <em>x</em><sub>1</sub>, ...<em>x</em><sub><em>N</em> − 1</sub>}.</p>
+<p>The definition goes as follows:</p>
+<div class="math">$$
+X\_k = FFT \[ k; \\lbrace x\_n \\rbrace\] \\equiv  \\sum\_{n=0}^{N-1} x\_n\\cdot e^{-i 2 \\pi k \\frac{n}{N}}
+$$</div>
+<p>and the inverse:</p>
+<div class="math">$$
+x\_n = FFT^{-1} \[ n; \\lbrace X\_k \\rbrace\] \\equiv  \\frac{1}{N}\\sum\_{k=0}^{N-1} X\_k \\cdot  e^{i 2 \\pi k \\frac{n}{N}}
+$$</div>
+<p>The <em>FFT</em> can be used to estimate the spectrum of a signal. While doing this, it is important to note that <em>n</em> and <em>k</em> are unit-less vector indices. In order to link those indices with physical quantities as time and frequency, we could notice that:</p>
+<div class="math">$$
+x_n = x(n \cdot \Delta t) \equiv x(t_n)
+$$</div>
+<p>where <em>Δ</em><em>t</em> is the sampling period. If we take a number <em>N</em> of samples, the final sample time should be:</p>
+<div class="math">$$
+t_{end} = N \cdot \Delta t \equiv t_N
+$$</div>
+<p>Going to our first equation with all this in mind, we have:</p>
+<div class="math">$$
+X\_k \\equiv \\\\
+\\sum\_{n=0}^{N-1} x\_n \\cdot e^{-i 2 \\pi k \\frac{n}{N}} = \\\\
+\\sum\_{n=0}^{N-1} x(n \\cdot \\Delta t) \\cdot e^{-i 2 \\pi k \\frac{n \\cdot \\Delta t}{t\_{end}}} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i 2 \\pi k \\frac{t\_n}{t\_{end}}} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i \\frac{2 \\pi k}{t\_{end}} t\_n} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i \\omega\_k t\_n}
+$$</div>
+<p>so, the link between the indices <em>k</em> and the corresponding physical frequencies <em>ω</em><sub><em>k</em></sub> is given by:</p>
+<div class="math">$$
+\\omega\_k = \\frac{2 \\pi}{t\_{end}} k
+$$</div>
+<p>We just added units (and thus, physical) significance to the indexes <em>k</em> and <em>n</em>!</p>
+<p>The (quite primitive) code I used for doing this is:</p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="n">fft_spectrum</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">function</span><span class="p">(</span><span class="n">ts</span><span class="p">,</span><span class="w"> </span><span class="n">ys</span><span class="p">,</span><span class="w"> </span><span class="n">as.freq</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="c1"># Translate k indices into frequencies</span>
+<span class="w">      </span><span class="n">tEnd</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">tail</span><span class="p">(</span><span class="n">ts</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">)</span>
+<span class="w">      </span><span class="n">fs</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="nf">length</span><span class="p">(</span><span class="n">ys</span><span class="p">)</span><span class="m">-1</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">tEnd</span><span class="w"> </span><span class="c1"># In T^-1 units (typically Hz, if the time is in seconds)</span>
+
+<span class="w">      </span><span class="c1">#Perform fast Fourier transform</span>
+<span class="w">      </span><span class="n">Xk</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">Mod</span><span class="p">(</span><span class="nf">fft</span><span class="p">(</span><span class="n">ys</span><span class="p">))</span>
+
+<span class="w">      </span><span class="nf">if</span><span class="p">(</span><span class="n">as.freq</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1"># Use frequencies</span>
+<span class="w">        </span><span class="nf">list</span><span class="p">(</span><span class="n">f</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fs</span><span class="p">,</span><span class="w"> </span><span class="n">Xk</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Xk</span><span class="p">)</span>
+<span class="w">      </span><span class="p">}</span><span class="w"> </span><span class="n">else</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1"># Use periods</span>
+<span class="w">        </span><span class="nf">list</span><span class="p">(</span><span class="bp">T</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">/</span><span class="n">fs</span><span class="p">,</span><span class="w"> </span><span class="n">Xk</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Xk</span><span class="p">)</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div>
+
+<h2>Results</h2>
+<p>After applying the two algorithms described above I find the following distribution of the relative lengths of each period:</p>
+<p><img alt="b" src="images/2018-11/Frequencies-1.png"></p>
+<p>Note that the strengths corresponding to periods of <em>30</em> and <em>31</em> days are higher than their neighbors, corresponding to pay-days and monthly payments. Even my very basic algorithm could see it!</p>
+<p><em>PS: I removed several details, plus trimmed both vertical and horizontal scales. I did this in order to keep my privacy. After all, the FFT is an invertible operation!</em></p>
+<p>This entry appears in <a href="https://www.r-bloggers.com">R-bloggers.com</a> </p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://pabrod.github.io/pelican-test/tag/math.html">math</a>
+      <a href="https://pabrod.github.io/pelican-test/tag/r.html">R</a>
+    </p>
+  </div>
+
+
+
+
+
+
+</article>
+
+<footer>
+<p>
+  &copy; 2024  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PabRod ",
+  "url" : "https://pabrod.github.io/pelican-test",
+  "image": "/images/profile.png",
+  "description": ""
+}
+</script><a href="https://github.com/PabRod" target="_blank" class="github-corner" aria-label="View source on Github">
+    <svg width="80"
+         height="80"
+         viewBox="0 0 250 250"
+         style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
+         aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor"
+              style="transform-origin: 130px 106px;"
+              class="octo-arm">
+        </path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor"
+              class="octo-body">
+        </path>
+    </svg>
+</a>
+
+</body>
+</html>

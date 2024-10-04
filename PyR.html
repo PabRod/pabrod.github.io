@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/pelican-test/theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="https://pabrod.github.io/pelican-test/theme/pygments/monokai.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/pelican-test/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/pelican-test/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://pabrod.github.io/pelican-test/theme/font-awesome/css/solid.css">
+
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://pabrod.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="PabRod Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Pablo Rodríguez-Sánchez" />
+<meta name="description" content="How to use Python code inside R" />
+<meta name="keywords" content="math, R, Python">
+
+
+  <meta property="og:site_name" content="PabRod"/>
+  <meta property="og:title" content="Python or R? Why not both?"/>
+  <meta property="og:description" content="How to use Python code inside R"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="https://pabrod.github.io/pelican-test/PyR.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2019-03-22 10:50:31+01:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://pabrod.github.io/pelican-test/author/pablo-rodriguez-sanchez.html">
+  <meta property="article:section" content="Blog"/>
+  <meta property="article:tag" content="math"/>
+  <meta property="article:tag" content="R"/>
+  <meta property="article:tag" content="Python"/>
+  <meta property="og:image" content="/images/profile.png">
+
+  <title>PabRod &ndash; Python or R? Why not both?</title>
+
+
+</head>
+<body class="light-theme">
+
+<aside>
+  <div>
+    <a href="https://pabrod.github.io/pelican-test/">
+      <img src="/images/profile.png" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="https://pabrod.github.io/pelican-test/"></a>
+    </h1>
+
+    <p>Applied mathematician. Science storyteller</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://pabrod.github.io/pelican-test/pages/bio.html#bio">
+                Bio
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-envelope"
+rel="me"           href="mailto:pablo.rodriguez.sanchez@gmail.com"
+           target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/PabRod"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/pabrod"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-instagram"
+           href="https://instagram.com/pablo.rodriguez.sanchez/"
+           target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-mastodon"
+rel="me"           href="https://paquita.masto.host/@DonMostrenco"
+           target="_blank">
+          <i class="fa-brands fa-mastodon"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="http://twitter.com/DonMostrenco"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-orcid"
+           href="https://orcid.org/0000-0002-2855-940X"
+           target="_blank">
+          <i class="fa-brands fa-orcid"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://pabrod.github.io/pelican-test/">Home</a>
+
+
+  <a href="https://pabrod.github.io/pelican-test/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="PyR">Python or R? Why not both?</h1>
+    <p>
+      Posted on Fri 22 March 2019 in <a href="https://pabrod.github.io/pelican-test/category/blog.html">Blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<p><em>Python</em> and <em>R</em>. They are two of the most popular programming languages
+for science. They are both free, both of them have a strong user
+community and both of them work pretty well.</p>
+<p>Personally, I find <em>Python</em> way more intuitive than <em>R</em> (at least for
+people who, like me, have a classical mathematics background). Thinking
+in terms of data frames is great when you work with statistical data,
+but it gets a bit annoying when you are more interested in analysis. To
+uneven the score even more, <em>Python's</em> libraries like <em>NumPy</em>, <em>SciPy</em>,
+<em>SimPy</em> and <em>Matplotlib</em> are the perfect toolbox for anyone doing
+mathematical research of any kind.</p>
+<p>But... I chose <em>R</em>. Why?</p>
+<p>There is only one reason for doing so: <em>knitr</em>[1]. <em>knitr</em> is a package
+that turns a combination of text <strong>and code</strong> (the <em>RMarkdown</em> file)
+into almost any format of human readable text, including a <em>pdf</em> report,
+slides, or a blog page like <a href="https://github.com/PabRod/pabrod.github.io-src/blob/master/auxs/Rmd/2019-03-22%20PyR.Rmd">the one you are reading now</a>. The interesting
+point is the integration of the code with the text. This means that an
+<em>RMarkdown</em> document is not passive. This allows one to write papers
+that, quite literally, recalculate themselves any time needed. <em>knitr</em>,
+combined with research code structured as an <em>R</em> package, is clearly my
+favourite way of writing research. The package structure keeps my code
+tidy and tested, and <em>knitr</em> allows me to do all and the figures the
+writing in a single file. The result is a rock-solid, reproducible
+output. Let me put it like this: <em>knitr</em> is like <em>LaTeX</em> on steroids![2]</p>
+<p>But... I keep finding <em>R</em> annoying. A few days ago, after looking for
+hours for a nice way of ploting phase planes, I gave up. All the
+possibilities I found were terribly ugly. I had to go back to <em>Python's</em>
+<em>Matplotlib</em> and its function <em>streamplot</em>. See for yourself:</p>
+<p>With <em>R</em>:</p>
+<p><img alt="with-r" src="images/2019-03/phase-plot-1.png"></p>
+<p>With <em>Python</em>:</p>
+<p><img alt="with-py" src="images/2019-03/phase-plotPy-1.png"></p>
+<p>After a bit of googling, I found an <em>R</em> library called <em>reticulate</em> that
+allows to run <em>Python</em> code from inside <em>R</em>. If this works (I thought) I
+can keep the best of both approaches! And, so far, it works flawlessly!</p>
+<h2>How to do it</h2>
+<p>First of all, <em>R</em> and <em>Python</em> are obviously reequired. <em>reticulate</em> can
+be installed and loaded as usual in <em>R</em>:</p>
+<div class="highlight"><pre><span></span><code><span class="nx">install</span><span class="p">.</span><span class="nx">packages</span><span class="p">(</span><span class="s">&quot;reticulate&quot;</span><span class="p">)</span>
+<span class="kn">library</span><span class="p">(</span><span class="nx">reticulate</span><span class="p">)</span>
+</code></pre></div>
+
+<p>For <a href="https://community.rstudio.com/t/matplotlib-inline-plots-with-reticulate-on-rstudio-server/16357">some
+reason</a>
+I still don't fully understand, I had to add these two lines to make
+<em>Matplotlib</em> work properly.</p>
+<div class="highlight"><pre><span></span><code><span class="n">matplotlib</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">import</span><span class="p">(</span><span class="s">&quot;matplotlib&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">convert</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span>
+<span class="n">matplotlib</span><span class="o">$</span><span class="nf">use</span><span class="p">(</span><span class="s">&quot;Agg&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>Now, we can insert python chunks in <em>Rmarkdown</em>:</p>
+<div class="highlight"><pre><span></span><code><span class="err">```</span><span class="p">{</span><span class="n">python</span><span class="p">,</span><span class="w"> </span><span class="nb">eval</span><span class="o">=</span><span class="n">TRUE</span><span class="p">}</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">np</span><span class="o">.</span><span class="n">pi</span>
+<span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">/</span><span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<span class="err">```</span>
+
+<span class="c1">## 0.707106781187</span>
+</code></pre></div>
+
+<h2>Interaction</h2>
+<p><em>reticulate</em> works creating two different sessions, one of <em>R</em> and
+another of <em>Python</em>. In order to unleash all the power of this
+combination, we need a way of passing variables between both sessions.
+This is done via the dataframe <code>py</code>. See examples below:</p>
+<h3>From <em>R</em> to <em>Python</em></h3>
+<p>Create a variable and store it as a field of <code>py</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="n">```{r}</span>
+<span class="n">py$foo &lt;- &quot;Hi!&quot;</span>
+<span class="n">```</span>
+</code></pre></div>
+
+<p>The variable will be available in the <em>Python</em> session:</p>
+<div class="highlight"><pre><span></span><code>```{python}
+print(foo)
+```
+
+## Hi!
+</code></pre></div>
+
+<h3>From <em>Python</em> to <em>R</em></h3>
+<p>Create a variable inside the <em>Python</em> session:</p>
+<div class="highlight"><pre><span></span><code>```{python}
+bar = &quot;How are you?&quot;
+```
+</code></pre></div>
+
+<p>The variable will be available as a field of the dataframe <code>py</code> in the
+<em>R</em> session:</p>
+<div class="highlight"><pre><span></span><code>```{r}
+py$bar
+```
+
+## [1] &quot;How are you?&quot;
+</code></pre></div>
+
+<p>This entry appears in <a href="https://www.r-bloggers.com">R-bloggers.com</a> </p>
+<p>[1] Actually, there is a second (and less important) reason: <em>Shiny</em>.</p>
+<p>[2] It is true that <em>Python</em> also has <em>Jupyter</em> for reproducible
+research, but the results are just not as neat as with <em>R</em>.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://pabrod.github.io/pelican-test/tag/math.html">math</a>
+      <a href="https://pabrod.github.io/pelican-test/tag/r.html">R</a>
+      <a href="https://pabrod.github.io/pelican-test/tag/python.html">Python</a>
+    </p>
+  </div>
+
+
+
+
+
+
+</article>
+
+<footer>
+<p>
+  &copy; 2024  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PabRod ",
+  "url" : "https://pabrod.github.io/pelican-test",
+  "image": "/images/profile.png",
+  "description": ""
+}
+</script><a href="https://github.com/PabRod" target="_blank" class="github-corner" aria-label="View source on Github">
+    <svg width="80"
+         height="80"
+         viewBox="0 0 250 250"
+         style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
+         aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor"
+              style="transform-origin: 130px 106px;"
+              class="octo-arm">
+        </path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor"
+              class="octo-body">
+        </path>
+    </svg>
+</a>
+
+</body>
+</html>

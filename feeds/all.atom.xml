@@ -1,5 +1,1018 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/pelican-test/" rel="alternate"></link><link href="https://pabrod.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/pelican-test/</id><updated>2018-05-01T12:24:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>There's a nerd in my elevator!</title><link href="https://pabrod.github.io/pelican-test/elevator.html" rel="alternate"></link><published>2018-05-01T12:24:00+02:00</published><updated>2018-05-01T12:24:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-05-01:/pelican-test/elevator.html</id><summary type="html">&lt;p&gt;An elevator, a phone, ... and a nerd&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This text appeared first in &lt;a href="http://fuga.naukas.com/2018/02/06/un-empollon-en-mi-ascensor/"&gt;Naukas&lt;/a&gt;, where was originally written in Spanish.&lt;/em&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/pelican-test/" rel="alternate"></link><link href="https://pabrod.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/pelican-test/</id><updated>2022-08-08T00:00:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Notas de traducción del Canon van Nederland</title><link href="https://pabrod.github.io/pelican-test/vertaling-canon-es.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/pelican-test/vertaling-canon-es.html</id><summary type="html">&lt;p&gt;Notas a la traducción del canon neerlandés&lt;/p&gt;</summary><content type="html">&lt;p&gt;Acaban de publicar &lt;a href="https://www.canonvannederland.nl/es/"&gt;mi traducción al castellano del &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt;.
+Se trata del libro de historia de los Países Bajos usado en la mayoría de escuelas, cursos de idiomas y exámenes de ciudadanía.&lt;/p&gt;
+&lt;p&gt;La tarea de traducir el Canon me la autoimpuse por varios motivos.
+Tuvo siempre una componente práctica: mejorar mi nivel de neerlandés.
+Pero la principal motivación ha sido &lt;strong&gt;puramente emocional&lt;/strong&gt;: soy un emigrante desde hace 7 años, y considero de vital importancia conocer la historia, la cultura y el lenguaje de la tierra en la que vivo.
+Por último, pero no menos importante, mis traducciones tal vez ayuden a otros emigrantes procedentes de la hispanosfera a conocer un poco mejor este pequeño pero hermoso país.&lt;/p&gt;
+&lt;p&gt;Dicho esto, es quizá buena idea añadir algunas notas técnicas:&lt;/p&gt;
+&lt;h2&gt;Notas de traducción&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No soy un traductor profesional. Si una frase resume mi traducción, es la siguiente: &lt;em&gt;"lo he hecho lo mejor que he podido"&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Es posible que mi traducción esté sesgada, como yo lo estoy, hacia el español europeo. Pido disculpas a mis lectores americanos.&lt;/li&gt;
+&lt;li&gt;He intentado mantener la forma más habitual de los nombres de figuras históricas, títulos de obras y topónimos en español. Así &lt;em&gt;Karel de Grote&lt;/em&gt; es Carlomagno, y no Carlos el Grande. Fue El Bosco quien pintó El Jardín de las Delicias. Ámsterdam lleva tilde, Róterdam también (y pierde una t), y &lt;em&gt;'s-Hertogenbosch&lt;/em&gt; se convierte, para alivio de nuestras cuerdas vocales, en Bolduque.&lt;/li&gt;
+&lt;li&gt;He preferido el gentilicio genérico "neerlandés" sobre el de "holandés". La razón es que este último, si bien no es incorrecto para referirse a la totalidad de los Países Bajos, puede dar lugar a confusión cuando se habla de las provincias de Holanda Meridional y Septentrional. Por este mismo motivo he preferido usar "Países Bajos" y no "Holanda". Ni confirmo ni desmiento que el hecho de que yo viva en Brabante Septentrional y, por tanto, fuera de las provincias holandesas, haya tenido que ver en mi decisión.&lt;/li&gt;
+&lt;li&gt;El mayor desafío de esta traducción ha sido la enorme disparidad entre las síntaxis neerlandesa y la castellana. He intentado, en lo posible, mantener la estructura original siempre y cuando no sonase totalmente antinatural en castellano. Muchas frases han requerido una restructuración casi completa, lo que a menudo obliga a una reinterpretación considerable. Pido disculpas si en me he pasado de listo en algún caso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por último, cualquier sugerencia es bienvenida.
+Háganmelas llegar contactándome directamente a pablo.rodriguez.sanchez@gmail.com.&lt;/p&gt;
+&lt;p&gt;Si están ustedes familiarizados con GitHub, les gustará saber que pueden contribuir directamente a través &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;del repositorio&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Translation notes for de Canon van Nederland</title><link href="https://pabrod.github.io/pelican-test/vertaling-canon.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/pelican-test/vertaling-canon.html</id><summary type="html">&lt;p&gt;Translation notes for de Canon van Nederland&lt;/p&gt;</summary><content type="html">&lt;p&gt;My &lt;a href="https://www.canonvannederland.nl/es/"&gt;translation to Spanish of the &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt; has just been published.
+The Canon is a book about the history of the Netherlands, commonly used in schools, language lessons and citizenship exams.&lt;/p&gt;
+&lt;p&gt;The self-imposed task of translating the Canon had several goals for me.
+One of them was quite practical: to improve my Dutch proficiency.
+But the most important motivation has been &lt;strong&gt;purely emotional&lt;/strong&gt;: I'm an immigrant since 7 years ago, and I find it quite important to get to know the history, culture and language of the place where I live.
+Last but not least, perhaps my translations could help other members of the Spanish speaking world interested in knowing more about this tiny but beautiful country.&lt;/p&gt;
+&lt;p&gt;Said this, I leave here some technical notes:&lt;/p&gt;
+&lt;h2&gt;Translation notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I am not a professional translator. If I had to summarize my translation on a single sentence, it'db be: &lt;em&gt;"I did it the best I could"&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;My translation my be biased, just as its author is, to European Spanish. I apologize beforehand to my readers from Latin America.&lt;/li&gt;
+&lt;li&gt;I tried to respect the most common Spanish form for historical figures, artwork and places. This way &lt;em&gt;Karel de Grote&lt;/em&gt; becomes &lt;em&gt;Carlomagno&lt;/em&gt;. &lt;em&gt;El Bosco&lt;/em&gt; painted &lt;em&gt;El jardín de las delicias&lt;/em&gt;, and not &lt;em&gt;De tuin der lusten&lt;/em&gt;. &lt;em&gt;Ámsterdam&lt;/em&gt; gets a tilde, and &lt;em&gt;Róterdam&lt;/em&gt; too (and also loses a t). &lt;em&gt;'s-Hertogenbosch&lt;/em&gt; becomes, for the sake of our Spanish speaking vocal chords, &lt;em&gt;Bolduque&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Regarding the Holland (&lt;em&gt;Holanda&lt;/em&gt;) versus Netherlands (&lt;em&gt;Países Bajos&lt;/em&gt;) controversy, I've chosen for the latter. This way we avoid possible misunderstandings when talking about the provices of North and South Holland. I cannot confirm nor deny that the fact that I live in &lt;em&gt;Noord Brabant&lt;/em&gt; had something to do with my decision.&lt;/li&gt;
+&lt;li&gt;The most challenging aspect of this translation was the huge difference between the Spanish and Dutch syntaxes. I've tried to keep the original structure of most sentences, as long as it didn't sound too unnatural. A number of sentences required an almost complete restructuring, and often a creative reinterpretation. My apologies if any of those went a bit too far.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suggestions are welcome.
+Please contact me at pablo.rodriguez.sanchez@gmail.com.&lt;/p&gt;
+&lt;p&gt;The project is also hosted in GitHub. This is the &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;repository link&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Vertaling notities van de Canon van Nederland</title><link href="https://pabrod.github.io/pelican-test/vertaling-canon-nl.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/pelican-test/vertaling-canon-nl.html</id><summary type="html">&lt;p&gt;Sommige vertaling notities&lt;/p&gt;</summary><content type="html">&lt;p&gt;Mijn &lt;a href="https://www.canonvannederland.nl/es/"&gt;Spaanse vertaling van de Canon van Nederland&lt;/a&gt; is nu online.&lt;/p&gt;
+&lt;p&gt;Deze zelfopgelegde taak had een praktisch deel: om mijn Nederlands te verbeteren. Maar mijn belangrijkste motivatie was &lt;strong&gt;juist emotioneel&lt;/strong&gt;: sinds 7 jaar geleden ben ik een immigrant, en het kennen van de geschiedenis, de cultuur en de taal van mijn nieuwe land is voor mij heel belangrijk. 
+Tenslotte, maar niet minder belangrijk, misschien helpen mijn vertalingen andere immigranten uit de brede Spaansprekende wereld om dit kleine maar mooie land te leren kennen.&lt;/p&gt;
+&lt;p&gt;Dat gezegd, is het misschien een goed idee om sommige technische notities te delen:&lt;/p&gt;
+&lt;h2&gt;Vertaling notities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ik moet toegeven dat ik geen professionele vertaler ben. Als ik in een zin mijn vertalingen zou moeten samenvatten: &lt;em&gt;“Ik heb mijn best gedaan”&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Het Spaans in mijn vertaling mag klinken, zoals ik, een beetje te Europees. Mijn excuses voor mijn latijn-amerikaanse lezers.&lt;/li&gt;
+&lt;li&gt;Ik probeerde om de meest gebruikelijke vorm van de namen voor historische figuren, titels van werken en plaatsnamen in het Spaans te houden. Karel de Grote wordt dus &lt;em&gt;Carlomagno&lt;/em&gt;. Het was &lt;em&gt;El Bosco&lt;/em&gt; wie &lt;em&gt;El jardín de las delicias&lt;/em&gt; schilderde, en niet De tuin der lusten. &lt;em&gt;Ámsterdam&lt;/em&gt; krijgt een tilde, en ook &lt;em&gt;Róterdam&lt;/em&gt; (en verlies ie een t). ’s-Hertogenbosch wordt, tot opluchting van onze Spaanssprekende stembanden, &lt;em&gt;Bolduque&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;In het Spaans is het niet incorrect om de demonym Hollander (&lt;em&gt;holandés&lt;/em&gt;) te gebruiken in plaats van Nederlander (&lt;em&gt;neerlandés&lt;/em&gt;). In deze vertaling, gebruik ik altijd &lt;em&gt;neerlandés&lt;/em&gt;. Ik bevestig noch ontken dat het feit dat ik in Noord-Brabant woon, en dus buiten de Hollandse provincies, er iets mee te maken heeft.&lt;/li&gt;
+&lt;li&gt;De grootste uitdaging van deze vertaling was het enorme verschil tussen de Nederlandse en de Spaanse syntaxis. Ik probeerde, zolang het niet helemaal onnatuurlijk klonk, om de originele structuur te behouden. Veel zinnen hebben een bijna volledige herstructurering nodig gehad, waarbij vaak een creatieve herinterpretatie nodig was. Sorry als ik te ver ben gegaan in sommige gevallen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tenslotte, elke suggestie is welkom.
+Mijn adres is: pablo.rodriguez.sanchez@gmail.com&lt;/p&gt;
+&lt;p&gt;Als u bekend bent met GitHub, u kan ook direct opmerkingen toevoegen via het project zijn &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;&lt;em&gt;GitHub repository&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Talk announcement: How software development shaped the way I do science</title><link href="https://pabrod.github.io/pelican-test/softwarewur.html" rel="alternate"></link><published>2021-11-06T14:40:28+01:00</published><updated>2021-11-06T14:40:28+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2021-11-06:/pelican-test/softwarewur.html</id><summary type="html">&lt;p&gt;Lessons I've taken from Industry to Academia (yes, in that direction).&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Poster&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.dropbox.com/s/2kwk82cie1t3gba/Talk-at-Wageningen.pptx?dl=0"&gt;&lt;img alt="slides" src="images/2019-11/cover.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;My scientific career had a break. In 2012, I left academia to work as an engineer for an optical technology company. When I returned to research in 2015 I noticed how extremely useful some engineering skills can be for everyday science. I want to share what I learned with you.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;16 June 2021, 13:00 CEST. Online. Organized by the Modelling &amp;amp; Simulation Discussion Group of Wageningen University.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Registration&lt;/h2&gt;
+&lt;p&gt;Want to join? Please contact the organizer (patrick.steinmann@wur.nl) and join for free.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Materials and references&lt;/h2&gt;
+&lt;h3&gt;Slides&lt;/h3&gt;
+&lt;p&gt;The slides of this talk are temporarily available &lt;a href="https://www.dropbox.com/s/2kwk82cie1t3gba/Talk-at-Wageningen.pptx?dl=0"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Recommended literature&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://dx.plos.org/10.1371/journal.pbio.1001745"&gt;Best Practices for Scientific Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510"&gt;Good enough Practices in Scientific Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.oreilly.com/library/view/effective-computation-in/9781491901564/"&gt;Effective computation in physics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Generic&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/index.html"&gt;Literate programming with knitr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.dropbox.com/s/2kwk82cie1t3gba/Talk-at-Wageningen.pptx?dl=0"&gt;Version control with git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zenodo.org/"&gt;Zenodo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Python specific&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html"&gt;Writing functions in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.pytest.org/en/6.2.x/"&gt;Tests in Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;R specific&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/index.html"&gt;Writing functions in R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://testthat.r-lib.org/"&gt;Tests in R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://carpentries-incubator.github.io/git-Rstudio-course/"&gt;Version control with git in RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Our courses&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;See list &lt;a href="https://escience-academy.github.io/"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Learning materials&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://software-carpentry.org/lessons/"&gt;Software Carpentry courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Talk announcement: Science story-tellers</title><link href="https://pabrod.github.io/pelican-test/storytelling.html" rel="alternate"></link><published>2021-05-26T01:41:28+02:00</published><updated>2021-05-26T01:41:28+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2021-05-26:/pelican-test/storytelling.html</id><summary type="html">&lt;p&gt;Science story-tellers and some things I've learned from them&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Poster&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.dropbox.com/s/z0v3oohod1ue7wh/Science%20storytelling.pptx?dl=0"&gt;&lt;img alt="poster" src="images/2021-05/storytelling.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;27 October 2021, 13:00 CEST. Online. For members of the Netherlands eScience Center only.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;The slides are temporarily available &lt;a href="https://www.dropbox.com/s/z0v3oohod1ue7wh/Science%20storytelling.pptx?dl=0"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Daylight charts with R</title><link href="https://pabrod.github.io/pelican-test/clock.html" rel="alternate"></link><published>2020-10-24T11:17:17+02:00</published><updated>2020-10-24T11:17:17+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-10-24:/pelican-test/clock.html</id><summary type="html">&lt;p&gt;This weekend most of Europe says goodbye to summertime. Visualize the consequences using R.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It happens every year. Twice. And it can be pretty annoying. I am talking about the clock shift to re-adapt our schedules to wintertime or summertime. But did you know that this October 25 may be the last time this happens? Well… at least if you are reading these lines from Europe.&lt;/p&gt;
+&lt;p&gt;But, why do we do it? Changing the clocks reduces the undesirable effects of an astronomical phenomenon: that of the variability of sunlight hours during the year. To make it even more difficult, this variability depends not only on the day of the year but also on the location on Earth.&lt;/p&gt;
+&lt;p&gt;Luckily, the study of the relationship between daylight duration, position, and date is one of the oldest objects of study. There are some early references in the Babylonian time, the topic was already covered in Ptolemy’s &lt;em&gt;Almagest&lt;/em&gt;, and it is part of the everyday life of sailors since, at least, the publication of the first nautical almanacs in the 1700s.&lt;/p&gt;
+&lt;p&gt;We can summarize all we need in charts like this:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/PabRod/daylight-charts"&gt;&lt;img alt="Bacelona" src="images/2020-10/Barcelona.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The figure above is a daylight chart corresponding to the city of Barcelona, Spain, in the year 2020. The abrupt changes correspond with the spring and autumn clock shifts. Notice how the clock shift keeps the sunrise around 8:00 AM.&lt;/p&gt;
+&lt;p&gt;I've generated the chart in &lt;em&gt;R&lt;/em&gt;. Nowadays, quick and simple access to astronomical and geographical databases makes it easier than ever to simulate daylight charts at any point in the world. In particular, I wrote &lt;a href="https://github.com/PabRod/daylight-charts"&gt;this code in R&lt;/a&gt; to generate such diagrams. It relies on the CRAN packages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;maps&lt;/code&gt;: for converting the name of a city into its geographical coordinates.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lutz&lt;/code&gt;: for extracting the official timezone from the coordinates.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;suncalc&lt;/code&gt;: for deriving the sunset and sunrise times at the selected location.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It can be run as an interactive applet, either in &lt;a href="https://pabrod.shinyapps.io/cambio-de-hora/"&gt;Shinyapps&lt;/a&gt; or &lt;a href="https://github.com/PabRod/daylight-charts"&gt;locally&lt;/a&gt;, to query for any city in the EU with a population over 100k. Additionally, I precalculated a collection of daylight charts for &lt;a href="https://github.com/PabRod/daylight-charts/tree/master/figs/nl"&gt;Dutch&lt;/a&gt;, &lt;a href="https://github.com/PabRod/daylight-charts/tree/master/figs/es"&gt;Spanish&lt;/a&gt;, and other &lt;a href="https://github.com/PabRod/daylight-charts/tree/master/figs/eu"&gt;European&lt;/a&gt; towns with a population over 100k.&lt;/p&gt;
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt;&lt;/p&gt;</content><category term="Blog"></category><category term="math"></category><category term="R"></category></entry><entry><title>Los modelos matemáticos no predicen el futuro, pero ayudan a entenderlo</title><link href="https://pabrod.github.io/pelican-test/modelos-es.html" rel="alternate"></link><published>2020-10-20T16:38:15+02:00</published><updated>2020-10-20T16:38:15+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-10-20:/pelican-test/modelos-es.html</id><summary type="html">&lt;p&gt;¿Para qué sirven (y para qué no sirven) los modelos matemáticos?&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;span&gt;&lt;a href="https://theconversation.com/profiles/pablo-rodriguez-sanchez-1150140"&gt;Pablo Rodríguez-Sánchez&lt;/a&gt;, &lt;em&gt;&lt;a href="https://theconversation.com/institutions/netherlands-escience-center-4836"&gt; Netherlands eScience Center&lt;/a&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Permítanme comenzar con una pregunta a bocajarro: ¿piensa usted que es posible predecir el futuro? Esta pregunta, así formulada, evoca bolas de cristal y lectura de manos y nos invita a responder con un rotundo “no”.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, enunciados como “la temperatura media global subirá 0,5 ⁰C en la próxima década” o “la curva de contagios por el coronavirus empezará a aplanarse dentro de tres días” nos resultan mucho más fiables. Estas frases, enunciadas de esta manera, evocan conceptos como ciencia, conocimiento experto y rigor. Sin embargo, también son predicciones sobre el futuro.&lt;/p&gt;
+
+&lt;p&gt;Si buceamos en los fundamentos de este tipo de predicciones, es muy probable que hayan sido obtenidas utilizando modelos matemáticos. Además, vendrán acompañadas de “barras de error” que aporten numerosos matices al enunciado y, en cierto modo, le resten contundencia.&lt;/p&gt;
+
+&lt;p&gt;Los modelos matemáticos están viviendo su momento de fama. Por culpa de la pandemia de la COVID-19 han saltado de las páginas de las revistas especializadas a las de la prensa generalista. Por obvios motivos de formato, los detalles necesarios para comprender su alcance y limitaciones rara vez se mencionan. Esto puede generar una impresión equivocada sobre la utilidad de los mismos.&lt;/p&gt;
+
+&lt;h2&gt;¿Qué es un modelo matemático?&lt;/h2&gt;
+
+&lt;p&gt;Un modelo es una descripción más o menos detallada de un fenómeno que se desea investigar. Un modelo matemático usa el lenguaje matemático en su descripción. &lt;/p&gt;
+
+&lt;p&gt;Suena casi como un trabalenguas, pero en el fondo no tiene nada de exótico. Es más, es muy posible que el lector haya trabajado con modelos matemáticos antes. Concretamente, en la escuela. ¿Recuerdan aquellos problemas sobre interés compuesto? ¿O los del tiro parabólico y la caída libre? ¿Acaso no les pedían usar las matemáticas para calcular cómo evolucionaba una cuenta bancaria o cómo se movía un proyectil?&lt;/p&gt;
+
+&lt;p&gt;Al contrario de lo que a menudo se piensa, los modelos matemáticos no responden a la pregunta “¿qué va a pasar?”, sino a la pregunta “¿qué pasaría si?”. Esto constituye, a la vez, su mayor debilidad y su mayor fortaleza.&lt;/p&gt;
+
+&lt;p&gt;Permítanme ilustrarlo con el ejemplo de la caída libre. Es posible que en la escuela les hablaran de aquella “demostración matemática” de que una pluma y una bala de cañón que caen libremente desde la misma altura llegan al suelo al mismo tiempo. &lt;/p&gt;
+
+&lt;p&gt;Suena raro, pero es rigurosamente cierto… siempre que la caída sea de verdad libre (esto es, en ausencia de atmósfera). &lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/E43-CfukEgs?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+          &lt;/figure&gt;
+
+&lt;p&gt;Si tratamos de aplicar el modelo de caída libre para estudiar la caída de un objeto cotidiano, y por tanto rodeado de aire, veremos que sus predicciones fracasan miserablemente. Hemos usado un modelo poco adecuado, pues responde a la pregunta: ¿qué pasaría si dejo caer este objeto &lt;em&gt;si no hubiera atmósfera&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;Cuando los matemáticos construimos modelos, a menudo empezamos con un modelo sencillo, al que vamos añadiendo nuevas características según van resultando necesarias. ¿Cuándo paramos? Cuando el modelo es lo suficientemente adecuado. Es decir, cuando estamos satisfechos con la luz que arroja sobre el fenómeno que deseamos estudiar.&lt;/p&gt;
+
+&lt;p&gt;Si queremos estudiar la caída de una pluma, el modelo anterior nos dejará claramente insatisfechos. Si al modelo de caída libre le añadimos un término de rozamiento con el aire, los resultados serán mucho mejores, pero aún existirán pequeñas discrepancias con el experimento.&lt;/p&gt;
+
+&lt;p&gt;Cualquier modelo, sin excepción, es una aproximación más o menos sofisticada de la realidad, pero nunca perfecta. Por desgracia, cuantificar cómo de preciso es un modelo matemático no siempre es una tarea sencilla. Por lo tanto, tampoco lo es comunicarlo al público general.&lt;/p&gt;
+
+&lt;h2&gt;¿Por qué los usamos entonces?&lt;/h2&gt;
+
+&lt;p&gt;Si todos los modelos son aproximados, ¿por qué los usamos? Por una sencilla razón: porque son útiles. La capacidad de los modelos matemáticos de responder a la pregunta “¿qué pasaría si?” los convierte en interesantes sustitutos de los experimentos científicos. &lt;/p&gt;
+
+&lt;p&gt;Si bien en ciencia el experimento es el rey, a veces no queda más remedio que conformarse con un modelo matemático o computacional.&lt;/p&gt;
+
+&lt;p&gt;Ejemplos de estas situaciones: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Experimentos irrealizables: el estudio &lt;em&gt;in situ&lt;/em&gt; de un agujero negro.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Costosos o difíciles: el estudio de la evolución de las poblaciones de plancton, cuya escala en el espacio y el tiempo es del orden de océanos y décadas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Destructivos o peligrosos: el análisis de los efectos de un terremoto en determinada ciudad. &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Los modelos también son de gran utilidad para obtener visualizaciones difíciles o imposibles de lograr experimentalmente (cómo se mueve el viento alrededor de una turbina).&lt;/p&gt;
+
+&lt;p&gt;Por si fuera poco, incluso modelos matemáticos con muy poco poder predictivo pueden ser de gran utilidad para entender problemas complejos. &lt;/p&gt;
+
+&lt;p&gt;Gracias, por ejemplo, a un &lt;a href="https://fuga.naukas.com/2020/03/18/un-matematico-en-cuarentena/"&gt;sencillísimo modelo de propagación de epidemias&lt;/a&gt; de los años 20 sabemos que existen umbrales (el famoso &lt;a href="https://theconversation.com/coronavirus-sigue-siendo-util-el-numero-r-139044#:%7E:text=El%20n%C3%BAmero%20R%20es%20el,algo%20por%20encima%20del%203."&gt;número R&lt;/a&gt;) a partir de los cuales el contagio se dispara. El modelo no permite saber con exactitud cuál es el umbral, pero aporta la idea misma de que existe.&lt;/p&gt;
+
+&lt;h2&gt;Los matemáticos no pueden predecir el futuro&lt;/h2&gt;
+
+&lt;p&gt;Recuerde nuestra pregunta inicial. ¿El futuro se puede predecir? Ninguna persona razonable respondería con un rotundo “sí, siempre y sin matices”. Espero haberles convencido de que los matemáticos, por lo general también personas razonables, tampoco.&lt;/p&gt;
+
+&lt;p&gt;La ciencia es una empresa, por naturaleza, incompleta, se escriba esta con letras o con fórmulas. Los modelos matemáticos han de leerse con, por lo menos, el mismo sano escepticismo que la predicción meteorológica.&lt;!-- Below is The Conversation's page counter tag. Please DO NOT REMOVE. --&gt;&lt;img src="https://counter.theconversation.com/content/147299/count.gif?distributor=republish-lightbox-basic" alt="The Conversation" width="1" height="1" style="border: none !important; box-shadow: none !important; margin: 0 !important; max-height: 1px !important; max-width: 1px !important; min-height: 1px !important; min-width: 1px !important; opacity: 0 !important; outline: none !important; padding: 0 !important; text-shadow: none !important" /&gt;&lt;!-- Fin del código. Si no ve ningún código arriba, por favor, obtenga el nuevo código de la pestaña Avanzado después de hacer clic en el botón de republicar. El contador de páginas no recoge ningún dato personal. Más información: http://theconversation.com/es/republishing-guidelines --&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;a href="https://theconversation.com/profiles/pablo-rodriguez-sanchez-1150140"&gt;Pablo Rodríguez-Sánchez&lt;/a&gt;, Especialista en computación científica, &lt;em&gt;&lt;a href="https://theconversation.com/institutions/netherlands-escience-center-4836"&gt; Netherlands eScience Center&lt;/a&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Este artículo fue publicado originalmente en  &lt;a href="https://theconversation.com"&gt;The Conversation&lt;/a&gt;. Lea el &lt;a href="https://theconversation.com/los-modelos-matematicos-no-predicen-el-futuro-pero-ayudan-a-entenderlo-147299"&gt;original&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="math"></category></entry><entry><title>Talk announcement: CENL CVs</title><link href="https://pabrod.github.io/pelican-test/cenl.html" rel="alternate"></link><published>2020-10-15T09:41:28+02:00</published><updated>2020-10-15T09:41:28+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-10-15:/pelican-test/cenl.html</id><summary type="html">&lt;p&gt;Science and Experiences of Spanish Scientists in the Netherlands&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Poster&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.eventbrite.com/e/cvs-cenl-2020-tickets-120247600811"&gt;&lt;img alt="poster" src="images/2020-10/poster.jpeg"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;16 October 2020, 17:30 CEST. Online, free &lt;a href="https://www.eventbrite.com/e/cvs-cenl-2020-tickets-120247600811"&gt;registration&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;The slides are temporarily available &lt;a href="https://www.dropbox.com/s/yos2hu1m1za90lx/CENL.pptx?dl=0"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Talk announcement: Complex numbers for research software engineers</title><link href="https://pabrod.github.io/pelican-test/complex-sig.html" rel="alternate"></link><published>2020-10-12T09:07:06+02:00</published><updated>2020-10-12T09:07:06+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-10-12:/pelican-test/complex-sig.html</id><summary type="html">&lt;p&gt;A talk about applications of complex numbers in computational sciences&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Complex numbers for research software engineers&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;If you are reading this, most likely you are working on a computer-science related field.
+Why would you care about the square root of minus one (also known as i)? Let me give you a few reasons:&lt;/p&gt;
+&lt;p&gt;The mysterious number i:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;is the NaN of the Renaissance.&lt;/li&gt;
+&lt;li&gt;appears in the Euler's identity, acclaimed as the most beautiful equation ever.&lt;/li&gt;
+&lt;li&gt;allowed for difficult computations in aerodynamics before the computer was invented.&lt;/li&gt;
+&lt;li&gt;can improve your numerical differentiation algorithms with minimal effort.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The slides are temporarily available &lt;a href="https://www.dropbox.com/s/18dmbov56d5vfm2/Complex%20numbers.pptx?dl=0"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;12 October 2020, 11:00 CEST. Online, for eScience Center members only.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="slides" src="images/2020-10/wing.gif"&gt;&lt;/p&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Talk announcement: Thesis defense</title><link href="https://pabrod.github.io/pelican-test/defense.html" rel="alternate"></link><published>2020-06-08T16:22:24+02:00</published><updated>2020-06-08T16:22:24+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-06-08:/pelican-test/defense.html</id><summary type="html">&lt;p&gt;The day finally arrived!&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Invitation&lt;/h2&gt;
+&lt;p&gt;I am happy to inform you that next week I'll be publicly defending my PhD thesis entitled:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cycles and interactions: a mathematician among biologists&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The defense will be conducted in English language.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;15 June 2020, 13:30 CEST. The ceremony will take place exclusivelly &lt;a href="https://weblectures.wur.nl/P2G/Player/Player.aspx?id=C217"&gt;online&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="slides" src="images/2020-06/defense.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The backbone of this thesis is the interdisciplinary interaction between dynamic systems theory and a selection of biological problems. Each chapter focuses in one problem, namely plankton dynamics, cell development paths and sleep-wake dynamics. Despite these topics may seem disconnected, they share an important feature: all of them show cyclic behaviour under certain circumstances.&lt;/p&gt;
+&lt;p&gt;In the present thesis we show that cyclic (or chaotic) behaviour is deeply related with plankton biodiversity. We also use cycles to show, in an intuitive way, that Waddington’s epigenetic landscapes (a common visual tool in stem cell research) are poorly defined, and we provide a practical solution to this. Lastly, we provide an algorithm to forecast a transition between synchronized and non-synchronized cyclic systems (such as normal sleep – insomnia, or normal hearth functioning – arrhythmia), with potential applications in medical sciences.&lt;/p&gt;
+&lt;p&gt;The thesis is temporarily available &lt;a href="https://www.dropbox.com/sh/kg147e5x0o09ddl/AABvsbPApgMXJhBSQNnfqa1Ja?dl=0"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Notificación: Defensa de tesis</title><link href="https://pabrod.github.io/pelican-test/defense-es.html" rel="alternate"></link><published>2020-06-08T16:22:24+02:00</published><updated>2020-06-08T16:22:24+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-06-08:/pelican-test/defense-es.html</id><summary type="html">&lt;p&gt;¡Por fin ha llegado el día!&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Invitación&lt;/h2&gt;
+&lt;p&gt;Me complace informar de que la próxima semana defenderé publicamente mi tesis doctoral, que lleva por título:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ciclos e interacciones: un matemático entre biólogos&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;La defensa tendrá lugar en idioma inglés.&lt;/p&gt;
+&lt;h2&gt;Coordenadas espaciotemporales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;15 de Junio de 2020, 13:30 CEST. La ceremonia será exclusivamente &lt;a href="https://weblectures.wur.nl/P2G/Player/Player.aspx?id=C217"&gt;online&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="slides" src="images/2020-06/defense.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Resumen&lt;/h2&gt;
+&lt;p&gt;La columna vertebral de esta tesis es la interacción entre la teoría de sistemas dinámicos y una selección de problemas biológicos. Cada capítulo se centra en uno de estos problemas, particularmente dinámica de poblaciones de plankton, desarrollo celular y ciclos sueño-vigilia. A pesar de que estos temas pueden parecer desconectados, todos comparten una característica común: presentan un comportamiento cíclico bajo determinadas circunstancias.&lt;/p&gt;
+&lt;p&gt;En la tesis que nos ocupa mostramos que el comportamiento cíclico (o caótico) está íntimamente relacionado con la biodiversidad del plankton. También usamos ciclos para mostrar, de forma intuitiva, que los mapas epigenéticos de Waddington (una herramienta visual muy habitual en investigaciones sobre desarrollo celular) presentan problemas de definición, y aportamos una solución práctica a estos problemas. Finalmente, presentamos un algoritmo para predecir transciones entre estados sincronizados y desincronizados (por ejemplo, las transiciones entre sueño normal e insomnio, o entre funcionamiento cardiaco normal y un episodio de arritmia), con posibles aplicaciones en las ciencias médicas.&lt;/p&gt;
+&lt;p&gt;La tesis está disponible, temporalmente &lt;a href="https://www.dropbox.com/sh/kg147e5x0o09ddl/AABvsbPApgMXJhBSQNnfqa1Ja?dl=0"&gt;aquí&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Talk announcement: Ciencia y arte, enemigos íntimos (Festival Arte y Ciencia)</title><link href="https://pabrod.github.io/pelican-test/arte_y_ciencia.html" rel="alternate"></link><published>2020-03-09T10:25:40+01:00</published><updated>2020-03-09T10:25:40+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2020-03-09:/pelican-test/arte_y_ciencia.html</id><summary type="html">&lt;p&gt;Science and arts are often presented as opposite to each other, but are they? 10-11 March 2020, Planetario de Pamplona, Navarre, Spain.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;Arte y ciencia, enemigos íntimos&lt;/p&gt;
+&lt;p&gt;This talk will be given in Spanish.&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Science and arts are often presented as opposite to each other, but are they?&lt;/p&gt;
+&lt;p&gt;&lt;img alt="slides" src="images/2020-03/arte-y-ciencia.png"&gt;&lt;/p&gt;
+&lt;p&gt;This talk will be part of the &lt;a href="https://www.unavarra.es/unidadculturacientifica/ciclo-arte-ciencia-y-tecnologia?opcion=1"&gt;Festival arte y ciencia&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;10-11 March. &lt;a href="https://www.pamplonetario.org/"&gt;Planetario de Pamplona&lt;/a&gt;, Navarra, Spain. Free access&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Visualization of a 3D Levi-Civita symbol</title><link href="https://pabrod.github.io/pelican-test/levi-civita.html" rel="alternate"></link><published>2019-12-08T16:37:24+01:00</published><updated>2019-12-08T16:37:24+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-12-08:/pelican-test/levi-civita.html</id><summary type="html">&lt;p&gt;Simple way of visualizing the structure of the Levi-Civita symbol&lt;/p&gt;</summary><content type="html">&lt;script type="text/x-mathjax-config"&gt;
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+&lt;/script&gt;
+
+&lt;script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Levi-Civita_symbol"&gt;Levi-Civita symbol&lt;/a&gt; is that puzzling &lt;span class="math"&gt;\(\epsilon_{ijk}\)&lt;/span&gt; term that appears in the calculation of determinants and vector products. It has, thus, lots of applications in algebra, geometry, mechanics, electromagnetism, ... A (boring) definition is given in the textbox below.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The value of &lt;span class="math"&gt;\(\epsilon_{ijk}\)&lt;/span&gt; goes as follows:&lt;/p&gt;
+&lt;p&gt;It is &lt;span class="math"&gt;\(0\)&lt;/span&gt; if the value of &lt;strong&gt;any&lt;/strong&gt; index is repeated, such as in &lt;span class="math"&gt;\(ijk = 112\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;It is &lt;span class="math"&gt;\(1\)&lt;/span&gt; if the indices are &lt;span class="math"&gt;\(ijk \in123, 312, 231\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;It is &lt;span class="math"&gt;\(-1\)&lt;/span&gt; if the indices are &lt;span class="math"&gt;\(ijk \in 321, 132, 213\)&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I am interested in visualization. Unfortunately, the Levi-Civita symbol has three indices, &lt;span class="math"&gt;\(i\)&lt;/span&gt;, &lt;span class="math"&gt;\(j\)&lt;/span&gt; and &lt;span class="math"&gt;\(k\)&lt;/span&gt;, so we cannot represent it as a matrix or a vector. But, taking advantage of its discrete nature (it can only take 3 different values) we can create a "cubic matrix" to visualize it. This matrix contains &lt;span class="math"&gt;\(3 \times 3 \times 3\)&lt;/span&gt; cubes, each of them univocally identified by a triplet &lt;span class="math"&gt;\(ijk\)&lt;/span&gt;, and the color tells us its value (grey for &lt;span class="math"&gt;\(0\)&lt;/span&gt;, green for &lt;span class="math"&gt;\(1\)&lt;/span&gt;, red for &lt;span class="math"&gt;\(-1\)&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;That's what I did in a GeoGebra applet. I leave it here, just in case anyone finds it interesting. Click on the image to open an interactive version where the cube can be rotated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.geogebra.org/m/fbtgkakj"&gt;&lt;img alt="Levi-Civita" src="images/2019-12/LeviCivita.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Blog"></category><category term="math"></category><category term="GeoGebra"></category></entry><entry><title>Talk announcement: How software development shaped the way I write science (National eScience Symposium)</title><link href="https://pabrod.github.io/pelican-test/NLeSC_symp19.html" rel="alternate"></link><published>2019-11-17T16:28:38+01:00</published><updated>2019-11-17T16:28:38+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-11-17:/pelican-test/NLeSC_symp19.html</id><summary type="html">&lt;p&gt;How software development shaped the way I write science, 21 November 2019, National eScience Symposium 2019. Amsterdam&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few months ago, I informally presented an earlier version of this talk at the &lt;a href="https://www.esciencecenter.nl/"&gt;Netherlands eScience Center&lt;/a&gt; (NLeSC). Two remarkable things happened after that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Now I am an &lt;em&gt;eScience Engineer&lt;/em&gt; at NLeSC.&lt;/li&gt;
+&lt;li&gt;They invited me to give the talk again. This time in a less informal setting: the &lt;a href="https://www.esciencesymposium2019.nl"&gt;National eScience Symposium&lt;/a&gt;, and in a less informal venue: the Ajax stadium&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;How software development shaped the way I write science&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;When we say that scientific papers are complex, we tend to think that their contents are complex. While this is true, there is much more: a paper itself is a complex form of communication. In this short talk I'll explain how my years in the industry of software development dramatically changed the way I write scientific publications.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.dropbox.com/s/97w42albhmujow9/Talk%20at%20Johan%20Cruijff%20-%20public.pptx?dl=0"&gt;&lt;img alt="slides" src="images/2019-11/cover.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;21 November. Johan Cruijff Arena, Amsterdam. &lt;a href="https://www.esciencesymposium2019.nl/page/608898"&gt;FAIR software session&lt;/a&gt;. Registration required&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides temporarily available &lt;a href="https://www.dropbox.com/s/97w42albhmujow9/Talk%20at%20Johan%20Cruijff%20-%20public.pptx?dl=0"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Key references&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;My research workflow, based on GitHub. Carl Boettiger. Available &lt;a href="https://www.carlboettiger.info/2012/05/06/research-workflow.html"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best Practices for Scientific Computing. Eisen JA, editor. PLoS Biol [Internet]. 2014 Jan 7. Available &lt;a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Galileo's instruments of credit. Telescopes, images, secrecy. Mario Biagioli.&lt;/li&gt;
+&lt;li&gt;Rodríguez-Sánchez P. PabRod/rolldown. 2019. Available from: &lt;a href="https://doi.org/10.5281/zenodo.2591550"&gt;https://doi.org/10.5281/zenodo.2591550&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rodríguez-Sánchez P, van Nes EH, Scheffer M. Climbing Escher’s stairs: a simple quasi-potential algorithm for weakly non-gradient systems. 2019 Mar 13. Available from: &lt;a href="http://arxiv.org/abs/1903.05615"&gt;http://arxiv.org/abs/1903.05615&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Seminar announcement: How software development shaped the way I write science (Netherlands eScience Center)</title><link href="https://pabrod.github.io/pelican-test/seminar-nesc.html" rel="alternate"></link><published>2019-08-19T15:30:00+02:00</published><updated>2019-08-19T15:30:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-08-19:/pelican-test/seminar-nesc.html</id><summary type="html">&lt;p&gt;How software development shaped the way I write science, 20 August 2019, Netherlands eScience Center. Amsterdam&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;How software development shaped the way I write science&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;When we say that scientific papers are complex, we tend to think that their contents are complex. While this is true, there is much more: a paper itself is a complex form of communication. In this short talk I'll explain how my years in the industry of software development dramatically changed the way I write scientific publications.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.dropbox.com/s/ngu2pb343fqd4mz/Talk%20at%20eScience%20-%20public.pptx?dl=0"&gt;&lt;img alt="slides" src="images/2019-08/cover.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;20 August 2019, 11:30-12:00 (local timezone)&lt;/li&gt;
+&lt;li&gt;Netherlands eScience Center. Amsterdam. This is going to be a private meeting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides temporarily available &lt;a href="https://www.dropbox.com/s/ngu2pb343fqd4mz/Talk%20at%20eScience%20-%20public.pptx?dl=0"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Key references&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;My research workflow, based on GitHub. Carl Boettiger. Available &lt;a href="https://www.carlboettiger.info/2012/05/06/research-workflow.html"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best Practices for Scientific Computing. Eisen JA, editor. PLoS Biol [Internet]. 2014 Jan 7. Available &lt;a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Galileo's instruments of credit. Telescopes, images, secrecy. Mario Biagioli.&lt;/li&gt;
+&lt;li&gt;Rodríguez-Sánchez P. PabRod/rolldown. 2019. Available from: &lt;a href="https://doi.org/10.5281/zenodo.2591550"&gt;https://doi.org/10.5281/zenodo.2591550&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rodríguez-Sánchez P, van Nes EH, Scheffer M. Climbing Escher’s stairs: a simple quasi-potential algorithm for weakly non-gradient systems. 2019 Mar 13. Available from: &lt;a href="http://arxiv.org/abs/1903.05615"&gt;http://arxiv.org/abs/1903.05615&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Preprint: Climbing Escher's ladder</title><link href="https://pabrod.github.io/pelican-test/quasipotentials.html" rel="alternate"></link><published>2019-04-19T09:50:08+02:00</published><updated>2019-04-19T09:50:08+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-04-19:/pelican-test/quasipotentials.html</id><summary type="html">&lt;p&gt;Announcement of the preprint of my second paper&lt;/p&gt;</summary><content type="html">&lt;p&gt;Contrary to the popular opinion, biological models are harder than physical ones. The latter tend to be linear, have conserved quantities, hamiltonians, and that kind of nice features. One of this nice features I particularly miss is scalar potentials. And apparently biologists miss them too.&lt;/p&gt;
+&lt;p&gt;Potentials are often used in biology (often referred to as stability landscapes or ball-in-a-cup diagrams) as visual analogies to understand the properties of dynamical systems. Those diagrams have proven to be particularly useful to communicate complicated concepts from dynamical systems theory to non-expert audiences, such as bifurcation, basin of attraction or hysteresis. Unfortunately, when we try to use these pictures for multidimensional systems we find a subtle, albeit critical limitation: unless very restrictive conditions are met, potentials fail to exist.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="aew" src="images/2019-04/aew.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Our first challenge was to address the subtle reason a potential may fail to exist without using heavy mathematical weaponry. We found a surprisingly accurate analogy in the world of art, particularly in M.C. Escher's paintings of impossible objects. The second challenge was to provide, at least, a partial solution to the problem. We introduced a simple and efficient algorithm that takes into account the abovementioned limitations, providing the best quasi-potential candidate plus an error map indicating the regions of the phase space where it is safe to use it.&lt;/p&gt;
+&lt;p&gt;The title of this preprint is &lt;a href="https://arxiv.org/abs/1903.05615"&gt;&lt;em&gt;Climbing Escher's stairs: a way to approximate stability landscapes in multidimensional systems&lt;/em&gt;&lt;/a&gt;. The document is freely available in &lt;a href="https://arxiv.org/abs/1903.05615"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Together with the article, and fueling my personal obsession with collaboration and reproducibility, I wrote and published an R package called &lt;a href="https://github.com/PabRod/rolldown"&gt;rolldown&lt;/a&gt; (my first one!) implementing the described algorithm.&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Stability landscapes are useful for understanding the properties of dynamical systems. These landscapes can be calculated from the system's dynamical equations using the physical concept of scalar potential. Unfortunately, for most biological systems with two or more state variables such potentials do not exist. Here we use an analogy with art to provide an accessible explanation of why this happens. Additionally, we introduce a numerical method for decomposing differential equations into two terms: the gradient term that has an associated potential, and the non-gradient term that lacks it. In regions of the state space where the magnitude of the non-gradient term is small compared to the gradient part, we use the gradient term to approximate  the potential as quasi-potential. The non-gradient to gradient ratio can be used to estimate the local error introduced by our approximation. Both the algorithm and a ready-to-use implementation in the form of an R package are provided.&lt;/p&gt;
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.sparcs-center.org/about-us/staff-contacts/pablo-rodriguez.html"&gt;Pablo Rodríguez-Sánchez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.sparcs-center.org/about-us/staff-contacts/egbert-van-nes.html"&gt;Egbert H. van Nes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.sparcs-center.org/about-us/staff-contacts/marten-scheffer.html"&gt;Marten Scheffer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All from Wageningen University and Research.&lt;/p&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Python or R? Why not both?</title><link href="https://pabrod.github.io/pelican-test/PyR.html" rel="alternate"></link><published>2019-03-22T10:50:31+01:00</published><updated>2019-03-22T10:50:31+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2019-03-22:/pelican-test/PyR.html</id><summary type="html">&lt;p&gt;How to use Python code inside R&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;Python&lt;/em&gt; and &lt;em&gt;R&lt;/em&gt;. They are two of the most popular programming languages
+for science. They are both free, both of them have a strong user
+community and both of them work pretty well.&lt;/p&gt;
+&lt;p&gt;Personally, I find &lt;em&gt;Python&lt;/em&gt; way more intuitive than &lt;em&gt;R&lt;/em&gt; (at least for
+people who, like me, have a classical mathematics background). Thinking
+in terms of data frames is great when you work with statistical data,
+but it gets a bit annoying when you are more interested in analysis. To
+uneven the score even more, &lt;em&gt;Python's&lt;/em&gt; libraries like &lt;em&gt;NumPy&lt;/em&gt;, &lt;em&gt;SciPy&lt;/em&gt;,
+&lt;em&gt;SimPy&lt;/em&gt; and &lt;em&gt;Matplotlib&lt;/em&gt; are the perfect toolbox for anyone doing
+mathematical research of any kind.&lt;/p&gt;
+&lt;p&gt;But... I chose &lt;em&gt;R&lt;/em&gt;. Why?&lt;/p&gt;
+&lt;p&gt;There is only one reason for doing so: &lt;em&gt;knitr&lt;/em&gt;[1]. &lt;em&gt;knitr&lt;/em&gt; is a package
+that turns a combination of text &lt;strong&gt;and code&lt;/strong&gt; (the &lt;em&gt;RMarkdown&lt;/em&gt; file)
+into almost any format of human readable text, including a &lt;em&gt;pdf&lt;/em&gt; report,
+slides, or a blog page like &lt;a href="https://github.com/PabRod/pabrod.github.io-src/blob/master/auxs/Rmd/2019-03-22%20PyR.Rmd"&gt;the one you are reading now&lt;/a&gt;. The interesting
+point is the integration of the code with the text. This means that an
+&lt;em&gt;RMarkdown&lt;/em&gt; document is not passive. This allows one to write papers
+that, quite literally, recalculate themselves any time needed. &lt;em&gt;knitr&lt;/em&gt;,
+combined with research code structured as an &lt;em&gt;R&lt;/em&gt; package, is clearly my
+favourite way of writing research. The package structure keeps my code
+tidy and tested, and &lt;em&gt;knitr&lt;/em&gt; allows me to do all and the figures the
+writing in a single file. The result is a rock-solid, reproducible
+output. Let me put it like this: &lt;em&gt;knitr&lt;/em&gt; is like &lt;em&gt;LaTeX&lt;/em&gt; on steroids![2]&lt;/p&gt;
+&lt;p&gt;But... I keep finding &lt;em&gt;R&lt;/em&gt; annoying. A few days ago, after looking for
+hours for a nice way of ploting phase planes, I gave up. All the
+possibilities I found were terribly ugly. I had to go back to &lt;em&gt;Python's&lt;/em&gt;
+&lt;em&gt;Matplotlib&lt;/em&gt; and its function &lt;em&gt;streamplot&lt;/em&gt;. See for yourself:&lt;/p&gt;
+&lt;p&gt;With &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="with-r" src="images/2019-03/phase-plot-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;With &lt;em&gt;Python&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="with-py" src="images/2019-03/phase-plotPy-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;After a bit of googling, I found an &lt;em&gt;R&lt;/em&gt; library called &lt;em&gt;reticulate&lt;/em&gt; that
+allows to run &lt;em&gt;Python&lt;/em&gt; code from inside &lt;em&gt;R&lt;/em&gt;. If this works (I thought) I
+can keep the best of both approaches! And, so far, it works flawlessly!&lt;/p&gt;
+&lt;h2&gt;How to do it&lt;/h2&gt;
+&lt;p&gt;First of all, &lt;em&gt;R&lt;/em&gt; and &lt;em&gt;Python&lt;/em&gt; are obviously reequired. &lt;em&gt;reticulate&lt;/em&gt; can
+be installed and loaded as usual in &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nx"&gt;install&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;packages&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;reticulate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="kn"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;reticulate&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For &lt;a href="https://community.rstudio.com/t/matplotlib-inline-plots-with-reticulate-on-rstudio-server/16357"&gt;some
+reason&lt;/a&gt;
+I still don't fully understand, I had to add these two lines to make
+&lt;em&gt;Matplotlib&lt;/em&gt; work properly.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;matplotlib&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;import&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;matplotlib&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;convert&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;matplotlib&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="nf"&gt;use&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Agg&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, we can insert python chunks in &lt;em&gt;Rmarkdown&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;```&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;eval&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;numpy&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;
+&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="err"&gt;```&lt;/span&gt;
+
+&lt;span class="c1"&gt;## 0.707106781187&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Interaction&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;reticulate&lt;/em&gt; works creating two different sessions, one of &lt;em&gt;R&lt;/em&gt; and
+another of &lt;em&gt;Python&lt;/em&gt;. In order to unleash all the power of this
+combination, we need a way of passing variables between both sessions.
+This is done via the dataframe &lt;code&gt;py&lt;/code&gt;. See examples below:&lt;/p&gt;
+&lt;h3&gt;From &lt;em&gt;R&lt;/em&gt; to &lt;em&gt;Python&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Create a variable and store it as a field of &lt;code&gt;py&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;```{r}&lt;/span&gt;
+&lt;span class="n"&gt;py$foo &amp;lt;- &amp;quot;Hi!&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;```&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The variable will be available in the &lt;em&gt;Python&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;```{python}
+print(foo)
+```
+
+## Hi!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;From &lt;em&gt;Python&lt;/em&gt; to &lt;em&gt;R&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Create a variable inside the &lt;em&gt;Python&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;```{python}
+bar = &amp;quot;How are you?&amp;quot;
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The variable will be available as a field of the dataframe &lt;code&gt;py&lt;/code&gt; in the
+&lt;em&gt;R&lt;/em&gt; session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;```{r}
+py$bar
+```
+
+## [1] &amp;quot;How are you?&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;[1] Actually, there is a second (and less important) reason: &lt;em&gt;Shiny&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;[2] It is true that &lt;em&gt;Python&lt;/em&gt; also has &lt;em&gt;Jupyter&lt;/em&gt; for reproducible
+research, but the results are just not as neat as with &lt;em&gt;R&lt;/em&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="math"></category><category term="R"></category><category term="Python"></category></entry><entry><title>Animations in R</title><link href="https://pabrod.github.io/pelican-test/animations-r.html" rel="alternate"></link><published>2018-12-02T14:22:33+01:00</published><updated>2018-12-02T14:22:33+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-12-02:/pelican-test/animations-r.html</id><summary type="html">&lt;p&gt;How to make animations in R using ggplot2 and gganimate&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;I've recently discovered the package &lt;em&gt;gganimate&lt;/em&gt; thanks to this
+&lt;a href="http://blog.schochastics.net/post/beautiful-chaos-the-double-pendulum/"&gt;brilliant
+example&lt;/a&gt;.
+I've been playing with the package during this weekend, and I created
+some examples that I spread through
+&lt;a href="https://twitter.com/DonMostrenco/status/1068791278173908992"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some Twitter users showed interest in knowing more. I hope this short
+tutorial can satisfy them.&lt;/p&gt;
+&lt;h2&gt;Libraries used&lt;/h2&gt;
+&lt;p&gt;We're going to need the following libraries:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Numerical&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pracma&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# To calculate the Taylor polynomials&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;reshape&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# For using melt&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Display&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ggplot2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# For plotting&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ggthemes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Also for plotting&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;gganimate&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# For animating. Install using devtools::install_github(&amp;#39;thomasp85/gganimate&amp;#39;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;kableExtra&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# To display nice tables&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Animating a moving particle&lt;/h2&gt;
+&lt;p&gt;Here we'll generate a moving particle. First, we need the positions in
+time. In our case, the dynamical equations will be given by:&lt;/p&gt;
+&lt;div class="math"&gt;$$ \\begin{cases} x(t) = cos(t) \\\\ y(t) = sin(2t) \\end{cases}$$&lt;/div&gt;
+&lt;p&gt;So we generate the series and store them in a dataframe:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kc"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;length.out&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;cos&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;particle&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;data.frame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The code for generating the animation follows a very similar syntax to
+&lt;em&gt;ggplot&lt;/em&gt;. In this case, we indicate that the values of &lt;em&gt;ts&lt;/em&gt; should be
+used as the transition time.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    ggplot(data = particle) +
+      geom_point(aes(x = xs, y = ys), col = &amp;#39;red&amp;#39;) + # Generate the plot
+      theme_tufte() + # Make ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_time(ts) + # And animate!
+      ease_aes(&amp;#39;linear&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Movement-1.gif"&gt;&lt;/p&gt;
+&lt;h2&gt;Animating a Taylor series&lt;/h2&gt;
+&lt;p&gt;Let's see now a more complex example. Our purpose is to explore Taylor
+polynomials of different degrees approximating the function&lt;/p&gt;
+&lt;div class="math"&gt;$$f(x) = cos(\\frac{3x}{2}) e^{-x} $$&lt;/div&gt;
+&lt;p&gt;around a given point.&lt;/p&gt;
+&lt;p&gt;Thus, we begin creating the function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="nf"&gt;cos&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1.5&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nf"&gt;exp&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In this case, we want to compare how good is the performance of Taylor
+polynomials of different orders. The data we have to generate is a bit
+more complex than before.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;length&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;out&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1500&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Values of x&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Value of x where the Taylor series will be centered&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;matrix&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;nrow&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ncol&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Extract Taylor polynomials of orders 0 to 8&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Indexes have to be positive, but first order is 0&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# A Taylor polynomial of order zero is just...&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;[,&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# ... a constant function&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;taylor_coefs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;taylor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Get polynomial&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;[,&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;polyval&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;taylor_coefs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Evaluate polynomial&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Rewrite as dataframe&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;frame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;colnames&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;melt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;cbind&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;rep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;colnames&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;order&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ys&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;xs&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;f&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The resulting dataframe is a collection of polynomials of different
+orders evaluated at each point in &lt;em&gt;xs&lt;/em&gt;. Additionally, we added the
+values of the original function &lt;em&gt;f(x)&lt;/em&gt;, also at each point:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th align="left"&gt;order&lt;/th&gt;
+&lt;th align="right"&gt;ys&lt;/th&gt;
+&lt;th align="right"&gt;xs&lt;/th&gt;
+&lt;th align="right"&gt;f&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-2.000000&lt;/td&gt;
+&lt;td align="right"&gt;-7.315110&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.994474&lt;/td&gt;
+&lt;td align="right"&gt;-7.265955&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.988948&lt;/td&gt;
+&lt;td align="right"&gt;-7.216622&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.983423&lt;/td&gt;
+&lt;td align="right"&gt;-7.167120&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.977897&lt;/td&gt;
+&lt;td align="right"&gt;-7.117454&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;0&lt;/td&gt;
+&lt;td align="right"&gt;0.0260228&lt;/td&gt;
+&lt;td align="right"&gt;-1.972371&lt;/td&gt;
+&lt;td align="right"&gt;-7.067632&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A static plot will look like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys, col = order)) + # Generate basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &amp;#39;black&amp;#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make it ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... look ...
+      scale_y_continuous(limits = c(-2, 2)) # ... pretty.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Plot-static-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;In order to animate it, now we will use the command
+&lt;em&gt;transition_states&lt;/em&gt;, using &lt;em&gt;order&lt;/em&gt; (the order of the Taylor polynomial)
+as the animation parameter. The parameters &lt;em&gt;transition_length&lt;/em&gt; and
+&lt;em&gt;state_length&lt;/em&gt; control how much time each state stays in screen, and
+how long the transition between states should look.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    ggplot(data = df) +
+      geom_point(aes(x = xs, y = ys), col = &amp;#39;red&amp;#39;) + # Add basic plot
+      geom_point(aes(x = xs, y = f)) + # Plot also original function
+      geom_point(aes(x = x0, y = f(x0)), col = &amp;#39;red&amp;#39;, size = 5) + # Remark initial point
+      theme_tufte() + # Make ...
+      labs(x = &amp;#39;x&amp;#39;, y = &amp;#39;y&amp;#39;) + # ... it ...
+      scale_y_continuous(limits = c(-2, 2)) + # ... look ...
+      guides(col = FALSE) + # ... pretty.
+      transition_states(order, transition_length = 1, state_length = 0.5) + # And animate!
+      ease_aes(&amp;#39;linear&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="a" src="images/2018-12/Plot-animated-1.gif"&gt;&lt;/p&gt;
+&lt;p&gt;The result could not look nicer!&lt;/p&gt;
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;PS: If you liked this post, &lt;a href="https://www.geogebra.org/m/CeW2gCzH"&gt;this
+visualization&lt;/a&gt; I made in &lt;em&gt;GeoGebra&lt;/em&gt;
+some time ago may also be of your interest.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Blog"></category><category term="math"></category><category term="R"></category></entry><entry><title>The spectrum of my personal accountancy</title><link href="https://pabrod.github.io/pelican-test/spectrum-accountancy.html" rel="alternate"></link><published>2018-11-28T13:54:29+01:00</published><updated>2018-11-28T13:54:29+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-11-28:/pelican-test/spectrum-accountancy.html</id><summary type="html">&lt;p&gt;Application of Fourier analysis to a personal accountancy timeseries&lt;/p&gt;</summary><content type="html">&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;
+
+&lt;p&gt;Since year 2012, I keep and maintain a &lt;em&gt;.csv&lt;/em&gt; file containing
+information about my bank accounts. The most relevant data is the time
+series of the total amount of money vs. date. The table below shows a
+small subset of this data:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th align="left"&gt;Date&lt;/th&gt;
+&lt;th align="right"&gt;Total&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-26&lt;/td&gt;
+&lt;td align="right"&gt;641.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;2012-09-24&lt;/td&gt;
+&lt;td align="right"&gt;703.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-22&lt;/td&gt;
+&lt;td align="right"&gt;723.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td align="left"&gt;2012-09-19&lt;/td&gt;
+&lt;td align="right"&gt;755.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td align="left"&gt;2012-09-18&lt;/td&gt;
+&lt;td align="right"&gt;765.52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;When plotted, the data looks as noisy as the example on the figure below. The most noticeable regularity is the periodic increment at the end of each month, corresponding with the &lt;strong&gt;pay day&lt;/strong&gt;... followed by a big expenditure corresponding to paying the &lt;strong&gt;rent&lt;/strong&gt;. Notice also the higher pay in late June, corresponding to the summer extra salary that is customarily applied in several countries. The timeseries looks irregular, but there is some clear periodical component on it.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="a" src="images/2018-11/Plot-data-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;I know that the Fourier transform of a continuous timeseries is the perfect tool for spotting underlying periodicities. But my timeseries is uneven and discontinous. How can we fix this?&lt;/p&gt;
+&lt;h2&gt;First step: Interpolation&lt;/h2&gt;
+&lt;p&gt;The first problem, unevenness of data, can be solved by good old interpolation methods. The only tricky part here is that our &lt;em&gt;x&lt;/em&gt; coordinates are dates, so it is advisable to use &lt;em&gt;lubridate&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I used the following:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nf"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dplyr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nf"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lubridate&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;first_day&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;last_day&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Add a column with relative day as an integer&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;mutate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Day_index&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;as.numeric&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;first_day&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Create the time vector used for interpolation&lt;/span&gt;
+&lt;span class="n"&gt;all_days&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;first_day&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;last_day&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;by&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;all_indices&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;all_days&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;by&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;daily_total&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;approx&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Day_index&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Total&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;xout&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;all_indices&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;yright&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;head&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="n"&gt;Total&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Second step: Fourier transform&lt;/h2&gt;
+&lt;p&gt;For discrete, evenly spaced timeseries as the one we have after interpolation, fast Fourier transform can be used to estimate dominant frequencies. The fast Fourier transform or &lt;em&gt;FFT&lt;/em&gt; is defined as a function of an integer parameter &lt;em&gt;k&lt;/em&gt; and a set of &lt;em&gt;N&lt;/em&gt; complex numbers {&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt;, &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, ...&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;&lt;em&gt;N&lt;/em&gt; − 1&lt;/sub&gt;}.&lt;/p&gt;
+&lt;p&gt;The definition goes as follows:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+X\_k = FFT \[ k; \\lbrace x\_n \\rbrace\] \\equiv  \\sum\_{n=0}^{N-1} x\_n\\cdot e^{-i 2 \\pi k \\frac{n}{N}}
+$$&lt;/div&gt;
+&lt;p&gt;and the inverse:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+x\_n = FFT^{-1} \[ n; \\lbrace X\_k \\rbrace\] \\equiv  \\frac{1}{N}\\sum\_{k=0}^{N-1} X\_k \\cdot  e^{i 2 \\pi k \\frac{n}{N}}
+$$&lt;/div&gt;
+&lt;p&gt;The &lt;em&gt;FFT&lt;/em&gt; can be used to estimate the spectrum of a signal. While doing this, it is important to note that &lt;em&gt;n&lt;/em&gt; and &lt;em&gt;k&lt;/em&gt; are unit-less vector indices. In order to link those indices with physical quantities as time and frequency, we could notice that:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+x_n = x(n \cdot \Delta t) \equiv x(t_n)
+$$&lt;/div&gt;
+&lt;p&gt;where &lt;em&gt;Δ&lt;/em&gt;&lt;em&gt;t&lt;/em&gt; is the sampling period. If we take a number &lt;em&gt;N&lt;/em&gt; of samples, the final sample time should be:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+t_{end} = N \cdot \Delta t \equiv t_N
+$$&lt;/div&gt;
+&lt;p&gt;Going to our first equation with all this in mind, we have:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+X\_k \\equiv \\\\
+\\sum\_{n=0}^{N-1} x\_n \\cdot e^{-i 2 \\pi k \\frac{n}{N}} = \\\\
+\\sum\_{n=0}^{N-1} x(n \\cdot \\Delta t) \\cdot e^{-i 2 \\pi k \\frac{n \\cdot \\Delta t}{t\_{end}}} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i 2 \\pi k \\frac{t\_n}{t\_{end}}} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i \\frac{2 \\pi k}{t\_{end}} t\_n} = \\\\
+\\sum\_{t\_n=0}^{t\_{end}-\\Delta t} x(t\_n) \\cdot e^{-i \\omega\_k t\_n}
+$$&lt;/div&gt;
+&lt;p&gt;so, the link between the indices &lt;em&gt;k&lt;/em&gt; and the corresponding physical frequencies &lt;em&gt;ω&lt;/em&gt;&lt;sub&gt;&lt;em&gt;k&lt;/em&gt;&lt;/sub&gt; is given by:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\\omega\_k = \\frac{2 \\pi}{t\_{end}} k
+$$&lt;/div&gt;
+&lt;p&gt;We just added units (and thus, physical) significance to the indexes &lt;em&gt;k&lt;/em&gt; and &lt;em&gt;n&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;The (quite primitive) code I used for doing this is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;fft_spectrum&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;as.freq&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="c1"&gt;# Translate k indices into frequencies&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="n"&gt;tEnd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;tail&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="m"&gt;-1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;tEnd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# In T^-1 units (typically Hz, if the time is in seconds)&lt;/span&gt;
+
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="c1"&gt;#Perform fast Fourier transform&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;Mod&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;fft&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ys&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="nf"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;as.freq&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Use frequencies&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nf"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;else&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# Use periods&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nf"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;T&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Xk&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;After applying the two algorithms described above I find the following distribution of the relative lengths of each period:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="b" src="images/2018-11/Frequencies-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;Note that the strengths corresponding to periods of &lt;em&gt;30&lt;/em&gt; and &lt;em&gt;31&lt;/em&gt; days are higher than their neighbors, corresponding to pay-days and monthly payments. Even my very basic algorithm could see it!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PS: I removed several details, plus trimmed both vertical and horizontal scales. I did this in order to keep my privacy. After all, the FFT is an invertible operation!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt; &lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Blog"></category><category term="math"></category><category term="R"></category></entry><entry><title>Interactive applet: daylight saving time in Spain</title><link href="https://pabrod.github.io/pelican-test/daylight-saving.html" rel="alternate"></link><published>2018-09-03T13:51:47+02:00</published><updated>2018-09-03T13:51:47+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-09-03:/pelican-test/daylight-saving.html</id><summary type="html">&lt;p&gt;A visualization applet&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is a translation of the essay "Interactivo: ¿Cómo me afecta el cambio de hora?", originally published &lt;a href="https://fuga.naukas.com/2018/09/02/interactivo-como-me-afecta-el-cambio-de-hora/"&gt;here&lt;/a&gt; in Spanish.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The possibility of cancelling daylight saving time in the European Union has been one of the highlights of the week.&lt;/p&gt;
+&lt;p&gt;In order to shed some light over this (surprisingly) controversial topic, I made this interactive visualization. It allows to predict the daylight hours in several Spanish cities and towns, under the different possible scenarios.&lt;/p&gt;
+&lt;p&gt;To play with it, follow &lt;a href="https://pabrod.shinyapps.io/cambio-de-hora/"&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The code is freely available &lt;a href="https://github.com/PabRod/cambio-de-hora"&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="physics"></category></entry><entry><title>Seminar announcement: An example of reproducible research (University College Cork)</title><link href="https://pabrod.github.io/pelican-test/seminar-cork.html" rel="alternate"></link><published>2018-08-21T14:52:25+02:00</published><updated>2018-08-21T14:52:25+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-08-21:/pelican-test/seminar-cork.html</id><summary type="html">&lt;p&gt;An example of reproducible research, 29 August 2018, University College Cork&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;Neutral competition and chaos. An example of reproducible research&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Have you ever thought of how many lines of scientific code are hidden in researcher's hard drives? Have you ever tried to reproduce a complicated algorithm described only with words on a scientific publication? In this talk, I will use my recently released paper as a case study to briefly review the technical possibilities and difficulties regarding publishing, citing and maintaining scientific code.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;29 August 2018, 12:15-12:35 (local timezone)&lt;/li&gt;
+&lt;li&gt;Aula Maxima. University College Cork. Ireland.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Key references&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Rodríguez-Sánchez P, van Nes EH, Scheffer M. Neutral competition boosts chaos in food webs. Preprint available in &lt;a href="http://arxiv.org/abs/1807.06901"&gt;arXiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rodríguez-Sánchez P. PabRod/Chaos-and-neutrality: Analysis script for “Neutral competition boosts chaos in food webs”. 2018. Available &lt;a href="https://doi.org/10.5281/zenodo.1319590"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best Practices for Scientific Computing. Eisen JA, editor. PLoS Biol [Internet]. 2014 Jan 7. Available &lt;a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides will be temporarily available &lt;a href="https://www.dropbox.com/s/rb90g1qky5v6ocx/An%20example%20of%20reproducible%20research.pptx?dl=0"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.criticsitn.eu/wp/?page_id=1813"&gt;Workshop's website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Preprint: Neutral competition boosts chaos in food webs</title><link href="https://pabrod.github.io/pelican-test/chaos-neutrality.html" rel="alternate"></link><published>2018-07-19T21:10:16+02:00</published><updated>2018-07-19T21:10:16+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-07-19:/pelican-test/chaos-neutrality.html</id><summary type="html">&lt;p&gt;Announcement of the preprint of my first paper&lt;/p&gt;</summary><content type="html">&lt;p&gt;In the early days of quantum theory, all Nobel prizes awarded to researchers working on atomic structure fell under the category of chemistry. I think it was Ernest Rutherford who joked about his instantaneous transformation from a physicist into a chemist when he received the chemistry Nobel prize in 1908.&lt;/p&gt;
+&lt;p&gt;I'm certainly not even comparable to the great New Zealander. But I'm also suffering a transformation, from a physicist into a biologist. Unfortunately, mine is not instantaneous. It took literally years of work to publish my first preprint. The title is &lt;a href="https://arxiv.org/abs/1807.06901"&gt;&lt;em&gt;Neutral competition boosts chaos in food webs&lt;/em&gt;&lt;/a&gt;, and it's about population dynamics.&lt;/p&gt;
+&lt;p&gt;The document is available in &lt;a href="https://arxiv.org/abs/1807.06901"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Those who, like me, are obsessed with reproducibility, will appreciate knowing that the code I wrote for my analysis is fully available in &lt;a href="https://github.com/PabRod/Chaos-and-neutrality"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Near-neutrality of competition has been proposed to facilitate coexistence of species because it slows down competitive exclusion, thus making it easier for equalizing mechanisms to maintain diverse communities. An unrelated line of work has shown that chaos can promote coexistence of many species in super-saturated communities. By analyzing a set of numerically simulated food webs, here we link those previously unrelated findings. We show that near-neutrality of competition at the prey's trophic level, in the presence of interactions with natural enemies, increases the chances of developing chaotic dynamics. Our results suggest that near-neutrality may promote biodiversity in two ways: through reducing the rates of competitive displacement and through promoting non-equilibrium dynamics.&lt;/p&gt;
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.sparcs-center.org/about-us/staff-contacts/pablo-rodriguez.html"&gt;Pablo Rodríguez-Sánchez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.sparcs-center.org/about-us/staff-contacts/egbert-van-nes.html"&gt;Egbert H. van Nes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.sparcs-center.org/about-us/staff-contacts/marten-scheffer.html"&gt;Marten Scheffer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All from Wageningen University and Research.&lt;/p&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Seminar announcement: Competition, diversity and the benefits of chaos (Imperial College London)</title><link href="https://pabrod.github.io/pelican-test/seminar-macsim.html" rel="alternate"></link><published>2018-07-04T09:50:14+02:00</published><updated>2018-07-04T09:50:14+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-07-04:/pelican-test/seminar-macsim.html</id><summary type="html">&lt;p&gt;Invasive species: a mathematician among biologists, 12 July 2018, Imperial College London&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Event&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.criticsitn.eu/wp/?page_id=2201"&gt;Critical transitions, stability and resilience in nature, technology and society: Innovations and Applications&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;Competition, diversity and the benefits of chaos&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this talk we'll explore how chaos can be the driver not only of unpredictability and disorder, but also of diversity inside an ecosystem. The analysis performed can be easily adapted and generalized to different kinds of competition systems, both inside and outside biology.&lt;/p&gt;
+&lt;h2&gt;Key references&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Huisman J, Weissing FJ. Biodiversity of plankton by species oscillations and chaos. Nature [Internet]. 1999 Nov 25;402(6760):407–10. Available &lt;a href="http://www.nature.com/articles/46540"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dakos V, Beninca E, van Nes EH, Philippart CJM, Scheffer M, Huisman J. Interannual variability in species composition explained as seasonally entrained chaos. Proc R Soc B Biol Sci. 2009 Aug 22 ;276(1669):2871–80. Available &lt;a href="http://rspb.royalsocietypublishing.org/cgi/doi/10.1098/rspb.2009.0584"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;12 July 2018, 9:30-17:00 (local timezone)&lt;/li&gt;
+&lt;li&gt;Clore Lecture Theatre. Department of Mathematics, Imperial College London. South Kensington Campus, Huxley Building, 180 Queen's Gate, Kensington, London SW7 2AZ&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Things I've learned working in a multidisciplinary group</title><link href="https://pabrod.github.io/pelican-test/multidisciplinary.html" rel="alternate"></link><published>2018-06-12T16:04:02+02:00</published><updated>2018-06-12T16:04:02+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-06-12:/pelican-test/multidisciplinary.html</id><summary type="html">&lt;p&gt;I work as a mathematician in an... aquatic ecology department!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is a translation of the essay "Cosas que he aprendido trabajando en un grupo multidisciplinar", originally published &lt;a href="http://fuga.naukas.com/2018/06/12/grupo-multidisciplinar"&gt;here&lt;/a&gt; in Spanish.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As some of you already know, I'm a physicist. Despite that, I work as a mathematician in an... aquatic ecology department! This situation, apart from creating an identity crisis on me, makes me spend quite some time thinking about the diffuse and popular concept of "multidisciplinarity".&lt;/p&gt;
+&lt;p&gt;The underlying idea behind multidisciplinarity is that it is not possible to bundle knowledge in fixed categories, mostly motivated by academical tradition. The borders between disciplines are diffuse. Two clear examples: no one can trace a solid line between physics and mathematics (where does mechanics end and analysis starts?), nor between physics and chemistry (is molecular structure chemistry or quantum mechanics?). An ideal multidisciplinary team contains experts from different fields, increasing thus the reach of the problems that can be addressed. In this kind of teams, some events of "epiphany", called "knowledge transfer" in this context, to happen. In those moments the whole group learns and adopts a new idea or method from another discipline.&lt;/p&gt;
+&lt;p&gt;The idea sounds good, but the practical implementation has some difficulties worth mentioning. To begin with, this groups usually are created inside traditional departments. This makes one of the disciplines to be over-represented (in my case, biology), and this creates some inertia. Some people tell the joke that a multidisciplinary team is a traditional department that once hired a physicist for helping with the simulations.&lt;/p&gt;
+&lt;p&gt;One may think (at least I did) that the bigger difficulty in order to adapt to a multidisciplinary group would be acquiring the required knowledge from the other disciplines. Curiously, my experience has been that this difficulty is secondary: precisely because being inside a multidisciplinary team, there's always some expert close who can help. Then, that is the main difficulty? No doubt: &lt;strong&gt;communication&lt;/strong&gt;, and on a very deep level. Different disciplines use not only different technical jargon (this is the less important problem), but also different tools and, more seriously, they have different academical cultures.&lt;/p&gt;
+&lt;p&gt;And academical cultures are a more serious difficulty than it may seem. Nowadays, I can identify a physicist, engineer or mathematician just looking at his face when I say: &lt;em&gt;"I am the only one using LaTeX in my department"&lt;/em&gt;. These small details affect the way papers are written, and even the way problems are solved (and even posed!). In the next lines we'll see some examples.&lt;/p&gt;
+&lt;p&gt;In my everyday life I collaborate with biologists and mathematicians in the posing, analysis and solving of mathematical models with biological interest. In both groups I've observed ways of working that I personally like... and some others that I like less.&lt;/p&gt;
+&lt;p&gt;Among mathematicians, I find remarkable the exquisite care they put in notation, and their detail in the problem-posing phase. On the other hand, they tend to be reluctant to apply numerical methods, even when there is no other choice.&lt;/p&gt;
+&lt;p&gt;About biologists, it is remarkable that they are never afraid of tackling any problem, regardless of how complex it is. They don't hesitate in using all the numerical artillery as soon as it is possible. To the contrary of mathematicians, they tend to pose the problems in a blurrier way and add more specifications on-the-go. Maybe what I like the less is that some biology journals follow strictly the rule &lt;em&gt;"each printed equation halves the number of readers"&lt;/em&gt;, and they rather write lengthy paragraphs than a single equation containing the same information (if you're lucky, maybe you can find the equation in the appendix).&lt;/p&gt;
+&lt;p&gt;I'm pretty sure that some of the physicists' characteristics are strange for them. In fact, it is symptomatic that, from my point of view, mathematicians and biologists lie on both the extremes of a continuum (rigour vs. quick problem solving), in which center curiously and suspiciously lies physics.&lt;/p&gt;
+&lt;p&gt;We should not forget that research groups are also human groups, with vices, virtues, interests, etc. In a multidisciplinary group, communication has to be fluid not only in the sense of information transfer but also in the sense of empathetic communication. Not only to understand other people motivations to do things "their way" (you can like it more or less, but there's always a motivation), but also to make the &lt;em&gt;"knowledge transfer"&lt;/em&gt; deserve its name, and not be a mere &lt;em&gt;"I can do it better"&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Maybe, the best abstract of the situation is that, after more than two years working in a multidisciplinary group, I still cannot decide if I love it or hate it. Anyway, I dare to leave here some advice, just in case someone finds it interesting:&lt;/p&gt;
+&lt;h2&gt;Understand their methods&lt;/h2&gt;
+&lt;p&gt;The first reaction when we face an unusual method tends to be rejection (look, for instance, the scholarly fights about notations for derivative (I wrote about this &lt;a href="http://fuga.naukas.com/2016/03/10/derivadas-con-primas-o-diferenciales/"&gt;here&lt;/a&gt;, in Spanish). My experience is that, even if at the end we decide that "our" method is better suited for the given problem, it is worth to stop and understand the motivations for using something different.&lt;/p&gt;
+&lt;h2&gt;Explain your methods&lt;/h2&gt;
+&lt;p&gt;Practical example: most people in my department, including my supervisors, use &lt;em&gt;Word&lt;/em&gt;, but I use &lt;em&gt;LaTeX&lt;/em&gt;. At the beginning of my project, I explained to them my reasons for doing so, and we reached minimum agreement about how to collaborate without forcing them to learn how to use  &lt;em&gt;LaTeX&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Learn your own way&lt;/h2&gt;
+&lt;p&gt;It is very likely that the sources your colleagues use are not the ideal for you. In the case of mathematical biology, there are books and journals more or less bent towards biological or mathematical styles. When it comes to learning new ideas, I try to use the more mathematical ones. There's no need of not using the expertise you gained during your degree studies. When it comes to publishing, once again, an agreement should be required with your collaborators about the style and the target journal.&lt;/p&gt;
+&lt;h2&gt;Make a reasonable partition of your schedule&lt;/h2&gt;
+&lt;p&gt;Multidisciplinary groups are rarely evenly composed. Practical example: if you are the only statistician in a medicine department with physicians, chemists and biologists, it is very likely that everyone is interested in your help. Probably, to the contrary, only a couple of other people's projects will be meaningful for your research. This situation may escalate into a problem if you don't establish some reasonable limits for the time you spend helping others.&lt;/p&gt;
+&lt;h2&gt;In the end, your thesis is yours&lt;/h2&gt;
+&lt;p&gt;To be part of a multidisciplinary group doesn't mean to completely abandon your interests and previous training. At the end, you are the responsible of your publications. Your directors, so to say, occupy the co-pilot seat.&lt;/p&gt;
+&lt;h2&gt;Don't apologize for being a physicist, a biologist, ...&lt;/h2&gt;
+&lt;p&gt;If your discipline represents a minority inside the group or, even worse, if you are the only representative of it, you may feel that it is not worth giving your opinion. This is a mistake. It is exactly in these situations when you feel you have to say something that nobody before said, when it is most likely that something significant is communicated.&lt;/p&gt;
+&lt;p&gt;After all, this why they hired you. Didn't they?&lt;/p&gt;</content><category term="Blog"></category><category term="math"></category><category term="biology"></category></entry><entry><title>Cosas que he aprendido trabajando en un grupo multidisciplinar</title><link href="https://pabrod.github.io/pelican-test/multidisciplinary-es.html" rel="alternate"></link><published>2018-06-12T16:04:02+02:00</published><updated>2018-06-12T16:04:02+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-06-12:/pelican-test/multidisciplinary-es.html</id><summary type="html">&lt;p&gt;Un físico que trabaja como matemático en un departamento de ecología acuática&lt;/p&gt;</summary><content type="html">&lt;p&gt;Como algunos de ustedes saben, yo soy físico. A pesar de ello, trabajo como matemático en un departamento de... ¡ecología acuática! Esta situación, además de generarme una considerable crisis de identidad, hace que dedique bastante tiempo a pensar sobre ese concepto tan difuso y tan de moda que es la "multidisciplinaridad".&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sigue leyendo en &lt;a href="http://fuga.naukas.com/2018/06/12/grupo-multidisciplinar"&gt;Naukas&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><category term="Blog"></category><category term="math"></category><category term="biology"></category></entry><entry><title>Seminar announcement: A mathematician among biologists (Imperial College London)</title><link href="https://pabrod.github.io/pelican-test/seminar-imperial.html" rel="alternate"></link><published>2018-06-10T12:27:50+02:00</published><updated>2018-06-10T12:27:50+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-06-10:/pelican-test/seminar-imperial.html</id><summary type="html">&lt;p&gt;Invasive species: a mathematician among biologists, 19 June 2018, Imperial College London&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;Invasive species: a mathematician among biologists&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This is a story about multidisciplinarity. It starts with a theoretical physicist being hired as a mathematician by a biology department. But what is the role of a mathematician in such a singular ecosystem? In this talk, we'll learn that the relation between biology and mathematics can be traced back to the XIII century. We'll also learn that the survival of plankton communities is strongly related with chaotic attractors, and how differential geometry had an unexpected role in a science communication problem.&lt;/p&gt;
+&lt;h2&gt;Key references&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Huisman J, Weissing FJ. Biodiversity of plankton by species oscillations and chaos. Nature [Internet]. 1999 Nov 25;402(6760):407–10. Available &lt;a href="http://www.nature.com/articles/46540"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gottwald GA, Melbourne I. On the Implementation of the 0-1 Test for Chaos. SIAM J Appl Dyn Syst [Internet]. 2009 Jan [cited 2017 May 9];8(1):129–45. Available &lt;a href="https://arxiv.org/pdf/0906.1418.pdf%22%3Ehttps://arxiv.org/pdf/0906.1418.pdf"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Zhou JX, Aliyu MDS, Aurell E, Huang S. Quasi-potential landscape in complex multi-stable systems. J R Soc Interface [Internet]. 2012 Dec 7 [cited 2017 Feb 28];9(77):3539–53. Available &lt;a href="http://rsif.royalsocietypublishing.org/cgi/doi/10.1098/rsif.2012.0434"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bhattacharya S, Zhang Q, Andersen ME. A deterministic map of Waddington’s epigenetic landscape for cell fate specification. BMC Syst Biol [Internet]. 2011 [cited 2017 Feb 28];5. Available &lt;a href="http://www.biomedcentral.com/1752-0509/5/85"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://wwwf.imperial.ac.uk/~mrasmuss/DynamIC/index.php"&gt;Department's website&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;19 June 2018, 14:00-15:00 (local timezone)&lt;/li&gt;
+&lt;li&gt;Huxley Building, South Kensington Campus. Room 130. Imperial College London.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.8125522417527!2d-0.1791236342303548!3d51.49830722963361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876055c7df7c537%3A0x2541470e75df5fe0!2sHuxley+Building!5e0!3m2!1ses!2snl!4v1528627031939" width="600" height="450" frameborder="0" style="border:0" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Course announcement: Introduction to PDEs</title><link href="https://pabrod.github.io/pelican-test/intro-to-pdes.html" rel="alternate"></link><published>2018-06-06T13:13:30+02:00</published><updated>2018-06-06T13:13:30+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-06-06:/pelican-test/intro-to-pdes.html</id><summary type="html">&lt;p&gt;Quick introduction to Partial Differential Equations, 7 June 2018, Wageningen University&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Quick introduction to Partial Differential Equations&lt;/h2&gt;
+&lt;p&gt;On Thursday 7th, I'll give a crash course on partial differential equations at Wageningen University. Due to the diversity of backgrounds of the attendants, I'll try to focus in the key concepts, using graphical approaches as much as I can. Later on, we'll move forward to the numerical approach.&lt;/p&gt;
+&lt;h2&gt;Outline&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;What's the difference between partial and ordinary differential equations?&lt;/li&gt;
+&lt;li&gt;Vector calculus in a nutshell&lt;/li&gt;
+&lt;li&gt;Classical PDEs&lt;/li&gt;
+&lt;li&gt;Classical boundary conditions&lt;/li&gt;
+&lt;li&gt;Hand-on examples with &lt;em&gt;Matlab&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;Please bring your laptop. The numerical examples will be solved using &lt;em&gt;Matlab's PDE Toolbox&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Materials&lt;/h2&gt;
+&lt;p&gt;The slides and some code examples are available at &lt;a href="https://github.com/PabRod/intro-to-pdes"&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;7 June 2018, 13:30-16:30.&lt;/li&gt;
+&lt;li&gt;Room E.111, Lumen.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Blog"></category><category term="math"></category><category term="teaching"></category></entry><entry><title>Embedding a Shiny app inside my blog</title><link href="https://pabrod.github.io/pelican-test/embed-shiny.html" rel="alternate"></link><published>2018-05-05T15:54:09+02:00</published><updated>2018-05-05T15:54:09+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-05-05:/pelican-test/embed-shiny.html</id><summary type="html">&lt;p&gt;Embedding shiny apps inside an html page&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some years ago, I started experimenting with the computing language &lt;em&gt;R&lt;/em&gt;. I have to confess that I don't feel fully comfortable with its syntax, which I find particularly difficult. But I forced myself to get used to it. Why? My main reasons were two: &lt;a href="https://yihui.name/knitr/"&gt;knitr&lt;/a&gt; and &lt;a href="https://shiny.rstudio.com"&gt;shiny&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Knitr&lt;/strong&gt; is the perfect tool for literate computing. It allows the user to input a combination of code and markdown text providing a clean, human-readable document as output. Indeed, I'm using knitr for writing parts of this website (for example, the &lt;a href="{filename}/pages/sci-comm-en.md"&gt;dissemination section&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shiny&lt;/strong&gt; is great for making interactive apps, and publishing them as easy-to-use webpages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more (and certainly better) information... just google some tutorials. In this short entry, I only want to show an example of what shiny can do (and see how good it works with my new blog).&lt;/p&gt;
+&lt;p&gt;Take a look at the following simulation I made some years ago to teach some basic ideas about statistical inference:&lt;/p&gt;
+&lt;iframe src="https://pabrod.shinyapps.io/shiny/"
+        style="border: 2px solid black; width: 100%; height: 1000px;"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The steps followed were:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Write the app itself. Of course, this is the difficult part.&lt;/li&gt;
+&lt;li&gt;Publish it. The easiest way is uploading it to &lt;a href="https://www.shinyapps.io"&gt;ShinyApps&lt;/a&gt;. The most popular &lt;em&gt;R&lt;/em&gt; editor, &lt;a href="https://www.rstudio.com"&gt;RStudio&lt;/a&gt;, can do this almost automatically.&lt;/li&gt;
+&lt;li&gt;Once this two steps are made, the insertion code I've used is as simple as:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;iframe src="https://pabrod.shinyapps.io/shiny/"
+        style="border: 2px solid black; width: 100%; height: 1000px;"&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I'm a big fan of simulation and interactive teaching. More apps will be published soon. Some of them can be previewed in &lt;a href="https://www.geogebra.org/u/pablorodriguez"&gt;GeoGebraTube&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This entry appears in &lt;a href="https://www.r-bloggers.com"&gt;R-bloggers.com&lt;/a&gt; &lt;/p&gt;</content><category term="Blog"></category><category term="r"></category><category term="simulation"></category><category term="how-to"></category></entry><entry><title>There's a nerd in my elevator!</title><link href="https://pabrod.github.io/pelican-test/elevator.html" rel="alternate"></link><published>2018-05-01T12:24:00+02:00</published><updated>2018-05-01T12:24:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2018-05-01:/pelican-test/elevator.html</id><summary type="html">&lt;p&gt;An elevator, a phone, ... and a nerd&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This text appeared first in &lt;a href="http://fuga.naukas.com/2018/02/06/un-empollon-en-mi-ascensor/"&gt;Naukas&lt;/a&gt;, where was originally written in Spanish.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Recently I started a secondment at the Friedrich Schiller University, in Jena, Germany. Surprisingly, my office during the next months is located in the 18th floor of a skyscraper. The Jentower in particular:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Jentower" src="http://fuga.naukas.com/files/2018/02/2018-01-30-16.34.25-360x640.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;But I'm not writing this to boast about the views of my new office. On the contrary, I'll destroy any possible idea of glamour related to work in a place like this. And I'll do it with a confession: I became the crazy guy who leaves his cell phone on the ground while he uses the elevator. Let me explain:&lt;/p&gt;
