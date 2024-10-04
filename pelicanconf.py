@@ -40,7 +40,7 @@ SOCIAL = (
     ("instagram", "https://instagram.com/pablo.rodriguez.sanchez/"),
     ("mastodon", "https://paquita.masto.host/@DonMostrenco"),
     ("orcid", "https://orcid.org/0000-0002-2855-940X"),
-    ('rss', SITEURL + '/pages/feeds-list-en.html'),
+    ('rss', SITEURL + '/feeds/all.atom.xml'),
 )
 
 DEFAULT_PAGINATION = 10
