@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all-es.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2022-08-08T00:00:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Notas de traducción del Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon-es.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon-es.html</id><summary type="html">&lt;p&gt;Notas a la traducción del canon neerlandés&lt;/p&gt;</summary><content type="html">&lt;p&gt;Acaban de publicar &lt;a href="https://www.canonvannederland.nl/es/"&gt;mi traducción al castellano del &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt;.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all-es.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2024-10-08T00:00:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Queda inaugurado este jardín digital</title><link href="https://pabrod.github.io/digital-garden-es.html" rel="alternate"></link><published>2024-10-08T00:00:00+02:00</published><updated>2024-10-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-08:/digital-garden-es.html</id><summary type="html">&lt;p&gt;Si queréis, nos vemos por aquí.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Me apetece escribir sin demasiado follón.
+Ya tengo bastantes menús, lucecitas y monsergas en mi trabajo.&lt;/p&gt;
+&lt;p&gt;También me apetece tener mis contenidos a mano.
+Guardados en archivos de texto plano que pueda editar fácilmente, sin conexión incluso.
+Y que pueda publicar sin gastar 50 megas de datos como cada vez que abro el Outlook.&lt;/p&gt;
+&lt;p&gt;Este minimalismo me va a venir de perlas en mis numerosos viajes en tren.&lt;/p&gt;
+&lt;p&gt;Por otra parte, quiero ser dueño de mis viejos y acartonados archivos markdown.
+Será que me estoy haciendo viejo, o quizá que el riesgo de que un &lt;strong&gt;billonario pasado de ketamina&lt;/strong&gt; compre Wordpress y me borre 16 años de artículos (véase &lt;a href="https://empollonintegrista.wordpress.com"&gt;aquí&lt;/a&gt; o &lt;a href="https://fuga.naukas.com"&gt;aquí&lt;/a&gt;) es más real que nunca.&lt;/p&gt;
+&lt;p&gt;Seguiré escribiendo, como suelo, en diferentes medios, pero mi idea es centralizar todo aquí.&lt;/p&gt;
+&lt;p&gt;Si me sigues por RSS (cosa que puedes hacer &lt;a href="pages/feeds-list.html"&gt;aquí&lt;/a&gt;), es posible que el feed te dé algún falso positivo estos días.
+Te ruego paciencia.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¡Blogueemos como si fuera 2008!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;En los próximos días contaré por qué he elegido Pelican y cómo lo he configurado.
+¡Más que nada para que no se me olvide!
+Y si resulta que le interesa a alguien más... pues genial.&lt;/p&gt;
+&lt;p&gt;Recuperemos el espíritu de la edad dorada de Internet.
+¡Blogueemos como si fuera 2008!, aunque no nos lea nadie más que las inteligencias artificiales.&lt;/p&gt;</content><category term="Blog"></category><category term="about"></category></entry><entry><title>Notas de traducción del Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon-es.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon-es.html</id><summary type="html">&lt;p&gt;Notas a la traducción del canon neerlandés&lt;/p&gt;</summary><content type="html">&lt;p&gt;Acaban de publicar &lt;a href="https://www.canonvannederland.nl/es/"&gt;mi traducción al castellano del &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt;.
 Se trata del libro de historia de los Países Bajos usado en la mayoría de escuelas, cursos de idiomas y exámenes de ciudadanía.&lt;/p&gt;
 &lt;p&gt;La tarea de traducir el Canon me la autoimpuse por varios motivos.
 Tuvo siempre una componente práctica: mejorar mi nivel de neerlandés.
