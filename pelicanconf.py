@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/Amsterdam'
 
 DEFAULT_LANG = 'en'
 
-THEME = 'themes/Flex/' # See configuration file (https://github.com/alexandrevicenzi/Flex/blob/master/docs/pelicanconf.py)
+THEME = 'themes/Flex' # See configuration file (https://github.com/alexandrevicenzi/Flex/blob/master/docs/pelicanconf.py)
 
 GITHUB_URL = GITHUB_CORNER_URL = "https://github.com/PabRod" # Both names might be required for some themes
 
@@ -56,9 +56,6 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 PYGMENTS_STYLE = "monokai" # See list at https://pygments.org/styles/
-
-#GOOGLE_ANALYTICS = 'UA-118019878-1'
-#DISQUS_SITENAME = 'pabrod'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

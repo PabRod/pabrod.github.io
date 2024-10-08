@@ -3,19 +3,20 @@ Date: 4/12/2018, 11:15:11 AM
 Category: About-me
 Tags: info
 Slug: sci-comm
-Lang: en
+Lang: nl
 Authors: Pablo Rodríguez-Sánchez
 Summary: Activities and publications related with science communication
 Modified: 09/24/2024, 12:00:16
+Translation: True
 
 
+# In de media
 
-# In the media
+Tot nu toe, ik heb 24 praatjes gegeven voor een algemeen publiek.
+Daarnaast heb ik een aantal blogartikelen gepubliceerd:
+29 in het Engels, 104 in het Spaans en 1 in het Nederlands.
 
-Up to date, I've given 24 talks for a general audience. Additionally, I've published a number of science communication blog
-pieces: 29 in English, 104 in Spanish and 1 in Dutch.
-
-## Talks
+## Praatjes
 
 | Date       | Name                                                                                                                                                                           | Institution                           | Language   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
@@ -44,7 +45,7 @@ pieces: 29 in English, 104 in Spanish and 1 in Dutch.
 | 1/10/2013  | [Moléculas en el espejo](https://www.youtube.com/watch?v=7WRRfW0Yz2o)                                                                                                          | Donostia International Physics Center | Spanish    |
 | 27/09/2013 | [Duros de la ciencia](http://naukas.com/2014/02/18/naukas13-pablo-rodriguez-duros-de-la-ciencia/)                                                                              | Naukas                                | Spanish    |
 
-## Science communication publications in English
+## Artikels in het Engels
 
 | Date       | Name                                                                                                                                                                                                                   | Institution       |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
@@ -78,13 +79,13 @@ pieces: 29 in English, 104 in Spanish and 1 in Dutch.
 | 20/07/2015 | [The math of sex and hunger](http://mappingignorance.org/2015/07/20/the-math-of-sex-and-hunger-a-short-history-of-population-dynamics/)                                                                                | Mapping ignorance |
 | 15/05/2015 | [From gas to cash. The unexpected applications of statistical mechanics](http://mappingignorance.org/2015/05/15/from-gas-to-cash-the-unexpected-applications-of-statistical-mechanics/)                                | Mapping ignorance |
 
-## Science communication publications in Dutch
+## Artikels in het Nederlands
 
 | Date       | Name                                                                                                               | Institution   |
 |------------|--------------------------------------------------------------------------------------------------------------------|---------------|
 | 19/10/2022 | [Waarom ben ik Nederlands aan het leren?](https://www.cenetherlands.nl/nl/waarom-ben-ik-nederlands-aan-het-leren/) | CENL          |
 
-## Science communication publications in Spanish
+## Artikels in het Spaans
 
 | Date       | Name                                                                                                                                                                                                                                                                                                             | Institution      |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
@@ -193,7 +194,7 @@ pieces: 29 in English, 104 in Spanish and 1 in Dutch.
 | 29/10/2011 | [Sobre el cambio de hora de hoy](http://naukas.com/2011/10/29/sobre-el-cambio-de-hora-de-hoy/)                                                                                                                                                                                                                   | Naukas           |
 | 18/10/2011 | [Observando satélites artificiales](http://naukas.com/2011/10/18/observando-satelites-artificiales/)                                                                                                                                                                                                             | Naukas           |
 
-## Others
+## Andere
 
 | Date       | Name                                                                                                                                                                                      | Type      | Role                  | Institution              | Language   |
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------------------|--------------------------|------------|

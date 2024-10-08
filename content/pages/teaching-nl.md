@@ -3,18 +3,17 @@ Date: 4/12/2018, 11:15:11 AM
 Category: About-me
 Tags: info
 Slug: teaching
-Lang: en
+Lang: nl
 Authors: Pablo Rodríguez-Sánchez
 Summary: Teaching activities
 Modified: 09/24/2024, 11:58:02
+Translation: True
 
 
-
-
-Teaching
+Lesgeven
 --------
 
-I’ve been involved in the teaching of 20 courses:
+Ik was betrokken met de volgende 20 lessen:
 
 | Date       | Name                                                                                                                                 | Institution                       | Country   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|

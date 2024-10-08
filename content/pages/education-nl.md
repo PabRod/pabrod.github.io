@@ -3,23 +3,23 @@ Date: 4/12/2018, 11:15:11 AM
 Category: About-me
 Tags: info
 Slug: education
-Lang: es
+Lang: nl
 Authors: Pablo Rodríguez-Sánchez
 Summary: Education
 Modified: 09/24/2024, 11:57:59
 Translation: True
 
 
-Estudios reglados
+Formeel onderwijs
 ----------------
 | Date      | Name                       | End.date   | Institution                       | Country   |
 |-----------|----------------------------|------------|-----------------------------------|-----------|
 | 1/10/2015 | PhD in applied mathematics | 1/10/2019  | WUR                               | 🇳🇱        |
 | 1/10/2002 | Licenciatura en física     | 20/06/2012 | Universidad Complutense de Madrid | 🇪🇸        |
 
-Estancias
-----------------
-He tenido la oportunidad de realizar las siguientes estancias internacionales:
+Secondments
+-----------
+Ik studeerde ook bij andere universiteiten:
 
 | Date       | End.date   | Institution                    | Country   |
 |------------|------------|--------------------------------|-----------|
@@ -28,9 +28,9 @@ He tenido la oportunidad de realizar las siguientes estancias internacionales:
 | 7/08/2017  | 13/08/2017 | University of Exeter           | 🇬🇧        |
 | 3/07/2017  | 9/07/2017  | Friedrich Schiller Universitat | 🇩🇪        |
 
-Conferencias y talleres
+Congressen en workshops
 -------------------------
-He participado en 44 conferencias, congresos y talleres:
+Ik ben in 44 congressen en workshops geweest:
 
 | Date       | Name                                                                                                                                                                           | Institution                             | Role                | Country   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|---------------------|-----------|

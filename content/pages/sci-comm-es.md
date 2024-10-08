@@ -1,1015 +1,214 @@
-Title: En los medios
+Title: In the media
 Date: 4/12/2018, 11:15:11 AM
 Category: About-me
 Tags: info
 Slug: sci-comm
 Lang: es
-Translation: True
 Authors: Pablo Rodríguez-Sánchez
-Summary: Actividades y publicaciones relacionadas con la comunicación científica
-Modified: 09/24/2024, 12:00:17
+Summary: Activities and publications related with science communication
+Modified: 09/24/2024, 12:00:16
+Translation: True
 
-A día de hoy he dado 24 charlas para público general. Además, he
-publicado 134 artículos breves sobre comunicación científica: 29 de
-ellos en inglés, y 104 en español.
 
-### Charlas
+# En los medios
 
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 47%" />
-<col style="width: 34%" />
-<col style="width: 8%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">NameURL</th>
-<th style="text-align: left;">Institution</th>
-<th style="text-align: left;">Language</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2024-09-21</td>
-<td style="text-align: left;"><a href="https://youtu.be/tzxlw14Z8wU?si=eHbOFkh54kHa0eHV">Un payaso en un congreso</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2023-09-15</td>
-<td style="text-align: left;"><a href="https://www.eitb.eus/es/divulgacion/videos/detalle/9307656/video-pablo-rodriguez-las-charlas-de-mis-pesadillas-naukas-bilbao-2023/">Las charlas de mis pesadilas</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2023-05-10</td>
-<td style="text-align: left;"><a href="https://libcal.rug.nl/event/4026077">Writing documentation and writing research papers</a></td>
-<td style="text-align: left;">Rijksuniversiteit Groningen</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2023-04-11</td>
-<td style="text-align: left;"><a href="https://mathematischcongres.nl/nmc2023/programme-nmc-2023/">Introducing the eScience Center</a></td>
-<td style="text-align: left;">Nederlands Matematisch Congres</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2022-03-14</td>
-<td style="text-align: left;"><a href="https://www.eitb.tv/es/video/naukas-bcam-el-dia-de-pi-2022/8106/202504/pablo-rodriguez-netherlands-escience-center-con-matematicas-en-los-ojos/">Con matemáticas en los ojos</a></td>
-<td style="text-align: left;">Naukas and BCAM</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2021-09-25</td>
-<td style="text-align: left;"><a href="https://www.eitb.eus/es/divulgacion/naukas/videos/detalle/8339987/video-pablo-rodriguez-un-paseo-de-arte-y-de-ciencia-naukas-bilbao-2021/">Un paseo de arte y ciencia</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2021-06-16</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/softwarewur-en.html">How software development shaped the way I do science</a></td>
-<td style="text-align: left;">NLeSC and WUR</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2021-04-09</td>
-<td style="text-align: left;"><a href="https://utad.jobteaser.com/es/events/100403-top-ingenieria-de-software-y-ciencia-y-despues-que">Ingeniería de software y ciencia. ¿Y después, qué?</a></td>
-<td style="text-align: left;">NLeSC and U-TAD</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2021-01-28</td>
-<td style="text-align: left;">Best practices for scientific computing</td>
-<td style="text-align: left;">Rijksuniversiteit Groningen</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-10-16</td>
-<td style="text-align: left;"><a href="https://www.eventbrite.com/e/cvs-cenl-2020-tickets-120247600811">CVs CENL</a></td>
-<td style="text-align: left;">NLeSC and CENL</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-10-12</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/complex-sig-en.html">Complex numbers for research software engineers</a></td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-09-14</td>
-<td style="text-align: left;"><a href="https://www.eitb.eus/es/divulgacion/videos/detalle/5852752/naukas-bilbao-2018-charla-pablo-rodriguez/">¿Cómo acabé convertido en matemático?</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-06-19</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/seminar-imperial-en.html">Invasive species: a mathematician among biologists</a></td>
-<td style="text-align: left;">Imperial College London</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-11-30</td>
-<td style="text-align: left;">Naukas. A scientific festival</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-09-16</td>
-<td style="text-align: left;"><a href="https://www.youtube.com/watch?v=RbXoYtQq3aY&amp;yt%3Acc=on">¿Cómo cabrear a un matemático?</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-09-30</td>
-<td style="text-align: left;"><a href="http://dipc.tv/bideoa.php?lang=es&amp;idbideoa=587&amp;idkategoria=0">Relojes rebeldes</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-09-17</td>
-<td style="text-align: left;">Naukas, el musical</td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-09-17</td>
-<td style="text-align: left;"><a href="http://www.eitb.eus/es/divulgacion/naukas-bilbao/videos/detalle/4393314/naukas-bilbao-2016--pablo-rodriguez/">De profesión, futurólogo</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-11-19</td>
-<td style="text-align: left;">A molecule in the mirror</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;">English</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-09-11</td>
-<td style="text-align: left;"><a href="https://www.youtube.com/watch?v=6koBb_wKofw&amp;yt%3Acc=on">Caprichos del azar</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-12-10</td>
-<td style="text-align: left;"><a href="http://eliatron.blogspot.be/2014/12/DonMostrenco.html">Astronomía, la tatarabuela de las ciencias exactas</a></td>
-<td style="text-align: left;">Universidad de Sevilla</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2014-09-26</td>
-<td style="text-align: left;"><a href="http://www.eitb.eus/es/divulgacion/naukas-bilbao/videos/detalle/2594702/video-naukas-bilbao-2014pablo-rodriguez-ha-ofrecido-charla-/">Navegación astronómica</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2013-10-01</td>
-<td style="text-align: left;"><a href="https://www.youtube.com/watch?v=7WRRfW0Yz2o">Moléculas en el espejo</a></td>
-<td style="text-align: left;">Donostia International Physics Center</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-09-27</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/02/18/naukas13-pablo-rodriguez-duros-de-la-ciencia/">Duros de la ciencia</a></td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-</tbody>
-</table>
+A día de hoy he dado 24 charlas para público general.
+Además, he publicado varios artículos de divulgación científica:
+29 de ellos en inglés, 104 en español y 1 en neerlandés.ç
 
-### Artículos de divulgación científica en inglés
+## Charlas
 
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 76%" />
-<col style="width: 14%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">NameURL</th>
-<th style="text-align: left;">Institution</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2024-02-13</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/differentiation-without-subtraction-e21b4975f1cf">Differentiation without subtraction</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2023-11-09</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555?source=friends_link&amp;sk=839f0d0e9a2c19b87e7733a34ed67f0e">Automatic differentiation from scratch</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2023-03-24</td>
-<td style="text-align: left;"><a href="https://www.growkudos.com/publications/10.1371%25252Fjournal.pcbi.1007788/reader">When art helped me write a mathematical article</a></td>
-<td style="text-align: left;">Kudos</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2023-03-16</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/the-bike-and-the-laptop-c7f32eddd07d">The bike and the laptop</a></td>
-<td style="text-align: left;">CENL</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2023-01-26</td>
-<td style="text-align: left;"><a href="https://medium.com/@pab.rod/987e94c5b0e7?source=friends_link&amp;sk=9e888feec0cf02ab0cb6b2c7976ab087">An applied mathematician meets software engineering</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2022-10-19</td>
-<td style="text-align: left;"><a href="https://www.cenetherlands.nl/en/why-am-i-learning-dutch/">Why am I learning Dutch?</a></td>
-<td style="text-align: left;">CENL</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2022-10-12</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/how-can-we-improve-the-communication-between-mathematics-and-life-sciences-30351ccec8df?source=friends_link&amp;sk=3fbab3dff15fda219bd790c4c8866f81">Mathematics and biology: a symbiosis</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2022-09-08</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/fun-with-elevators-a-tutorial-dff473d69d32?source=friends_link&amp;sk=7318c00148110881ca571668ba3298b5">Fun with elevators: a tutorial</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2022-06-30</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/a-single-rule-for-better-talks-816bb3d422ae">A single rule for better talks</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2021-09-29</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/decorators-in-r-ec84eaeca3e3?source=friends_link&amp;sk=d0c218c7d3c5d66426796761d5cb1dcb">Decorators in R</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2021-03-18</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/can-mathematical-models-predict-the-future-c362a0fbced2">Can mathematical models predict the future?</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-11-09</td>
-<td style="text-align: left;"><a href="https://mappingignorance.org/2020/11/09/how-can-we-improve-the-communication-between-mathematics-and-life-sciences/">How can we improve the communication between mathematics and life sciences?</a></td>
-<td style="text-align: left;">Mapping ignorance</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-10-24</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/clock-en.html">Daylight charts with R</a></td>
-<td style="text-align: left;">Personal page</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-10-22</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/how-is-the-end-of-daylight-saving-time-going-to-affect-me-2e6e51f96952">How is the end of daylight saving time going to affect me?</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-08-17</td>
-<td style="text-align: left;"><a href="https://medium.com/p/parallel-r-in-a-nutshell-4391d45b5461?source=email-24f09ca64482--writer.postDistributed&amp;sk=a5ff1c06df7742df06fa80bb055c3324">Parallel R in a nutshell</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-03-18</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/a-mathematician-in-quarantine-4555cfbf9f60">A mathematician in quarantine</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-01-08</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/some-things-that-scientists-can-learn-from-the-arts-5af4921bf9ff">Some things that scientists can learn from the arts</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-01-07</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/parallel-programming-in-python-7fd62c90217d">Parallel computing with Python</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2019-12-16</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/experiences-of-a-computational-evangelist-4cae135fa829">Experiences of a computational evangelist</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2019-12-12</td>
-<td style="text-align: left;"><a href="https://blog.esciencecenter.nl/you-dont-know-it-yet-but-software-engineering-is-just-what-you-need-7666d5e36fc9">Are you a researcher? You may not know it yet, but good software skills are just what you need</a></td>
-<td style="text-align: left;">NLeSC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2019-12-08</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/levi-civita-en.html#levi-civita">Visualization of a 3D Levi-Civita symbol</a></td>
-<td style="text-align: left;">Personal page</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2019-03-22</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/PyR-en.html#PyR">Python or R? Why not both?</a></td>
-<td style="text-align: left;">Personal page</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-12-02</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/animations-r-en.html">Animations in R</a></td>
-<td style="text-align: left;">Personal page</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-11-28</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/spectrum-accountancy-en.html">The spectrum of my personal accountancy</a></td>
-<td style="text-align: left;">Personal page</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-06-12</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/multidisciplinary-en.html">Things I’ve learned working on a multidisciplinary group</a></td>
-<td style="text-align: left;">Personal page</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-05-01</td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/elevator-en.html">There’s a nerd in my elevator!</a></td>
-<td style="text-align: left;">Personal page</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-05-09</td>
-<td style="text-align: left;"><a href="https://mappingignorance.org/2016/05/09/the-sound-of-chaos/">The sound of chaos</a></td>
-<td style="text-align: left;">Mapping ignorance</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-07-20</td>
-<td style="text-align: left;"><a href="http://mappingignorance.org/2015/07/20/the-math-of-sex-and-hunger-a-short-history-of-population-dynamics/">The math of sex and hunger</a></td>
-<td style="text-align: left;">Mapping ignorance</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-05-15</td>
-<td style="text-align: left;"><a href="http://mappingignorance.org/2015/05/15/from-gas-to-cash-the-unexpected-applications-of-statistical-mechanics/">From gas to cash. The unexpected applications of statistical mechanics</a></td>
-<td style="text-align: left;">Mapping ignorance</td>
-</tr>
-</tbody>
-</table>
+| Date       | Name                                                                                                                                                                           | Institution                           | Language   |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
+| 21/09/2024 | [Un payaso en un congreso](https://youtu.be/tzxlw14Z8wU?si=eHbOFkh54kHa0eHV)                                                                                                   | Naukas                                | Spanish    |
+| 15/09/2023 | [Las charlas de mis pesadilas](https://www.eitb.eus/es/divulgacion/videos/detalle/9307656/video-pablo-rodriguez-las-charlas-de-mis-pesadillas-naukas-bilbao-2023/)             | Naukas                                | Spanish    |
+| 10/5/2023  | [Writing documentation and writing research papers](https://libcal.rug.nl/event/4026077)                                                                                       | Rijksuniversiteit Groningen           | English    |
+| 11/4/2023  | [Introducing the eScience Center](https://mathematischcongres.nl/nmc2023/programme-nmc-2023/)                                                                                  | Nederlands Matematisch Congres        | English    |
+| 14/03/2022 | [Con matemáticas en los ojos](https://www.eitb.tv/es/video/naukas-bcam-el-dia-de-pi-2022/8106/202504/pablo-rodriguez-netherlands-escience-center-con-matematicas-en-los-ojos/) | Naukas and BCAM                       | Spanish    |
+| 25/09/2021 | [Un paseo de arte y ciencia](https://www.eitb.eus/es/divulgacion/naukas/videos/detalle/8339987/video-pablo-rodriguez-un-paseo-de-arte-y-de-ciencia-naukas-bilbao-2021/)        | Naukas                                | Spanish    |
+| 16/06/2021 | [How software development shaped the way I do science](https://pabrod.github.io/softwarewur-en.html)                                                                           | NLeSC and WUR                         | English    |
+| 9/04/2021  | [Ingeniería de software y ciencia. ¿Y después, qué?](https://utad.jobteaser.com/es/events/100403-top-ingenieria-de-software-y-ciencia-y-despues-que)                           | NLeSC and U-TAD                       | Spanish    |
+| 28/01/2021 | Best practices for scientific computing                                                                                                                                        | Rijksuniversiteit Groningen           | English    |
+| 16/10/2020 | [CVs CENL](https://www.eventbrite.com/e/cvs-cenl-2020-tickets-120247600811)                                                                                                    | NLeSC and CENL                        | English    |
+| 12/10/2020 | [Complex numbers for research software engineers](https://pabrod.github.io/complex-sig-en.html)                                                                                | NLeSC                                 | English    |
+| 14/09/2018 | [¿Cómo acabé convertido en matemático?](https://www.eitb.eus/es/divulgacion/videos/detalle/5852752/naukas-bilbao-2018-charla-pablo-rodriguez/)                                 | Naukas                                | Spanish    |
+| 19/06/2018 | [Invasive species: a mathematician among biologists](https://pabrod.github.io/seminar-imperial-en.html)                                                                        | Imperial College London               | English    |
+| 30/11/2017 | Naukas. A scientific festival                                                                                                                                                  | WUR                                   | English    |
+| 16/09/2017 | [¿Cómo cabrear a un matemático?](https://www.youtube.com/watch?v=RbXoYtQq3aY&yt%3Acc=on)                                                                                       | Naukas                                | Spanish    |
+| 30/09/2016 | [Relojes rebeldes](http://dipc.tv/bideoa.php?lang=es&idbideoa=587&idkategoria=0)                                                                                               | Naukas                                | Spanish    |
+| 17/09/2016 | Naukas, el musical                                                                                                                                                             | Naukas                                | Spanish    |
+| 17/09/2016 | [De profesión, futurólogo](http://www.eitb.eus/es/divulgacion/naukas-bilbao/videos/detalle/4393314/naukas-bilbao-2016--pablo-rodriguez/)                                       | Naukas                                | Spanish    |
+| 19/11/2015 | A molecule in the mirror                                                                                                                                                       | WUR                                   | English    |
+| 11/09/2015 | [Caprichos del azar](https://www.youtube.com/watch?v=6koBb_wKofw&yt%3Acc=on)                                                                                                   | Naukas                                | Spanish    |
+| 10/12/2014 | [Astronomía, la tatarabuela de las ciencias exactas](http://eliatron.blogspot.be/2014/12/DonMostrenco.html)                                                                    | Universidad de Sevilla                | Spanish    |
+| 26/09/2014 | [Navegación astronómica](http://www.eitb.eus/es/divulgacion/naukas-bilbao/videos/detalle/2594702/video-naukas-bilbao-2014pablo-rodriguez-ha-ofrecido-charla-/)                 | Naukas                                | Spanish    |
+| 1/10/2013  | [Moléculas en el espejo](https://www.youtube.com/watch?v=7WRRfW0Yz2o)                                                                                                          | Donostia International Physics Center | Spanish    |
+| 27/09/2013 | [Duros de la ciencia](http://naukas.com/2014/02/18/naukas13-pablo-rodriguez-duros-de-la-ciencia/)                                                                              | Naukas                                | Spanish    |
 
-### Artículos de divulgación científica en español
+## Divulgación en inglés
 
-<table>
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 73%" />
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">NameURL</th>
-<th style="text-align: left;">Institution</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2024-01-28</td>
-<td style="text-align: left;"><a href="https://culturacientifica.com/2024/01/28/diferenciacion-automatica-desde-cero-ensenando-a-tu-ordenador-a-hacer-derivadas/">Diferenciación automática: Enseñando a tu ordenador a hacer derivadas</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2023-10-11</td>
-<td style="text-align: left;"><a href="https://naukas.com/2023/10/11/asi-nace-una-charla-naukas/">Así nace una charla Naukas</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2022-10-19</td>
-<td style="text-align: left;"><a href="https://www.cenetherlands.nl/por-que-aprendi-neerlandes/">¿Por qué aprendí neerlandés?</a></td>
-<td style="text-align: left;">CENL</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2022-06-30</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2022/06/30/mi-primer-tornado/">Mi primer tornado</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2022-05-23</td>
-<td style="text-align: left;"><a href="https://elpais.com/ciencia/cafe-y-teoremas/2022-05-23/las-matematicas-de-los-juegos-malabares.html">Las matemáticas de los juegos malabares</a></td>
-<td style="text-align: left;">El País</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2022-04-27</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2022/04/27/parece-un-dialogo-pero-lo-es/">Parece un diálogo pero, ¿lo es?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2021-03-07</td>
-<td style="text-align: left;"><a href="https://culturacientifica.com/2021/03/07/el-dia-que-el-arte-me-ayudo-a-escribir-un-articulo-de-matematicas/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+CuadernoDeCulturaCientfica+%28Cuaderno+de+Cultura+Cient%C3%ADfica%29">El día que el arte me ayudó a escribir un artículo de matemáticas</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2021-03-03</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2021/03/03/un-doctorado-en-cinco-pizarras/">Un doctorado en cinco pizarras</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-11-20</td>
-<td style="text-align: left;">Los modelos matemáticos no predicen el futuro, pero ayudan a entenderlo</td>
-<td style="text-align: left;">Computer Hoy</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-11-02</td>
-<td style="text-align: left;"><a href="https://culturacientifica.com/2020/11/02/como-mejorar-la-comunicacion-entre-las-matematicas-y-las-ciencias-de-la-vida/">¿Cómo mejorar la comunicación entre las matemáticas y las ciencias de la vida?</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-10-22</td>
-<td style="text-align: left;"><a href="https://theconversation.com/se-acaba-el-horario-de-verano-como-va-a-afectar-a-su-localidad-148112">Se acaba el horario de verano: ¿cómo va a afectar a su localidad?</a></td>
-<td style="text-align: left;">The Conversation</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-10-19</td>
-<td style="text-align: left;"><a href="https://theconversation.com/los-modelos-matematicos-no-predicen-el-futuro-pero-ayudan-a-entenderlo-147299">Los modelos matemáticos no predicen el futuro, pero ayudan a entenderlo</a></td>
-<td style="text-align: left;">The Conversation</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-08-29</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2020/09/29/cuando-los-problemas-no-tienen-una-solucion/">Cuando los problemas no tienen (una) solución</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-08-28</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2020/09/28/cinco-anos-de-fuga/">Cinco años de fuga</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-07-23</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2020/07/23/rijpma/">Johan Rijpma, un artista muy matemático</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-03-20</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2020/03/20/que-es-una-escala-logaritmica/">¿Qué es una escala logarítmica?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-03-18</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2020/03/18/un-matematico-en-cuarentena/">Un matemático en cuarentena</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2019-12-02</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2019/12/02/resumen-de-un-doctorado/">Resumen de un doctorado (sin las partes aburridas)</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2019-06-22</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2019/06/22/el-dia-que-no-se-puso-el-sol/">El día que no se puso el sol</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2019-03-14</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2019/03/14/una-vaca-vestida-de-uniforme/">Una vaca vestida de uniforme</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2019-02-27</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2019/02/27/lo-que-aprendi-resolviendo-integrales/">Lo que aprendí resolviendo integrales</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2019-02-12</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2019/02/12/espejos/">Espejos</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2019-01-21</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2019/01/21/tabla-periodica/">La tabla periódica: manual de vuelo de electrones</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-09-10</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2018/09/10/politicos-y-matematicas/">Políticos y su contribución a las matemáticas</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-09-02</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2018/09/02/interactivo-como-me-afecta-el-cambio-de-hora/">Interactivo: ¿Cómo me afecta el cambio de hora?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-08-20</td>
-<td style="text-align: left;"><a href="https://fuga.naukas.com/2018/08/20/derivando-sin-restar/">Derivando sin restar</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-06-12</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2018/06/12/grupo-multidisciplinar/">Cosas que he aprendido trabajando en un grupo multidisciplinar</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-05-18</td>
-<td style="text-align: left;"><a href="https://culturacientifica.com/2018/05/18/algunas-cosas-que-los-cientificos-pueden-aprender-de-los-programadores/">Algunas cosas que los científicos pueden aprender de los programadores</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-04-10</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2018/04/10/fin-de-master/">Mi fin de máster fue inolvidable, ¿y el tuyo?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-02-24</td>
-<td style="text-align: left;"><a href="http://naukas.com/2018/02/24/la-pregunta-naukas-2018-pablo-rodriguez/">La pregunta Naukas 2018</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-02-06</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2018/02/06/un-empollon-en-mi-ascensor/">Un empollón en mi ascensor</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-12-12</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2017/12/12/cosas-ciencia-artes/">Cosas que la ciencia puede aprender de las artes</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-12-01</td>
-<td style="text-align: left;"><a href="https://culturacientifica.com/2017/12/01/juego-mesa-entender-la-irreversibilidad/">Un juego de mesa para entender la irreversibilidad</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-11-02</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2017/11/02/arte-no-puta-idea/">El arte de no tener ni puta idea</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-09-25</td>
-<td style="text-align: left;"><a href="https://culturacientifica.com/2017/08/25/redescubriendo-las-integrales-1994/">Redescubriendo las integrales en 1994</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-06-29</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2017/06/29/cree-su-propio-diagrama-de-voronoi/">Cree su propio diagrama de Voronoi</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-06-01</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2017/06/01/consejos-para-un-joven-emigrante/">Consejos para un científico emigrante</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-04-26</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2017/04/26/series-de-taylor/">Series de Taylor</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-02-16</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2017/02/16/bebes-y-electrones/">Bebés y electrones: similitudes y diferencias</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-01-29</td>
-<td style="text-align: left;"><a href="http://naukas.com/2017/01/29/la-pregunta-naukas-2017-pablo-rodriguez/">La pregunta Naukas 2017</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-01-12</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2017/01/12/autovalores-y-autovectores/">Autovalores y autovectores</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-11-25</td>
-<td style="text-align: left;"><a href="http://culturacientifica.com/2016/11/25/del-anumerismo-tambien-se-sale/">Del anumerismo también se sale</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-11-03</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2016/11/03/visualizando-ecuaciones-diferenciales-ii-el-plano-de-fases/">Visualizando ecuaciones diferenciales (II): el plano de fases</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-10-14</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2016/10/14/anti-consejos-para-una-presentacion-cientifica/">Anti-consejos para una presentación científica</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-09-29</td>
-<td style="text-align: left;"><a href="http://www.nextdoorpublishers.com/2016/09/mi-idilio-con-la-divulgacion/">Mi idilio con la divulgación</a></td>
-<td style="text-align: left;">Next Door</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-08-19</td>
-<td style="text-align: left;"><a href="http://culturacientifica.com/2016/08/19/catastrofe/">¡Catástrofe!</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-06-23</td>
-<td style="text-align: left;"><a href="http://www.nextdoorpublishers.com/2016/06/matematicas-y-ecologia/">Matemáticas y ecología</a></td>
-<td style="text-align: left;">Next Door</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-03-10</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2016/03/10/derivadas-con-primas-o-diferenciales/">Derivadas, ¿con primas o con diferenciales?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-02-25</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2016/02/25/para-que-sirve-un-fisico/">¿Para qué sirve un físico?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-02-18</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2016/02/18/buscando-un-puesto-fuera/">Buscando un puesto fuera</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-02-15</td>
-<td style="text-align: left;"><a href="http://naukas.com/2016/02/15/la-pregunta-naukas-2016-pablo-rodriguez/">La pregunta Naukas 2016 – Pablo Rodríguez</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-02-04</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2016/02/04/seguro-que-sabes-contar/">¿Seguro que sabes contar?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-01-21</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2016/01/21/la-ubicuidad-del-numero-e/">La ubicuidad del número e</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-12-17</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2015/12/17/pi-con-gotas-de-lluvia-version-interactiva/">Pi con gotas de lluvia, versión interactiva</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-11-12</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2015/11/12/matematicas-en-el-gimnasio/">Matemáticas en el gimnasio</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-11-05</td>
-<td style="text-align: left;"><a href="http://www.nextdoorpublishers.com/2015/11/cuando-las-matematicas-son-un-arte/">Cuando las matemáticas son un arte</a></td>
-<td style="text-align: left;">Next Door</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-11-03</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2015/11/03/cocodrilo-o-foton/">¿Cocodrilo o fotón?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-10-29</td>
-<td style="text-align: left;"><a href="http://fuga.naukas.com/2015/10/29/multidisciplinar/">Multidisciplinar</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-07-10</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/07/10/10-julio-1522-jueves-fue-miercoles/">10 de Julio de 1522, el jueves que fue miércoles</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-07-07</td>
-<td style="text-align: left;"><a href="http://vozpopuli.com/next/62344-la-luz-en-nuestros-ojos">La luz en nuestros ojos</a></td>
-<td style="text-align: left;">Vozpópuli</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-06-08</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/06/08/se-acerca-la-selectividad-consejos-futuros-estudiantes-universitarios/">Consejos para futuros estudiantes universitarios</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-05-26</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/05/26/pactos-postelectorales-teoria-conjuntos/">Pactos postelectorales y teoría de conjuntos</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-04-28</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/04/28/un-truco-con-gafas/">Un truco con gafas</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-03-31</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/03/31/una-gota-de-escepticismo-en-moby-dick/">Una gota de escepticismo en Moby Dick</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-03-10</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/03/10/distancias-relativas/">Distancias relativas</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-02-22</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/02/22/la-pregunta-naukas-2015-pablo-rodriguez/">Pregunta Naukas 2015</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-01-20</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/01/20/es-peligroso-mirar-la-television-de-cerca/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=es-peligroso-mirar-la-television-de-cerca">¿Es peligroso mirar la televisión de cerca?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-01-07</td>
-<td style="text-align: left;"><a href="http://naukas.com/2015/01/07/derivadas-hasta-en-el-paro/">Derivadas hasta en el paro</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-12-31</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/12/31/cuantas-vueltas-da-la-tierra-en-un-ano/">¿Cuántas vueltas da la Tierra en un año?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2014-11-28</td>
-<td style="text-align: left;"><a href="http://culturacientifica.com/2014/11/28/el-peso-de-la-mediocridad/">El peso de la mediocridad</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-11-17</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/11/17/experimento-naukas-misterio-al-abrir-el-grifo/">Experimento Naukas: misterio al abrir el grifo</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2014-11-05</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/11/05/la-sonrisa-del-gorila/">La sonrisa del gorila</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-09-22</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/09/22/experimento-naukas-estroboscopio-casero/">Experimento Naukas: estroboscopio casero</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2014-09-16</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/09/16/un-acertijo-bebes-y-probabilidad/">Un acertijo: bebés y probabilidad</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-09-12</td>
-<td style="text-align: left;"><a href="http://culturacientifica.com/2014/09/12/matematicas-y-malabares/">Matemáticas y malabares</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2014-09-06</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/09/06/preocupaciones/">Preocupaciones</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-07-16</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/07/16/tv-jamming-el-incidente-max-headroom/">TV jamming, el incidente Max Headroom</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2014-05-23</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/05/23/mama-quiero-ser-diexista/">Mamá, quiero ser diexista</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-05-19</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/05/19/la-fisica-de-un-globo-en-un-coche/">La física de un globo en un coche</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2014-05-08</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/05/08/experimento-naukas-camara-oscura/">Experimento Naukas: Cámara oscura</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-03-08</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/03/08/la-pregunta-naukas-2014-inaki-ucar-y-pablo-rodriguez/">La pregunta Naukas 2014</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2014-02-11</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/02/11/fisica-de-una-hostia/">Física de una hostia</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-01-23</td>
-<td style="text-align: left;"><a href="http://naukas.com/2014/01/23/mirando-al-horizonte/">Mirando al horizonte</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-12-17</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/12/17/experimento-naukas-3d-low-cost/">Experimento Naukas: 3D low cost</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2013-12-11</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/12/11/el-mejor-argumento-para-jugar-la-loteria/">El mejor argumento para no jugar a la lotería</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-11-29</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/11/29/experimento-naukas-las-gafas-mas-baratas-del-mundo/">Experimento Naukas: las gafas más baratas del mundo</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2013-11-15</td>
-<td style="text-align: left;"><a href="http://culturacientifica.com/2013/11/15/un-extrano-juego-de-dados/">Un extraño juego de dados</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-11-11</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/11/11/experimento-naukas-ver-los-infrarrojos/">Experimento Naukas: ver los infrarrojos</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2013-10-15</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/10/15/espana-esta-que-se-sale-el-meridiano-y-la-hora-oficial/">España está que se sale: el meridiano y la hora oficial</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-09-24</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/09/24/reduccionismo-agresivo/">Reduccionismo agresivo</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2013-09-06</td>
-<td style="text-align: left;"><a href="http://culturacientifica.com/2013/09/06/el-poder-de-una-idea-sencilla/">El poder de una idea sencilla</a></td>
-<td style="text-align: left;">CCC</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-08-29</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/08/28/el-misterio-del-aliasing-callejero/">El misterio del aliasing callejero</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2013-07-31</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/07/31/brevisima-historia-de-los-numeros-iii-nos-quedamos-sin-numeros/">Brevísima historia de los números III</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-07-30</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/07/30/brevisima-historia-de-los-numeros-ii-una-palabra-para-cada-numero/">Brevísima historia de los números II</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2013-07-29</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/07/29/como-se-escriben-los-numeros/">Brevísima historia de los números I</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-07-03</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/07/03/una-anecdota-de-ciencia-y-democracia/">Una anécdota de ciencia y democracia</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2013-06-06</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/06/06/las-matematicas-de-la-estupidez/">Las matemáticas de la estupidez</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-04-01</td>
-<td style="text-align: left;"><a href="http://naukas.com/2013/04/01/el-meteorito-y-los-jamones/">El meteorito y los jamones</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2012-08-23</td>
-<td style="text-align: left;"><a href="http://naukas.com/2012/08/23/vea-la-estacion-espacial-desde-su-propia-casa/">Vea la estación espacial desde su propia casa</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2012-02-29</td>
-<td style="text-align: left;"><a href="http://naukas.com/2012/02/29/calculando-pi-con-gotas-de-lluvia/">Calculando pi con gotas de lluvia</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2011-12-01</td>
-<td style="text-align: left;"><a href="http://naukas.com/2011/12/01/tycho-brahe-erudito-y-macarra/">Tycho Brahe, erudito y macarra</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2011-10-31</td>
-<td style="text-align: left;"><a href="http://naukas.com/2011/10/31/es-anti-intuitiva-la-teoria-de-la-relatividad/">¿Es anti-intuitiva la teoría de la relatividad?</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2011-10-29</td>
-<td style="text-align: left;"><a href="http://naukas.com/2011/10/29/sobre-el-cambio-de-hora-de-hoy/">Sobre el cambio de hora de hoy</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2011-10-18</td>
-<td style="text-align: left;"><a href="http://naukas.com/2011/10/18/observando-satelites-artificiales/">Observando satélites artificiales</a></td>
-<td style="text-align: left;">Naukas</td>
-</tr>
-</tbody>
-</table>
+| Date       | Name                                                                                                                                                                                                                   | Institution       |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| 13/2/2024  | [Differentiation without subtraction](https://blog.esciencecenter.nl/differentiation-without-subtraction-e21b4975f1cf)                                                                                                 | NLeSC             |
+| 9/11/2023  | [Automatic differentiation from scratch](https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555?source=friends_link&sk=839f0d0e9a2c19b87e7733a34ed67f0e)                                   | NLeSC             |
+| 24/3/2023  | [When art helped me write a mathematical article](https://www.growkudos.com/publications/10.1371%25252Fjournal.pcbi.1007788/reader)                                                                                    | Kudos             |
+| 16/3/2023  | [The bike and the laptop](https://blog.esciencecenter.nl/the-bike-and-the-laptop-c7f32eddd07d)                                                                                                                         | CENL              |
+| 26/01/2023 | [An applied mathematician meets software engineering](https://medium.com/@pab.rod/987e94c5b0e7?source=friends_link&sk=9e888feec0cf02ab0cb6b2c7976ab087)                                                                | NLeSC             |
+| 19/10/2022 | [Why am I learning Dutch?](https://www.cenetherlands.nl/en/why-am-i-learning-dutch/)                                                                                                                                   | CENL              |
+| 12/10/2022 | [Mathematics and biology: a symbiosis](https://blog.esciencecenter.nl/how-can-we-improve-the-communication-between-mathematics-and-life-sciences-30351ccec8df?source=friends_link&sk=3fbab3dff15fda219bd790c4c8866f81) | NLeSC             |
+| 8/09/2022  | [Fun with elevators: a tutorial](https://blog.esciencecenter.nl/fun-with-elevators-a-tutorial-dff473d69d32?source=friends_link&sk=7318c00148110881ca571668ba3298b5)                                                    | NLeSC             |
+| 30/06/2022 | [A single rule for better talks](https://blog.esciencecenter.nl/a-single-rule-for-better-talks-816bb3d422ae)                                                                                                           | NLeSC             |
+| 29/09/2021 | [Decorators in R](https://blog.esciencecenter.nl/decorators-in-r-ec84eaeca3e3?source=friends_link&sk=d0c218c7d3c5d66426796761d5cb1dcb)                                                                                 | NLeSC             |
+| 18/03/2021 | [Can mathematical models predict the future?](https://blog.esciencecenter.nl/can-mathematical-models-predict-the-future-c362a0fbced2)                                                                                  | NLeSC             |
+| 9/11/2020  | [How can we improve the communication between mathematics and life sciences?](https://mappingignorance.org/2020/11/09/how-can-we-improve-the-communication-between-mathematics-and-life-sciences/)                     | Mapping ignorance |
+| 24/10/2020 | [Daylight charts with R](https://pabrod.github.io/clock-en.html)                                                                                                                                                       | Personal page     |
+| 22/10/2020 | [How is the end of daylight saving time going to affect me?](https://blog.esciencecenter.nl/how-is-the-end-of-daylight-saving-time-going-to-affect-me-2e6e51f96952)                                                    | NLeSC             |
+| 17/08/2020 | [Parallel R in a nutshell](https://medium.com/p/parallel-r-in-a-nutshell-4391d45b5461?source=email-24f09ca64482--writer.postDistributed&sk=a5ff1c06df7742df06fa80bb055c3324)                                           | NLeSC             |
+| 18/03/2020 | [A mathematician in quarantine](https://blog.esciencecenter.nl/a-mathematician-in-quarantine-4555cfbf9f60)                                                                                                             | NLeSC             |
+| 8/01/2020  | [Some things that scientists can learn from the arts](https://blog.esciencecenter.nl/some-things-that-scientists-can-learn-from-the-arts-5af4921bf9ff)                                                                 | NLeSC             |
+| 7/01/2020  | [Parallel computing with Python](https://blog.esciencecenter.nl/parallel-programming-in-python-7fd62c90217d)                                                                                                           | NLeSC             |
+| 16/12/2019 | [Experiences of a computational evangelist](https://blog.esciencecenter.nl/experiences-of-a-computational-evangelist-4cae135fa829)                                                                                     | NLeSC             |
+| 12/12/2019 | [Are you a researcher? You may not know it yet, but good software skills are just what you need](https://blog.esciencecenter.nl/you-dont-know-it-yet-but-software-engineering-is-just-what-you-need-7666d5e36fc9)      | NLeSC             |
+| 8/12/2019  | [Visualization of a 3D Levi-Civita symbol](https://pabrod.github.io/levi-civita-en.html#levi-civita)                                                                                                                   | Personal page     |
+| 22/3/2019  | [Python or R? Why not both?](https://pabrod.github.io/PyR-en.html#PyR)                                                                                                                                                 | Personal page     |
+| 2/12/2018  | [Animations in R](https://pabrod.github.io/animations-r-en.html)                                                                                                                                                       | Personal page     |
+| 28/11/2018 | [The spectrum of my personal accountancy](https://pabrod.github.io/spectrum-accountancy-en.html)                                                                                                                       | Personal page     |
+| 12/06/2018 | [Things I've learned working on a multidisciplinary group](https://pabrod.github.io/multidisciplinary-en.html)                                                                                                         | Personal page     |
+| 1/05/2018  | [There's a nerd in my elevator!](https://pabrod.github.io/elevator-en.html)                                                                                                                                            | Personal page     |
+| 9/05/2016  | [The sound of chaos](https://mappingignorance.org/2016/05/09/the-sound-of-chaos/)                                                                                                                                      | Mapping ignorance |
+| 20/07/2015 | [The math of sex and hunger](http://mappingignorance.org/2015/07/20/the-math-of-sex-and-hunger-a-short-history-of-population-dynamics/)                                                                                | Mapping ignorance |
+| 15/05/2015 | [From gas to cash. The unexpected applications of statistical mechanics](http://mappingignorance.org/2015/05/15/from-gas-to-cash-the-unexpected-applications-of-statistical-mechanics/)                                | Mapping ignorance |
 
-### Otros
+## Divulgación en neerlandés
 
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 41%" />
-<col style="width: 7%" />
-<col style="width: 16%" />
-<col style="width: 19%" />
-<col style="width: 6%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">NameURL</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Role</th>
-<th style="text-align: left;">Institution</th>
-<th style="text-align: left;">Language</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2022-12-13</td>
-<td style="text-align: left;"><a href="https://www.rtve.es/play/audios/punto-de-enlace/punto-enlace-pablo-rodriguez-experto-software-cientifico-holanda-13-12-22/6755789/">Interview in Punto de Enlace</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">CENL</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2021-07-13</td>
-<td style="text-align: left;"><a href="https://www.rtve.es/play/audios/hoy-empieza-todo-con-angel-carmona/ciencia-catacrocker-rene-merino-acoge-plato-13-07-2021/5990108/">Entrevista en Hoy empieza todo</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">Radio Nacional de España</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2021-07-07</td>
-<td style="text-align: left;"><a href="https://www.vozpopuli.com/next/sincronizacion-luciernagas.html">¿Por qué se sincronizan las luciérnagas?</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">NLeSC and WUR</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-03-11</td>
-<td style="text-align: left;"><a href="https://www.diariodenavarra.es/noticias/vivir/ciencia/2020/03/11/malabares-tienen-mucha-ciencia-683767-3241.html">Interview in Diario de Noticias</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">NLeSC and UPNA</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-03-11</td>
-<td style="text-align: left;"><a href="https://www.diariodenavarra.es/noticias/vivir/ciencia/2020/03/11/malabares-tienen-mucha-ciencia-683767-3241.html">Los malabares tienen mucha ciencia</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">UPNA</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2019-12-15</td>
-<td style="text-align: left;"><a href="https://www.hoy.es/sociedad/radio-20191215114114-ntrc.html?fbclid=IwAR0hF4O0i4ihp1B10U6m48XkcpdT8JiqAOBi_MUNdbsYhyjpOIs4Y2o0OC0">Radio X</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">Grupo Vocento</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2019-08-06</td>
-<td style="text-align: left;"><a href="http://www.rtve.es/alacarta/audios/esto-me-suena-las-tardes-del-ciudadano-garcia/esto-suena-tardes-del-ciudadano-garcia-primera-hora-05-08-19/5361332/">Las tardes del ciudadano García</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">Radio Nacional de España</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-08-31</td>
-<td style="text-align: left;">Las tardes del ciudadano García</td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">Radio Nacional de España</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-05-26</td>
-<td style="text-align: left;"><a href="http://institucional.us.es/blogimus/2017/05/que-suerte-han-tenido-los-holandeses/">Qué suerte han tenido los holandeses</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">Universidad de Sevilla</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-03-16</td>
-<td style="text-align: left;"><a href="https://www.vozpopuli.com/altavoz/next/cientificos-exiliados-quieren-marca-Espana_0_1008499411.html">Los científicos exiliados no quieren ser marca España</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">Vozpópuli</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2015-12-07</td>
-<td style="text-align: left;">Órbita Laika</td>
-<td style="text-align: left;">TV</td>
-<td style="text-align: left;">Informal collaborator</td>
-<td style="text-align: left;">Televisión Española</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2015-11-04</td>
-<td style="text-align: left;"><a href="http://www.nextdoorpublishers.com/2015/11/pablo-rodriguez-sanchez-responde-nuestro-talk-10/">Talk 10</a></td>
-<td style="text-align: left;">Interview</td>
-<td style="text-align: left;">Interviewee</td>
-<td style="text-align: left;">Next Door</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2014-02-17</td>
-<td style="text-align: left;"><a href="http://catastrofeultravioleta.com/03-interferencias/">Catástrofe Ultravioleta #3 Interferencias</a></td>
-<td style="text-align: left;">Podcast</td>
-<td style="text-align: left;">Collaborator</td>
-<td style="text-align: left;">Naukas</td>
-<td style="text-align: left;">Spanish</td>
-</tr>
-</tbody>
-</table>
+| Date       | Name                                                                                                               | Institution   |
+|------------|--------------------------------------------------------------------------------------------------------------------|---------------|
+| 19/10/2022 | [Waarom ben ik Nederlands aan het leren?](https://www.cenetherlands.nl/nl/waarom-ben-ik-nederlands-aan-het-leren/) | CENL          |
 
-------------------------------------------------------------------------
+## Divulgación en español
 
-Built with R 4.3.1 and RStudio.
+| Date       | Name                                                                                                                                                                                                                                                                                                             | Institution      |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 28/01/2024 | [Diferenciación automática: Enseñando a tu ordenador a hacer derivadas](https://culturacientifica.com/2024/01/28/diferenciacion-automatica-desde-cero-ensenando-a-tu-ordenador-a-hacer-derivadas/)                                                                                                               | CCC              |
+| 11/10/2023 | [Así nace una charla Naukas](https://naukas.com/2023/10/11/asi-nace-una-charla-naukas/)                                                                                                                                                                                                                          | Naukas           |
+| 19/10/2022 | [¿Por qué aprendí neerlandés?](https://www.cenetherlands.nl/por-que-aprendi-neerlandes/)                                                                                                                                                                                                                         | CENL             |
+| 30/06/2022 | [Mi primer tornado](https://fuga.naukas.com/2022/06/30/mi-primer-tornado/)                                                                                                                                                                                                                                       | Naukas           |
+| 23/05/2022 | [Las matemáticas de los juegos malabares](https://elpais.com/ciencia/cafe-y-teoremas/2022-05-23/las-matematicas-de-los-juegos-malabares.html)                                                                                                                                                                    | El País          |
+| 27/04/2022 | [Parece un diálogo pero, ¿lo es?](https://fuga.naukas.com/2022/04/27/parece-un-dialogo-pero-lo-es/)                                                                                                                                                                                                              | Naukas           |
+| 7/03/2021  | [El día que el arte me ayudó a escribir un artículo de matemáticas](https://culturacientifica.com/2021/03/07/el-dia-que-el-arte-me-ayudo-a-escribir-un-articulo-de-matematicas/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+CuadernoDeCulturaCientfica+%28Cuaderno+de+Cultura+Cient%C3%ADfica%29) | CCC              |
+| 3/03/2021  | [Un doctorado en cinco pizarras](https://fuga.naukas.com/2021/03/03/un-doctorado-en-cinco-pizarras/)                                                                                                                                                                                                             | Naukas           |
+| 20/11/2020 | Los modelos matemáticos no predicen el futuro, pero ayudan a entenderlo                                                                                                                                                                                                                                          | Computer Hoy     |
+| 2/11/2020  | [¿Cómo mejorar la comunicación entre las matemáticas y las ciencias de la vida?](https://culturacientifica.com/2020/11/02/como-mejorar-la-comunicacion-entre-las-matematicas-y-las-ciencias-de-la-vida/)                                                                                                         | CCC              |
+| 22/10/2020 | [Se acaba el horario de verano: ¿cómo va a afectar a su localidad?](https://theconversation.com/se-acaba-el-horario-de-verano-como-va-a-afectar-a-su-localidad-148112)                                                                                                                                           | The Conversation |
+| 19/10/2020 | [Los modelos matemáticos no predicen el futuro, pero ayudan a entenderlo](https://theconversation.com/los-modelos-matematicos-no-predicen-el-futuro-pero-ayudan-a-entenderlo-147299)                                                                                                                             | The Conversation |
+| 29/8/2020  | [Cuando los problemas no tienen (una) solución](https://fuga.naukas.com/2020/09/29/cuando-los-problemas-no-tienen-una-solucion/)                                                                                                                                                                                 | Naukas           |
+| 28/8/2020  | [Cinco años de fuga](https://fuga.naukas.com/2020/09/28/cinco-anos-de-fuga/)                                                                                                                                                                                                                                     | Naukas           |
+| 23/7/2020  | [Johan Rijpma, un artista muy matemático](https://fuga.naukas.com/2020/07/23/rijpma/)                                                                                                                                                                                                                            | Naukas           |
+| 20/03/2020 | [¿Qué es una escala logarítmica?](https://fuga.naukas.com/2020/03/20/que-es-una-escala-logaritmica/)                                                                                                                                                                                                             | Naukas           |
+| 18/03/2020 | [Un matemático en cuarentena](https://fuga.naukas.com/2020/03/18/un-matematico-en-cuarentena/)                                                                                                                                                                                                                   | Naukas           |
+| 2/12/2019  | [Resumen de un doctorado (sin las partes aburridas)](https://fuga.naukas.com/2019/12/02/resumen-de-un-doctorado/)                                                                                                                                                                                                | Naukas           |
+| 22/06/2019 | [El día que no se puso el sol](https://fuga.naukas.com/2019/06/22/el-dia-que-no-se-puso-el-sol/)                                                                                                                                                                                                                 | Naukas           |
+| 14/3/2019  | [Una vaca vestida de uniforme](https://fuga.naukas.com/2019/03/14/una-vaca-vestida-de-uniforme/)                                                                                                                                                                                                                 | Naukas           |
+| 27/02/2019 | [Lo que aprendí resolviendo integrales](https://fuga.naukas.com/2019/02/27/lo-que-aprendi-resolviendo-integrales/)                                                                                                                                                                                               | Naukas           |
+| 12/02/2019 | [Espejos](https://fuga.naukas.com/2019/02/12/espejos/)                                                                                                                                                                                                                                                           | Naukas           |
+| 21/01/2019 | [La tabla periódica: manual de vuelo de electrones](https://fuga.naukas.com/2019/01/21/tabla-periodica/)                                                                                                                                                                                                         | Naukas           |
+| 10/09/2018 | [Políticos y su contribución a las matemáticas](https://fuga.naukas.com/2018/09/10/politicos-y-matematicas/)                                                                                                                                                                                                     | Naukas           |
+| 2/09/2018  | [Interactivo: ¿Cómo me afecta el cambio de hora?](https://fuga.naukas.com/2018/09/02/interactivo-como-me-afecta-el-cambio-de-hora/)                                                                                                                                                                              | Naukas           |
+| 20/08/2018 | [Derivando sin restar](https://fuga.naukas.com/2018/08/20/derivando-sin-restar/)                                                                                                                                                                                                                                 | Naukas           |
+| 12/06/2018 | [Cosas que he aprendido trabajando en un grupo multidisciplinar](http://fuga.naukas.com/2018/06/12/grupo-multidisciplinar/)                                                                                                                                                                                      | Naukas           |
+| 18/05/2018 | [Algunas cosas que los científicos pueden aprender de los programadores](https://culturacientifica.com/2018/05/18/algunas-cosas-que-los-cientificos-pueden-aprender-de-los-programadores/)                                                                                                                       | CCC              |
+| 10/04/2018 | [Mi fin de máster fue inolvidable, ¿y el tuyo?](http://fuga.naukas.com/2018/04/10/fin-de-master/)                                                                                                                                                                                                                | Naukas           |
+| 24/02/2018 | [La pregunta Naukas 2018](http://naukas.com/2018/02/24/la-pregunta-naukas-2018-pablo-rodriguez/)                                                                                                                                                                                                                 | Naukas           |
+| 6/02/2018  | [Un empollón en mi ascensor](http://fuga.naukas.com/2018/02/06/un-empollon-en-mi-ascensor/)                                                                                                                                                                                                                      | Naukas           |
+| 12/12/2017 | [Cosas que la ciencia puede aprender de las artes](http://fuga.naukas.com/2017/12/12/cosas-ciencia-artes/)                                                                                                                                                                                                       | Naukas           |
+| 1/12/2017  | [Un juego de mesa para entender la irreversibilidad](https://culturacientifica.com/2017/12/01/juego-mesa-entender-la-irreversibilidad/)                                                                                                                                                                          | CCC              |
+| 2/11/2017  | [El arte de no tener ni puta idea](http://fuga.naukas.com/2017/11/02/arte-no-puta-idea/)                                                                                                                                                                                                                         | Naukas           |
+| 25/09/2017 | [Redescubriendo las integrales en 1994](https://culturacientifica.com/2017/08/25/redescubriendo-las-integrales-1994/)                                                                                                                                                                                            | CCC              |
+| 29/06/2017 | [Cree su propio diagrama de Voronoi](http://fuga.naukas.com/2017/06/29/cree-su-propio-diagrama-de-voronoi/)                                                                                                                                                                                                      | Naukas           |
+| 1/06/2017  | [Consejos para un científico emigrante](http://fuga.naukas.com/2017/06/01/consejos-para-un-joven-emigrante/)                                                                                                                                                                                                     | Naukas           |
+| 26/04/2017 | [Series de Taylor](http://fuga.naukas.com/2017/04/26/series-de-taylor/)                                                                                                                                                                                                                                          | Naukas           |
+| 16/02/2017 | [Bebés y electrones: similitudes y diferencias](http://fuga.naukas.com/2017/02/16/bebes-y-electrones/)                                                                                                                                                                                                           | Naukas           |
+| 29/01/2017 | [La pregunta Naukas 2017](http://naukas.com/2017/01/29/la-pregunta-naukas-2017-pablo-rodriguez/)                                                                                                                                                                                                                 | Naukas           |
+| 12/01/2017 | [Autovalores y autovectores](http://fuga.naukas.com/2017/01/12/autovalores-y-autovectores/)                                                                                                                                                                                                                      | Naukas           |
+| 25/11/2016 | [Del anumerismo también se sale](http://culturacientifica.com/2016/11/25/del-anumerismo-tambien-se-sale/)                                                                                                                                                                                                        | CCC              |
+| 3/11/2016  | [Visualizando ecuaciones diferenciales (II): el plano de fases](http://fuga.naukas.com/2016/11/03/visualizando-ecuaciones-diferenciales-ii-el-plano-de-fases/)                                                                                                                                                   | Naukas           |
+| 14/10/2016 | [Anti-consejos para una presentación científica](http://fuga.naukas.com/2016/10/14/anti-consejos-para-una-presentacion-cientifica/)                                                                                                                                                                              | Naukas           |
+| 29/09/2016 | [Mi idilio con la divulgación](http://www.nextdoorpublishers.com/2016/09/mi-idilio-con-la-divulgacion/)                                                                                                                                                                                                          | Next Door        |
+| 19/08/2016 | [¡Catástrofe!](http://culturacientifica.com/2016/08/19/catastrofe/)                                                                                                                                                                                                                                              | CCC              |
+| 23/06/2016 | [Matemáticas y ecología](http://www.nextdoorpublishers.com/2016/06/matematicas-y-ecologia/)                                                                                                                                                                                                                      | Next Door        |
+| 10/03/2016 | [Derivadas, ¿con primas o con diferenciales?](http://fuga.naukas.com/2016/03/10/derivadas-con-primas-o-diferenciales/)                                                                                                                                                                                           | Naukas           |
+| 25/02/2016 | [¿Para qué sirve un físico?](http://fuga.naukas.com/2016/02/25/para-que-sirve-un-fisico/)                                                                                                                                                                                                                        | Naukas           |
+| 18/02/2016 | [Buscando un puesto fuera](http://fuga.naukas.com/2016/02/18/buscando-un-puesto-fuera/)                                                                                                                                                                                                                          | Naukas           |
+| 15/02/2016 | [La pregunta Naukas 2016 – Pablo Rodríguez](http://naukas.com/2016/02/15/la-pregunta-naukas-2016-pablo-rodriguez/)                                                                                                                                                                                               | Naukas           |
+| 4/02/2016  | [¿Seguro que sabes contar?](http://fuga.naukas.com/2016/02/04/seguro-que-sabes-contar/)                                                                                                                                                                                                                          | Naukas           |
+| 21/01/2016 | [La ubicuidad del número e](http://fuga.naukas.com/2016/01/21/la-ubicuidad-del-numero-e/)                                                                                                                                                                                                                        | Naukas           |
+| 17/12/2015 | [Pi con gotas de lluvia, versión interactiva](http://fuga.naukas.com/2015/12/17/pi-con-gotas-de-lluvia-version-interactiva/)                                                                                                                                                                                     | Naukas           |
+| 12/11/2015 | [Matemáticas en el gimnasio](http://fuga.naukas.com/2015/11/12/matematicas-en-el-gimnasio/)                                                                                                                                                                                                                      | Naukas           |
+| 5/11/2015  | [Cuando las matemáticas son un arte](http://www.nextdoorpublishers.com/2015/11/cuando-las-matematicas-son-un-arte/)                                                                                                                                                                                              | Next Door        |
+| 3/11/2015  | [¿Cocodrilo o fotón?](http://fuga.naukas.com/2015/11/03/cocodrilo-o-foton/)                                                                                                                                                                                                                                      | Naukas           |
+| 29/10/2015 | [Multidisciplinar](http://fuga.naukas.com/2015/10/29/multidisciplinar/)                                                                                                                                                                                                                                          | Naukas           |
+| 10/07/2015 | [10 de Julio de 1522, el jueves que fue miércoles](http://naukas.com/2015/07/10/10-julio-1522-jueves-fue-miercoles/)                                                                                                                                                                                             | Naukas           |
+| 7/07/2015  | [La luz en nuestros ojos](http://vozpopuli.com/next/62344-la-luz-en-nuestros-ojos)                                                                                                                                                                                                                               | Vozpópuli        |
+| 8/06/2015  | [Consejos para futuros estudiantes universitarios](http://naukas.com/2015/06/08/se-acerca-la-selectividad-consejos-futuros-estudiantes-universitarios/)                                                                                                                                                          | Naukas           |
+| 26/05/2015 | [Pactos postelectorales y teoría de conjuntos](http://naukas.com/2015/05/26/pactos-postelectorales-teoria-conjuntos/)                                                                                                                                                                                            | Naukas           |
+| 28/04/2015 | [Un truco con gafas](http://naukas.com/2015/04/28/un-truco-con-gafas/)                                                                                                                                                                                                                                           | Naukas           |
+| 31/03/2015 | [Una gota de escepticismo en Moby Dick](http://naukas.com/2015/03/31/una-gota-de-escepticismo-en-moby-dick/)                                                                                                                                                                                                     | Naukas           |
+| 10/03/2015 | [Distancias relativas](http://naukas.com/2015/03/10/distancias-relativas/)                                                                                                                                                                                                                                       | Naukas           |
+| 22/02/2015 | [Pregunta Naukas 2015](http://naukas.com/2015/02/22/la-pregunta-naukas-2015-pablo-rodriguez/)                                                                                                                                                                                                                    | Naukas           |
+| 20/01/2015 | [¿Es peligroso mirar la televisión de cerca?](http://naukas.com/2015/01/20/es-peligroso-mirar-la-television-de-cerca/?utm_source=rss&utm_medium=rss&utm_campaign=es-peligroso-mirar-la-television-de-cerca)                                                                                                      | Naukas           |
+| 7/01/2015  | [Derivadas hasta en el paro](http://naukas.com/2015/01/07/derivadas-hasta-en-el-paro/)                                                                                                                                                                                                                           | Naukas           |
+| 31/12/2014 | [¿Cuántas vueltas da la Tierra en un año?](http://naukas.com/2014/12/31/cuantas-vueltas-da-la-tierra-en-un-ano/)                                                                                                                                                                                                 | Naukas           |
+| 28/11/2014 | [El peso de la mediocridad](http://culturacientifica.com/2014/11/28/el-peso-de-la-mediocridad/)                                                                                                                                                                                                                  | CCC              |
+| 17/11/2014 | [Experimento Naukas: misterio al abrir el grifo](http://naukas.com/2014/11/17/experimento-naukas-misterio-al-abrir-el-grifo/)                                                                                                                                                                                    | Naukas           |
+| 5/11/2014  | [La sonrisa del gorila](http://naukas.com/2014/11/05/la-sonrisa-del-gorila/)                                                                                                                                                                                                                                     | Naukas           |
+| 22/09/2014 | [Experimento Naukas: estroboscopio casero](http://naukas.com/2014/09/22/experimento-naukas-estroboscopio-casero/)                                                                                                                                                                                                | Naukas           |
+| 16/09/2014 | [Un acertijo: bebés y probabilidad](http://naukas.com/2014/09/16/un-acertijo-bebes-y-probabilidad/)                                                                                                                                                                                                              | Naukas           |
+| 12/09/2014 | [Matemáticas y malabares](http://culturacientifica.com/2014/09/12/matematicas-y-malabares/)                                                                                                                                                                                                                      | CCC              |
+| 6/09/2014  | [Preocupaciones](http://naukas.com/2014/09/06/preocupaciones/)                                                                                                                                                                                                                                                   | Naukas           |
+| 16/07/2014 | [TV jamming, el incidente Max Headroom](http://naukas.com/2014/07/16/tv-jamming-el-incidente-max-headroom/)                                                                                                                                                                                                      | Naukas           |
+| 23/05/2014 | [Mamá, quiero ser diexista](http://naukas.com/2014/05/23/mama-quiero-ser-diexista/)                                                                                                                                                                                                                              | Naukas           |
+| 19/05/2014 | [La física de un globo en un coche](http://naukas.com/2014/05/19/la-fisica-de-un-globo-en-un-coche/)                                                                                                                                                                                                             | Naukas           |
+| 8/05/2014  | [Experimento Naukas: Cámara oscura](http://naukas.com/2014/05/08/experimento-naukas-camara-oscura/)                                                                                                                                                                                                              | Naukas           |
+| 8/03/2014  | [La pregunta Naukas 2014](http://naukas.com/2014/03/08/la-pregunta-naukas-2014-inaki-ucar-y-pablo-rodriguez/)                                                                                                                                                                                                    | Naukas           |
+| 11/02/2014 | [Física de una hostia](http://naukas.com/2014/02/11/fisica-de-una-hostia/)                                                                                                                                                                                                                                       | Naukas           |
+| 23/01/2014 | [Mirando al horizonte](http://naukas.com/2014/01/23/mirando-al-horizonte/)                                                                                                                                                                                                                                       | Naukas           |
+| 17/12/2013 | [Experimento Naukas: 3D low cost](http://naukas.com/2013/12/17/experimento-naukas-3d-low-cost/)                                                                                                                                                                                                                  | Naukas           |
+| 11/12/2013 | [El mejor argumento para no jugar a la lotería](http://naukas.com/2013/12/11/el-mejor-argumento-para-jugar-la-loteria/)                                                                                                                                                                                          | Naukas           |
+| 29/11/2013 | [Experimento Naukas: las gafas más baratas del mundo](http://naukas.com/2013/11/29/experimento-naukas-las-gafas-mas-baratas-del-mundo/)                                                                                                                                                                          | Naukas           |
+| 15/11/2013 | [Un extraño juego de dados](http://culturacientifica.com/2013/11/15/un-extrano-juego-de-dados/)                                                                                                                                                                                                                  | CCC              |
+| 11/11/2013 | [Experimento Naukas: ver los infrarrojos](http://naukas.com/2013/11/11/experimento-naukas-ver-los-infrarrojos/)                                                                                                                                                                                                  | Naukas           |
+| 15/10/2013 | [España está que se sale: el meridiano y la hora oficial](http://naukas.com/2013/10/15/espana-esta-que-se-sale-el-meridiano-y-la-hora-oficial/)                                                                                                                                                                  | Naukas           |
+| 24/09/2013 | [Reduccionismo agresivo](http://naukas.com/2013/09/24/reduccionismo-agresivo/)                                                                                                                                                                                                                                   | Naukas           |
+| 6/09/2013  | [El poder de una idea sencilla](http://culturacientifica.com/2013/09/06/el-poder-de-una-idea-sencilla/)                                                                                                                                                                                                          | CCC              |
+| 29/08/2013 | [El misterio del aliasing callejero](http://naukas.com/2013/08/28/el-misterio-del-aliasing-callejero/)                                                                                                                                                                                                           | Naukas           |
+| 31/07/2013 | [Brevísima historia de los números III](http://naukas.com/2013/07/31/brevisima-historia-de-los-numeros-iii-nos-quedamos-sin-numeros/)                                                                                                                                                                            | Naukas           |
+| 30/07/2013 | [Brevísima historia de los números II](http://naukas.com/2013/07/30/brevisima-historia-de-los-numeros-ii-una-palabra-para-cada-numero/)                                                                                                                                                                          | Naukas           |
+| 29/07/2013 | [Brevísima historia de los números I](http://naukas.com/2013/07/29/como-se-escriben-los-numeros/)                                                                                                                                                                                                                | Naukas           |
+| 3/07/2013  | [Una anécdota de ciencia y democracia](http://naukas.com/2013/07/03/una-anecdota-de-ciencia-y-democracia/)                                                                                                                                                                                                       | Naukas           |
+| 6/06/2013  | [Las matemáticas de la estupidez](http://naukas.com/2013/06/06/las-matematicas-de-la-estupidez/)                                                                                                                                                                                                                 | Naukas           |
+| 1/04/2013  | [El meteorito y los jamones](http://naukas.com/2013/04/01/el-meteorito-y-los-jamones/)                                                                                                                                                                                                                           | Naukas           |
+| 23/08/2012 | [Vea la estación espacial desde su propia casa](http://naukas.com/2012/08/23/vea-la-estacion-espacial-desde-su-propia-casa/)                                                                                                                                                                                     | Naukas           |
+| 29/02/2012 | [Calculando pi con gotas de lluvia](http://naukas.com/2012/02/29/calculando-pi-con-gotas-de-lluvia/)                                                                                                                                                                                                             | Naukas           |
+| 1/12/2011  | [Tycho Brahe, erudito y macarra](http://naukas.com/2011/12/01/tycho-brahe-erudito-y-macarra/)                                                                                                                                                                                                                    | Naukas           |
+| 31/10/2011 | [¿Es anti-intuitiva la teoría de la relatividad?](http://naukas.com/2011/10/31/es-anti-intuitiva-la-teoria-de-la-relatividad/)                                                                                                                                                                                   | Naukas           |
+| 29/10/2011 | [Sobre el cambio de hora de hoy](http://naukas.com/2011/10/29/sobre-el-cambio-de-hora-de-hoy/)                                                                                                                                                                                                                   | Naukas           |
+| 18/10/2011 | [Observando satélites artificiales](http://naukas.com/2011/10/18/observando-satelites-artificiales/)                                                                                                                                                                                                             | Naukas           |
+
+## Otros
+
+| Date       | Name                                                                                                                                                                                      | Type      | Role                  | Institution              | Language   |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------------------|--------------------------|------------|
+| 13/12/2022 | [Interview in Punto de Enlace](https://www.rtve.es/play/audios/punto-de-enlace/punto-enlace-pablo-rodriguez-experto-software-cientifico-holanda-13-12-22/6755789/)                        | Interview | Interviewee           | CENL                     | Spanish    |
+| 13/07/2021 | [Entrevista en Hoy empieza todo](https://www.rtve.es/play/audios/hoy-empieza-todo-con-angel-carmona/ciencia-catacrocker-rene-merino-acoge-plato-13-07-2021/5990108/)                      | Interview | Interviewee           | Radio Nacional de España | Spanish    |
+| 7/07/2021  | [¿Por qué se sincronizan las luciérnagas?](https://www.vozpopuli.com/next/sincronizacion-luciernagas.html)                                                                                | Interview | Interviewee           | NLeSC and WUR            | Spanish    |
+| 11/03/2020 | [Interview in Diario de Noticias](https://www.diariodenavarra.es/noticias/vivir/ciencia/2020/03/11/malabares-tienen-mucha-ciencia-683767-3241.html)                                       | Interview | Interviewee           | NLeSC and UPNA           | Spanish    |
+| 11/03/2020 | [Los malabares tienen mucha ciencia](https://www.diariodenavarra.es/noticias/vivir/ciencia/2020/03/11/malabares-tienen-mucha-ciencia-683767-3241.html)                                    | Interview | Interviewee           | UPNA                     | Spanish    |
+| 15/12/2019 | [Radio X](https://www.hoy.es/sociedad/radio-20191215114114-ntrc.html?fbclid=IwAR0hF4O0i4ihp1B10U6m48XkcpdT8JiqAOBi_MUNdbsYhyjpOIs4Y2o0OC0)                                                | Interview | Interviewee           | Grupo Vocento            | Spanish    |
+| 6/08/2019  | [Las tardes del ciudadano García](http://www.rtve.es/alacarta/audios/esto-me-suena-las-tardes-del-ciudadano-garcia/esto-suena-tardes-del-ciudadano-garcia-primera-hora-05-08-19/5361332/) | Interview | Interviewee           | Radio Nacional de España | Spanish    |
+| 31/08/2018 | Las tardes del ciudadano García                                                                                                                                                           | Interview | Interviewee           | Radio Nacional de España | Spanish    |
+| 26/05/2017 | [Qué suerte han tenido los holandeses](http://institucional.us.es/blogimus/2017/05/que-suerte-han-tenido-los-holandeses/)                                                                 | Interview | Interviewee           | Universidad de Sevilla   | Spanish    |
+| 16/03/2017 | [Los científicos exiliados no quieren ser marca España](https://www.vozpopuli.com/altavoz/next/cientificos-exiliados-quieren-marca-Espana_0_1008499411.html)                              | Interview | Interviewee           | Vozpópuli                | Spanish    |
+| 7/12/2015  | Órbita Laika                                                                                                                                                                              | TV        | Informal collaborator | Televisión Española      | Spanish    |
+| 4/11/2015  | [Talk 10](http://www.nextdoorpublishers.com/2015/11/pablo-rodriguez-sanchez-responde-nuestro-talk-10/)                                                                                    | Interview | Interviewee           | Next Door                | Spanish    |
+| 17/02/2014 | [Catástrofe Ultravioleta #3 Interferencias](http://catastrofeultravioleta.com/03-interferencias/)                                                                                         | Podcast   | Collaborator          | Naukas                   | Spanish    |
+

@@ -3,7 +3,7 @@ Date: 7/19/2018, 4:29:08 PM
 Category: About-me
 Tags: info
 Slug: publications
-Lang: es
+Lang: nl
 Authors: Pablo Rodríguez-Sánchez
 Summary: Academic publications
 Modified: 09/24/2024, 11:58:04
@@ -11,8 +11,8 @@ Translation: True
 
 
 
-## Publicaciones científicas
-He sido autor o coautor en 9 publicaciones científicas:
+## Wetenschappelijke artikels
+Ik ben de auteur of coauteur van 9 wetenschappelijke artikels geweest:
 
 | Date       | Name                                                                                                                                                                                                                                       | Author                                                                                                                                 | Publisher                        |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
@@ -26,13 +26,13 @@ He sido autor o coautor en 9 publicaciones científicas:
 | 27/03/2020 | [Early warning signals for desynchronization in periodically forced systems](https://arxiv.org/abs/2003.11595)                                                                                                                             | Pablo Rodríguez-Sánchez, Egbert H. van Nes, Marten Scheffer                                                                            | arXiv                            |
 | 22/04/2019 | [Horizontal and vertical diversity jointly shape food web stability against small and large perturbations](https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.13282)                                                                      | Qinghua Zhao et al.                                                                                                                    | Ecology Letters                  |
 
-## Libros
+## Boeken
 
 | Date      | Name                          | Role           | Institution                              |
 |-----------|-------------------------------|----------------|------------------------------------------|
 | 1/10/2018 | Tipping points, zo werken ze! | Chapter author | Netherlands Earths System Science Centre |
 
-## Tesis doctoral
+## PhD disertatie
 
 | Date       | Name                                                                                         | Role   | Institution   |
 |------------|----------------------------------------------------------------------------------------------|--------|---------------|

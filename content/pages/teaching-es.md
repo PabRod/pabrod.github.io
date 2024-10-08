@@ -1,202 +1,40 @@
-Title: Docencia
-Date: 5/1/2018, 8:53:33 AM
+Title: Teaching
+Date: 4/12/2018, 11:15:11 AM
 Category: About-me
 Tags: info
 Slug: teaching
 Lang: es
-Translation: True
 Authors: Pablo Rodríguez-Sánchez
-Summary: Actividad docente
-Modified: 09/24/2024, 11:58:03
+Summary: Teaching activities
+Modified: 09/24/2024, 11:58:02
+Translation: True
+
 
 Docencia
 --------
 
-He participado en la docencia de 20 cursos:
+He estado involucrado en estos 20 cursos:
 
-<table>
-<colgroup>
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 22%" />
-<col style="width: 7%" />
-<col style="width: 13%" />
-<col style="width: 48%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">End.date</th>
-<th style="text-align: left;">NameURL</th>
-<th style="text-align: left;">Role</th>
-<th style="text-align: left;">Institution</th>
-<th style="text-align: left;">Country</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2024-04-09</td>
-<td style="text-align: left;">2024-04-16</td>
-<td style="text-align: left;">Best practices for research code with Julia</td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">Centrum Wiskunde en Informatica</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2022-03-22</td>
-<td style="text-align: left;">2022-03-24</td>
-<td style="text-align: left;"><a href="https://esciencecenter-digital-skills.github.io/2022-03-22-ds-rpackaging/">R Packaging</a></td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="NEtherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2021-05-17</td>
-<td style="text-align: left;">2021-05-20</td>
-<td style="text-align: left;"><a href="https://escience-academy.github.io/2021-05-17-swc-R-nlesc/">Software Carpentry with R</a></td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="NEtherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2021-03-08</td>
-<td style="text-align: left;">2021-03-11</td>
-<td style="text-align: left;"><a href="https://escience-academy.github.io/2021-03-08-swc-nlesc/">Software Carpentry with Python</a></td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="NEtherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-12-07</td>
-<td style="text-align: left;">2020-12-08</td>
-<td style="text-align: left;"><a href="https://escience-academy.github.io/2020-12-07-parallel-python/">Introduction to parallel programming with Python</a></td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="NEtherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-09-21</td>
-<td style="text-align: left;">2020-09-24</td>
-<td style="text-align: left;"><a href="https://escience-academy.github.io/2020-09-21-SWC-Gapminder/">Software carpentry with R</a></td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="NEtherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-07-30</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><a href="https://2020.carpentrycon.org/schedule/#session-52">Make Your Tools, Scripts and Analyses Open and more FAIR</a></td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="NEtherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-04-14</td>
-<td style="text-align: left;">2020-04-17</td>
-<td style="text-align: left;"><a href="https://escience-academy.github.io/2020-04-14-SWC-online/">Software carpentry online workshop</a></td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-02-11</td>
-<td style="text-align: left;">2020-02-12</td>
-<td style="text-align: left;"><a href="https://escience-academy.github.io/2020-02-11-Reproducible-and-Open-Research/">Getting started with reproducible and open research</a></td>
-<td style="text-align: left;">Teaching assistant</td>
-<td style="text-align: left;">NLeSC</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2019-03-28</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Continuous integration with Travis CI</td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-06-14</td>
-<td style="text-align: left;">2018-06-15</td>
-<td style="text-align: left;"><a href="https://ssc.wur.nl/Schedule/Course/AEW-20706">Practical aquatic ecology and water management</a></td>
-<td style="text-align: left;">Teaching assistant</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-06-07</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><a href="https://pabrod.github.io/intro-to-pdes-en.html">Quick introduction to partial differential equations</a></td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-11-03</td>
-<td style="text-align: left;">2017-12-01</td>
-<td style="text-align: left;">Theoretical ecology</td>
-<td style="text-align: left;">Teaching assistant</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-05-18</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">An introduction to Git and GitHub</td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017-05-11</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">An introduction to Unit Testing with Matlab</td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-11-04</td>
-<td style="text-align: left;">2016-12-02</td>
-<td style="text-align: left;">Ecology, classics and trends</td>
-<td style="text-align: left;">Teaching assistant</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-07-05</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Crash course on linear algebra</td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">WUR</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/nl.png" alt="Drawing" title="Netherlands" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2013-10-31</td>
-<td style="text-align: left;">2013-11-07</td>
-<td style="text-align: left;">Introduction to object oriented programming</td>
-<td style="text-align: left;">Professor</td>
-<td style="text-align: left;">Indizen Optical Technologies</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/es.png" alt="Drawing" title="Spain" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2009-03-01</td>
-<td style="text-align: left;">2009-07-01</td>
-<td style="text-align: left;">Electromagnetism</td>
-<td style="text-align: left;">Teaching assistant</td>
-<td style="text-align: left;">Universidad Complutense de Madrid</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/es.png" alt="Drawing" title="Spain" style="width: 30px; height: 20px"/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2007-10-01</td>
-<td style="text-align: left;">2008-02-01</td>
-<td style="text-align: left;">Calculus</td>
-<td style="text-align: left;">Teaching assistant</td>
-<td style="text-align: left;">Universidad Complutense de Madrid</td>
-<td style="text-align: left;"><img src="http://flagpedia.net/data/flags/mini/es.png" alt="Drawing" title="Spain" style="width: 30px; height: 20px"/></td>
-</tr>
-</tbody>
-</table>
+| Date       | Name                                                                                                                                 | Institution                       | Country   |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|
+| 9/04/2024  | Best practices for research code with Julia                                                                                          | Centrum Wiskunde en Informatica   | 🇳🇱        |
+| 22/03/2022 | [R Packaging](https://esciencecenter-digital-skills.github.io/2022-03-22-ds-rpackaging/)                                             | NLeSC                             | 🇳🇱        |
+| 17/05/2021 | [Software Carpentry with R ](https://escience-academy.github.io/2021-05-17-swc-R-nlesc/)                                             | NLeSC                             | 🇳🇱        |
+| 8/03/2021  | [Software Carpentry with Python ](https://escience-academy.github.io/2021-03-08-swc-nlesc/)                                          | NLeSC                             | 🇳🇱        |
+| 7/12/2020  | [Introduction to parallel programming with Python](https://escience-academy.github.io/2020-12-07-parallel-python/)                   | NLeSC                             | 🇳🇱        |
+| 21/09/2020 | [Software carpentry with R](https://escience-academy.github.io/2020-09-21-SWC-Gapminder/)                                            | NLeSC                             | 🇳🇱        |
+| 30/07/2020 | [Make Your Tools, Scripts and Analyses Open and more FAIR](https://2020.carpentrycon.org/schedule/#session-52 )                      | NLeSC                             | 🇳🇱        |
+| 14/04/2020 | [Software carpentry online workshop](https://escience-academy.github.io/2020-04-14-SWC-online/)                                      | NLeSC                             | 🇳🇱        |
+| 11/02/2020 | [Getting started with reproducible and open research](https://escience-academy.github.io/2020-02-11-Reproducible-and-Open-Research/) | NLeSC                             | 🇳🇱        |
+| 28/03/2019 | Continuous integration with Travis CI                                                                                                | WUR                               | 🇳🇱        |
+| 14/06/2018 | [Practical aquatic ecology and water management](https://ssc.wur.nl/Schedule/Course/AEW-20706)                                       | WUR                               | 🇳🇱        |
+| 7/06/2018  | [Quick introduction to partial differential equations](https://pabrod.github.io/intro-to-pdes-en.html)                               | WUR                               | 🇳🇱        |
+| 3/11/2017  | Theoretical ecology                                                                                                                  | WUR                               | 🇳🇱        |
+| 18/05/2017 | An introduction to Git and GitHub                                                                                                    | WUR                               | 🇳🇱        |
+| 11/05/2017 | An introduction to Unit Testing with Matlab                                                                                          | WUR                               | 🇳🇱        |
+| 4/11/2016  | Ecology, classics and trends                                                                                                         | WUR                               | 🇳🇱        |
+| 5/07/2016  | Crash course on linear algebra                                                                                                       | WUR                               | 🇳🇱        |
+| 31/10/2013 | Introduction to object oriented programming                                                                                          | Indizen Optical Technologies      | 🇪🇸        |
+| 1/03/2009  | Electromagnetism                                                                                                                     | Universidad Complutense de Madrid | 🇪🇸        |
+| 1/10/2007  | Calculus                                                                                                                             | Universidad Complutense de Madrid | 🇪🇸        |
 
-------------------------------------------------------------------------
-
-Built with R 4.4.1 and RStudio.

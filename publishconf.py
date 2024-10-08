@@ -22,6 +22,6 @@ AUTHOR_FEED_RSS = None
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
+GOOGLE_ANALYTICS = 'UA-118019878-1'
+DISQUS_SITENAME = 'pabrod'
 
-# DISQUS_SITENAME = ""
-# GOOGLE_ANALYTICS = ""

@@ -8,219 +8,34 @@ Authors: Pablo Rodríguez-Sánchez
 Summary: Academic publications
 Modified: 09/24/2024, 11:58:04
 
-Scientific articles
--------------------
 
+
+
+## Scientific articles
 I’ve been author or coauthor in 9 scientific articles:
 
-<table>
-<colgroup>
-<col style="width: 2%" />
-<col style="width: 49%" />
-<col style="width: 36%" />
-<col style="width: 2%" />
-<col style="width: 8%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">NameURL</th>
-<th style="text-align: left;">Author</th>
-<th style="text-align: left;">Status</th>
-<th style="text-align: left;">Publisher</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2023-10-18</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.ascom.2024.100803">Quantum Radio Astronomy: Quantum Linear Solvers for Redundant Baseline Calibration</a></td>
-<td style="text-align: left;">Chris Broekema, Pablo Rodríguez, et al.</td>
-<td style="text-align: left;">Preprint</td>
-<td style="text-align: left;">Astronomy and Computing</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2023-03-24</td>
-<td style="text-align: left;"><a href="https://doi.org/10.21105/joss.05293">byteparsing: a functional parser combinator for mixed ASCII/binary data</a></td>
-<td style="text-align: left;">Johan Hidding, Pablo Rodríguez</td>
-<td style="text-align: left;">Published</td>
-<td style="text-align: left;">Journal of Open Source Software</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2023-02-11</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.scitotenv.2023.162173">Effects of the antidepressant fluoxetine on the swimming behaviour of the amphipod Gammarus pulex: Comparison of short-term and long-term toxicity in the laboratory and the semi-field</a></td>
-<td style="text-align: left;">Lara M. Schuijt, Oluwafemi Olusoiji, Asmita Dubey, Pablo Rodríguez-Sánchez, Rima Osman, Paul J. van den Brink, Sanne J.P. van den Berg</td>
-<td style="text-align: left;">Published</td>
-<td style="text-align: left;">Science of the Total Environment</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2023-02-11</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.scitotenv.2023.162177">Among-individual variation in the swimming behaviour of the amphipod Gammarus pulex under dark and light conditions</a></td>
-<td style="text-align: left;">Sanne van den Berg, Pablo Rodríguez-Sánchez, Jiayu Zhao, Oluwafemi Olusoiji, Edwin T.H.M. Peeters, Lara M. Schuijt</td>
-<td style="text-align: left;">Published</td>
-<td style="text-align: left;">Science of the Total Environment</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2022-03-14</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.rse.2022.112991">Evaluating recovery metrics derived from optical time series over tropical forest ecosystems</a></td>
-<td style="text-align: left;">Wanda De Keersmaecker, Pablo Rodríguez-Sánchez, Milutin Milencović, Martin Herold, Johannes Reiche, Jan Verbesselt</td>
-<td style="text-align: left;">Published</td>
-<td style="text-align: left;">Remote Sensing of Environment</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-06-17</td>
-<td style="text-align: left;"><a href="https://royalsocietypublishing.org/doi/10.1098/rsos.191532">Neutral competition boosts cycles and chaos in simulated food webs</a></td>
-<td style="text-align: left;">Pablo Rodríguez-Sánchez, Egbert H. van Nes, Marten Scheffer</td>
-<td style="text-align: left;">Published</td>
-<td style="text-align: left;">RSOS</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020-04-10</td>
-<td style="text-align: left;"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007788">Climbing Escher’s stairs: A way to approximate stability landscapes in multidimensional systems</a></td>
-<td style="text-align: left;">Pablo Rodríguez-Sánchez, Egbert H. van Nes, Marten Scheffer</td>
-<td style="text-align: left;">Published</td>
-<td style="text-align: left;">Plos Computational Biology</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020-03-27</td>
-<td style="text-align: left;"><a href="https://arxiv.org/abs/2003.11595">Early warning signals for desynchronization in periodically forced systems</a></td>
-<td style="text-align: left;">Pablo Rodríguez-Sánchez, Egbert H. van Nes, Marten Scheffer</td>
-<td style="text-align: left;">Preprint</td>
-<td style="text-align: left;">arXiv</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2019-04-22</td>
-<td style="text-align: left;"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.13282">Horizontal and vertical diversity jointly shape food web stability against small and large perturbations</a></td>
-<td style="text-align: left;">Qinghua Zhao et al.</td>
-<td style="text-align: left;">Published</td>
-<td style="text-align: left;">Ecology Letters</td>
-</tr>
-</tbody>
-</table>
+| Date       | Name                                                                                                                                                                                                                                       | Author                                                                                                                                 | Publisher                        |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| 18/10/2023 | [Quantum Radio Astronomy: Quantum Linear Solvers for Redundant Baseline Calibration](https://doi.org/10.1016/j.ascom.2024.100803)                                                                                                          | Chris Broekema, Pablo Rodríguez, et al.                                                                                                | Astronomy and Computing          |
+| 24/3/2023  | [byteparsing: a functional parser combinator for mixed ASCII/binary data](https://doi.org/10.21105/joss.05293)                                                                                                                             | Johan Hidding, Pablo Rodríguez                                                                                                         | Journal of Open Source Software  |
+| 11/2/2023  | [Effects of the antidepressant fluoxetine on the swimming behaviour of the amphipod Gammarus pulex: Comparison of short-term and long-term toxicity in the laboratory and the semi-field](https://doi.org/10.1016/j.scitotenv.2023.162173) | Lara M. Schuijt, Oluwafemi Olusoiji, Asmita Dubey, Pablo Rodríguez-Sánchez, Rima Osman, Paul J. van den Brink, Sanne J.P. van den Berg | Science of the Total Environment |
+| 11/2/2023  | [Among-individual variation in the swimming behaviour of the amphipod Gammarus pulex under dark and light conditions](https://doi.org/10.1016/j.scitotenv.2023.162177)                                                                     | Sanne van den Berg, Pablo Rodríguez-Sánchez, Jiayu Zhao, Oluwafemi Olusoiji, Edwin T.H.M. Peeters, Lara M. Schuijt                     | Science of the Total Environment |
+| 14/3/2022  | [Evaluating recovery metrics derived from optical time series over tropical forest ecosystems](https://doi.org/10.1016/j.rse.2022.112991)                                                                                                  | Wanda De Keersmaecker, Pablo Rodríguez-Sánchez, Milutin Milencović, Martin Herold, Johannes Reiche, Jan Verbesselt                     | Remote Sensing of Environment    |
+| 17/6/2020  | [Neutral competition boosts cycles and chaos in simulated food webs](https://royalsocietypublishing.org/doi/10.1098/rsos.191532)                                                                                                           | Pablo Rodríguez-Sánchez, Egbert H. van Nes, Marten Scheffer                                                                            | RSOS                             |
+| 10/4/2020  | [Climbing Escher’s stairs: A way to approximate stability landscapes in multidimensional systems](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007788)                                                          | Pablo Rodríguez-Sánchez, Egbert H. van Nes, Marten Scheffer                                                                            | Plos Computational Biology       |
+| 27/03/2020 | [Early warning signals for desynchronization in periodically forced systems](https://arxiv.org/abs/2003.11595)                                                                                                                             | Pablo Rodríguez-Sánchez, Egbert H. van Nes, Marten Scheffer                                                                            | arXiv                            |
+| 22/04/2019 | [Horizontal and vertical diversity jointly shape food web stability against small and large perturbations](https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.13282)                                                                      | Qinghua Zhao et al.                                                                                                                    | Ecology Letters                  |
 
-PhD thesis
-----------
+## Books
 
-<table>
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 65%" />
-<col style="width: 7%" />
-<col style="width: 13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">NameURL</th>
-<th style="text-align: left;">Role</th>
-<th style="text-align: left;">Institution</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2020-06-15</td>
-<td style="text-align: left;"><a href="https://doi.org/10.18174/520571">Cycles and interactions: a mathematician among biologists</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">WUR</td>
-</tr>
-</tbody>
-</table>
+| Date      | Name                          | Role           | Institution                              |
+|-----------|-------------------------------|----------------|------------------------------------------|
+| 1/10/2018 | Tipping points, zo werken ze! | Chapter author | Netherlands Earths System Science Centre |
 
-Books
------
+## PhD thesis
 
-I’ve been involved in the writing of 1 book:
+| Date       | Name                                                                                         | Role   | Institution   |
+|------------|----------------------------------------------------------------------------------------------|--------|---------------|
+| 15/06/2020 | [Cycles and interactions: a mathematician among biologists](https://doi.org/10.18174/520571) | Author | WUR           |
 
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 30%" />
-<col style="width: 15%" />
-<col style="width: 42%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Role</th>
-<th style="text-align: left;">Institution</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2018-10-01</td>
-<td style="text-align: left;">Tipping points, zo werken ze!</td>
-<td style="text-align: left;">Chapter author</td>
-<td style="text-align: left;">Netherlands Earths System Science Centre</td>
-</tr>
-</tbody>
-</table>
 
-Scientific code
----------------
-
-I made available 8 of my small projects about scientific software:
-
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">NameURL</th>
-<th style="text-align: left;">Role</th>
-<th style="text-align: left;">Language</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2019-03-12</td>
-<td style="text-align: left;"><a href="https://zenodo.org/record/2591551#.XIkGgChKg2w">R package: rolldown</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">R</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-09-02</td>
-<td style="text-align: left;"><a href="https://pabrod.shinyapps.io/cambio-de-hora/">cambio-de-hora</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">R</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-07-19</td>
-<td style="text-align: left;"><a href="https://zenodo.org/record/1319590#.W1X0r9IzY2w">Chaos and neutrality</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">Matlab</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018-03-01</td>
-<td style="text-align: left;"><a href="https://github.com/PabRod/Lattice-Dynamics">Lattice dynamics</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">Matlab</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2018-02-28</td>
-<td style="text-align: left;"><a href="https://github.com/PabRod/elevator-tool">Elevator tool</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">Python</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2017-06-30</td>
-<td style="text-align: left;"><a href="https://github.com/PabRod/PrintVoronoi">Print Voronoi</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">Matlab</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016-05-12</td>
-<td style="text-align: left;"><a href="https://gist.github.com/PabRod/bf6349734c3702cf99bf416872f5a537">Encrypt with chaos</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">Matlab</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2016-05-12</td>
-<td style="text-align: left;"><a href="https://gist.github.com/PabRod/bf111dbf14ad0f1419deaa29fcf08ebd">Hear chaos</a></td>
-<td style="text-align: left;">Author</td>
-<td style="text-align: left;">Matlab</td>
-</tr>
-</tbody>
-</table>
-
-------------------------------------------------------------------------
-
-Built with R 4.4.1 and RStudio.
