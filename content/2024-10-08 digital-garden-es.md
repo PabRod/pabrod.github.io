@@ -25,6 +25,7 @@ Seguiré escribiendo, como suelo, en diferentes medios, pero mi idea es centrali
 
 Si me sigues por RSS (cosa que puedes hacer [aquí](pages/feeds-list.html)), es posible que el feed te dé algún falso positivo estos días.
 Te ruego paciencia.
+Por cierto, te agradezco un silbidito si lo haces, que no tengo la más remota idea de si me lee **alguien**.
 
 > ¡Blogueemos como si fuera 2008!
 
