@@ -1,3 +1,6 @@
 [submodule "themes/Flex"]
 	path = themes/Flex
 	url = git@github.com:alexandrevicenzi/Flex.git
+[submodule "auxs/academicrecordparser"]
+	path = auxs/academicrecordparser
+	url = git@github.com:PabRod/academicrecordparser.git
