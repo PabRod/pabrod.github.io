@@ -10,7 +10,7 @@ packages = [{include = "my_site"}]
 python = "^3.10"
 pelican = {extras = ["markdown"], version = "^4.10.1"}
 ghp-import = "^2.1.0"
-
+academicrecordparser = {path = "auxs/academicrecordparser", develop = true}
 
 [tool.poetry.group.recommended.dependencies]
 typogrify = "^2.0.7"
