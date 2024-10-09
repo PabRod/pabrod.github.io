@@ -2,6 +2,7 @@
 
 ## Install
 
+- Clone me with `--recurse-submodules` option
 - All dependencies are listed in a conda/poetry friendly way.
 - The only exception is the `THEME`, that is managed as a submodule via `git`.
 - Using `poetry shell` is recommended.
