@@ -83,5 +83,18 @@ github: publish
 parseacademicrecord:
 	cd auxs/academicrecordparser/ && python script.py && cd -
 
+DATE=$(shell date "+%Y-%m-%d")
+NEW_BLOG_PATH="content/$(DATE)-title.md"
+blog:
+	touch "$(NEW_BLOG_PATH)"
+	echo "Title: " >> "$(NEW_BLOG_PATH)"
+	echo "Category: Blog" >> "$(NEW_BLOG_PATH)"
+	echo "Lang: en" >> "$(NEW_BLOG_PATH)"
+	echo "Tags: " >> "$(NEW_BLOG_PATH)"
+	echo "Slug:" >> "$(NEW_BLOG_PATH)"
+	echo "Authors: Pablo Rodríguez-Sánchez" >> "$(NEW_BLOG_PATH)"
+	echo "Summary:" >> "$(NEW_BLOG_PATH)"
+	echo "Comments: True:" >> "$(NEW_BLOG_PATH)"
+	echo "Translation: False" >> "$(NEW_BLOG_PATH)"
 
-.PHONY: html help clean regenerate serve serve-global devserver devserver-global publish github parseacademicrecord
+.PHONY: html help clean regenerate serve serve-global devserver devserver-global publish github parseacademicrecord blog
