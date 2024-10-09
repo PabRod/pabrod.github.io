@@ -1,0 +1,25 @@
+name: Checks
+
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 5
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: 'true'
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+    - name: Check instalability
+      run: |
+        python -m pip install poetry
+        poetry install --with='recommended,importing'
+    - name: Check generation
+      run: |
+        poetry run make publish
