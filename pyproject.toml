@@ -17,6 +17,8 @@ academicrecordparser = {path = "auxs/academicrecordparser", develop = true}
 typogrify = "^2.0.7"
 pelican-render-math = "^1.0.3"
 markdown-mermaidjs = "^1.0.0"
+invoke = "^2.2.0"
+livereload = "^2.7.0"
 
 [tool.poetry.group.importing.dependencies]
 beautifulsoup4 = "^4.12.3"
