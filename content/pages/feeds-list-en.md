@@ -15,3 +15,4 @@ Use the following links to subscribe to my atom feeds:
 | All content  | [here](../feeds/all.atom.xml)    |
 | English only | [here](../feeds/all-en.atom.xml) |
 | Spanish only | [here](../feeds/all-es.atom.xml) |
+| Dutch only   | [here](../feeds/all-nl.atom.xml) |

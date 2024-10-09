@@ -11,8 +11,9 @@ Summary: Enlaces a mis feeds
 
 Puedes suscribirte a mis _feeds_ usando los siguientes enlaces:
 
-| Descripción               | Enlace                           |
-|:--------------------------|:---------------------------------|
-| Todo el contenido         | [aquí](../feeds/all.atom.xml)    |
-| Sólo contenido en español | [aquí](../feeds/all-es.atom.xml) |
-| Sólo contenido en inglés  | [aquí](../feeds/all-en.atom.xml) |
+| Descripción                  | Enlace                           |
+|:-----------------------------|:---------------------------------|
+| Todo el contenido            | [aquí](../feeds/all.atom.xml)    |
+| Sólo contenido en español    | [aquí](../feeds/all-es.atom.xml) |
+| Sólo contenido en inglés     | [aquí](../feeds/all-en.atom.xml) |
+| Sólo contenido en neerlandés | [aquí](../feeds/all-nl.atom.xml) |
