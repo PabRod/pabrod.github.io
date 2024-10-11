@@ -13,6 +13,7 @@ TIMEZONE = 'Europe/Amsterdam'
 DEFAULT_LANG = 'en'
 
 THEME = 'themes/Flex' # See configuration file (https://github.com/alexandrevicenzi/Flex/blob/master/docs/pelicanconf.py)
+#LOAD_CONTENT_CACHE = False
 
 GITHUB_URL = GITHUB_CORNER_URL = "https://github.com/PabRod" # Both names might be required for some themes
 
@@ -35,6 +36,7 @@ SOCIAL = (
     ("envelope", "mailto:pablo.rodriguez.sanchez@gmail.com"),
     ("github", GITHUB_URL),
     ("linkedin", "https://www.linkedin.com/in/pabrod"),
+    ("medium", "https://medium.com/@pab.rod"),
     ("instagram", "https://instagram.com/pablo.rodriguez.sanchez/"),
     ("mastodon", "https://paquita.masto.host/@DonMostrenco"),
     ("twitter", "http://twitter.com/DonMostrenco"),

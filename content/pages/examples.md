@@ -79,6 +79,10 @@ MARKDOWN = {
 }
 ```
 
+## Image
+
+![]({filename}/../images/2024-10/old-man.png)
+
 ---
 
 ## Video
