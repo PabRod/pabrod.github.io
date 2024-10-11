@@ -13,10 +13,11 @@ Translation: True
 Lesgeven
 --------
 
-Ik was betrokken met de volgende 20 lessen:
+Ik was betrokken met de volgende 21 lessen:
 
 | Date       | Name                                                                                                                                 | Institution                       | Country   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|
+| 14/08/2024 | Hackathon on R packaging                                                                                                             | RIVM                              | 🇳🇱        |
 | 9/04/2024  | Best practices for research code with Julia                                                                                          | Centrum Wiskunde en Informatica   | 🇳🇱        |
 | 22/03/2022 | [R Packaging](https://esciencecenter-digital-skills.github.io/2022-03-22-ds-rpackaging/)                                             | NLeSC                             | 🇳🇱        |
 | 17/05/2021 | [Software Carpentry with R ](https://escience-academy.github.io/2021-05-17-swc-R-nlesc/)                                             | NLeSC                             | 🇳🇱        |
