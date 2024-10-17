@@ -14,7 +14,7 @@ Translation: True
 
 Tot nu toe, ik heb 24 praatjes gegeven voor een algemeen publiek.
 Daarnaast heb ik een aantal blogartikelen gepubliceerd:
-29 in het Engels, 104 in het Spaans en 1 in het Nederlands.
+29 in het Engels, 105 in het Spaans en 1 in het Nederlands.
 
 ## Praatjes
 
@@ -89,6 +89,7 @@ Daarnaast heb ik een aantal blogartikelen gepubliceerd:
 
 | Date       | Name                                                                                                                                                                                                                                                                                                             | Institution      |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 11/10/2024 | [Mis manías sobre comunicación científica](https://pabrod.github.io/manias-es.html)                                                                                                                                                                                                                              | Personal page    |
 | 28/01/2024 | [Diferenciación automática: Enseñando a tu ordenador a hacer derivadas](https://culturacientifica.com/2024/01/28/diferenciacion-automatica-desde-cero-ensenando-a-tu-ordenador-a-hacer-derivadas/)                                                                                                               | CCC              |
 | 11/10/2023 | [Así nace una charla Naukas](https://naukas.com/2023/10/11/asi-nace-una-charla-naukas/)                                                                                                                                                                                                                          | Naukas           |
 | 19/10/2022 | [¿Por qué aprendí neerlandés?](https://www.cenetherlands.nl/por-que-aprendi-neerlandes/)                                                                                                                                                                                                                         | CENL             |
