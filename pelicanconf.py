@@ -2,7 +2,7 @@ AUTHOR = 'Pablo Rodríguez Sánchez'
 SITENAME = 'PabRod'
 SITEURL = ""
 SITESUBTITLE = 'Applied mathematician. Science storyteller'
-SITELOGO = '/images/profile.png'
+SITELOGO = '/images/profile_escience.jpg'
 FAVICON = '/images/favicon.ico'
 
 PATH = "content"
