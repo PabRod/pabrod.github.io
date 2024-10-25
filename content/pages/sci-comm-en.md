@@ -13,7 +13,7 @@ Modified: 09/24/2024, 12:00:16
 # In the media
 
 Up to date, I've given 24 talks for a general audience. Additionally, I've published a number of science communication blog
-pieces: 29 in English, 105 in Spanish and 1 in Dutch.
+pieces: 29 in English, 107 in Spanish and 1 in Dutch.
 
 ## Talks
 
@@ -88,6 +88,8 @@ pieces: 29 in English, 105 in Spanish and 1 in Dutch.
 
 | Date       | Name                                                                                                                                                                                                                                                                                                             | Institution      |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 25/10/2024 | [Cumbres de la comunicación ineficaz](https://pabrod.github.io/cumbres-comunicacion-es.html)                                                                                                                                                                                                                     | Personal page    |
+| 18/10/2024 | [Quince años de divulgación](https://pabrod.github.io/quince-anos-es.html)                                                                                                                                                                                                                                       | Personal page    |
 | 11/10/2024 | [Mis manías sobre comunicación científica](https://pabrod.github.io/manias-es.html)                                                                                                                                                                                                                              | Personal page    |
 | 28/01/2024 | [Diferenciación automática: Enseñando a tu ordenador a hacer derivadas](https://culturacientifica.com/2024/01/28/diferenciacion-automatica-desde-cero-ensenando-a-tu-ordenador-a-hacer-derivadas/)                                                                                                               | CCC              |
 | 11/10/2023 | [Así nace una charla Naukas](https://naukas.com/2023/10/11/asi-nace-una-charla-naukas/)                                                                                                                                                                                                                          | Naukas           |
