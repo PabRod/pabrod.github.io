@@ -1,5 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2024-10-18T00:00:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>15 años de divulgación</title><link href="https://pabrod.github.io/quince-anos-es.html" rel="alternate"></link><published>2024-10-18T00:00:00+02:00</published><updated>2024-10-18T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-18:/quince-anos-es.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Hace exactamente quince años, el 18 de Octubre de 2011, publiqué mi primer artículo de divulgación en &lt;a href="https://naukas.com"&gt;Naukas&lt;/a&gt;.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2024-10-23T00:00:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Cumbres de la comunicación ineficaz</title><link href="https://pabrod.github.io/cumbres-comunicacion-es.html" rel="alternate"></link><published>2024-10-23T00:00:00+02:00</published><updated>2024-10-23T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-23:/cumbres-comunicacion-es.html</id><summary type="html">&lt;p&gt;La comunicación de escasa calidad es uno de los grandes problemas de cualquier institución. Hace perder tiempo, energía, dinero, ... y de propina puede resultar desmotivadora. Las instituciones científicas, que son las que mejor conozco, no se libran. Aquí dejo una lista con algunos de los pecados más frecuentes.&lt;/p&gt;</summary><content type="html">&lt;p&gt;La comunicación de escasa calidad es uno de los grandes problemas de cualquier institución.
+Hace perder tiempo, energía, dinero, ... y de propina puede resultar desmotivadora.
+Las instituciones científicas, que son las que mejor conozco, no se libran.&lt;/p&gt;
+&lt;p&gt;Aquí dejo una lista con algunas de las situaciones más absurdas, a la par que habituales, con las que me he encontrado.&lt;/p&gt;
+&lt;h2&gt;Emails que degeneran en una sala de chat&lt;/h2&gt;
+&lt;p&gt;¿Has visto ese campo en tu cliente de correo electrónico en el que pone &lt;em&gt;asunto&lt;/em&gt;?
+Tengo una idea loca: ¿y si lo usamos para indicar el asunto a tratar, y nos ceñimos a él?&lt;/p&gt;
+&lt;p&gt;Tengo además una sugerencia de mente cósmica: si tienes tres asuntos a tratar, te invito a enviar... ¡tres emails diferentes!
+Sí, cada uno con su asunto.
+Para que todos los destinatarios podamos procesarlos eficaz y cómodamente.
+A lo mejor resulta que el asunto A y el asunto C te los puedo resolver hoy mismo, pero el B me va a llevar una semana.
+No me hagas tener tu email en "no leído" todo ese tiempo.&lt;/p&gt;
+&lt;p&gt;¿Te hace sentir incómodo?
+No creas que no entiendo por qué.
+Sería muy raro, por ejemplo, que hicieramos lo mismo en una conversación de pasillo (te cuento una cosa, me voy, vuelvo, te cuento otra, ... repetir hasta terminar).
+Pero es que &lt;strong&gt;un email no es una conversación de pasillo&lt;/strong&gt;.
+Para empezar, no vas a obtener una respuesta tan inmediata como si estuviésemos hablando.
+Además, va a llegar a una bandeja de entrada que no sabes cómo gestiono.
+Por último, seguramente lo lea a solas, puede incluso que te lea desde mi cuarto de baño.
+No, definitivamente no se parece a una conversación de pasillo.&lt;/p&gt;
+&lt;p&gt;De propina, dejo otro par de consejos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Haz que el formato se adapte al mensaje. Utiliza párrafos, negrita para los puntos de acción, enlaces a los contenidos que menciones, ...&lt;/li&gt;
+&lt;li&gt;Si me vas a encargar algo, procura atomizarlo en tareas autónomas. Si añades cosas como "esperar a que alguien apruebe no se qué" como parte de &lt;strong&gt;mi&lt;/strong&gt; tarea, estás consumiendo recursos y manteniéndome a la expectativa sin necesidad. Parece una gilipollez, pero cada tarea pendiente es un lastre para la concentración.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Reuniones que merecían ser un email&lt;/h2&gt;
+&lt;p&gt;Uno de los grandes espectáculos de la naturaleza a los que he asistido fue el vuelo de 20 investigadores.
+Despegamos simultáneamente, desde varios países europeos, con rumbo a Londres.
+Nos habían convocado para una reunión de urgencia.
+Ignorábamos el contenido, pero sonaba importante.
+Dejamos todo lo que estábamos haciendo, reservamos tres días en nuestra agenda, organizamos viajes y hoteles.&lt;/p&gt;
+&lt;p&gt;Nuestra sorpresa fue mayúscula cuando descubrimos que el propósito de la reunión era... ¡informarnos de otra reunión que iba a tener lugar un par de meses más tarde!&lt;/p&gt;
+&lt;p&gt;¿&lt;strong&gt;De verdad hacía falta&lt;/strong&gt; semejante movilización internacional para darnos una notificación? 
+Obviamente no&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Este tipo de disparates suceden a diario, y suponen un desperdicio enorme de recursos (monetarios, energéticos, mentales, ...).
+Para evitarlos, propongo una regla:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Si tu reunión no tiene agenda ni propósito, lo más probable es que no deba tener lugar.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Y un corolario para promoverla y hacer del mundo un lugar mejor:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Si te invitan a una reunión sin agenda, no vayas.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Reuniones de actualización&lt;/h2&gt;
+&lt;p&gt;Una posible excepción son las reuniones de "actualización".
+Me refiero a esas en las que los miembros de una institución ponen al día a sus compañeros de aquellos asuntos &lt;strong&gt;que sean de interés común&lt;/strong&gt;.
+Son un formato delicado, y tienden a degenerar en un tedioso y larguísimo festival de autojustificación en el que se mencionan hasta los más ínfimos detalles... no vaya nadie a pensarse que hemos estado ociosos.&lt;/p&gt;
+&lt;p&gt;Las mejores reuniones de este estilo a las que he asistido tenían las siguientes dos reglas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No se puede hablar más de 30 segundos&lt;ul&gt;
+&lt;li&gt;Y no es una recomendación, sino una regla. Cuando salta la alarma del cronómetro, se acabó, aunque estés a punto de enunciar la solución a uno de los problemas del milenio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Se puede (y debe) saltar turno si uno juzga no tener nada que contar que sea relevante para el grupo&lt;ul&gt;
+&lt;li&gt;Esto es así independientemente de cuántos hayan saltado su turno antes que tú. Así se acabe la reunión entera al minuto de empezar.&lt;/li&gt;
+&lt;li&gt;Es más, una reunión de un minuto debe considerarse un éxito&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sobre los efectos salutíferos de limitar despiadadamente el tiempo de intervención, hablé largo y tendido &lt;a href="https://blog.esciencecenter.nl/a-single-rule-for-better-talks-816bb3d422ae"&gt;aquí&lt;/a&gt; (en inglés).&lt;/p&gt;
+&lt;h2&gt;Charlas de pesadilla&lt;/h2&gt;
+&lt;p&gt;Cuando viajé a mis primeros congresos científicos, salí asustado.
+Yo, que me tenía por un buen estudiante, no me estaba enterando de nada.
+Me sentaba en primera fila, pero no importaba cuánta atención pusiera.
+Nada, &lt;em&gt;niente&lt;/em&gt;, &lt;em&gt;niks&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Todo cambió cuando empecé a sentarme en la parte de atrás.
+Observé que la inmensa mayoría de los asistentes no estaban haciendo ni puto caso (!).
+Según empezaba la charla, abrían sus portátiles, y desde mi privilegiada atalaya podía ver lo que estaban haciendo.
+Alguno había que estaba tomando notas, pero eran los menos.
+La mayoría, en cambio, estaban trabajando en sus propias publicaciones.
+E incluso una cantidad nada despreciable estaba directamente en Facebook o leyendo la prensa digital.&lt;/p&gt;
+&lt;p&gt;Al acabar, me acerqué a alguno de los que estuvo en Facebook la mayor parte del congreso.
+Inicié la siguiente conversación, que se repitió a lo largo de estas líneas:&lt;/p&gt;
+&lt;p&gt;- &lt;em&gt;¿Qué te ha parecido?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;- &lt;em&gt;Muy bien, he aprendido un montón.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;- &lt;em&gt;¿Cuál ha sido tu charla favorita?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;- &lt;em&gt;¡Todas!, no podría elegir, ¡todas han sido excelentes!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;No les culpo.
+Es más, acabé rindiéndome y haciendo más o menos lo mismo.
+La mayoría de las charlas eran de un tedioso que rayaba en la agresión.
+Recuerdo incluso una en la que, tras veinte minutos, ni mis acompañantes ni yo mismo llegamos a entender de qué trataba.
+Si tenías suerte, alguna de las mejores charlas se podía desentrañar con &lt;strong&gt;mucho&lt;/strong&gt; trabajo posterior, pero tardé años en dar con una sola que fuese posible digerir en el acto &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.
+En demasiadas ocasiones, &lt;strong&gt;los congresos tienen menos de intercambio que de ritual social&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;¿Crees que exagero?
+Busca fotos de una sesión durante cualquier congreso científico, y fíjate en los caretos de los asistentes.&lt;/p&gt;
+&lt;p&gt;El error más común de los ponentes académicos es el de intentar contar demasiado, todo a ser posible, independientemente de su importancia relativa o de la audiencia a la que la charla va dirigida.
+Esto tiene un nombre: integrismo.
+Y si tiene connotaciones negativas es por algo.&lt;/p&gt;
+&lt;p&gt;Quizás sea mi subconsciente pidiendo venganza por tantas horas de dolor intelectual, pero lo de las malas charlas se ha convertido en una de mis obsesiones personales.
+Tanto, que he dado una charla, en dos entregas, al respecto: &lt;a href="https://www.eitb.eus/es/divulgacion/videos/detalle/9307656/video-pablo-rodriguez-las-charlas-de-mis-pesadillas-naukas-bilbao-2023/"&gt;las charlas de mis pesadillas&lt;/a&gt; y &lt;a href="https://youtu.be/tzxlw14Z8wU?si=eHbOFkh54kHa0eHV"&gt;un payaso en un congreso&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Despedida y cierre&lt;/h2&gt;
+&lt;p&gt;¿Y ustedes?
+Seguro que tienen más ejemplos.
+Déjenlos en los comentarios, o en &lt;a href="https://paquita.masto.host/@DonMostrenco"&gt;Mastodon&lt;/a&gt;, o donde les plazca.&lt;/p&gt;
+&lt;p&gt;Sé que también necesitan desfogarse 😛&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;dejo aquí la demostración empírica para mis lectores más rigoristas: algunos de los invitados no pudieron obtener sus visas a tiempo para asistir y sin embargo se enteraron igual que el resto.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;con la honrosa excepción de las  excelentes charlas a las que asisto cada año en Naukas, pero es que ese es un evento de divulgación y comunicación científica. ¡Tendría delito lo contrario! Dicho esto... no es raro que cada año se cuelen un ladrillo o dos.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Blog"></category><category term="scicomm"></category></entry><entry><title>15 años de divulgación</title><link href="https://pabrod.github.io/quince-anos-es.html" rel="alternate"></link><published>2024-10-18T00:00:00+02:00</published><updated>2024-10-18T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-18:/quince-anos-es.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Hace exactamente quince años, el 18 de Octubre de 2011, publiqué mi primer artículo de divulgación en &lt;a href="https://naukas.com"&gt;Naukas&lt;/a&gt;.
 Se trataba de un manual para observar satélites artificiales a simple vista.
 Si te interesa, puedes verlo &lt;a href="https://naukas.com/2011/10/18/observando-satelites-artificiales/"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sería el primero de &lt;a href="https://pabrod.github.io/pages/sci-comm-es.html"&gt;una lista&lt;/a&gt; que ya rebasa los 130.&lt;/p&gt;
@@ -67,7 +172,21 @@ Por último, pero no menos importante, mis traducciones tal vez ayuden a otros e
 &lt;/ul&gt;
 &lt;p&gt;Por último, cualquier sugerencia es bienvenida.
 Háganmelas llegar contactándome directamente a pablo.rodriguez.sanchez@gmail.com.&lt;/p&gt;
-&lt;p&gt;Si están ustedes familiarizados con GitHub, les gustará saber que pueden contribuir directamente a través &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;del repositorio&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Translation notes for de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon.html</id><summary type="html">&lt;p&gt;Translation notes for de Canon van Nederland&lt;/p&gt;</summary><content type="html">&lt;p&gt;My &lt;a href="https://www.canonvannederland.nl/es/"&gt;translation to Spanish of the &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt; has just been published.
+&lt;p&gt;Si están ustedes familiarizados con GitHub, les gustará saber que pueden contribuir directamente a través &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;del repositorio&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Vertaling notities van de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon-nl.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon-nl.html</id><summary type="html">&lt;p&gt;Sommige vertaling notities&lt;/p&gt;</summary><content type="html">&lt;p&gt;Mijn &lt;a href="https://www.canonvannederland.nl/es/"&gt;Spaanse vertaling van de Canon van Nederland&lt;/a&gt; is nu online.&lt;/p&gt;
+&lt;p&gt;Deze zelfopgelegde taak had een praktisch deel: om mijn Nederlands te verbeteren. Maar mijn belangrijkste motivatie was &lt;strong&gt;juist emotioneel&lt;/strong&gt;: sinds 7 jaar geleden ben ik een immigrant, en het kennen van de geschiedenis, de cultuur en de taal van mijn nieuwe land is voor mij heel belangrijk. 
+Tenslotte, maar niet minder belangrijk, misschien helpen mijn vertalingen andere immigranten uit de brede Spaansprekende wereld om dit kleine maar mooie land te leren kennen.&lt;/p&gt;
+&lt;p&gt;Dat gezegd, is het misschien een goed idee om sommige technische notities te delen:&lt;/p&gt;
+&lt;h2&gt;Vertaling notities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ik moet toegeven dat ik geen professionele vertaler ben. Als ik in een zin mijn vertalingen zou moeten samenvatten: &lt;em&gt;“Ik heb mijn best gedaan”&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Het Spaans in mijn vertaling mag klinken, zoals ik, een beetje te Europees. Mijn excuses voor mijn latijn-amerikaanse lezers.&lt;/li&gt;
+&lt;li&gt;Ik probeerde om de meest gebruikelijke vorm van de namen voor historische figuren, titels van werken en plaatsnamen in het Spaans te houden. Karel de Grote wordt dus &lt;em&gt;Carlomagno&lt;/em&gt;. Het was &lt;em&gt;El Bosco&lt;/em&gt; wie &lt;em&gt;El jardín de las delicias&lt;/em&gt; schilderde, en niet De tuin der lusten. &lt;em&gt;Ámsterdam&lt;/em&gt; krijgt een tilde, en ook &lt;em&gt;Róterdam&lt;/em&gt; (en verlies ie een t). ’s-Hertogenbosch wordt, tot opluchting van onze Spaanssprekende stembanden, &lt;em&gt;Bolduque&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;In het Spaans is het niet incorrect om de demonym Hollander (&lt;em&gt;holandés&lt;/em&gt;) te gebruiken in plaats van Nederlander (&lt;em&gt;neerlandés&lt;/em&gt;). In deze vertaling, gebruik ik altijd &lt;em&gt;neerlandés&lt;/em&gt;. Ik bevestig noch ontken dat het feit dat ik in Noord-Brabant woon, en dus buiten de Hollandse provincies, er iets mee te maken heeft.&lt;/li&gt;
+&lt;li&gt;De grootste uitdaging van deze vertaling was het enorme verschil tussen de Nederlandse en de Spaanse syntaxis. Ik probeerde, zolang het niet helemaal onnatuurlijk klonk, om de originele structuur te behouden. Veel zinnen hebben een bijna volledige herstructurering nodig gehad, waarbij vaak een creatieve herinterpretatie nodig was. Sorry als ik te ver ben gegaan in sommige gevallen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tenslotte, elke suggestie is welkom.
+Mijn adres is: pablo.rodriguez.sanchez@gmail.com&lt;/p&gt;
+&lt;p&gt;Als u bekend bent met GitHub, u kan ook direct opmerkingen toevoegen via het project zijn &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;&lt;em&gt;GitHub repository&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Translation notes for de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon.html</id><summary type="html">&lt;p&gt;Translation notes for de Canon van Nederland&lt;/p&gt;</summary><content type="html">&lt;p&gt;My &lt;a href="https://www.canonvannederland.nl/es/"&gt;translation to Spanish of the &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt; has just been published.
 The Canon is a book about the history of the Netherlands, commonly used in schools, language lessons and citizenship exams.&lt;/p&gt;
 &lt;p&gt;The self-imposed task of translating the Canon had several goals for me.
 One of them was quite practical: to improve my Dutch proficiency.
@@ -84,21 +203,7 @@ Last but not least, perhaps my translations could help other members of the Span
 &lt;/ul&gt;
 &lt;p&gt;Suggestions are welcome.
 Please contact me at pablo.rodriguez.sanchez@gmail.com.&lt;/p&gt;
-&lt;p&gt;The project is also hosted in GitHub. This is the &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;repository link&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Vertaling notities van de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon-nl.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon-nl.html</id><summary type="html">&lt;p&gt;Sommige vertaling notities&lt;/p&gt;</summary><content type="html">&lt;p&gt;Mijn &lt;a href="https://www.canonvannederland.nl/es/"&gt;Spaanse vertaling van de Canon van Nederland&lt;/a&gt; is nu online.&lt;/p&gt;
-&lt;p&gt;Deze zelfopgelegde taak had een praktisch deel: om mijn Nederlands te verbeteren. Maar mijn belangrijkste motivatie was &lt;strong&gt;juist emotioneel&lt;/strong&gt;: sinds 7 jaar geleden ben ik een immigrant, en het kennen van de geschiedenis, de cultuur en de taal van mijn nieuwe land is voor mij heel belangrijk. 
-Tenslotte, maar niet minder belangrijk, misschien helpen mijn vertalingen andere immigranten uit de brede Spaansprekende wereld om dit kleine maar mooie land te leren kennen.&lt;/p&gt;
-&lt;p&gt;Dat gezegd, is het misschien een goed idee om sommige technische notities te delen:&lt;/p&gt;
-&lt;h2&gt;Vertaling notities&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Ik moet toegeven dat ik geen professionele vertaler ben. Als ik in een zin mijn vertalingen zou moeten samenvatten: &lt;em&gt;“Ik heb mijn best gedaan”&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Het Spaans in mijn vertaling mag klinken, zoals ik, een beetje te Europees. Mijn excuses voor mijn latijn-amerikaanse lezers.&lt;/li&gt;
-&lt;li&gt;Ik probeerde om de meest gebruikelijke vorm van de namen voor historische figuren, titels van werken en plaatsnamen in het Spaans te houden. Karel de Grote wordt dus &lt;em&gt;Carlomagno&lt;/em&gt;. Het was &lt;em&gt;El Bosco&lt;/em&gt; wie &lt;em&gt;El jardín de las delicias&lt;/em&gt; schilderde, en niet De tuin der lusten. &lt;em&gt;Ámsterdam&lt;/em&gt; krijgt een tilde, en ook &lt;em&gt;Róterdam&lt;/em&gt; (en verlies ie een t). ’s-Hertogenbosch wordt, tot opluchting van onze Spaanssprekende stembanden, &lt;em&gt;Bolduque&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;In het Spaans is het niet incorrect om de demonym Hollander (&lt;em&gt;holandés&lt;/em&gt;) te gebruiken in plaats van Nederlander (&lt;em&gt;neerlandés&lt;/em&gt;). In deze vertaling, gebruik ik altijd &lt;em&gt;neerlandés&lt;/em&gt;. Ik bevestig noch ontken dat het feit dat ik in Noord-Brabant woon, en dus buiten de Hollandse provincies, er iets mee te maken heeft.&lt;/li&gt;
-&lt;li&gt;De grootste uitdaging van deze vertaling was het enorme verschil tussen de Nederlandse en de Spaanse syntaxis. Ik probeerde, zolang het niet helemaal onnatuurlijk klonk, om de originele structuur te behouden. Veel zinnen hebben een bijna volledige herstructurering nodig gehad, waarbij vaak een creatieve herinterpretatie nodig was. Sorry als ik te ver ben gegaan in sommige gevallen.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tenslotte, elke suggestie is welkom.
-Mijn adres is: pablo.rodriguez.sanchez@gmail.com&lt;/p&gt;
-&lt;p&gt;Als u bekend bent met GitHub, u kan ook direct opmerkingen toevoegen via het project zijn &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;&lt;em&gt;GitHub repository&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Talk announcement: How software development shaped the way I do science</title><link href="https://pabrod.github.io/softwarewur.html" rel="alternate"></link><published>2021-11-06T14:40:28+01:00</published><updated>2021-11-06T14:40:28+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2021-11-06:/softwarewur.html</id><summary type="html">&lt;p&gt;Lessons I've taken from Industry to Academia (yes, in that direction).&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Poster&lt;/h2&gt;
+&lt;p&gt;The project is also hosted in GitHub. This is the &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;repository link&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Talk announcement: How software development shaped the way I do science</title><link href="https://pabrod.github.io/softwarewur.html" rel="alternate"></link><published>2021-11-06T14:40:28+01:00</published><updated>2021-11-06T14:40:28+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2021-11-06:/softwarewur.html</id><summary type="html">&lt;p&gt;Lessons I've taken from Industry to Academia (yes, in that direction).&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Poster&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.dropbox.com/s/2kwk82cie1t3gba/Talk-at-Wageningen.pptx?dl=0"&gt;&lt;img alt="slides" src="images/2019-11/cover.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;My scientific career had a break. In 2012, I left academia to work as an engineer for an optical technology company. When I returned to research in 2015 I noticed how extremely useful some engineering skills can be for everyday science. I want to share what I learned with you.&lt;/p&gt;
