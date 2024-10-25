@@ -23,22 +23,18 @@ Summary: Some things I want to share
 
 Want to contribute? Follow me on [GitHub](https://github.com/PabRod)!
 
-## PhD thesis
-[![fuga](../images/portfolio/thesis_cover.png)](https://doi.org/10.18174/520571)
-
-Available [here](https://doi.org/10.18174/520571).
 ## Talks
-Since 2013, I give at least one popular science talk per year in a theater. Below I show those talks with English subtitles. For a full list, click [here](https://pabrod.github.io/pages/sci-comm-en.html#sci-comm).
+Since 2013, I give at least one popular science talk per year in a theater. Below I show those talks with English subtitles. For a full list, click [here](https://pabrod.github.io/pages/sci-comm.html).
 
-|            [How to piss-off a mathematician][howtopiss]            |           [Random stuff about random numbers][random]           |
-|:------------------------------------------------------------------:|:---------------------------------------------------------------:|
-|                         Naukas Bilbao 2017                         |                       Naukas Bilbao 2015                        |
-| [![piss](https://img.youtube.com/vi/RbXoYtQq3aY/0.jpg)][howtopiss] | [![rand](https://img.youtube.com/vi/6koBb_wKofw/0.jpg)][random] |
+[![talk](../images/portfolio/euskalduna.jpeg)](https://pabrod.github.io/pages/sci-comm.html)
 
 ## Blog
-Since 2011 I write for [Naukas.com](https://naukas.com), the largest science communication web-magazine in Spanish language. My blog, [_Fuga de cerebros_](https://fuga.naukas.com) (Brain drain), focuses in physics, mathematics, computational science, and the experience of emigrated scientists. For a full list of my texts (some of them in English), click [here](https://pabrod.github.io/pages/sci-comm-en.html#sci-comm).
+Since 2011 I write for [Naukas.com](https://naukas.com), the largest science communication web-magazine in Spanish language. 
+My blog, [_Fuga de cerebros_](https://fuga.naukas.com) (Brain drain), focuses in physics, mathematics, computational science, and the experience of emigrated scientists. 
+Since 2019 I am also an author an editor of the [Netherlands eScience Center blog](https://blog.esciencecenter.nl/).
+For a full list of my texts (some of them in English), click [here](https://pabrod.github.io/pages/sci-comm-en.html#sci-comm).
 
-[![thesis_cover](../images/portfolio/fuga.png)](https://fuga.naukas.com)
+[![blog_cover](../images/portfolio/fuga.png)](https://fuga.naukas.com)
 
 ## Teaching applets
 Click [here](https://fuga.naukas.com/categoria/ciencia-interactiva/) to access my applets collection.
@@ -55,6 +51,11 @@ Click [here](https://fuga.naukas.com/categoria/ciencia-interactiva/) to access m
 [sleep]:https://github.com/PabRod/sleepR
 
 ## Scientific publications
-Click here [here](https://pabrod.github.io/pages/publications-en.html#publications) to access my publications list.
+Click here [here](https://pabrod.github.io/pages/publications.html#publications) to access my publications list.
 
-[![books](../images/portfolio/books.jpeg)](https://pabrod.github.io/pages/publications-en.html#publications)
+[![books](../images/portfolio/books.jpeg)](https://pabrod.github.io/pages/publications.html#publications)
+
+## PhD thesis
+[![fuga](../images/portfolio/thesis_cover.png)](https://doi.org/10.18174/520571)
+
+Available [here](https://doi.org/10.18174/520571).
