@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2024-10-23T00:00:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Cumbres de la comunicación ineficaz</title><link href="https://pabrod.github.io/cumbres-comunicacion-es.html" rel="alternate"></link><published>2024-10-23T00:00:00+02:00</published><updated>2024-10-23T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-23:/cumbres-comunicacion-es.html</id><summary type="html">&lt;p&gt;La comunicación de escasa calidad es uno de los grandes problemas de cualquier institución. Hace perder tiempo, energía, dinero, ... y de propina puede resultar desmotivadora. Las instituciones científicas, que son las que mejor conozco, no se libran. Aquí dejo una lista con algunos de los pecados más frecuentes.&lt;/p&gt;</summary><content type="html">&lt;p&gt;La comunicación de escasa calidad es uno de los grandes problemas de cualquier institución.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2024-10-28T00:00:00+01:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Talk announcement: A peek under the hood of automatic differentiation</title><link href="https://pabrod.github.io/seminar-rse-autodiff.html" rel="alternate"></link><published>2024-10-28T00:00:00+01:00</published><updated>2024-10-28T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-28:/seminar-rse-autodiff.html</id><summary type="html">&lt;p&gt;Automatic differentiation is one of those things I wish someone had told me about much earlier. On Nov 5th 2024 I'll be sharing my enthousiasm about it at the Vrije Universiteit Amsterdam.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555"&gt;Automatic differentiation&lt;/a&gt; is one of those things I wish someone had told me about much earlier. On Nov 5th 2024 I'll be sharing my enthousiasm about it at the Vrije Universiteit Amsterdam.&lt;/p&gt;
+&lt;p&gt;Want &lt;a href="(https://www.eventbrite.nl/e/nl-rse-meetup-differentiable-simulation-in-practice-tickets-1037663047107)"&gt;to join&lt;/a&gt;?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;A peek under the hood of automatic differentiation&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;There are many packages implementing automatic differentiation available for free. This is good news because, as an engineer, it saves me time and keeps me away from reinventing the wheel. But as a researcher, I'm curiosity driven. I want to know, at least partially, what the packages I use do. I want to share some basic pen-an-paper concepts that, I hope, will satisfy your curiosity, and even enable you to write a basic automatic differentiation engine from scratch.&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vrije Universiteit Amsterdam, HG-09A16, &lt;a href="https://assets-us-01.kc-usercontent.com/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/41e9b682-215c-424c-8df8-e0d07d4dc622/2023-12%20Campus%20plattegrond%20ENG.jpg"&gt;Main building&lt;/a&gt;, Floor 9, Wing A&lt;/li&gt;
+&lt;li&gt;Tue, 5 Nov 2024 13:00 - 17:00 CET&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.eventbrite.nl/e/nl-rse-meetup-differentiable-simulation-in-practice-tickets-1037663047107"&gt;Registration link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nl-rse.org/events/2024-11-05-meetup"&gt;Event link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Materials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Introductory&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555"&gt;Automatic differentiation from scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pabrod.github.io/autodiff-slides/#/"&gt;My talk's slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Runnable examples&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/PabRod/DualDiff.jl"&gt;In Julia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/PabRod/dualdiff"&gt;In Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Advanced&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://book.sciml.ai/"&gt;Chris Rackauckas' book on SciML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Cumbres de la comunicación ineficaz</title><link href="https://pabrod.github.io/cumbres-comunicacion-es.html" rel="alternate"></link><published>2024-10-23T00:00:00+02:00</published><updated>2024-10-23T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-23:/cumbres-comunicacion-es.html</id><summary type="html">&lt;p&gt;La comunicación de escasa calidad es uno de los grandes problemas de cualquier institución. Hace perder tiempo, energía, dinero, ... y de propina puede resultar desmotivadora. Las instituciones científicas, que son las que mejor conozco, no se libran. Aquí dejo una lista con algunos de los pecados más frecuentes.&lt;/p&gt;</summary><content type="html">&lt;p&gt;La comunicación de escasa calidad es uno de los grandes problemas de cualquier institución.
 Hace perder tiempo, energía, dinero, ... y de propina puede resultar desmotivadora.
 Las instituciones científicas, que son las que mejor conozco, no se libran.&lt;/p&gt;
 &lt;p&gt;Aquí dejo una lista con algunas de las situaciones más absurdas, a la par que habituales, con las que me he encontrado.&lt;/p&gt;
