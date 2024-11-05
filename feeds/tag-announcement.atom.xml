@@ -19,8 +19,8 @@
 &lt;h2&gt;Materials&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Introductory&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555"&gt;Automatic differentiation from scratch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pabrod.github.io/autodiff-slides/#/"&gt;My talk's slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555"&gt;Automatic differentiation from scratch&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Runnable examples&lt;ul&gt;
@@ -30,6 +30,10 @@
 &lt;/li&gt;
 &lt;li&gt;Advanced&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://book.sciml.ai/"&gt;Chris Rackauckas' book on SciML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Miscelaneous&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.esciencecenter.nl/differentiation-without-subtraction-e21b4975f1cf"&gt;Differentiation without subtraction&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Talk announcement: How software development shaped the way I do science</title><link href="https://pabrod.github.io/softwarewur.html" rel="alternate"></link><published>2021-11-06T14:40:28+01:00</published><updated>2021-11-06T14:40:28+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2021-11-06:/softwarewur.html</id><summary type="html">&lt;p&gt;Lessons I've taken from Industry to Academia (yes, in that direction).&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Poster&lt;/h2&gt;

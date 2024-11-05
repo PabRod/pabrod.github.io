@@ -19,8 +19,8 @@
 &lt;h2&gt;Materials&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Introductory&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555"&gt;Automatic differentiation from scratch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pabrod.github.io/autodiff-slides/#/"&gt;My talk's slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555"&gt;Automatic differentiation from scratch&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Runnable examples&lt;ul&gt;
@@ -30,6 +30,10 @@
 &lt;/li&gt;
 &lt;li&gt;Advanced&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://book.sciml.ai/"&gt;Chris Rackauckas' book on SciML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Miscelaneous&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.esciencecenter.nl/differentiation-without-subtraction-e21b4975f1cf"&gt;Differentiation without subtraction&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Translation notes for de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon.html</id><summary type="html">&lt;p&gt;Translation notes for de Canon van Nederland&lt;/p&gt;</summary><content type="html">&lt;p&gt;My &lt;a href="https://www.canonvannederland.nl/es/"&gt;translation to Spanish of the &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt; has just been published.
