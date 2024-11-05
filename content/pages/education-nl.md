@@ -30,10 +30,11 @@ Ik studeerde ook bij andere universiteiten:
 
 Congressen en workshops
 -------------------------
-Ik ben in 44 congressen en workshops geweest:
+Ik ben in 45 congressen en workshops geweest:
 
 | Date       | Name                                                                                                                                                                           | Institution                             | Role                | Country   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|---------------------|-----------|
+| 5/11/2024  | [A peek under the hood of automatic differentiation](https://pabrod.github.io/seminar-rse-autodiff.html)                                                                       | NL-RSE                                  | Speaker             | 🇳🇱        |
 | 1/12/2023  | [JuliaCon Local Eindhoven 2023](https://juliacon.org/local/eindhoven2023/)                                                                                                     | NLeSC                                   | Attendant           | 🇳🇱        |
 | 30/11/2023 | [PyData Eindhoven 2023](https://pydata.org/eindhoven2023/schedule)                                                                                                             | NLeSC                                   | Attendant           | 🇳🇱        |
 | 23/11/2023 | NL-RSE                                                                                                                                                                         | NLeSC                                   | Attendant           | 🇳🇱        |
