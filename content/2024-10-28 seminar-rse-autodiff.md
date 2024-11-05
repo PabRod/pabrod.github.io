@@ -31,10 +31,12 @@ There are many packages implementing automatic differentiation available for fre
 ## Materials
 
 - Introductory
-    - [Automatic differentiation from scratch](https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555)
     - [My talk's slides](https://pabrod.github.io/autodiff-slides/#/)
+    - [Automatic differentiation from scratch](https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555)
 - Runnable examples
     - [In Julia](https://github.com/PabRod/DualDiff.jl)
     - [In Python](https://github.com/PabRod/dualdiff)
 - Advanced
     - [Chris Rackauckas' book on SciML](https://book.sciml.ai/)
+- Miscelaneous
+    - [Differentiation without subtraction](https://blog.esciencecenter.nl/differentiation-without-subtraction-e21b4975f1cf) 
