@@ -7,7 +7,6 @@ Authors: Pablo Rodríguez-Sánchez
 Summary: La nueva interfaz de RTVE que hizo llorar al que esto escribe, y una solución improvisada.
 Comments: True
 Translation: False
-Status: hidden
 
 ## TL;DR
 [Aquí](https://github.com/PabRod/tabla_documentos_rne) tienes la lista de episodios.
