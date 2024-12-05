@@ -4,7 +4,7 @@ Lang: es
 Tags: opinion
 Slug: abandono-twitter
 Authors: Pablo Rodríguez-Sánchez
-Summary:
+Summary: He abandonado Twitter, aunque sin cambiar el mundo.
 Comments: True
 Translation: False
 
