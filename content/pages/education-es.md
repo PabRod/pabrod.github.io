@@ -30,10 +30,11 @@ He tenido la oportunidad de realizar las siguientes estancias internacionales:
 
 Conferencias y talleres
 -------------------------
-He participado en 46 conferencias, congresos y talleres:
+He participado en 47 conferencias, congresos y talleres:
 
 | Date       | Name                                                                                                                                                                           | Institution                             | Role                | Country   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|---------------------|-----------|
+| 10/12/2024 | [ODISSEI 2024](https://odissei-data.nl/event/odissei-conference-2024/)                                                                                                         | ODISSEI                                 | Attendant           | 🇳🇱        |
 | 19/11/2024 | [Science ÑL](https://www.nl-sp.science/)                                                                                                                                       | KNAW                                    | Speaker             | 🇳🇱        |
 | 5/11/2024  | [A peek under the hood of automatic differentiation](https://pabrod.github.io/seminar-rse-autodiff.html)                                                                       | NL-RSE                                  | Speaker             | 🇳🇱        |
 | 1/12/2023  | [JuliaCon Local Eindhoven 2023](https://juliacon.org/local/eindhoven2023/)                                                                                                     | NLeSC                                   | Attendant           | 🇳🇱        |
