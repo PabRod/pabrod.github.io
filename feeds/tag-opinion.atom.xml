@@ -1,5 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - opinion</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-opinion.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2024-12-05T00:00:00+01:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Demasiados detalles</title><link href="https://pabrod.github.io/detalles.html" rel="alternate"></link><published>2024-12-05T00:00:00+01:00</published><updated>2024-12-05T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-12-05:/detalles.html</id><summary type="html">&lt;p&gt;Cuando pensar demasiado nos hace pensar peor.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Como suele suceder, mi entrada de hoy comienza con una historia de viejo gruñón desde la primera frase, que es la siguiente:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - opinion</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-opinion.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2025-03-05T00:00:00+01:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Lo que delata una pizarra</title><link href="https://pabrod.github.io/pizarra-es.html" rel="alternate"></link><published>2025-03-05T00:00:00+01:00</published><updated>2025-03-05T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2025-03-05:/pizarra-es.html</id><summary type="html">&lt;p&gt;La pizarra es una ventana a tu cerebro. Úsala con cariño.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Claridad y precisión&lt;/h2&gt;
+&lt;p&gt;Decía el matemático Steven Strogatz que uno de los mejores indicadores del rendimiento futuro de un alumno es la claridad de sus apuntes (cito de memoria).&lt;/p&gt;
+&lt;p&gt;Yo no soy Strogatz, pero hace ya muchos años que presto mucha atención a las estrategias expositivas, el formato e incluso la estética de las comunicaciones científicas.
+Es una afición dolorosa, pues &lt;strong&gt;las publicaciones científicas son notorias por la baja calidad de su prosa&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Muchos achacan esta falta de claridad a la necesidad de utilizar un lenguaje extremadamente preciso.
+Aunque hay algo de cierto en esto, no puedo estar de acuerdo.
+He visto en demasiadas ocasiones como &lt;strong&gt;la necesidad de precisión se desvanece completamente a la hora de proporcionar el código fuente o, incluso, las ecuaciones utilizadas&lt;/strong&gt; para sostener las conclusiones de un artículo.
+También he conocido autores que abogan abiertamente por una prosa deliberadamente oscura con el objetivo desquiciado de &lt;em&gt;"no ponérselo demasiado fácil al lector"&lt;/em&gt; (!).
+Ustedes me dirán qué tiene que ver esto con la precisión del lenguaje.&lt;/p&gt;
+&lt;p&gt;Precisamente en las ecuaciones se nota mucho el esfuerzo que ha puesto el autor o autora en explicarse con claridad.
+Y es que las ecuaciones tienen una flexibilidad enorme a la hora de ser escritas.
+Por ejemplo, las ecuaciones contienen variables.
+Las variables son como cajas que pueden contener cualquier cosa, de modo que el nombre de la caja es lo de menos: tenemos total libertad para llamarlas &lt;span class="math"&gt;\(x\)&lt;/span&gt; o &lt;span class="math"&gt;\(Alberto\)&lt;/span&gt;.
+Esta libertad las convierte en un ejemplo excelente de cuestiones de estilo en comunicación científica.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, podemos usar siempre mayúsculas para los estados de un sistema, y reservar las minúsculas para las constantes.
+Quién dice mayúsculas y minúsculas dice letras latinas y griegas.
+También podemos usar subíndices para representar estados relacionados, o crear una notación más compacta convirtiéndolos en un vector.
+Otro interesante ejemplo es el de cómo diferentes notaciones para las derivadas pueden simplificar (o complicar) el aprendizaje de las mismas, como conté &lt;a href="https://fuga.naukas.com/2016/03/10/derivadas-con-primas-o-diferenciales/"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En cuánto a lo de ser críptico a propósito, creo que es un error enorme.
+No sólo estás poniéndole la vida más difícil a tus posibles lectores, sino que además &lt;strong&gt;invitas a pensar que tus pensamientos son tan desorganizados y crípticos como tus textos&lt;/strong&gt;.
+Vamos, que además quedas como un patán.&lt;/p&gt;
+&lt;h2&gt;Historias de pizarras&lt;/h2&gt;
+&lt;p&gt;Si puedo elegir, prefiero no quedar como un patán.
+Así que cuando escribo mis publicaciones procuro ponerle mucho mimo al tema de la claridad.&lt;/p&gt;
+&lt;p&gt;Véase por ejemplo la imagen de abajo.
+Ahí muestro los tres tipos de notaciones diferentes que evalué utilizar en uno de &lt;a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007788"&gt;mis artículos&lt;/a&gt;.
+Le presenté esta pizarra a varios compañeros, ajenos a mi investigación y procedentes de disciplinas diferentes, para decidir cuál de ellas les resultaba más clara.
+Escribí sobre ello en &lt;a href="https://fuga.naukas.com/2021/03/03/un-doctorado-en-cinco-pizarras/"&gt;Un doctorado en cinco pizarras&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="images/2025-02/pizarra-pablo.jpg"&gt;&lt;/p&gt;
+&lt;h3&gt;Pizarras bien&lt;/h3&gt;
+&lt;p&gt;El otro día me topé en LinkedIn con algo inusual en esa red: una foto que me gustó de veras.
+Era esta (más información &lt;a href="https://www.um.es/web/sala-prensa/-/el-profesor-%C3%B3scar-del-barco-desarrolla-una-nueva-ecuaci%C3%B3n-que-permitir%C3%A1-localizar-con-mayor-precisi%C3%B3n-astros-en-el-universo?utm_source=acortador&amp;amp;utm_medium=referral&amp;amp;utm_campaign=acortador_url&amp;amp;utm_id=ecuacion-oscarbarco"&gt;aquí&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="images/2025-02/pizarra-bien.jpeg"&gt;
+Fuente &lt;a href="https://www.um.es/web/sala-prensa/-/el-profesor-%C3%B3scar-del-barco-desarrolla-una-nueva-ecuaci%C3%B3n-que-permitir%C3%A1-localizar-con-mayor-precisi%C3%B3n-astros-en-el-universo"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Me llamó enormemente la atención la claridad de lo escrito en esa pizarra.
+No me refiero tan sólo a la ortografía, sino más bien al conjunto:
+los renglones rectos y el espacio entre ecuaciones dejan claro el orden de lectura,
+el uso de llaves une visualmente conceptos relacionados,
+el diagrama define las variables más importantes,
+y al estar aislado en un recuadro queda claro que es un material de referencia independiente del orden de lectura.&lt;/p&gt;
+&lt;p&gt;El autor ha utilizado esa pizarra para desarrollar y exponer una idea de por sí compleja... sin embarullarla aún más.&lt;/p&gt;
+&lt;p&gt;Esa pizarra es reflejo y &lt;strong&gt;prueba fehaciente de la estructuración mental del autor&lt;/strong&gt;.
+Una buena carta de presentación para cualquier científico.&lt;/p&gt;
+&lt;h3&gt;Pizarras mal&lt;/h3&gt;
+&lt;p&gt;Por motivos de trabajo, paso muy a menudo por el campus de ciencias de la universidad de Ámsterdam.
+En su exterior lucen con orgullo varias fotografías de residentes ilustres, tamaño mural.
+Una de ellas&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; me llama especialmente la atención.
+Es esta:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="images/2025-02/pizarra-mal.jpg"&gt;
+Foto del propio autor.&lt;/p&gt;
+&lt;p&gt;Antes de seguir leyendo, te recomiendo que maximices la imagen y prestes atención a la pizarra y trates de adivinar qué es lo que me llama la atención aquí.&lt;/p&gt;
+&lt;p&gt;¿Lo has hecho?, pues sigamos.&lt;/p&gt;
+&lt;p&gt;No sé qué te habrá parecido, pero a mí esta pizarra me pone los pelos de punta.&lt;/p&gt;
+&lt;p&gt;Al contrario que en el ejemplo anterior, esta pizarra evoca todo menos claridad.
+Todos los elementos están desconectados entre sí.
+Muchos ni siquiera tienen sentido por sí solos.
+El creciente embarullado según desplazamos la vista de izquierda a derecha invita a pensar, más que en la progresión de una narrativa, en la progresión de una crisis psicótica.&lt;/p&gt;
+&lt;p&gt;Lo sé, lo sé, tan sólo es una foto.
+No sería raro que el fotógrafo haya pedido al autor que escribiese cualquier cosa deprisa y corriendo.
+Pero es que la pizarra ocupa un lugar central en la historia que quiere contar la fotografía (nótese la tiza flotando entre las manos).
+Si la pizarra anterior era prueba de la estructuración mental del autor, esta, en el mejor de los casos, no prueba nada.&lt;/p&gt;
+&lt;p&gt;¡Lástima de oportunidad perdida!&lt;/p&gt;
+&lt;h2&gt;Coda&lt;/h2&gt;
+&lt;p&gt;Si quieres cabrearme, no borres la pizarra al acabar.&lt;/p&gt;
+&lt;p&gt;Si quieres cabrearme de veras, enfádate porque te la han borrado.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;correspondiente a un prestigioso investigador cuyo nombre no mencionaré por no meter el dedo en la llaga.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Blog"></category><category term="opinion"></category></entry><entry><title>Demasiados detalles</title><link href="https://pabrod.github.io/detalles.html" rel="alternate"></link><published>2024-12-05T00:00:00+01:00</published><updated>2024-12-05T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-12-05:/detalles.html</id><summary type="html">&lt;p&gt;Cuando pensar demasiado nos hace pensar peor.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Como suele suceder, mi entrada de hoy comienza con una historia de viejo gruñón desde la primera frase, que es la siguiente:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hace unos años decidí poner en orden mi biblioteca digital. &lt;/p&gt;
 &lt;/blockquote&gt;
