@@ -13,7 +13,7 @@ Modified: 09/24/2024, 12:00:16
 # In the media
 
 Up to date, I've given 24 talks for a general audience. Additionally, I've published a number of science communication blog
-pieces: 30 in English, 108 in Spanish and 1 in Dutch.
+pieces: 30 in English, 109 in Spanish and 1 in Dutch.
 
 ## Talks
 
@@ -89,6 +89,7 @@ pieces: 30 in English, 108 in Spanish and 1 in Dutch.
 
 | Date       | Name                                                                                                                                                                                                                                                                                                             | Institution      |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 9/03/2025  | [Es hora de quitarse el pasmo](https://pabrod.github.io/dato-es.html#dato)                                                                                                                                                                                                                                       | Personal page    |
 | 5/03/2025  | [Lo que delata una pizarra](https://pabrod.github.io/pizarra-es.html#pizarra)                                                                                                                                                                                                                                    | Personal page    |
 | 25/10/2024 | [Cumbres de la comunicación ineficaz](https://pabrod.github.io/cumbres-comunicacion-es.html)                                                                                                                                                                                                                     | Personal page    |
 | 18/10/2024 | [Quince años de divulgación](https://pabrod.github.io/quince-anos-es.html)                                                                                                                                                                                                                                       | Personal page    |
