@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2025-03-05T00:00:00+01:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Lo que delata una pizarra</title><link href="https://pabrod.github.io/pizarra-es.html" rel="alternate"></link><published>2025-03-05T00:00:00+01:00</published><updated>2025-03-05T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2025-03-05:/pizarra-es.html</id><summary type="html">&lt;p&gt;La pizarra es una ventana a tu cerebro. Úsala con cariño.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Claridad y precisión&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/all.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2025-03-09T00:00:00+01:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Es hora de quitarse el pasmo</title><link href="https://pabrod.github.io/dato-es.html" rel="alternate"></link><published>2025-03-09T00:00:00+01:00</published><updated>2025-03-09T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2025-03-09:/dato-es.html</id><summary type="html">&lt;p&gt;El literalismo como problema académico.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tengo la mala suerte de haber estudiado física durante el apogeo de &lt;em&gt;The big bang theory&lt;/em&gt;, esa serie protagonizada por estudiantes de física&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;, cada cual más inadaptado que el anterior&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Durante muchos años fui muy beligerante contra el estereotipo del estudiante de ciencias absorto en su mundo, rayano en el autismo y, ante todo, incompetente social.
+Luego empecé el doctorado, visité varias facultades de matemáticas de Europa y... en fin... dejé de ser beligerante.&lt;/p&gt;
+&lt;p&gt;Me da rabia reconocerlo, pero el estereotipo tiene mucho de verdad: hay mucho pasmao en la universidad.&lt;/p&gt;
+&lt;p&gt;Espero que no se me ofenda nadie.
+Lo digo con cierto cariño.
+Yo mismo tengo comportamientos de pasmao en ciertas situaciones.
+Pero es bueno ser consciente, porque el pasmo, amigos puede ser dañino.&lt;/p&gt;
+&lt;h2&gt;Asignatura troncal: literalidad en los billares&lt;/h2&gt;
+&lt;p&gt;Para solucionar esto propongo, medio en serio medio en broma, la siguiente asignatura troncal en todas las carreras, especialmente en las de ciencias.
+El aula es una sala de billar, con cuatro o cinco actores con pinta de macarras jugando.
+Los estudiantes entran de dos en dos, y deben echar una partida en la única mesa libre.
+Pero la partida no es lo importante, sino la interacción con el resto del elenco.
+En un momento dado, llega el examen: uno de los actores pregunta a los estudiantes algo como:&lt;/p&gt;
+&lt;p&gt;- &lt;em&gt;"Eh, ¿te gusta mi gorra?"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;o alguna impertinencia similar.&lt;/p&gt;
+&lt;p&gt;Hay dos formas de &lt;strong&gt;aprobar&lt;/strong&gt;: salir corriendo o soltar la primera hostia.&lt;/p&gt;
+&lt;p&gt;Hay una forma de &lt;strong&gt;suspender&lt;/strong&gt; por todo lo alto: empezar a hablar sobre la gorra, evaluando sus pros y contras. Buscando referencias recientes incluso.&lt;/p&gt;
+&lt;p&gt;Lo sé, lo sé.
+Sueno como uno de esos alcohólicos que afirman conocer la &lt;em&gt;"universidad de la vida"&lt;/em&gt;.
+Pero de verdad creo que algo así enseñaría una valiosa lección:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La mayoría de la gente no siempre dice lo que piensa.
+Y aún así, la mayoría de la gente se entiende a base de sobreentendidos.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Dato mata relato (y otras falacias)&lt;/h2&gt;
+&lt;p&gt;El análisis racional es una forma (de muchas) de entender el mundo.
+Y ni siquiera tengo claro que sea mayoritaria.&lt;/p&gt;
+&lt;p&gt;Tenemos un ejemplo excelente en las recientes elecciones en los Estados Unidos de América.
+La campaña de los demócratas fue impecable desde el punto de vista del contenido.
+Tanto es así, que los republicanos llegaron a protestar públicamente porque los periodistas descubrían sus mentiras.
+Si el juego consistiese en ser fiel a la realidad, los demócratas hubieran arrasado.
+Pero sigamos hablando de la realidad: han perdido.&lt;/p&gt;
+&lt;p&gt;¿Será, quizás, que los republicanos se han comunicado con sus votantes a base de sobreentendidos?
+¿Y cuáles podrían ser?&lt;/p&gt;
+&lt;p&gt;Desde mi prescindible opinión de sociólogo de taberna, sus resultados se explican no tanto desde la sociología como desde la primatología.
+Y no, no es un insulto.
+Al contrario, por desgracia es un halago enorme para los que han diseñado la campaña, pues saben algo que se les escapa a casi todos los doctores que conozco:
+&lt;strong&gt;somos primeramente un animal social, y luego, si y sólo si quedan energías, racionales&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Los éxitos de personajes como Trump o Milei, que nos parecen un fenómeno típicamente del siglo XXI, casi futurista, descansan sobre una realidad antiquísima.
+Tanto Trump como Milei responden al arquetipo del iluminado, del profeta antiguo, del líder por derecho divino.
+El mono Alfa.&lt;/p&gt;
+&lt;p&gt;Si son un fenómeno viejo, ¿por qué hay tantos ahora?
+Mi hipótesis es la siguiente:
+La principal desventaja del iluminado es que sólo convence en las distancias cortas, y que nunca ha gozado de buena prensa en los medios tradicionales.
+Sin embargo, esto ha cambiado con la explosión de las redes sociales como principal fuente de información para una mayoría de ciudadanos.
+Estos iluminados nos hablan, con extraordinaria eficacia, desde el par de palmos de distancia que separan el smartphone de nuestra cara.&lt;/p&gt;
+&lt;p&gt;Para un iluminado el histrionismo, la arrogancia, e incluso la fealdad resultan ser una ventaja.
+El iluminado desmonta los datos a través del relato, con mayor eficacia cuánto más grosero y falaz es este último.
+El dato, la realidad, importa poco o nada.&lt;/p&gt;
+&lt;p&gt;Vienen curvas.&lt;/p&gt;
+&lt;p&gt;Elegimos mal siglo para ser platónicos.&lt;/p&gt;
+&lt;p&gt;Es hora de quitarse el pasmo.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Al menos por aquel entonces los actores aún tenían edad de ir a la universidad y daban un poquito menos de grima que en las últimas temporadas.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Se habla a menudo de la histórica falta de referentes femeninos entre los científicos de ficción y su posible impacto en la elección de una carrera profesional entre las estudiantes. Se debería hablar también de los referentes masculinos... porque tela. ¿O acaso conocéis a algún chaval que diga: &lt;em&gt;"Yo de mayor quiero ser gilipollas como Sheldon Cooper"&lt;/em&gt;?&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Blog"></category><category term="opinion"></category></entry><entry><title>Lo que delata una pizarra</title><link href="https://pabrod.github.io/pizarra-es.html" rel="alternate"></link><published>2025-03-05T00:00:00+01:00</published><updated>2025-03-05T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2025-03-05:/pizarra-es.html</id><summary type="html">&lt;p&gt;La pizarra es una ventana a tu cerebro. Úsala con cariño.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Claridad y precisión&lt;/h2&gt;
 &lt;p&gt;Decía el matemático Steven Strogatz que uno de los mejores indicadores del rendimiento futuro de un alumno es la claridad de sus apuntes (cito de memoria).&lt;/p&gt;
 &lt;p&gt;Yo no soy Strogatz, pero hace ya muchos años que presto mucha atención a las estrategias expositivas, el formato e incluso la estética de las comunicaciones científicas.
 Es una afición dolorosa, pues &lt;strong&gt;las publicaciones científicas son notorias por la baja calidad de su prosa&lt;/strong&gt;.&lt;/p&gt;
@@ -463,21 +526,7 @@ Por último, pero no menos importante, mis traducciones tal vez ayuden a otros e
 &lt;/ul&gt;
 &lt;p&gt;Por último, cualquier sugerencia es bienvenida.
 Háganmelas llegar contactándome directamente a pablo.rodriguez.sanchez@gmail.com.&lt;/p&gt;
-&lt;p&gt;Si están ustedes familiarizados con GitHub, les gustará saber que pueden contribuir directamente a través &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;del repositorio&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Vertaling notities van de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon-nl.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon-nl.html</id><summary type="html">&lt;p&gt;Sommige vertaling notities&lt;/p&gt;</summary><content type="html">&lt;p&gt;Mijn &lt;a href="https://www.canonvannederland.nl/es/"&gt;Spaanse vertaling van de Canon van Nederland&lt;/a&gt; is nu online.&lt;/p&gt;
-&lt;p&gt;Deze zelfopgelegde taak had een praktisch deel: om mijn Nederlands te verbeteren. Maar mijn belangrijkste motivatie was &lt;strong&gt;juist emotioneel&lt;/strong&gt;: sinds 7 jaar geleden ben ik een immigrant, en het kennen van de geschiedenis, de cultuur en de taal van mijn nieuwe land is voor mij heel belangrijk. 
-Tenslotte, maar niet minder belangrijk, misschien helpen mijn vertalingen andere immigranten uit de brede Spaansprekende wereld om dit kleine maar mooie land te leren kennen.&lt;/p&gt;
-&lt;p&gt;Dat gezegd, is het misschien een goed idee om sommige technische notities te delen:&lt;/p&gt;
-&lt;h2&gt;Vertaling notities&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Ik moet toegeven dat ik geen professionele vertaler ben. Als ik in een zin mijn vertalingen zou moeten samenvatten: &lt;em&gt;“Ik heb mijn best gedaan”&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Het Spaans in mijn vertaling mag klinken, zoals ik, een beetje te Europees. Mijn excuses voor mijn latijn-amerikaanse lezers.&lt;/li&gt;
-&lt;li&gt;Ik probeerde om de meest gebruikelijke vorm van de namen voor historische figuren, titels van werken en plaatsnamen in het Spaans te houden. Karel de Grote wordt dus &lt;em&gt;Carlomagno&lt;/em&gt;. Het was &lt;em&gt;El Bosco&lt;/em&gt; wie &lt;em&gt;El jardín de las delicias&lt;/em&gt; schilderde, en niet De tuin der lusten. &lt;em&gt;Ámsterdam&lt;/em&gt; krijgt een tilde, en ook &lt;em&gt;Róterdam&lt;/em&gt; (en verlies ie een t). ’s-Hertogenbosch wordt, tot opluchting van onze Spaanssprekende stembanden, &lt;em&gt;Bolduque&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;In het Spaans is het niet incorrect om de demonym Hollander (&lt;em&gt;holandés&lt;/em&gt;) te gebruiken in plaats van Nederlander (&lt;em&gt;neerlandés&lt;/em&gt;). In deze vertaling, gebruik ik altijd &lt;em&gt;neerlandés&lt;/em&gt;. Ik bevestig noch ontken dat het feit dat ik in Noord-Brabant woon, en dus buiten de Hollandse provincies, er iets mee te maken heeft.&lt;/li&gt;
-&lt;li&gt;De grootste uitdaging van deze vertaling was het enorme verschil tussen de Nederlandse en de Spaanse syntaxis. Ik probeerde, zolang het niet helemaal onnatuurlijk klonk, om de originele structuur te behouden. Veel zinnen hebben een bijna volledige herstructurering nodig gehad, waarbij vaak een creatieve herinterpretatie nodig was. Sorry als ik te ver ben gegaan in sommige gevallen.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tenslotte, elke suggestie is welkom.
-Mijn adres is: pablo.rodriguez.sanchez@gmail.com&lt;/p&gt;
-&lt;p&gt;Als u bekend bent met GitHub, u kan ook direct opmerkingen toevoegen via het project zijn &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;&lt;em&gt;GitHub repository&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Translation notes for de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon.html</id><summary type="html">&lt;p&gt;Translation notes for de Canon van Nederland&lt;/p&gt;</summary><content type="html">&lt;p&gt;My &lt;a href="https://www.canonvannederland.nl/es/"&gt;translation to Spanish of the &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt; has just been published.
+&lt;p&gt;Si están ustedes familiarizados con GitHub, les gustará saber que pueden contribuir directamente a través &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;del repositorio&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Translation notes for de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon.html</id><summary type="html">&lt;p&gt;Translation notes for de Canon van Nederland&lt;/p&gt;</summary><content type="html">&lt;p&gt;My &lt;a href="https://www.canonvannederland.nl/es/"&gt;translation to Spanish of the &lt;em&gt;Canon van Nederland&lt;/em&gt;&lt;/a&gt; has just been published.
 The Canon is a book about the history of the Netherlands, commonly used in schools, language lessons and citizenship exams.&lt;/p&gt;
 &lt;p&gt;The self-imposed task of translating the Canon had several goals for me.
 One of them was quite practical: to improve my Dutch proficiency.
@@ -494,7 +543,21 @@ Last but not least, perhaps my translations could help other members of the Span
 &lt;/ul&gt;
 &lt;p&gt;Suggestions are welcome.
 Please contact me at pablo.rodriguez.sanchez@gmail.com.&lt;/p&gt;
-&lt;p&gt;The project is also hosted in GitHub. This is the &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;repository link&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Talk announcement: How software development shaped the way I do science</title><link href="https://pabrod.github.io/softwarewur.html" rel="alternate"></link><published>2021-11-06T14:40:28+01:00</published><updated>2021-11-06T14:40:28+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2021-11-06:/softwarewur.html</id><summary type="html">&lt;p&gt;Lessons I've taken from Industry to Academia (yes, in that direction).&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Poster&lt;/h2&gt;
+&lt;p&gt;The project is also hosted in GitHub. This is the &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;repository link&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Vertaling notities van de Canon van Nederland</title><link href="https://pabrod.github.io/vertaling-canon-nl.html" rel="alternate"></link><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2022-08-08:/vertaling-canon-nl.html</id><summary type="html">&lt;p&gt;Sommige vertaling notities&lt;/p&gt;</summary><content type="html">&lt;p&gt;Mijn &lt;a href="https://www.canonvannederland.nl/es/"&gt;Spaanse vertaling van de Canon van Nederland&lt;/a&gt; is nu online.&lt;/p&gt;
+&lt;p&gt;Deze zelfopgelegde taak had een praktisch deel: om mijn Nederlands te verbeteren. Maar mijn belangrijkste motivatie was &lt;strong&gt;juist emotioneel&lt;/strong&gt;: sinds 7 jaar geleden ben ik een immigrant, en het kennen van de geschiedenis, de cultuur en de taal van mijn nieuwe land is voor mij heel belangrijk. 
+Tenslotte, maar niet minder belangrijk, misschien helpen mijn vertalingen andere immigranten uit de brede Spaansprekende wereld om dit kleine maar mooie land te leren kennen.&lt;/p&gt;
+&lt;p&gt;Dat gezegd, is het misschien een goed idee om sommige technische notities te delen:&lt;/p&gt;
+&lt;h2&gt;Vertaling notities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ik moet toegeven dat ik geen professionele vertaler ben. Als ik in een zin mijn vertalingen zou moeten samenvatten: &lt;em&gt;“Ik heb mijn best gedaan”&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Het Spaans in mijn vertaling mag klinken, zoals ik, een beetje te Europees. Mijn excuses voor mijn latijn-amerikaanse lezers.&lt;/li&gt;
+&lt;li&gt;Ik probeerde om de meest gebruikelijke vorm van de namen voor historische figuren, titels van werken en plaatsnamen in het Spaans te houden. Karel de Grote wordt dus &lt;em&gt;Carlomagno&lt;/em&gt;. Het was &lt;em&gt;El Bosco&lt;/em&gt; wie &lt;em&gt;El jardín de las delicias&lt;/em&gt; schilderde, en niet De tuin der lusten. &lt;em&gt;Ámsterdam&lt;/em&gt; krijgt een tilde, en ook &lt;em&gt;Róterdam&lt;/em&gt; (en verlies ie een t). ’s-Hertogenbosch wordt, tot opluchting van onze Spaanssprekende stembanden, &lt;em&gt;Bolduque&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;In het Spaans is het niet incorrect om de demonym Hollander (&lt;em&gt;holandés&lt;/em&gt;) te gebruiken in plaats van Nederlander (&lt;em&gt;neerlandés&lt;/em&gt;). In deze vertaling, gebruik ik altijd &lt;em&gt;neerlandés&lt;/em&gt;. Ik bevestig noch ontken dat het feit dat ik in Noord-Brabant woon, en dus buiten de Hollandse provincies, er iets mee te maken heeft.&lt;/li&gt;
+&lt;li&gt;De grootste uitdaging van deze vertaling was het enorme verschil tussen de Nederlandse en de Spaanse syntaxis. Ik probeerde, zolang het niet helemaal onnatuurlijk klonk, om de originele structuur te behouden. Veel zinnen hebben een bijna volledige herstructurering nodig gehad, waarbij vaak een creatieve herinterpretatie nodig was. Sorry als ik te ver ben gegaan in sommige gevallen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tenslotte, elke suggestie is welkom.
+Mijn adres is: pablo.rodriguez.sanchez@gmail.com&lt;/p&gt;
+&lt;p&gt;Als u bekend bent met GitHub, u kan ook direct opmerkingen toevoegen via het project zijn &lt;a href="https://github.com/PabRod/vertaling-canon"&gt;&lt;em&gt;GitHub repository&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;</content><category term="Blog"></category><category term="languages"></category><category term="Spanish"></category><category term="Dutch"></category></entry><entry><title>Talk announcement: How software development shaped the way I do science</title><link href="https://pabrod.github.io/softwarewur.html" rel="alternate"></link><published>2021-11-06T14:40:28+01:00</published><updated>2021-11-06T14:40:28+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2021-11-06:/softwarewur.html</id><summary type="html">&lt;p&gt;Lessons I've taken from Industry to Academia (yes, in that direction).&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Poster&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.dropbox.com/s/2kwk82cie1t3gba/Talk-at-Wageningen.pptx?dl=0"&gt;&lt;img alt="slides" src="images/2019-11/cover.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;My scientific career had a break. In 2012, I left academia to work as an engineer for an optical technology company. When I returned to research in 2015 I noticed how extremely useful some engineering skills can be for everyday science. I want to share what I learned with you.&lt;/p&gt;
