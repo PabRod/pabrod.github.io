@@ -47,10 +47,12 @@ And last but not least, there will be pizza! 🍕
 >
 > ### For R users
 > - R
+>    - With the `testthat` and `usethis` CRAN packages
 > - R studio (recommended)
 >
 > ### For Python users
 > - Python
+>    - With the [`pytest`](https://docs.pytest.org/en/stable/getting-started.html) package
 >- An environment manager such as conda or poetry (recommended)
 
 ---
