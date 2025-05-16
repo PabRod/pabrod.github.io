@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - announcement</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-announcement.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2024-10-28T00:00:00+01:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Talk announcement: A peek under the hood of automatic differentiation</title><link href="https://pabrod.github.io/seminar-rse-autodiff.html" rel="alternate"></link><published>2024-10-28T00:00:00+01:00</published><updated>2024-10-28T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-28:/seminar-rse-autodiff.html</id><summary type="html">&lt;p&gt;Automatic differentiation is one of those things I wish someone had told me about much earlier. On Nov 5th 2024 I'll be sharing my enthousiasm about it at the Vrije Universiteit Amsterdam.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555"&gt;Automatic differentiation&lt;/a&gt; is one of those things I wish someone had told me about much earlier. On Nov 5th 2024 I'll be sharing my enthousiasm about it at the Vrije Universiteit Amsterdam.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - announcement</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-announcement.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2025-05-15T00:00:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Talk announcement: Coding Café Tilburg</title><link href="https://pabrod.github.io/coding-cafe.html" rel="alternate"></link><published>2025-05-15T00:00:00+02:00</published><updated>2025-05-15T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2025-05-15:/coding-cafe.html</id><summary type="html">&lt;p&gt;On best programming practices for researchers, and why they matter.&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;Best practices for scientific programming, with a focus in testing&lt;/p&gt;
+&lt;p&gt;&lt;img alt="slides" src="images/2025-05/coding-cafe.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Software projects, big or small, have a lot of complexity.
+Not only they perform complex tasks, but often they have thousands of lines and multiple authors.
+To make things even more complicated, software projects are rarely static, but keep evolving in time.
+How is all this complexity managed?
+The answer is: by using best practices.&lt;/p&gt;
+&lt;p&gt;Chances are you've heard about best practices for researchers.
+But did you know their primary purpose is to make &lt;strong&gt;your&lt;/strong&gt; life easier?
+Furthermore, did you know they are rooted at the very core of the scientific method?&lt;/p&gt;
+&lt;p&gt;We'll talk about these and other topics, and will focus our attention on a particularly useful practice: unit testing.&lt;/p&gt;
+&lt;p&gt;Join us if you want to know more.
+And bring your laptop!
+We'll cover the mechanics of &lt;strong&gt;unit testing in both R and Python&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;And last but not least, there will be pizza! 🍕&lt;/p&gt;
+&lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tilburguniversity.libcal.com/event/4367167"&gt;Registration link&lt;/a&gt; (only for members of Tilburg University)&lt;/li&gt;
+&lt;li&gt;May 22nd 2025&lt;/li&gt;
+&lt;li&gt;11:00 - 13:00&lt;/li&gt;
+&lt;li&gt;Tilburg University. &lt;a href="https://www.tilburguniversity.edu/contact/campus-map-and-buildings/simon" title="https://www.tilburguniversity.edu/contact/campus-map-and-buildings/simon"&gt;Simon building&lt;/a&gt; , room S8 (ground floor)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;To get the most out of this talk, we encourage you to bring a laptop. Please make sure you have installed and updated at least one of these:&lt;/p&gt;
+&lt;h3&gt;For R users&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;R&lt;/li&gt;
+&lt;li&gt;R studio (recommended)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;For Python users&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;An environment manager such as conda or poetry (recommended)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2&gt;Materials and references&lt;/h2&gt;
+&lt;h3&gt;Slides&lt;/h3&gt;
+&lt;p&gt;The slides of this talk will be published here soon.&lt;/p&gt;
+&lt;h3&gt;Testing with Python&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html"&gt;Writing functions in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.pytest.org/en/6.2.x/"&gt;Tests in Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Testing with R&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/index.html"&gt;Writing functions in R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://testthat.r-lib.org/"&gt;Tests in R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Extended best practices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://dx.plos.org/10.1371/journal.pbio.1001745"&gt;Best Practices for Scientific Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510"&gt;Good enough Practices in Scientific Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.oreilly.com/library/view/effective-computation-in/9781491901564/"&gt;Effective computation in physics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Blog"></category><category term="announcement"></category></entry><entry><title>Talk announcement: A peek under the hood of automatic differentiation</title><link href="https://pabrod.github.io/seminar-rse-autodiff.html" rel="alternate"></link><published>2024-10-28T00:00:00+01:00</published><updated>2024-10-28T00:00:00+01:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2024-10-28:/seminar-rse-autodiff.html</id><summary type="html">&lt;p&gt;Automatic differentiation is one of those things I wish someone had told me about much earlier. On Nov 5th 2024 I'll be sharing my enthousiasm about it at the Vrije Universiteit Amsterdam.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555"&gt;Automatic differentiation&lt;/a&gt; is one of those things I wish someone had told me about much earlier. On Nov 5th 2024 I'll be sharing my enthousiasm about it at the Vrije Universiteit Amsterdam.&lt;/p&gt;
 &lt;p&gt;Want &lt;a href="(https://www.eventbrite.nl/e/nl-rse-meetup-differentiable-simulation-in-practice-tickets-1037663047107)"&gt;to join&lt;/a&gt;?&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Title&lt;/h2&gt;
