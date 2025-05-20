@@ -13,7 +13,7 @@ Translation: False
 ## Title
 Best practices for scientific programming, with a focus in testing
 
-![slides](images/2025-05/coding-cafe.png)
+[![slides](images/2025-05/coding-cafe.png)][link to slides]
 
 ## Abstract
 Software projects, big or small, have a lot of complexity.
@@ -33,6 +33,9 @@ And bring your laptop!
 We'll cover the mechanics of **unit testing in both R and Python**.
 
 And last but not least, there will be pizza! 🍕
+
+## Slides
+The slides of this talk are temporarily available [here][link to slides].
 
 ## Spacetime coordinates
 - [Registration link](https://tilburguniversity.libcal.com/event/4367167) (only for members of Tilburg University)
@@ -59,7 +62,7 @@ And last but not least, there will be pizza! 🍕
 
 ## Materials and references
 ### Slides
-The slides of this talk will be published here soon.
+The slides of this talk are temporarily available [here][link to slides].
 
 ### Testing with Python
 - [Writing functions in Python](http://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html)
@@ -74,4 +77,4 @@ The slides of this talk will be published here soon.
 - [Good enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 - [Effective computation in physics](https://www.oreilly.com/library/view/effective-computation-in/9781491901564/)
 
-[link to slides]: https://www.dropbox.com/scl/fi/9wuvrfjprs9k67khyanqr/Tilburg-2025-Rodriguez.pptx?rlkey=2tjzz17prr4hx1mfmuzo9augt&st=5amgoo5t&dl=0
+[link to slides]: https://nlesc-my.sharepoint.com/:p:/g/personal/p_rodriguez-sanchez_esciencecenter_nl/EXFfK7waaZdPpCWxo6z96XoBzdnRQGGpNBiTRt050pcGyQ?e=0fAezv
