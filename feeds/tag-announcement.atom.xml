@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>PabRod - announcement</title><link href="https://pabrod.github.io/" rel="alternate"></link><link href="https://pabrod.github.io/feeds/tag-announcement.atom.xml" rel="self"></link><id>https://pabrod.github.io/</id><updated>2025-05-15T00:00:00+02:00</updated><subtitle>Applied mathematician. Science storyteller</subtitle><entry><title>Talk announcement: Coding Café Tilburg</title><link href="https://pabrod.github.io/coding-cafe.html" rel="alternate"></link><published>2025-05-15T00:00:00+02:00</published><updated>2025-05-15T00:00:00+02:00</updated><author><name>Pablo Rodríguez-Sánchez</name></author><id>tag:pabrod.github.io,2025-05-15:/coding-cafe.html</id><summary type="html">&lt;p&gt;On best programming practices for researchers, and why they matter.&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;h2&gt;Title&lt;/h2&gt;
 &lt;p&gt;Best practices for scientific programming, with a focus in testing&lt;/p&gt;
-&lt;p&gt;&lt;img alt="slides" src="images/2025-05/coding-cafe.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nlesc-my.sharepoint.com/:p:/g/personal/p_rodriguez-sanchez_esciencecenter_nl/EXFfK7waaZdPpCWxo6z96XoBzdnRQGGpNBiTRt050pcGyQ?e=0fAezv"&gt;&lt;img alt="slides" src="images/2025-05/coding-cafe.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Software projects, big or small, have a lot of complexity.
 Not only they perform complex tasks, but often they have thousands of lines and multiple authors.
@@ -17,6 +17,8 @@ Furthermore, did you know they are rooted at the very core of the scientific met
 And bring your laptop!
 We'll cover the mechanics of &lt;strong&gt;unit testing in both R and Python&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;And last but not least, there will be pizza! 🍕&lt;/p&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;The slides of this talk are temporarily available &lt;a href="https://nlesc-my.sharepoint.com/:p:/g/personal/p_rodriguez-sanchez_esciencecenter_nl/EXFfK7waaZdPpCWxo6z96XoBzdnRQGGpNBiTRt050pcGyQ?e=0fAezv"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Spacetime coordinates&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://tilburguniversity.libcal.com/event/4367167"&gt;Registration link&lt;/a&gt; (only for members of Tilburg University)&lt;/li&gt;
@@ -44,7 +46,7 @@ We'll cover the mechanics of &lt;strong&gt;unit testing in both R and Python&lt;
 &lt;hr&gt;
 &lt;h2&gt;Materials and references&lt;/h2&gt;
 &lt;h3&gt;Slides&lt;/h3&gt;
-&lt;p&gt;The slides of this talk will be published here soon.&lt;/p&gt;
+&lt;p&gt;The slides of this talk are temporarily available &lt;a href="https://nlesc-my.sharepoint.com/:p:/g/personal/p_rodriguez-sanchez_esciencecenter_nl/EXFfK7waaZdPpCWxo6z96XoBzdnRQGGpNBiTRt050pcGyQ?e=0fAezv"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Testing with Python&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html"&gt;Writing functions in Python&lt;/a&gt;&lt;/li&gt;
