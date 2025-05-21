@@ -77,4 +77,4 @@ The slides of this talk are temporarily available [here][link to slides].
 - [Good enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 - [Effective computation in physics](https://www.oreilly.com/library/view/effective-computation-in/9781491901564/)
 
-[link to slides]: https://nlesc-my.sharepoint.com/:p:/g/personal/p_rodriguez-sanchez_esciencecenter_nl/EXFfK7waaZdPpCWxo6z96XoBzdnRQGGpNBiTRt050pcGyQ?e=0fAezv
+[link to slides]: https://www.dropbox.com/scl/fi/6iq1cgosxu8p302p3trkn/2025-05-Tilburg-Testing.pptx?rlkey=xqq4zae2o3tlfzlg6ymjgfd4p&st=c2qhn2vq&dl=0
