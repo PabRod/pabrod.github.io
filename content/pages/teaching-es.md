@@ -13,10 +13,11 @@ Translation: True
 Docencia
 --------
 
-He estado involucrado en estos 21 cursos:
+He estado involucrado en estos 22 cursos:
 
 | Date       | Name                                                                                                                                 | Institution                       | Country   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|
+| 22/05/2025 | [Coding café: Best practices for scientific computing, with a focus on unit testing](https://pabrod.github.io/coding-cafe.html)      | Tilburg University                | 🇳🇱        |
 | 14/08/2024 | Hackathon on R packaging                                                                                                             | RIVM                              | 🇳🇱        |
 | 9/04/2024  | Best practices for research code with Julia                                                                                          | Centrum Wiskunde en Informatica   | 🇳🇱        |
 | 22/03/2022 | [R Packaging](https://esciencecenter-digital-skills.github.io/2022-03-22-ds-rpackaging/)                                             | NLeSC                             | 🇳🇱        |

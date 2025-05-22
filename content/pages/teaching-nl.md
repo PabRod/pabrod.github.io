@@ -13,10 +13,11 @@ Translation: True
 Lesgeven
 --------
 
-Ik was betrokken met de volgende 21 lessen:
+Ik was betrokken met de volgende 22 lessen:
 
 | Date       | Name                                                                                                                                 | Institution                       | Country   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|
+| 22/05/2025 | [Coding café: Best practices for scientific computing, with a focus on unit testing](https://pabrod.github.io/coding-cafe.html)      | Tilburg University                | 🇳🇱        |
 | 14/08/2024 | Hackathon on R packaging                                                                                                             | RIVM                              | 🇳🇱        |
 | 9/04/2024  | Best practices for research code with Julia                                                                                          | Centrum Wiskunde en Informatica   | 🇳🇱        |
 | 22/03/2022 | [R Packaging](https://esciencecenter-digital-skills.github.io/2022-03-22-ds-rpackaging/)                                             | NLeSC                             | 🇳🇱        |
