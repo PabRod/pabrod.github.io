@@ -13,7 +13,7 @@ Modified: 09/24/2024, 12:00:16
 # In the media
 
 Up to date, I've given 24 talks for a general audience. Additionally, I've published a number of science communication blog
-pieces: 30 in English, 109 in Spanish and 1 in Dutch.
+pieces: 30 in English, 110 in Spanish and 1 in Dutch.
 
 ## Talks
 
@@ -130,6 +130,7 @@ pieces: 30 in English, 109 in Spanish and 1 in Dutch.
 | 2/11/2017  | [El arte de no tener ni puta idea](http://fuga.naukas.com/2017/11/02/arte-no-puta-idea/)                                                                                                                                                                                                                         | Naukas           |
 | 25/09/2017 | [Redescubriendo las integrales en 1994](https://culturacientifica.com/2017/08/25/redescubriendo-las-integrales-1994/)                                                                                                                                                                                            | CCC              |
 | 29/06/2017 | [Cree su propio diagrama de Voronoi](http://fuga.naukas.com/2017/06/29/cree-su-propio-diagrama-de-voronoi/)                                                                                                                                                                                                      | Naukas           |
+| 4/06/2017  | [Cálculo y geometría analítica, de George F. Simmons](https://culturacientifica.com/2017/06/04/calculo-geometria-analitica-george-f-simmons/#comments)                                                                                                                                                           | CCC              |
 | 1/06/2017  | [Consejos para un científico emigrante](http://fuga.naukas.com/2017/06/01/consejos-para-un-joven-emigrante/)                                                                                                                                                                                                     | Naukas           |
 | 26/04/2017 | [Series de Taylor](http://fuga.naukas.com/2017/04/26/series-de-taylor/)                                                                                                                                                                                                                                          | Naukas           |
 | 16/02/2017 | [Bebés y electrones: similitudes y diferencias](http://fuga.naukas.com/2017/02/16/bebes-y-electrones/)                                                                                                                                                                                                           | Naukas           |
