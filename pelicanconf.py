@@ -38,7 +38,7 @@ SOCIAL = (
     ("linkedin", "https://www.linkedin.com/in/pabrod"),
     ("medium", "https://medium.com/@pab.rod"),
     ("instagram", "https://instagram.com/pablo.rodriguez.sanchez/"),
-    ("mastodon", "https://paquita.masto.host/@DonMostrenco"),
+    ("mastodon", "https://mastodon.social/@pabrod"),
     ("twitter", "http://twitter.com/DonMostrenco"),
     ("orcid", "https://orcid.org/0000-0002-2855-940X"),
     ('rss', SITEURL + '/pages/feeds-list.html'),
