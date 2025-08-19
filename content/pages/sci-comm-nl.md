@@ -14,7 +14,7 @@ Translation: True
 
 Tot nu toe, ik heb 24 praatjes gegeven voor een algemeen publiek.
 Daarnaast heb ik een aantal blogartikelen gepubliceerd:
-30 in het Engels, 110 in het Spaans en 1 in het Nederlands.
+31 in het Engels, 110 in het Spaans en 1 in het Nederlands.
 
 ## Praatjes
 
@@ -49,6 +49,7 @@ Daarnaast heb ik een aantal blogartikelen gepubliceerd:
 
 | Date       | Name                                                                                                                                                                                                                   | Institution       |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| 28/01/2024 | [Why teach calculus in the age of AI](https://mappingignorance.org/2025/08/18/why-teach-calculus-in-the-age-of-ai/)                                                                                                    | Mapping Ignorance |
 | 20/02/2025 | [FAIR principles: 5000 years of common sense](https://medium.com/p/ba85086ba79c)                                                                                                                                       | NLeSC             |
 | 13/2/2024  | [Differentiation without subtraction](https://blog.esciencecenter.nl/differentiation-without-subtraction-e21b4975f1cf)                                                                                                 | NLeSC             |
 | 9/11/2023  | [Automatic differentiation from scratch](https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555?source=friends_link&sk=839f0d0e9a2c19b87e7733a34ed67f0e)                                   | NLeSC             |
