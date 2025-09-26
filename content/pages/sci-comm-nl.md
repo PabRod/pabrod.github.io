@@ -12,7 +12,7 @@ Translation: True
 
 # In de media
 
-Tot nu toe, ik heb 24 praatjes gegeven voor een algemeen publiek.
+Tot nu toe, ik heb 25 praatjes gegeven voor een algemeen publiek.
 Daarnaast heb ik een aantal blogartikelen gepubliceerd:
 31 in het Engels, 110 in het Spaans en 1 in het Nederlands.
 
@@ -20,6 +20,7 @@ Daarnaast heb ik een aantal blogartikelen gepubliceerd:
 
 | Date       | Name                                                                                                                                                                           | Institution                           | Language   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
+| 20/09/2025 | [Perversión por pares](https://youtu.be/gkyNt7Lv0S8?si=rLvpwWIp7PE-sG57)                                                                                                       | Naukas                                | Spanish    |
 | 21/09/2024 | [Un payaso en un congreso](https://youtu.be/tzxlw14Z8wU?si=eHbOFkh54kHa0eHV)                                                                                                   | Naukas                                | Spanish    |
 | 15/09/2023 | [Las charlas de mis pesadilas](https://www.eitb.eus/es/divulgacion/videos/detalle/9307656/video-pablo-rodriguez-las-charlas-de-mis-pesadillas-naukas-bilbao-2023/)             | Naukas                                | Spanish    |
 | 10/5/2023  | [Writing documentation and writing research papers](https://libcal.rug.nl/event/4026077)                                                                                       | Rijksuniversiteit Groningen           | English    |

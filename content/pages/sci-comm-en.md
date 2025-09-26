@@ -12,13 +12,14 @@ Modified: 09/24/2024, 12:00:16
 
 # In the media
 
-Up to date, I've given 24 talks for a general audience. Additionally, I've published a number of science communication blog
+Up to date, I've given 25 talks for a general audience. Additionally, I've published a number of science communication blog
 pieces: 31 in English, 110 in Spanish and 1 in Dutch.
 
 ## Talks
 
 | Date       | Name                                                                                                                                                                           | Institution                           | Language   |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
+| 20/09/2025 | [Perversión por pares](https://youtu.be/gkyNt7Lv0S8?si=rLvpwWIp7PE-sG57)                                                                                                       | Naukas                                | Spanish    |
 | 21/09/2024 | [Un payaso en un congreso](https://youtu.be/tzxlw14Z8wU?si=eHbOFkh54kHa0eHV)                                                                                                   | Naukas                                | Spanish    |
 | 15/09/2023 | [Las charlas de mis pesadilas](https://www.eitb.eus/es/divulgacion/videos/detalle/9307656/video-pablo-rodriguez-las-charlas-de-mis-pesadillas-naukas-bilbao-2023/)             | Naukas                                | Spanish    |
 | 10/5/2023  | [Writing documentation and writing research papers](https://libcal.rug.nl/event/4026077)                                                                                       | Rijksuniversiteit Groningen           | English    |
