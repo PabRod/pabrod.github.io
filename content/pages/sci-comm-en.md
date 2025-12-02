@@ -13,7 +13,7 @@ Modified: 09/24/2024, 12:00:16
 # In the media
 
 Up to date, I've given 25 talks for a general audience. Additionally, I've published a number of science communication blog
-pieces: 31 in English, 110 in Spanish and 1 in Dutch.
+pieces: 32 in English, 110 in Spanish and 1 in Dutch.
 
 ## Talks
 
@@ -49,6 +49,7 @@ pieces: 31 in English, 110 in Spanish and 1 in Dutch.
 
 | Date       | Name                                                                                                                                                                                                                   | Institution       |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| 26/11/2025 | [The story map](https://blog.esciencecenter.nl/the-story-map-6c1ed940bd70)                                                                                                                                             | NLeSC             |
 | 18/08/2025 | [Why teach calculus in the age of AI](https://mappingignorance.org/2025/08/18/why-teach-calculus-in-the-age-of-ai/)                                                                                                    | Mapping Ignorance |
 | 20/02/2025 | [FAIR principles: 5000 years of common sense](https://medium.com/p/ba85086ba79c)                                                                                                                                       | NLeSC             |
 | 13/2/2024  | [Differentiation without subtraction](https://blog.esciencecenter.nl/differentiation-without-subtraction-e21b4975f1cf)                                                                                                 | NLeSC             |
