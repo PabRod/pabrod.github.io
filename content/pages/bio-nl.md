@@ -14,6 +14,12 @@ Summary: Een korte biografie
 
 Voor een _printer friendly_ versie, [hier downloaden](../pdfs/CV.pdf)
 
+## Samengevat
+- Toegepast wiskundige en Research Software Engineer bij het [Netherlands eScience Center](https://www.esciencecenter.nl/).
+- Marie Curie Fellow (Wageningen, 2015–2020). 
+- PhD in toegepaste wiskunde over niet-lineaire dynamica in biologische systemen.
+- Wetenschapscommunicator bij [Naukas](http://naukas.com/) (~2 miljoen bezoekers per maand) en het [Naukas festival](https://naukas.com/naukas-bilbao/) (elk jaar duizenden bezoekers).
+
 ## Eerste jaren (1984-2002)
 Ik ben in 1984 geboren in de kleine Spaanse stad Guadalajara, 50km ten noordoosten van Madrid. Ik heb daar tussen 1998 en 2002 op de middelbare school gezeten.
 

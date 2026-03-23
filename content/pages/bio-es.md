@@ -14,6 +14,12 @@ Summary: Una breve biografía
 
 Currículum imprimible disponible [aquí](../pdfs/CV.pdf)
 
+## En resumen
+- Matemático aplicado e Ingeniero de Software para la Investigación en el [Netherlands eScience Center](https://www.esciencecenter.nl/).
+- Marie Curie Fellow (Wageningen, 2015–2020). 
+- Doctor en matemática aplicada sobre dinámica no lineal en sistemas biológicos.
+- Divulgador habitual en [Naukas](http://naukas.com/) (~2M de visitas mensuales) y el [festival Naukas](https://naukas.com/naukas-bilbao/) (miles de asistentes cada año).
+
 ## Primeros años (1984-2002)
 Nací en 1984, en la pequeña ciudad española de Guadalajara, situada 50 km al nordeste de Madrid. Allí cursé mis estudios secundarios entre 1998 y 2002.
 

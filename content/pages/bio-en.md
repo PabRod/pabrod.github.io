@@ -13,6 +13,14 @@ Summary: A short biography
 
 Traditional CV available [here](../pdfs/CV.pdf)
 
+## TL;DR
+
+- Applied mathematician and Research Software Engineer at the [Netherlands eScience Center](https://www.esciencecenter.nl/).
+- Marie Curie Fellow (Wageningen, 2015–2020). 
+- PhD in applied mathematics on nonlinear dynamics in biological systems.
+- Science communicator at [Naukas](http://naukas.com/) (~2M monthly readers) and the [Naukas festival](https://naukas.com/naukas-bilbao/) (thousands of attendees yearly).
+
+
 ## The early years (1984-2002)
 I was born in 1984 in the Spanish town of Guadalajara, 50 km north-east from Madrid. There I attended high school between 1998 and 2002.
 
