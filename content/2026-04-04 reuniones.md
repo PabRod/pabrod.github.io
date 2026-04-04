@@ -7,6 +7,7 @@ Authors: Pablo Rodríguez-Sánchez
 Summary: Sobre reuniones eficaces y otros animales míticos.
 Comments: True
 Translation: False
+Cover: images/2018-05-01_01.jpg
 
 Hace poco me invitaron a dar una charla sobre cómo planificar y moderar reuniones de trabajo. Sucede que las reuniones que convoco acaban siempre a su hora (o antes), y al parecer esto es algo tan extremadamente inusual que me ha granjeado una buena reputación.
 
