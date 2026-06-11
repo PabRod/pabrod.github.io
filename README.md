@@ -5,18 +5,18 @@
 - Clone me with `--recurse-submodules` option
 - All dependencies are listed in a conda/poetry friendly way.
 - The only exception is the `THEME`, that is managed as a submodule via `git`.
-- Using `poetry shell` is recommended.
+- Using `poetry` is recommended.
 
 ## Develop
 
 While editing, you can see a live version of the website using:
 
 ```sh
-make devserver
+poetry run make devserver
 ```
 
 ## Generate and publish
 
 ```sh
-make github
+poetry run make github
 ```
